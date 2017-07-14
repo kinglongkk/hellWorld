@@ -1,0 +1,269 @@
+{
+  "ID": "393ca6f4-3fab-4a7e-be67-2904d97a1680",
+  "Version": "2.3.4",
+  "Name": "dlgNnFpGetType",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 91,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameNnFpPlist/nnui0012.png",
+              "Plist": "gameNnFpPlist.plist"
+            },
+            "Scale9OriginX": 176,
+            "Scale9OriginY": 30,
+            "Scale9Width": 182,
+            "Scale9Height": 33,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 681.9408,
+              "Y": 322.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5112,
+              "Y": 0.43
+            },
+            "PreSize": {
+              "X": 0.4003,
+              "Y": 0.124
+            },
+            "LeftMargin": 414.9408,
+            "RightMargin": 385.0592,
+            "TopMargin": 381.0,
+            "BottomMargin": 276.0,
+            "Tag": 92,
+            "Children": [
+              {
+                "CharWidth": 39,
+                "CharHeight": 60,
+                "LabelText": "99",
+                "StartChar": ".",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 48.06,
+                  "Y": 41.85
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.09,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1461,
+                  "Y": 0.6452
+                },
+                "LeftMargin": 9.06,
+                "RightMargin": 446.94,
+                "TopMargin": 21.15,
+                "BottomMargin": 11.85,
+                "Tag": 221,
+                "ActionTag": 315802646,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 60.0
+                },
+                "Name": "Lab_0",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "CharWidth": 39,
+                "CharHeight": 60,
+                "LabelText": "56",
+                "StartChar": ".",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 181.56,
+                  "Y": 41.85
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.34,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1461,
+                  "Y": 0.6452
+                },
+                "LeftMargin": 142.56,
+                "RightMargin": 313.44,
+                "TopMargin": 21.15,
+                "BottomMargin": 11.85,
+                "Tag": 222,
+                "ActionTag": -58923509,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 60.0
+                },
+                "Name": "Lab_1",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "CharWidth": 39,
+                "CharHeight": 60,
+                "LabelText": "8",
+                "StartChar": ".",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 315.06,
+                  "Y": 41.85
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.59,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.073,
+                  "Y": 0.6452
+                },
+                "LeftMargin": 295.56,
+                "RightMargin": 199.44,
+                "TopMargin": 21.15,
+                "BottomMargin": 11.85,
+                "Tag": 223,
+                "ActionTag": -409085490,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 60.0
+                },
+                "Name": "Lab_2",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "CharWidth": 39,
+                "CharHeight": 60,
+                "LabelText": "45",
+                "StartChar": ".",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 485.94,
+                  "Y": 41.85
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.91,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1461,
+                  "Y": 0.6452
+                },
+                "LeftMargin": 446.94,
+                "RightMargin": 9.0601,
+                "TopMargin": 21.15,
+                "BottomMargin": 11.85,
+                "Tag": 224,
+                "ActionTag": -238268768,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 60.0
+                },
+                "Name": "Lab_num",
+                "ctype": "TextAtlasObjectData"
+              }
+            ],
+            "ActionTag": 1713949515,
+            "Size": {
+              "X": 534.0,
+              "Y": 93.0
+            },
+            "Name": "ImgBg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "gameNnFpPlist.plist",
+        "gameNnFpPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

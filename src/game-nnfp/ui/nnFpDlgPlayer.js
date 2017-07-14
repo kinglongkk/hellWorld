@@ -544,17 +544,13 @@ var NnFpDlgPlayer = DlgBase.extend({
     showCardsValue: function (pos, cardsValue, surplusCards) {
         cc.log("显示亮牌位置 = " + pos);
         cc.log("显示亮牌的牌值 = " + cardsValue);
+        cc.log("显示多出两张的牌值 = " + surplusCards);
         this.handCards[pos].clearAllCard();
         this.openCards[pos].clearAllCard();
 
         this.openCards[pos].addCardList(cardsValue, true);
 
-        if (pos === 0) {
-            for (var i = 0; i , surplusCards.length; i++) {
-                var card = this.openCards[0].addCard(surplusCards[i], true);
-                card.setPosition(cc.pAdd(card.getPosition(), cc.p(100, 0)))
-            }
-        }
+        this.handCards[0].addCardList(surplusCards, true);
         /*        var size = this.PanelOpen[0].getSize();
          for (var i = 0; i < cardsValue.length; i++) {
          var card = this.openCards[pos].getCardByIndex(i);
@@ -648,14 +644,18 @@ var NnFpDlgPlayer = DlgBase.extend({
         var faceSize = this.ImgBg[pos].getWorldPosition();
         if (isMore) return faceSize;
         if (pos === 0) {
-            pEnd = cc.pAdd(faceSize, cc.p(100, 0));
+            pEnd = cc.pAdd(faceSize, cc.p(80, 18));
             return pEnd;
         }
         if (pos === 3) {
-            pEnd = cc.pSub(faceSize, cc.p(100, 0));
+            pEnd = cc.pAdd(faceSize, cc.p(80, -40));
             return pEnd;
         }
-        pEnd = cc.pSub(faceSize, cc.p(0, 90));
+        if (pos === 4 || pos === 5) {
+            pEnd = cc.pSub(faceSize, cc.p(80, 40));
+            return pEnd;
+        }
+        pEnd = cc.pAdd(faceSize, cc.p(80, -40));
         return pEnd;
     },
 
@@ -697,14 +697,28 @@ var NnFpDlgPlayer = DlgBase.extend({
     },*/
 
     //显示抢庄倍数
-    showCallScoreMultiple: function (pos, scoreMultiple) {
+    showCallScoreMultiple: function (pos, scoreMultiple, bankerPos) {
         this.PanelBanker[pos].removeAllChildren();
         if (scoreMultiple > 0) {
             var scoreMultipleValue = "." + scoreMultiple;
             var multiple = this.PanelAddChip[pos].getChildByName("AtlasLabel_Multiple");
+            var multipleImg =  this.PanelAddChip[pos].getChildByName("Image_26");
+            multipleImg.setColor(cc.color(255, 255, 255));
+            multiple.setColor(cc.color(255, 255, 0));
+            if (pos === bankerPos) {
+                multipleImg.setColor(cc.color(255, 255, 0));
+                multiple.setColor(cc.color(255, 0, 255));
+            }
             multiple.setString(scoreMultipleValue);
             this.PanelAddChip[pos].setVisible(true);
         }
+        var pEnd;
+        var faceSize = this.ImgBg[pos].getPosition();
+        pEnd = cc.pSub(faceSize, cc.p(0, 90));
+        if (pos === 0) pEnd = cc.pAdd(faceSize, cc.p(100, -30));
+        if (pos === 3) pEnd = cc.pSub(faceSize, cc.p(100, 0));
+
+        this.PanelAddChip[bankerPos].runAction(cc.sequence(cc.moveTo(0.5, cc.p(pEnd))))
     },
 
     //显示加注按钮或者等待开始

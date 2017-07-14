@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0c29e17-210f-4a62-a6be-3186b2bf2749" name="Default" comment="" />
+    <list default="true" id="f0c29e17-210f-4a62-a6be-3186b2bf2749" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/game_nnfp/dlgNnFpPlayer.json" afterPath="$PROJECT_DIR$/res/game_nnfp/dlgNnFpPlayer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game-nnfp/ui/niuniuFPUIMgr.js" afterPath="$PROJECT_DIR$/src/game-nnfp/ui/niuniuFPUIMgr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game-nnfp/ui/nnFpDlgPlayer.js" afterPath="$PROJECT_DIR$/src/game-nnfp/ui/nnFpDlgPlayer.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,29 +18,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="hellWorld" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="niuniuFPUIMgr.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game-nnfp/ui/niuniuFPUIMgr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7749">
-              <caret line="552" column="12" lean-forward="false" selection-start-line="552" selection-start-column="12" selection-end-line="552" selection-end-column="12" />
+            <state relative-caret-position="107">
+              <caret line="405" column="0" lean-forward="false" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
               <folding>
                 <element signature="e#7102#7629#0" expanded="false" />
                 <element signature="e#10422#11404#0" expanded="false" />
-                <element signature="e#11456#11854#0" expanded="false" />
                 <element signature="e#11857#12221#0" expanded="false" />
-                <element signature="e#12276#13241#0" expanded="false" />
-                <element signature="e#13302#15603#0" expanded="false" />
-                <element signature="e#17363#18559#0" expanded="false" />
-                <element signature="e#18609#19011#0" expanded="false" />
-                <element signature="e#22558#23606#0" expanded="false" />
-                <element signature="e#23636#26297#0" expanded="false" />
-                <element signature="e#26345#27102#0" expanded="false" />
-                <element signature="e#27132#28334#0" expanded="false" />
-                <element signature="e#28366#32395#0" expanded="false" />
-                <element signature="e#32401#32845#0" expanded="false" />
-                <element signature="e#32862#33551#0" expanded="false" />
+                <element signature="e#12275#13238#0" expanded="false" />
+                <element signature="e#17360#18556#0" expanded="false" />
+                <element signature="e#18606#19008#0" expanded="false" />
+                <element signature="e#22555#23603#0" expanded="false" />
+                <element signature="e#23633#26294#0" expanded="false" />
+                <element signature="e#26342#27099#0" expanded="false" />
+                <element signature="e#27129#28331#0" expanded="false" />
+                <element signature="e#28363#32392#0" expanded="false" />
+                <element signature="e#32398#32842#0" expanded="false" />
+                <element signature="e#32859#33548#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -85,8 +91,8 @@
       <file leaf-file-name="nnFpDlgPlayer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/game-nnfp/ui/nnFpDlgPlayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="648" column="33" lean-forward="false" selection-start-line="648" selection-start-column="33" selection-end-line="648" selection-end-column="33" />
+            <state relative-caret-position="299">
+              <caret line="552" column="58" lean-forward="false" selection-start-line="552" selection-start-column="58" selection-end-line="552" selection-end-column="58" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#6709#6872#0" expanded="false" />
@@ -98,24 +104,27 @@
                 <element signature="e#15364#15824#0" expanded="false" />
                 <element signature="e#15882#16874#0" expanded="false" />
                 <element signature="e#16909#17119#0" expanded="false" />
+                <element signature="e#17180#19698#0" expanded="false" />
                 <element signature="e#19727#20227#0" expanded="false" />
                 <element signature="e#20278#20735#0" expanded="false" />
                 <element signature="e#20777#21213#0" expanded="false" />
-                <element signature="e#22453#22561#0" expanded="false" />
-                <element signature="e#22609#23315#0" expanded="false" />
-                <element signature="e#23360#23836#0" expanded="false" />
-                <element signature="e#23881#23999#0" expanded="false" />
-                <element signature="e#24039#24328#0" expanded="false" />
-                <element signature="e#25135#25465#0" expanded="false" />
-                <element signature="e#25472#26429#0" expanded="false" />
-                <element signature="e#26501#26854#0" expanded="false" />
-                <element signature="e#26910#27542#0" expanded="false" />
-                <element signature="e#27612#28692#0" expanded="false" />
-                <element signature="e#28730#29317#0" expanded="false" />
-                <element signature="e#29360#30304#0" expanded="false" />
-                <element signature="e#30362#32723#0" expanded="false" />
-                <element signature="e#32806#34323#0" expanded="false" />
-                <element signature="e#34361#34594#0" expanded="false" />
+                <element signature="e#22297#22405#0" expanded="false" />
+                <element signature="e#22453#23159#0" expanded="false" />
+                <element signature="e#23204#23680#0" expanded="false" />
+                <element signature="e#23725#23843#0" expanded="false" />
+                <element signature="e#23883#24172#0" expanded="false" />
+                <element signature="e#24232#24435#0" expanded="false" />
+                <element signature="e#24496#25041#0" expanded="false" />
+                <element signature="e#25107#25437#0" expanded="false" />
+                <element signature="e#25444#26401#0" expanded="false" />
+                <element signature="e#26484#27538#0" expanded="false" />
+                <element signature="e#27594#28226#0" expanded="false" />
+                <element signature="e#28296#29376#0" expanded="false" />
+                <element signature="e#29414#30001#0" expanded="false" />
+                <element signature="e#30044#30988#0" expanded="false" />
+                <element signature="e#31046#33407#0" expanded="false" />
+                <element signature="e#33490#35007#0" expanded="false" />
+                <element signature="e#35045#35278#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -145,12 +154,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getCardPosByIndex()</find>
-      <find>getCardPosByIndex(</find>
-      <find>getCardPosByIndex</find>
-      <find>sendCardLayer</find>
-      <find>getTouchBeganPosition</find>
-      <find>touchEvent</find>
       <find>XMLHttpRequest.xhr.onload</find>
       <find>XMLHttpRequest.xhr.onloa</find>
       <find>XMLHttpRequest.xhr.onlo</find>
@@ -175,7 +178,16 @@
       <find>getLastCardPos</find>
       <find>showNiuType</find>
       <find>addCard</find>
+      <find>onShowCallScore</find>
+      <find>onCallScore</find>
+      <find>showReadyOrCancel</find>
+      <find>showCallScoreMultiple</find>
+      <find>testBankerWordAnimation</find>
+      <find>showCard</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -198,8 +210,8 @@
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/src/game-nnfp/model/niuniuFPGame.js" />
         <option value="$PROJECT_DIR$/src/game-nnfp/model/niuniuFP.js" />
-        <option value="$PROJECT_DIR$/src/game-nnfp/ui/nnFpDlgPlayer.js" />
         <option value="$PROJECT_DIR$/src/game-nnfp/ui/niuniuFPUIMgr.js" />
+        <option value="$PROJECT_DIR$/src/game-nnfp/ui/nnFpDlgPlayer.js" />
       </list>
     </option>
   </component>
@@ -210,8 +222,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1964" />
-    <option name="y" value="296" />
+    <option name="x" value="2328" />
+    <option name="y" value="216" />
     <option name="width" value="1369" />
     <option name="height" value="775" />
   </component>
@@ -230,103 +242,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
+              <option name="myItemId" value="hellWorld" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
+              <option name="myItemId" value="hellWorld" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
+              <option name="myItemId" value="hellWorld" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game-nnfp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game-nnfp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game-nnfp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
+              <option name="myItemId" value="hellWorld" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -336,11 +272,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
+              <option name="myItemId" value="hellWorld" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
+              <option name="myItemId" value="hellWorld" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -374,8 +310,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CocosJSGame/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hellWorld/index.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -444,12 +383,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -468,39 +409,77 @@
       <workItem from="1499820706694" duration="29065000" />
       <workItem from="1499908283110" duration="22901000" />
       <workItem from="1499994998574" duration="2000" />
+      <workItem from="1499997079626" duration="7179000" />
     </task>
+    <task id="LOCAL-00001" summary="玩家游戏界面展示调整">
+      <created>1499998760427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499998760427</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62293000" />
+    <option name="totallyTimeSpent" value="69472000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1964" y="296" width="1369" height="775" extended-state="0" />
-    <editor active="true" />
+    <frame x="2328" y="216" width="1369" height="775" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981523" sideWeight="0.49473685" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4706767" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981523" sideWeight="0.50526315" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47147146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="玩家游戏界面展示调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="玩家游戏界面展示调整" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -509,50 +488,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/game-nnfp/ui/nnFpDlgPlayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9387">
-          <caret line="449" column="39" lean-forward="false" selection-start-line="449" selection-start-column="39" selection-end-line="449" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#6709#6872#0" expanded="false" />
-            <element signature="e#6973#13079#0" expanded="false" />
-            <element signature="e#13131#14173#0" expanded="false" />
-            <element signature="e#14212#14374#0" expanded="false" />
-            <element signature="e#14415#14989#0" expanded="false" />
-            <element signature="e#15026#15298#0" expanded="false" />
-            <element signature="e#15364#15824#0" expanded="false" />
-            <element signature="e#15882#16874#0" expanded="false" />
-            <element signature="e#16909#17119#0" expanded="false" />
-            <element signature="e#19727#20227#0" expanded="false" />
-            <element signature="e#20278#20735#0" expanded="false" />
-            <element signature="e#20777#21213#0" expanded="false" />
-            <element signature="e#22453#22561#0" expanded="false" />
-            <element signature="e#22609#23315#0" expanded="false" />
-            <element signature="e#23360#23836#0" expanded="false" />
-            <element signature="e#23881#23999#0" expanded="false" />
-            <element signature="e#24039#24328#0" expanded="false" />
-            <element signature="e#25135#25465#0" expanded="false" />
-            <element signature="e#25472#26429#0" expanded="false" />
-            <element signature="e#26501#26854#0" expanded="false" />
-            <element signature="e#26910#27542#0" expanded="false" />
-            <element signature="e#27612#28692#0" expanded="false" />
-            <element signature="e#28730#29317#0" expanded="false" />
-            <element signature="e#29360#30304#0" expanded="false" />
-            <element signature="e#30362#32723#0" expanded="false" />
-            <element signature="e#32806#34323#0" expanded="false" />
-            <element signature="e#34361#34594#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game-nnfp/ui/niuniuFPScene.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -578,13 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/public/consts/define.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -874,34 +802,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-mobile/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2504">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/consts/define.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/game_nnfp/dlgNnFpPlayer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/game-nnfp/ui/niuniuFPUIMgr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7749">
-          <caret line="552" column="12" lean-forward="false" selection-start-line="552" selection-start-column="12" selection-end-line="552" selection-end-column="12" />
+        <state relative-caret-position="107">
+          <caret line="405" column="0" lean-forward="false" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
           <folding>
             <element signature="e#7102#7629#0" expanded="false" />
             <element signature="e#10422#11404#0" expanded="false" />
-            <element signature="e#11456#11854#0" expanded="false" />
             <element signature="e#11857#12221#0" expanded="false" />
-            <element signature="e#12276#13241#0" expanded="false" />
-            <element signature="e#13302#15603#0" expanded="false" />
-            <element signature="e#17363#18559#0" expanded="false" />
-            <element signature="e#18609#19011#0" expanded="false" />
-            <element signature="e#22558#23606#0" expanded="false" />
-            <element signature="e#23636#26297#0" expanded="false" />
-            <element signature="e#26345#27102#0" expanded="false" />
-            <element signature="e#27132#28334#0" expanded="false" />
-            <element signature="e#28366#32395#0" expanded="false" />
-            <element signature="e#32401#32845#0" expanded="false" />
-            <element signature="e#32862#33551#0" expanded="false" />
+            <element signature="e#12275#13238#0" expanded="false" />
+            <element signature="e#17360#18556#0" expanded="false" />
+            <element signature="e#18606#19008#0" expanded="false" />
+            <element signature="e#22555#23603#0" expanded="false" />
+            <element signature="e#23633#26294#0" expanded="false" />
+            <element signature="e#26342#27099#0" expanded="false" />
+            <element signature="e#27129#28331#0" expanded="false" />
+            <element signature="e#28363#32392#0" expanded="false" />
+            <element signature="e#32398#32842#0" expanded="false" />
+            <element signature="e#32859#33548#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game-nnfp/ui/nnFpDlgPlayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="648" column="33" lean-forward="false" selection-start-line="648" selection-start-column="33" selection-end-line="648" selection-end-column="33" />
+        <state relative-caret-position="299">
+          <caret line="552" column="58" lean-forward="false" selection-start-line="552" selection-start-column="58" selection-end-line="552" selection-end-column="58" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#6709#6872#0" expanded="false" />
@@ -913,24 +863,27 @@
             <element signature="e#15364#15824#0" expanded="false" />
             <element signature="e#15882#16874#0" expanded="false" />
             <element signature="e#16909#17119#0" expanded="false" />
+            <element signature="e#17180#19698#0" expanded="false" />
             <element signature="e#19727#20227#0" expanded="false" />
             <element signature="e#20278#20735#0" expanded="false" />
             <element signature="e#20777#21213#0" expanded="false" />
-            <element signature="e#22453#22561#0" expanded="false" />
-            <element signature="e#22609#23315#0" expanded="false" />
-            <element signature="e#23360#23836#0" expanded="false" />
-            <element signature="e#23881#23999#0" expanded="false" />
-            <element signature="e#24039#24328#0" expanded="false" />
-            <element signature="e#25135#25465#0" expanded="false" />
-            <element signature="e#25472#26429#0" expanded="false" />
-            <element signature="e#26501#26854#0" expanded="false" />
-            <element signature="e#26910#27542#0" expanded="false" />
-            <element signature="e#27612#28692#0" expanded="false" />
-            <element signature="e#28730#29317#0" expanded="false" />
-            <element signature="e#29360#30304#0" expanded="false" />
-            <element signature="e#30362#32723#0" expanded="false" />
-            <element signature="e#32806#34323#0" expanded="false" />
-            <element signature="e#34361#34594#0" expanded="false" />
+            <element signature="e#22297#22405#0" expanded="false" />
+            <element signature="e#22453#23159#0" expanded="false" />
+            <element signature="e#23204#23680#0" expanded="false" />
+            <element signature="e#23725#23843#0" expanded="false" />
+            <element signature="e#23883#24172#0" expanded="false" />
+            <element signature="e#24232#24435#0" expanded="false" />
+            <element signature="e#24496#25041#0" expanded="false" />
+            <element signature="e#25107#25437#0" expanded="false" />
+            <element signature="e#25444#26401#0" expanded="false" />
+            <element signature="e#26484#27538#0" expanded="false" />
+            <element signature="e#27594#28226#0" expanded="false" />
+            <element signature="e#28296#29376#0" expanded="false" />
+            <element signature="e#29414#30001#0" expanded="false" />
+            <element signature="e#30044#30988#0" expanded="false" />
+            <element signature="e#31046#33407#0" expanded="false" />
+            <element signature="e#33490#35007#0" expanded="false" />
+            <element signature="e#35045#35278#0" expanded="false" />
           </folding>
         </state>
       </provider>

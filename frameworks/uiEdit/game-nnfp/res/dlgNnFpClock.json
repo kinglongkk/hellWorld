@@ -1,0 +1,128 @@
+{
+  "ID": "93afd0bd-e3fe-4c84-a1e5-2443ce0bc1f0",
+  "Version": "2.3.4",
+  "Name": "dlgNnFpClock",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 88,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameNnFpPlist/nnui0011.png",
+              "Plist": "gameNnFpPlist.plist"
+            },
+            "Scale9OriginX": 46,
+            "Scale9OriginY": 46,
+            "Scale9Width": 48,
+            "Scale9Height": 50,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 495.62
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6608
+            },
+            "PreSize": {
+              "X": 0.1049,
+              "Y": 0.1893
+            },
+            "LeftMargin": 597.0,
+            "RightMargin": 597.0,
+            "TopMargin": 183.38,
+            "BottomMargin": 424.62,
+            "Tag": 89,
+            "Children": [
+              {
+                "CharWidth": 39,
+                "CharHeight": 60,
+                "LabelText": "98",
+                "StartChar": ".",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.0,
+                  "Y": 66.0016
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4648
+                },
+                "PreSize": {
+                  "X": 0.5571,
+                  "Y": 0.4225
+                },
+                "LeftMargin": 31.0,
+                "RightMargin": 31.0,
+                "TopMargin": 45.9984,
+                "BottomMargin": 36.0016,
+                "Tag": 213,
+                "ActionTag": 865214866,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 60.0
+                },
+                "Name": "LabTime",
+                "ctype": "TextAtlasObjectData"
+              }
+            ],
+            "ActionTag": -1199887812,
+            "Size": {
+              "X": 140.0,
+              "Y": 142.0
+            },
+            "Name": "ImgClockBg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "gameNnFpPlist.plist",
+        "gameNnFpPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

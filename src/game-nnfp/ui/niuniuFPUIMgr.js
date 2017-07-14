@@ -376,8 +376,8 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
     },*/
 
     //随机选择庄家黄色边框
-    randomChoiceBanker: function () {
-        var arr = [0,1,2,3,4,  5];
+    blinkHeadPortrait: function () {
+        var arr = [0,1,2,3,4,5];
         var faceArr = [];
         var actions = [];
         var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
@@ -480,16 +480,16 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         node.setPosition(cc.p(sizeDir.width / 2, sizeDir.height / 2));
 
         var spawn1 = cc.spawn(
-            cc.scaleTo(0, 0.2)
+            cc.scaleTo(0, 3.0)
             // cc.blink(0.5, 5)
         );
 
         var spawn2 = cc.spawn(
-            cc.scaleTo(0.2, 0.4)
+            cc.scaleTo(0.3, 0.4)
         );
 
         var spawn3 = cc.spawn(
-            cc.scaleTo(0.2, 0.5)
+            cc.scaleTo(0.3, 0.5)
         );
 
         var delay = cc.delayTime(0.3);
@@ -501,7 +501,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
          var moveBy5 = cc.moveBy(0.5, cc.p(0, sizeDir.height));
          var moveBy6 = cc.moveBy(0.5, cc.p(sizeDir.width / 2, 0));*/
 
-        var moveTo1 = cc.moveTo(0.5, faceSize);
+        var moveTo1 = cc.moveTo(0.3, faceSize);
 
         var callFun = cc.CallFunc(function () {
             //显示等待或者加注按钮

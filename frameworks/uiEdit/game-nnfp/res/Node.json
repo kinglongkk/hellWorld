@@ -1,0 +1,75 @@
+{
+  "ID": "65a0d775-fbd9-44e0-bdab-c44cc7709d29",
+  "Version": "2.3.4",
+  "Name": "Node",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 300,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tx1huoyan.plist",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 1
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": -0.0488,
+              "Y": -0.0048
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -0.0488,
+            "RightMargin": 0.0488,
+            "TopMargin": 0.0048,
+            "BottomMargin": -0.0048,
+            "Tag": 301,
+            "ActionTag": -2065833133,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Particle_1",
+            "ctype": "ParticleObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "tx1huoyan.plist",
+        "tx1huoyan.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

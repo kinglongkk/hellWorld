@@ -1,0 +1,203 @@
+{
+  "ID": "42860599-6cbc-431d-9278-4391741552a8",
+  "Version": "2.3.4",
+  "Name": "nnFpWinOrLoseNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 60,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": 1781655044,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1781655044,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1781655044,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 180.0,
+                "Y": 180.0,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 128,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "nnFpAnimationPlist/nnui0014c.png",
+              "Plist": "nnFpAnimationPlist.plist"
+            },
+            "Scale9OriginX": 108,
+            "Scale9OriginY": 108,
+            "Scale9Width": 114,
+            "Scale9Height": 114,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": 72.0,
+            "RotationSkewY": 72.0,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -165.0,
+            "RightMargin": -165.0,
+            "TopMargin": -165.0,
+            "BottomMargin": -165.0,
+            "Tag": 129,
+            "ActionTag": 1781655044,
+            "Size": {
+              "X": 330.0,
+              "Y": 330.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameNnFpPlist/nnui0014.png",
+              "Plist": "gameNnFpPlist.plist"
+            },
+            "Scale9OriginX": 70,
+            "Scale9OriginY": 70,
+            "Scale9Width": 74,
+            "Scale9Height": 74,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -107.0,
+            "RightMargin": -107.0,
+            "TopMargin": -107.0,
+            "BottomMargin": -107.0,
+            "Tag": 130,
+            "ActionTag": 1239471703,
+            "Size": {
+              "X": 214.0,
+              "Y": 214.0
+            },
+            "Name": "Image_2",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "gameNnFpPlist.plist",
+        "gameNnFpPlist.png",
+        "nnFpAnimationPlist.plist",
+        "nnFpAnimationPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,70 @@
+{
+  "ID": "b7338489-6208-4481-b40c-e076f54582b2",
+  "Version": "2.3.4",
+  "Name": "Node1",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 309,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Default",
+              "Path": "Default/defaultParticle.plist",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 775,
+              "Dst": 1
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 310,
+            "ActionTag": -1603279498,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Particle_1",
+            "ctype": "ParticleObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/defaultParticle.plist"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

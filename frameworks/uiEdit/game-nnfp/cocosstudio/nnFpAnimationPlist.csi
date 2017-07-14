@@ -1,0 +1,28 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="nnFpAnimationPlist" Type="Plist" ID="3d5c7fd3-9f2a-4857-a7c9-07fa5246c4a7" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="nnFpAnimationPlist/nnui0013.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013a.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013b.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013c.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013d.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013e.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013f.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013g.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013h.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013i.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013j.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013k.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0014c.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013l.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013m.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013n.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013o.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013p.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013q.png" />
+      <FilePathData Path="nnFpAnimationPlist/nnui0013r.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,795 @@
+{
+  "ID": "daae147b-ee32-4de8-97f4-267c101feb27",
+  "Version": "2.3.4",
+  "Name": "dlgNnFpSet",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 476,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": -200,
+            "Scale9OriginY": -100,
+            "Scale9Width": 400,
+            "Scale9Height": 200,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 477,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameNnFpPlist/nnui0016.png",
+                  "Plist": "gameNnFpPlist.plist"
+                },
+                "Scale9OriginX": 344,
+                "Scale9OriginY": 226,
+                "Scale9Width": 154,
+                "Scale9Height": 54,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 645.7894,
+                  "Y": 391.35
+                },
+                "Scale": {
+                  "ScaleX": 0.85,
+                  "ScaleY": 0.85
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4841,
+                  "Y": 0.5218
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.6312,
+                  "Y": 0.6747
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 224.779,
+                "RightMargin": 267.2002,
+                "TopMargin": 105.6375,
+                "BottomMargin": 138.3375,
+                "Tag": 1405,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0020.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 50,
+                    "Scale9OriginY": 48,
+                    "Scale9Width": 54,
+                    "Scale9Height": 50,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 40.5844,
+                      "Y": 457.677
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0482,
+                      "Y": 0.9045
+                    },
+                    "PreSize": {
+                      "X": 0.1829,
+                      "Y": 0.2885
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": -36.4156,
+                    "RightMargin": 724.4364,
+                    "TopMargin": -24.652,
+                    "BottomMargin": 384.677,
+                    "Tag": 157,
+                    "ActionTag": 2062232755,
+                    "Size": {
+                      "X": 154.0,
+                      "Y": 146.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0018.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 161,
+                    "Scale9OriginY": 40,
+                    "Scale9Width": 168,
+                    "Scale9Height": 43,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 422.3472,
+                      "Y": 449.6822
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5016,
+                      "Y": 0.8887
+                    },
+                    "PreSize": {
+                      "X": 0.5819,
+                      "Y": 0.2431
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 177.3472,
+                    "RightMargin": 174.6736,
+                    "TopMargin": -5.1572,
+                    "BottomMargin": 388.1822,
+                    "Tag": 158,
+                    "ActionTag": -666669990,
+                    "Size": {
+                      "X": 490.0,
+                      "Y": 123.0
+                    },
+                    "Name": "Image_2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0019.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 56,
+                    "Scale9Height": 65,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 814.214,
+                      "Y": 483.6348
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.967,
+                      "Y": 0.9558
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.1021,
+                      "Y": 0.1719
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 771.2299,
+                    "RightMargin": -15.1773,
+                    "TopMargin": -21.1005,
+                    "BottomMargin": 440.1441,
+                    "Tag": 488,
+                    "ActionTag": 1376148683,
+                    "Size": {
+                      "X": 85.9682,
+                      "Y": 86.9814
+                    },
+                    "Name": "BtnClose",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0017.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 28,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 842,
+                    "Scale9Height": 380,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 421.0,
+                      "Y": 215.4548
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9078,
+                      "ScaleY": 0.8732
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4258
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.8103
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "RightMargin": 0.0208,
+                    "TopMargin": 85.5643,
+                    "BottomMargin": 10.4489,
+                    "Tag": 478,
+                    "Children": [
+                      {
+                        "BackGroundData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "gameNnFpPlist/nnui0025.png",
+                          "Plist": "gameNnFpPlist.plist"
+                        },
+                        "ProgressBarData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "gameNnFpPlist/nnui0025b.png",
+                          "Plist": "gameNnFpPlist.plist"
+                        },
+                        "BallNormalData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "gameNnFpPlist/nnui0023.png",
+                          "Plist": "gameNnFpPlist.plist"
+                        },
+                        "BallDisabledData": {
+                          "Type": "Default",
+                          "Path": "Default/SliderNode_Disable.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 499.9796,
+                          "Y": 299.997
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5938,
+                          "Y": 0.7317
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 0.7,
+                          "Y": 0.1195
+                        },
+                        "HorizontalEdge": "BothEdge",
+                        "VerticalEdge": "BothEdge",
+                        "LeftMargin": 205.2796,
+                        "RightMargin": 47.3204,
+                        "TopMargin": 85.5173,
+                        "BottomMargin": 275.4995,
+                        "Tag": 480,
+                        "ActionTag": 452068593,
+                        "Size": {
+                          "X": 589.4,
+                          "Y": 48.995
+                        },
+                        "Name": "Slider_voice",
+                        "ctype": "SliderObjectData"
+                      },
+                      {
+                        "BackGroundData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "gameNnFpPlist/nnui0025.png",
+                          "Plist": "gameNnFpPlist.plist"
+                        },
+                        "ProgressBarData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "gameNnFpPlist/nnui0025b.png",
+                          "Plist": "gameNnFpPlist.plist"
+                        },
+                        "BallNormalData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "gameNnFpPlist/nnui0024.png",
+                          "Plist": "gameNnFpPlist.plist"
+                        },
+                        "BallDisabledData": {
+                          "Type": "Default",
+                          "Path": "Default/SliderNode_Disable.png",
+                          "Plist": ""
+                        },
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 499.9796,
+                          "Y": 120.007
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5938,
+                          "Y": 0.2927
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 0.7,
+                          "Y": 0.1195
+                        },
+                        "HorizontalEdge": "BothEdge",
+                        "VerticalEdge": "BothEdge",
+                        "LeftMargin": 205.2796,
+                        "RightMargin": 47.3204,
+                        "TopMargin": 265.5073,
+                        "BottomMargin": 95.5095,
+                        "Tag": 481,
+                        "ActionTag": -1913434419,
+                        "Size": {
+                          "X": 589.4,
+                          "Y": 48.995
+                        },
+                        "Name": "Slider_sound",
+                        "ctype": "SliderObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "gameNnFpPlist/nnui0021.png",
+                          "Plist": "gameNnFpPlist.plist"
+                        },
+                        "Scale9OriginX": 21,
+                        "Scale9OriginY": 12,
+                        "Scale9Width": 22,
+                        "Scale9Height": 14,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 100.0296,
+                          "Y": 299.997
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1188,
+                          "Y": 0.7317
+                        },
+                        "PreSize": {
+                          "X": 0.076,
+                          "Y": 0.0927
+                        },
+                        "HorizontalEdge": "BothEdge",
+                        "VerticalEdge": "BothEdge",
+                        "LeftMargin": 68.0296,
+                        "RightMargin": 709.9704,
+                        "TopMargin": 91.0148,
+                        "BottomMargin": 280.997,
+                        "Tag": 161,
+                        "ActionTag": 1363255181,
+                        "Size": {
+                          "X": 64.0,
+                          "Y": 38.0
+                        },
+                        "Name": "Img_voice",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "gameNnFpPlist/nnui0022.png",
+                          "Plist": "gameNnFpPlist.plist"
+                        },
+                        "Scale9OriginX": 21,
+                        "Scale9OriginY": 12,
+                        "Scale9Width": 22,
+                        "Scale9Height": 14,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 100.0296,
+                          "Y": 120.007
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1188,
+                          "Y": 0.2927
+                        },
+                        "PreSize": {
+                          "X": 0.076,
+                          "Y": 0.0927
+                        },
+                        "HorizontalEdge": "BothEdge",
+                        "VerticalEdge": "BothEdge",
+                        "LeftMargin": 68.0296,
+                        "RightMargin": 709.9704,
+                        "TopMargin": 271.0048,
+                        "BottomMargin": 101.007,
+                        "Tag": 162,
+                        "ActionTag": -1107763340,
+                        "Size": {
+                          "X": 64.0,
+                          "Y": 38.0
+                        },
+                        "Name": "Img_sound",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "gameNnFpPlist/nnui0023b.png",
+                          "Plist": "gameNnFpPlist.plist"
+                        },
+                        "Scale9OriginX": 31,
+                        "Scale9OriginY": 32,
+                        "Scale9Width": 33,
+                        "Scale9Height": 33,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 204.8215,
+                          "Y": 302.1107
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2433,
+                          "Y": 0.7368
+                        },
+                        "PreSize": {
+                          "X": 0.1128,
+                          "Y": 0.2366
+                        },
+                        "LeftMargin": 157.3215,
+                        "RightMargin": 589.6785,
+                        "TopMargin": 59.4011,
+                        "BottomMargin": 253.6107,
+                        "Tag": 166,
+                        "ActionTag": 840346934,
+                        "Size": {
+                          "X": 95.0,
+                          "Y": 97.0
+                        },
+                        "Name": "Img_closeVice",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "gameNnFpPlist/nnui0024b.png",
+                          "Plist": "gameNnFpPlist.plist"
+                        },
+                        "Scale9OriginX": 31,
+                        "Scale9OriginY": 32,
+                        "Scale9Width": 33,
+                        "Scale9Height": 33,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 205.5613,
+                          "Y": 120.7626
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2441,
+                          "Y": 0.2945
+                        },
+                        "PreSize": {
+                          "X": 0.1128,
+                          "Y": 0.2366
+                        },
+                        "LeftMargin": 158.0613,
+                        "RightMargin": 588.9387,
+                        "TopMargin": 240.7492,
+                        "BottomMargin": 72.2626,
+                        "Tag": 167,
+                        "ActionTag": -641247914,
+                        "Size": {
+                          "X": 95.0,
+                          "Y": 97.0
+                        },
+                        "Name": "Img_closeSound",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1418536410,
+                    "Size": {
+                      "X": 842.0,
+                      "Y": 410.0118
+                    },
+                    "Name": "ImgBg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0033.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 174,
+                    "Scale9Height": 65,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 400.0342,
+                      "Y": 19.987
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4751,
+                      "Y": 0.0395
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.2423,
+                      "Y": 0.1719
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 298.0259,
+                    "RightMargin": 339.9783,
+                    "TopMargin": 442.5473,
+                    "BottomMargin": -23.5037,
+                    "Tag": 486,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "gameNnFpPlist/nnui0033b.png",
+                          "Plist": "gameNnFpPlist.plist"
+                        },
+                        "Scale9OriginX": 67,
+                        "Scale9OriginY": 28,
+                        "Scale9Width": 70,
+                        "Scale9Height": 31,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 102.0,
+                          "Y": 43.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5001
+                        },
+                        "PreSize": {
+                          "X": 0.9999,
+                          "Y": 1.0002
+                        },
+                        "RightMargin": 0.0166,
+                        "TopMargin": -0.0186,
+                        "Tag": 163,
+                        "ActionTag": -80414601,
+                        "Size": {
+                          "X": 204.0,
+                          "Y": 87.0
+                        },
+                        "Name": "Image_7",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1427058296,
+                    "Size": {
+                      "X": 204.0166,
+                      "Y": 86.9814
+                    },
+                    "Name": "BtnOutRoom",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -174816981,
+                "Size": {
+                  "X": 842.0208,
+                  "Y": 506.025
+                },
+                "Name": "Image_blueBack",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 683568592,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_back",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/SliderNode_Disable.png",
+        "gameNnFpPlist.plist",
+        "gameNnFpPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

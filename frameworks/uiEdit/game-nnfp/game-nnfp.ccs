@@ -1,0 +1,144 @@
+<Solution>
+  <PropertyGroup Name="game-nnfp" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="designSketch">
+          <Image Name="001intoRoom.jpg" />
+          <Image Name="002ready.jpg" />
+          <Image Name="003start.jpg" />
+          <Image Name="004settlement.jpg" />
+          <Image Name="005end.jpg" />
+          <Image Name="006rule.jpg" />
+          <Image Name="007set.jpg" />
+          <Image Name="008shareDialog.jpg" />
+          <Image Name="009recordCenter.jpg" />
+          <Image Name="010commonLanguageDialog.jpg" />
+        </Folder>
+        <Folder Name="font">
+          <Fnt Name="betBtnValue_0.fnt" />
+          <Fnt Name="betValue_0.fnt" />
+          <Fnt Name="endLose_0.fnt" />
+          <Fnt Name="endTime_0.fnt" />
+          <Fnt Name="endWin_0.fnt" />
+          <Image Name="shuz1.png" />
+          <Image Name="shuz2.png" />
+          <Image Name="shuz3.png" />
+          <Image Name="shuz4.png" />
+        </Folder>
+        <Folder Name="gameNnFpPlist">
+          <Image Name="beij0001.jpg" />
+          <Image Name="nnui0000.png" />
+          <Image Name="nnui0001.png" />
+          <Image Name="nnui0002.png" />
+          <Image Name="nnui0003.png" />
+          <Image Name="nnui0003b.png" />
+          <Image Name="nnui0003c.png" />
+          <Image Name="nnui0004.png" />
+          <Image Name="nnui0005.png" />
+          <Image Name="nnui0006.png" />
+          <Image Name="nnui0007.png" />
+          <Image Name="nnui0008.png" />
+          <Image Name="nnui0008b.png" />
+          <Image Name="nnui0008d.png" />
+          <Image Name="nnui0009.png" />
+          <Image Name="nnui0009a.png" />
+          <Image Name="nnui0009b.png" />
+          <Image Name="nnui0009c.png" />
+          <Image Name="nnui0009d.png" />
+          <Image Name="nnui0009e.png" />
+          <Image Name="nnui0010.png" />
+          <Image Name="nnui0010b.png" />
+          <Image Name="nnui0011.png" />
+          <Image Name="nnui0012.png" />
+          <Image Name="nnui0014.png" />
+          <Image Name="nnui0014b.png" />
+          <Image Name="nnui0015.png" />
+          <Image Name="nnui0016.png" />
+          <Image Name="nnui0017.png" />
+          <Image Name="nnui0018.png" />
+          <Image Name="nnui0019.png" />
+          <Image Name="nnui0020.png" />
+          <Image Name="nnui0021.png" />
+          <Image Name="nnui0022.png" />
+          <Image Name="nnui0023.png" />
+          <Image Name="nnui0023b.png" />
+          <Image Name="nnui0024.png" />
+          <Image Name="nnui0024b.png" />
+          <Image Name="nnui0025.png" />
+          <Image Name="nnui0025b.png" />
+          <Image Name="nnui0026.png" />
+          <Image Name="nnui0027.png" />
+          <Image Name="nnui0028.png" />
+          <Image Name="nnui0029.png" />
+          <Image Name="nnui0030.png" />
+          <Image Name="nnui0031.png" />
+          <Image Name="nnui0032.png" />
+          <Image Name="nnui0033.png" />
+          <Image Name="nnui0033a.png" />
+          <Image Name="nnui0033b.png" />
+          <Image Name="nnui0033c.png" />
+          <Image Name="nnui0033d.png" />
+          <Image Name="nnui0033e.png" />
+          <Image Name="nnui0034.png" />
+          <Image Name="nnui0034b.png" />
+          <Image Name="nnui0034c.png" />
+          <Image Name="nnui0035.png" />
+          <Image Name="nnui0041.png" />
+          <Image Name="nnui0042.png" />
+          <Image Name="nnui0043.png" />
+          <Image Name="nnui0043b.png" />
+          <Image Name="nnui0044.png" />
+          <Image Name="nnui0046.png" />
+        </Folder>
+        <Folder Name="nnFpAnimationPlist">
+          <Image Name="nnui0013.png" />
+          <Image Name="nnui0013a.png" />
+          <Image Name="nnui0013b.png" />
+          <Image Name="nnui0013c.png" />
+          <Image Name="nnui0013d.png" />
+          <Image Name="nnui0013e.png" />
+          <Image Name="nnui0013f.png" />
+          <Image Name="nnui0013g.png" />
+          <Image Name="nnui0013h.png" />
+          <Image Name="nnui0013i.png" />
+          <Image Name="nnui0013j.png" />
+          <Image Name="nnui0013k.png" />
+          <Image Name="nnui0013l.png" />
+          <Image Name="nnui0013m.png" />
+          <Image Name="nnui0013n.png" />
+          <Image Name="nnui0013o.png" />
+          <Image Name="nnui0013p.png" />
+          <Image Name="nnui0013q.png" />
+          <Image Name="nnui0013r.png" />
+          <Image Name="nnui0014c.png" />
+        </Folder>
+        <Project Name="dlgChatScene.csd" Type="Scene" />
+        <Project Name="dlgChooseTextChatScene.csd" Type="Scene" />
+        <Project Name="dlgNnFpAddChip.csd" Type="Scene" />
+        <Project Name="dlgNnFpClock.csd" Type="Scene" />
+        <Project Name="dlgNnFpGetType.csd" Type="Scene" />
+        <Project Name="dlgNnFpOpen.csd" Type="Scene" />
+        <Project Name="dlgNnFpPlayer.csd" Type="Scene" />
+        <Project Name="dlgNnFpReady.csd" Type="Scene" />
+        <Project Name="dlgNnFpResultScene.csd" Type="Scene" />
+        <Project Name="dlgNnFpRobBanker.csd" Type="Scene" />
+        <Project Name="dlgNnFpRule.csd" Type="Scene" />
+        <Project Name="dlgNnFpScene.csd" Type="Scene" />
+        <Project Name="dlgNnFpSet.csd" Type="Scene" />
+        <Project Name="dlgNnFpSystem.csd" Type="Scene" />
+        <Project Name="dlgReminder.csd" Type="Scene" />
+        <PlistInfo Name="gameNnFpPlist.csi" Type="Plist" />
+        <PlistInfo Name="nnFpAnimationPlist.csi" Type="Plist" />
+        <Project Name="nnFpTypeNode.csd" Type="Node" />
+        <Project Name="nnFpWinOrLoseNode.csd" Type="Node" />
+        <Project Name="Node.csd" Type="Node" />
+        <Project Name="Node1.csd" Type="Node" />
+        <Project Name="resultWinNode.csd" Type="Node" />
+        <Project Name="testNode.csd" Type="Node" />
+        <Project Name="testScene.csd" Type="Scene" />
+        <PlistParticleFile Name="tx1huoyan.plist" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

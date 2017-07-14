@@ -1,0 +1,75 @@
+{
+  "ID": "38bf42e4-827e-40c6-8207-fd74c4a2b792",
+  "Version": "2.3.4",
+  "Name": "resultWinNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 378,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Default",
+              "Path": "Default/ImageFile.png",
+              "Plist": ""
+            },
+            "Scale9Width": 46,
+            "Scale9Height": 46,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -23.0,
+            "RightMargin": -23.0,
+            "TopMargin": -23.0,
+            "BottomMargin": -23.0,
+            "Tag": 379,
+            "ActionTag": 455401703,
+            "Size": {
+              "X": 46.0,
+              "Y": 46.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/ImageFile.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

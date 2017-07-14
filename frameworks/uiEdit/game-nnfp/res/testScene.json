@@ -1,0 +1,123 @@
+{
+  "ID": "fb78efa8-7b1a-480d-931b-6bd5b320f6d6",
+  "Version": "2.3.4",
+  "Name": "testScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 467,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "nnFpAnimationPlist/nnui0013.png",
+              "Plist": "nnFpAnimationPlist.plist"
+            },
+            "Scale9OriginX": 67,
+            "Scale9OriginY": 62,
+            "Scale9Width": 70,
+            "Scale9Height": 66,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 90.0,
+              "Y": 680.7951
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0675,
+              "Y": 0.9077
+            },
+            "PreSize": {
+              "X": 0.1529,
+              "Y": 0.2533
+            },
+            "LeftMargin": -12.0,
+            "RightMargin": 1142.0,
+            "TopMargin": -25.7951,
+            "BottomMargin": 585.7951,
+            "Tag": 468,
+            "ActionTag": -199267672,
+            "Size": {
+              "X": 204.0,
+              "Y": 190.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "nnFpAnimationPlist/nnui0013a.png",
+              "Plist": "nnFpAnimationPlist.plist"
+            },
+            "Scale9OriginX": 67,
+            "Scale9OriginY": 62,
+            "Scale9Width": 70,
+            "Scale9Height": 66,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 90.0,
+              "Y": 570.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0675,
+              "Y": 0.76
+            },
+            "PreSize": {
+              "X": 0.1529,
+              "Y": 0.2533
+            },
+            "LeftMargin": -12.0,
+            "RightMargin": 1142.0,
+            "TopMargin": 85.0,
+            "BottomMargin": 475.0,
+            "Tag": 469,
+            "ActionTag": -553101000,
+            "Size": {
+              "X": 204.0,
+              "Y": 190.0
+            },
+            "Name": "Image_2",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "nnFpAnimationPlist.plist",
+        "nnFpAnimationPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}
