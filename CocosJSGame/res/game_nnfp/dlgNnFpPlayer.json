@@ -15,6 +15,47 @@
         "Tag": 111,
         "Children": [
           {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameNnFpPlist/beij0001.jpg",
+              "Plist": "gameNnFpPlist.plist"
+            },
+            "Scale9OriginX": 440,
+            "Scale9OriginY": 247,
+            "Scale9Width": 454,
+            "Scale9Height": 256,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 146,
+            "ActionTag": 352278374,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Image_8",
+            "ctype": "ImageViewObjectData"
+          },
+          {
             "ClipAble": false,
             "BackColorAlpha": 0,
             "ComboBoxIndex": 1,
@@ -65,6 +106,59 @@
             "Children": [
               {
                 "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 672.5946,
+                  "Y": 444.3066
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5042,
+                  "Y": 1.1848
+                },
+                "PreSize": {
+                  "X": 0.1124,
+                  "Y": 0.1867
+                },
+                "LeftMargin": 597.5946,
+                "RightMargin": 586.4054,
+                "TopMargin": -104.3066,
+                "BottomMargin": 409.3066,
+                "Tag": 145,
+                "ActionTag": 1695582229,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 70.0
+                },
+                "Name": "PanelPublicCards",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
                 "BackColorAlpha": 0,
                 "ComboBoxIndex": 1,
                 "SingleColor": {
@@ -86,7 +180,7 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 606.97,
+                  "X": 607.0,
                   "Y": 59.6637
                 },
                 "Scale": {
@@ -105,8 +199,8 @@
                 },
                 "HorizontalEdge": "BothEdge",
                 "VerticalEdge": "BottomEdge",
-                "LeftMargin": 531.97,
-                "RightMargin": 652.03,
+                "LeftMargin": 532.0,
+                "RightMargin": 652.0,
                 "TopMargin": 280.3363,
                 "BottomMargin": 24.6637,
                 "Tag": 160,
@@ -141,7 +235,7 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 669.9348,
+                  "X": 600.0,
                   "Y": 60.0
                 },
                 "Scale": {
@@ -151,15 +245,15 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.5022,
+                  "X": 0.4498,
                   "Y": 0.16
                 },
                 "PreSize": {
                   "X": 0.1124,
                   "Y": 0.1867
                 },
-                "LeftMargin": 594.9348,
-                "RightMargin": 589.0652,
+                "LeftMargin": 525.0,
+                "RightMargin": 659.0,
                 "TopMargin": 280.0,
                 "BottomMargin": 25.0,
                 "Tag": 161,
@@ -169,6 +263,61 @@
                   "Y": 70.0
                 },
                 "Name": "PanelOpen",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 986.6118,
+                  "Y": 95.0885
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7396,
+                  "Y": 0.2536
+                },
+                "PreSize": {
+                  "X": 0.1124,
+                  "Y": 0.1867
+                },
+                "LeftMargin": 911.6118,
+                "RightMargin": 272.3882,
+                "TopMargin": 244.9115,
+                "BottomMargin": 60.0885,
+                "Tag": 149,
+                "ActionTag": -1604778302,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 70.0
+                },
+                "Name": "PanelOpenPublicCards",
                 "ctype": "PanelObjectData"
               },
               {
@@ -766,22 +915,22 @@
                 "ctype": "TextBMFontObjectData"
               },
               {
-                "CharWidth": 50,
-                "CharHeight": 70,
-                "LabelText": "/150",
-                "StartChar": ".",
-                "LabelAtlasFileImage_CNB": {
-                  "Type": "Normal",
-                  "Path": "font/shuz3.png",
-                  "Plist": ""
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameNnFpPlist/nnui0047.png",
+                  "Plist": "gameNnFpPlist.plist"
                 },
+                "Scale9OriginX": 150,
+                "Scale9OriginY": 21,
+                "Scale9Width": 156,
+                "Scale9Height": 24,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 681.8163,
-                  "Y": 351.736
+                  "X": 670.0,
+                  "Y": 300.0
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -790,70 +939,121 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.5111,
-                  "Y": 0.938
+                  "X": 0.5022,
+                  "Y": 0.8
                 },
                 "PreSize": {
-                  "X": 0.1499,
-                  "Y": 0.1867
+                  "X": 0.3418,
+                  "Y": 0.176
                 },
-                "LeftMargin": 581.8163,
-                "RightMargin": 552.1837,
-                "TopMargin": -11.736,
-                "BottomMargin": 316.736,
-                "Tag": 118,
-                "ActionTag": -2094914988,
+                "LeftMargin": 442.0,
+                "RightMargin": 436.0,
+                "TopMargin": 42.0,
+                "BottomMargin": 267.0,
+                "Tag": 128,
+                "Children": [
+                  {
+                    "CharWidth": 50,
+                    "CharHeight": 70,
+                    "LabelText": "/150",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz3.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.0,
+                      "Y": 33.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4386,
+                      "Y": 1.0606
+                    },
+                    "LeftMargin": 128.0,
+                    "RightMargin": 128.0,
+                    "TopMargin": -2.0,
+                    "BottomMargin": -2.0,
+                    "Tag": 118,
+                    "ActionTag": -2094914988,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 70.0
+                    },
+                    "Name": "LabLose",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 50,
+                    "CharHeight": 70,
+                    "LabelText": ".150",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz2.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.0,
+                      "Y": 33.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4386,
+                      "Y": 1.0606
+                    },
+                    "LeftMargin": 128.0,
+                    "RightMargin": 128.0,
+                    "TopMargin": -2.0,
+                    "BottomMargin": -2.0,
+                    "Tag": 117,
+                    "ActionTag": -368767178,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 70.0
+                    },
+                    "Name": "LabWin",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 2141880543,
                 "Size": {
-                  "X": 200.0,
-                  "Y": 70.0
+                  "X": 456.0,
+                  "Y": 66.0
                 },
-                "Name": "LabLose",
-                "ctype": "TextAtlasObjectData"
-              },
-              {
-                "CharWidth": 50,
-                "CharHeight": 70,
-                "LabelText": ".150",
-                "StartChar": ".",
-                "LabelAtlasFileImage_CNB": {
-                  "Type": "Normal",
-                  "Path": "font/shuz2.png",
-                  "Plist": ""
-                },
-                "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
-                },
-                "Position": {
-                  "X": 680.93,
-                  "Y": 352.6187
-                },
-                "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
-                },
-                "CColor": {},
-                "IconVisible": false,
-                "PrePosition": {
-                  "X": 0.5104,
-                  "Y": 0.9403
-                },
-                "PreSize": {
-                  "X": 0.1499,
-                  "Y": 0.1867
-                },
-                "LeftMargin": 580.93,
-                "RightMargin": 553.07,
-                "TopMargin": -12.6187,
-                "BottomMargin": 317.6187,
-                "Tag": 117,
-                "ActionTag": -368767178,
-                "Size": {
-                  "X": 200.0,
-                  "Y": 70.0
-                },
-                "Name": "LabWin",
-                "ctype": "TextAtlasObjectData"
+                "Name": "LabImage",
+                "ctype": "ImageViewObjectData"
               },
               {
                 "FileData": {
@@ -1919,94 +2119,145 @@
                 "ctype": "TextBMFontObjectData"
               },
               {
-                "CharWidth": 50,
-                "CharHeight": 70,
-                "LabelText": "/250",
-                "StartChar": ".",
-                "LabelAtlasFileImage_CNB": {
-                  "Type": "Normal",
-                  "Path": "font/shuz3.png",
-                  "Plist": ""
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameNnFpPlist/nnui0047.png",
+                  "Plist": "gameNnFpPlist.plist"
                 },
+                "Scale9OriginX": 150,
+                "Scale9OriginY": 21,
+                "Scale9Width": 156,
+                "Scale9Height": 24,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 359.4267,
-                  "Y": 299.6771
+                  "X": 250.0,
+                  "Y": 330.0
                 },
                 "Scale": {
-                  "ScaleX": 0.9,
-                  "ScaleY": 0.9
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.5389,
-                  "Y": 0.7991
+                  "X": 0.3748,
+                  "Y": 0.88
                 },
                 "PreSize": {
-                  "X": 0.2999,
-                  "Y": 0.1867
+                  "X": 0.6837,
+                  "Y": 0.176
                 },
-                "LeftMargin": 259.4267,
-                "RightMargin": 207.5733,
-                "TopMargin": 40.3229,
-                "BottomMargin": 264.6771,
-                "Tag": 119,
-                "ActionTag": 631503579,
+                "LeftMargin": 22.0,
+                "RightMargin": 189.0,
+                "TopMargin": 12.0,
+                "BottomMargin": 297.0,
+                "Tag": 130,
+                "Children": [
+                  {
+                    "CharWidth": 50,
+                    "CharHeight": 70,
+                    "LabelText": "/150",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz3.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.0,
+                      "Y": 33.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4386,
+                      "Y": 1.0606
+                    },
+                    "LeftMargin": 128.0,
+                    "RightMargin": 128.0,
+                    "TopMargin": -2.0,
+                    "BottomMargin": -2.0,
+                    "Tag": 131,
+                    "ActionTag": 500907691,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 70.0
+                    },
+                    "Name": "LabLose",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 50,
+                    "CharHeight": 70,
+                    "LabelText": ".150",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz2.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.0,
+                      "Y": 33.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4386,
+                      "Y": 1.0606
+                    },
+                    "LeftMargin": 128.0,
+                    "RightMargin": 128.0,
+                    "TopMargin": -2.0,
+                    "BottomMargin": -2.0,
+                    "Tag": 132,
+                    "ActionTag": -548870009,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 70.0
+                    },
+                    "Name": "LabWin",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -151897358,
                 "Size": {
-                  "X": 200.0,
-                  "Y": 70.0
+                  "X": 456.0,
+                  "Y": 66.0
                 },
-                "Name": "LabLose",
-                "ctype": "TextAtlasObjectData"
-              },
-              {
-                "CharWidth": 50,
-                "CharHeight": 70,
-                "LabelText": ".250",
-                "StartChar": ".",
-                "LabelAtlasFileImage_CNB": {
-                  "Type": "Normal",
-                  "Path": "font/shuz2.png",
-                  "Plist": ""
-                },
-                "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
-                },
-                "Position": {
-                  "X": 357.7991,
-                  "Y": 299.929
-                },
-                "Scale": {
-                  "ScaleX": 0.9,
-                  "ScaleY": 0.9
-                },
-                "CColor": {},
-                "IconVisible": false,
-                "PrePosition": {
-                  "X": 0.5364,
-                  "Y": 0.7998
-                },
-                "PreSize": {
-                  "X": 0.2999,
-                  "Y": 0.1867
-                },
-                "LeftMargin": 257.7991,
-                "RightMargin": 209.2009,
-                "TopMargin": 40.071,
-                "BottomMargin": 264.929,
-                "Tag": 120,
-                "ActionTag": 1904112406,
-                "Size": {
-                  "X": 200.0,
-                  "Y": 70.0
-                },
-                "Name": "LabWin",
-                "ctype": "TextAtlasObjectData"
+                "Name": "LabImage",
+                "ctype": "ImageViewObjectData"
               },
               {
                 "FileData": {
@@ -2973,94 +3224,145 @@
                 "ctype": "TextBMFontObjectData"
               },
               {
-                "CharWidth": 50,
-                "CharHeight": 70,
-                "LabelText": "/250",
-                "StartChar": ".",
-                "LabelAtlasFileImage_CNB": {
-                  "Type": "Normal",
-                  "Path": "font/shuz3.png",
-                  "Plist": ""
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameNnFpPlist/nnui0047.png",
+                  "Plist": "gameNnFpPlist.plist"
                 },
+                "Scale9OriginX": 150,
+                "Scale9OriginY": 21,
+                "Scale9Width": 156,
+                "Scale9Height": 24,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 359.4267,
-                  "Y": 299.6771
+                  "X": 250.0,
+                  "Y": 330.0
                 },
                 "Scale": {
-                  "ScaleX": 0.9,
-                  "ScaleY": 0.9
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.5389,
-                  "Y": 0.7991
+                  "X": 0.3748,
+                  "Y": 0.88
                 },
                 "PreSize": {
-                  "X": 0.2999,
-                  "Y": 0.1867
+                  "X": 0.6837,
+                  "Y": 0.176
                 },
-                "LeftMargin": 259.4267,
-                "RightMargin": 207.5733,
-                "TopMargin": 40.3229,
-                "BottomMargin": 264.6771,
-                "Tag": 145,
-                "ActionTag": 1808528295,
+                "LeftMargin": 22.0,
+                "RightMargin": 189.0,
+                "TopMargin": 12.0,
+                "BottomMargin": 297.0,
+                "Tag": 133,
+                "Children": [
+                  {
+                    "CharWidth": 50,
+                    "CharHeight": 70,
+                    "LabelText": "/150",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz3.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.0,
+                      "Y": 33.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4386,
+                      "Y": 1.0606
+                    },
+                    "LeftMargin": 128.0,
+                    "RightMargin": 128.0,
+                    "TopMargin": -2.0,
+                    "BottomMargin": -2.0,
+                    "Tag": 134,
+                    "ActionTag": 1114227859,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 70.0
+                    },
+                    "Name": "LabLose",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 50,
+                    "CharHeight": 70,
+                    "LabelText": ".150",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz2.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.0,
+                      "Y": 33.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4386,
+                      "Y": 1.0606
+                    },
+                    "LeftMargin": 128.0,
+                    "RightMargin": 128.0,
+                    "TopMargin": -2.0,
+                    "BottomMargin": -2.0,
+                    "Tag": 135,
+                    "ActionTag": 263583960,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 70.0
+                    },
+                    "Name": "LabWin",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 425434431,
                 "Size": {
-                  "X": 200.0,
-                  "Y": 70.0
+                  "X": 456.0,
+                  "Y": 66.0
                 },
-                "Name": "LabLose",
-                "ctype": "TextAtlasObjectData"
-              },
-              {
-                "CharWidth": 50,
-                "CharHeight": 70,
-                "LabelText": ".250",
-                "StartChar": ".",
-                "LabelAtlasFileImage_CNB": {
-                  "Type": "Normal",
-                  "Path": "font/shuz2.png",
-                  "Plist": ""
-                },
-                "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
-                },
-                "Position": {
-                  "X": 357.7991,
-                  "Y": 299.929
-                },
-                "Scale": {
-                  "ScaleX": 0.9,
-                  "ScaleY": 0.9
-                },
-                "CColor": {},
-                "IconVisible": false,
-                "PrePosition": {
-                  "X": 0.5364,
-                  "Y": 0.7998
-                },
-                "PreSize": {
-                  "X": 0.2999,
-                  "Y": 0.1867
-                },
-                "LeftMargin": 257.7991,
-                "RightMargin": 209.2009,
-                "TopMargin": 40.071,
-                "BottomMargin": 264.929,
-                "Tag": 146,
-                "ActionTag": -663256057,
-                "Size": {
-                  "X": 200.0,
-                  "Y": 70.0
-                },
-                "Name": "LabWin",
-                "ctype": "TextAtlasObjectData"
+                "Name": "LabImage",
+                "ctype": "ImageViewObjectData"
               },
               {
                 "FileData": {
@@ -3499,8 +3801,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 600.0332,
-                  "Y": 204.0
+                  "X": 600.0,
+                  "Y": 180.0
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -3510,7 +3812,7 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.4498,
-                  "Y": 0.544
+                  "Y": 0.48
                 },
                 "PreSize": {
                   "X": 0.1124,
@@ -3518,10 +3820,10 @@
                 },
                 "HorizontalEdge": "BothEdge",
                 "VerticalEdge": "BothEdge",
-                "LeftMargin": 525.0332,
-                "RightMargin": 658.9668,
-                "TopMargin": 136.0,
-                "BottomMargin": 169.0,
+                "LeftMargin": 525.0,
+                "RightMargin": 659.0,
+                "TopMargin": 160.0,
+                "BottomMargin": 145.0,
                 "Tag": 176,
                 "ActionTag": -2092515138,
                 "Size": {
@@ -3679,94 +3981,145 @@
                 "ctype": "TextBMFontObjectData"
               },
               {
-                "CharWidth": 50,
-                "CharHeight": 70,
-                "LabelText": "/300",
-                "StartChar": ".",
-                "LabelAtlasFileImage_CNB": {
-                  "Type": "Normal",
-                  "Path": "font/shuz3.png",
-                  "Plist": ""
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameNnFpPlist/nnui0047.png",
+                  "Plist": "gameNnFpPlist.plist"
                 },
+                "Scale9OriginX": 150,
+                "Scale9OriginY": 21,
+                "Scale9Width": 156,
+                "Scale9Height": 24,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 858.355,
-                  "Y": 271.1125
+                  "X": 670.0,
+                  "Y": 330.0
                 },
                 "Scale": {
-                  "ScaleX": 0.9,
-                  "ScaleY": 0.9
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.6434,
-                  "Y": 0.723
+                  "X": 0.5022,
+                  "Y": 0.88
                 },
                 "PreSize": {
-                  "X": 0.1499,
-                  "Y": 0.1867
+                  "X": 0.3418,
+                  "Y": 0.176
                 },
-                "LeftMargin": 758.355,
-                "RightMargin": 375.645,
-                "TopMargin": 68.8875,
-                "BottomMargin": 236.1125,
-                "Tag": 123,
-                "ActionTag": 369798858,
+                "LeftMargin": 442.0,
+                "RightMargin": 436.0,
+                "TopMargin": 12.0,
+                "BottomMargin": 297.0,
+                "Tag": 136,
+                "Children": [
+                  {
+                    "CharWidth": 50,
+                    "CharHeight": 70,
+                    "LabelText": "/150",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz3.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.0,
+                      "Y": 33.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4386,
+                      "Y": 1.0606
+                    },
+                    "LeftMargin": 128.0,
+                    "RightMargin": 128.0,
+                    "TopMargin": -2.0,
+                    "BottomMargin": -2.0,
+                    "Tag": 137,
+                    "ActionTag": -467170069,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 70.0
+                    },
+                    "Name": "LabLose",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 50,
+                    "CharHeight": 70,
+                    "LabelText": ".150",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz2.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.0,
+                      "Y": 33.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4386,
+                      "Y": 1.0606
+                    },
+                    "LeftMargin": 128.0,
+                    "RightMargin": 128.0,
+                    "TopMargin": -2.0,
+                    "BottomMargin": -2.0,
+                    "Tag": 138,
+                    "ActionTag": -1063298886,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 70.0
+                    },
+                    "Name": "LabWin",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -236637863,
                 "Size": {
-                  "X": 200.0,
-                  "Y": 70.0
+                  "X": 456.0,
+                  "Y": 66.0
                 },
-                "Name": "LabLose",
-                "ctype": "TextAtlasObjectData"
-              },
-              {
-                "CharWidth": 50,
-                "CharHeight": 70,
-                "LabelText": ".300",
-                "StartChar": ".",
-                "LabelAtlasFileImage_CNB": {
-                  "Type": "Normal",
-                  "Path": "font/shuz2.png",
-                  "Plist": ""
-                },
-                "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
-                },
-                "Position": {
-                  "X": 854.149,
-                  "Y": 271.0253
-                },
-                "Scale": {
-                  "ScaleX": 0.9,
-                  "ScaleY": 0.9
-                },
-                "CColor": {},
-                "IconVisible": false,
-                "PrePosition": {
-                  "X": 0.6403,
-                  "Y": 0.7227
-                },
-                "PreSize": {
-                  "X": 0.1499,
-                  "Y": 0.1867
-                },
-                "LeftMargin": 754.149,
-                "RightMargin": 379.851,
-                "TopMargin": 68.9747,
-                "BottomMargin": 236.0253,
-                "Tag": 124,
-                "ActionTag": -287610973,
-                "Size": {
-                  "X": 200.0,
-                  "Y": 70.0
-                },
-                "Name": "LabWin",
-                "ctype": "TextAtlasObjectData"
+                "Name": "LabImage",
+                "ctype": "ImageViewObjectData"
               },
               {
                 "FileData": {
@@ -5186,94 +5539,145 @@
                 "ctype": "ImageViewObjectData"
               },
               {
-                "CharWidth": 50,
-                "CharHeight": 70,
-                "LabelText": "/35",
-                "StartChar": ".",
-                "LabelAtlasFileImage_CNB": {
-                  "Type": "Normal",
-                  "Path": "font/shuz3.png",
-                  "Plist": ""
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameNnFpPlist/nnui0047.png",
+                  "Plist": "gameNnFpPlist.plist"
                 },
+                "Scale9OriginX": 150,
+                "Scale9OriginY": 21,
+                "Scale9Width": 156,
+                "Scale9Height": 24,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 280.5812,
-                  "Y": 313.4962
+                  "X": 400.0,
+                  "Y": 330.0
                 },
                 "Scale": {
-                  "ScaleX": 0.9,
-                  "ScaleY": 0.9
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.4207,
-                  "Y": 0.836
+                  "X": 0.5997,
+                  "Y": 0.88
                 },
                 "PreSize": {
-                  "X": 0.2249,
-                  "Y": 0.1867
+                  "X": 0.6837,
+                  "Y": 0.176
                 },
-                "LeftMargin": 205.5812,
-                "RightMargin": 311.4188,
-                "TopMargin": 26.5038,
-                "BottomMargin": 278.4962,
-                "Tag": 166,
-                "ActionTag": 1711834133,
+                "LeftMargin": 172.0,
+                "RightMargin": 39.0,
+                "TopMargin": 12.0,
+                "BottomMargin": 297.0,
+                "Tag": 139,
+                "Children": [
+                  {
+                    "CharWidth": 50,
+                    "CharHeight": 70,
+                    "LabelText": "/150",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz3.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.0,
+                      "Y": 33.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4386,
+                      "Y": 1.0606
+                    },
+                    "LeftMargin": 128.0,
+                    "RightMargin": 128.0,
+                    "TopMargin": -2.0,
+                    "BottomMargin": -2.0,
+                    "Tag": 140,
+                    "ActionTag": -2004085435,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 70.0
+                    },
+                    "Name": "LabLose",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 50,
+                    "CharHeight": 70,
+                    "LabelText": ".150",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz2.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.0,
+                      "Y": 33.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4386,
+                      "Y": 1.0606
+                    },
+                    "LeftMargin": 128.0,
+                    "RightMargin": 128.0,
+                    "TopMargin": -2.0,
+                    "BottomMargin": -2.0,
+                    "Tag": 141,
+                    "ActionTag": 958197541,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 70.0
+                    },
+                    "Name": "LabWin",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -1700815852,
                 "Size": {
-                  "X": 150.0,
-                  "Y": 70.0
+                  "X": 456.0,
+                  "Y": 66.0
                 },
-                "Name": "LabLose",
-                "ctype": "TextAtlasObjectData"
-              },
-              {
-                "CharWidth": 50,
-                "CharHeight": 70,
-                "LabelText": ".350",
-                "StartChar": ".",
-                "LabelAtlasFileImage_CNB": {
-                  "Type": "Normal",
-                  "Path": "font/shuz2.png",
-                  "Plist": ""
-                },
-                "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
-                },
-                "Position": {
-                  "X": 275.8342,
-                  "Y": 311.8729
-                },
-                "Scale": {
-                  "ScaleX": 0.9,
-                  "ScaleY": 0.9
-                },
-                "CColor": {},
-                "IconVisible": false,
-                "PrePosition": {
-                  "X": 0.4135,
-                  "Y": 0.8317
-                },
-                "PreSize": {
-                  "X": 0.2999,
-                  "Y": 0.1867
-                },
-                "LeftMargin": 175.8342,
-                "RightMargin": 291.1658,
-                "TopMargin": 28.1271,
-                "BottomMargin": 276.8729,
-                "Tag": 167,
-                "ActionTag": 1679926807,
-                "Size": {
-                  "X": 200.0,
-                  "Y": 70.0
-                },
-                "Name": "LabWin",
-                "ctype": "TextAtlasObjectData"
+                "Name": "LabImage",
+                "ctype": "ImageViewObjectData"
               }
             ],
             "ActionTag": -1697349812,
@@ -6252,94 +6656,145 @@
                 "ctype": "ImageViewObjectData"
               },
               {
-                "CharWidth": 50,
-                "CharHeight": 70,
-                "LabelText": "/35",
-                "StartChar": ".",
-                "LabelAtlasFileImage_CNB": {
-                  "Type": "Normal",
-                  "Path": "font/shuz3.png",
-                  "Plist": ""
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameNnFpPlist/nnui0047.png",
+                  "Plist": "gameNnFpPlist.plist"
                 },
+                "Scale9OriginX": 150,
+                "Scale9OriginY": 21,
+                "Scale9Width": 156,
+                "Scale9Height": 24,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 280.5812,
-                  "Y": 313.4962
+                  "X": 400.0,
+                  "Y": 330.0
                 },
                 "Scale": {
-                  "ScaleX": 0.9,
-                  "ScaleY": 0.9
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.4207,
-                  "Y": 0.836
+                  "X": 0.5997,
+                  "Y": 0.88
                 },
                 "PreSize": {
-                  "X": 0.2249,
-                  "Y": 0.1867
+                  "X": 0.6837,
+                  "Y": 0.176
                 },
-                "LeftMargin": 205.5812,
-                "RightMargin": 311.4188,
-                "TopMargin": 26.5038,
-                "BottomMargin": 278.4962,
-                "Tag": 125,
-                "ActionTag": 1991794316,
+                "LeftMargin": 172.0,
+                "RightMargin": 39.0,
+                "TopMargin": 12.0,
+                "BottomMargin": 297.0,
+                "Tag": 142,
+                "Children": [
+                  {
+                    "CharWidth": 50,
+                    "CharHeight": 70,
+                    "LabelText": "/150",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz3.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.0,
+                      "Y": 33.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4386,
+                      "Y": 1.0606
+                    },
+                    "LeftMargin": 128.0,
+                    "RightMargin": 128.0,
+                    "TopMargin": -2.0,
+                    "BottomMargin": -2.0,
+                    "Tag": 143,
+                    "ActionTag": -817511956,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 70.0
+                    },
+                    "Name": "LabLose",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 50,
+                    "CharHeight": 70,
+                    "LabelText": ".150",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz2.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 228.0,
+                      "Y": 33.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4386,
+                      "Y": 1.0606
+                    },
+                    "LeftMargin": 128.0,
+                    "RightMargin": 128.0,
+                    "TopMargin": -2.0,
+                    "BottomMargin": -2.0,
+                    "Tag": 144,
+                    "ActionTag": 1282454488,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 70.0
+                    },
+                    "Name": "LabWin",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 1723971541,
                 "Size": {
-                  "X": 150.0,
-                  "Y": 70.0
+                  "X": 456.0,
+                  "Y": 66.0
                 },
-                "Name": "LabLose",
-                "ctype": "TextAtlasObjectData"
-              },
-              {
-                "CharWidth": 50,
-                "CharHeight": 70,
-                "LabelText": ".350",
-                "StartChar": ".",
-                "LabelAtlasFileImage_CNB": {
-                  "Type": "Normal",
-                  "Path": "font/shuz2.png",
-                  "Plist": ""
-                },
-                "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
-                },
-                "Position": {
-                  "X": 275.8342,
-                  "Y": 311.8729
-                },
-                "Scale": {
-                  "ScaleX": 0.9,
-                  "ScaleY": 0.9
-                },
-                "CColor": {},
-                "IconVisible": false,
-                "PrePosition": {
-                  "X": 0.4135,
-                  "Y": 0.8317
-                },
-                "PreSize": {
-                  "X": 0.2999,
-                  "Y": 0.1867
-                },
-                "LeftMargin": 175.8342,
-                "RightMargin": 291.1658,
-                "TopMargin": 28.1271,
-                "BottomMargin": 276.8729,
-                "Tag": 126,
-                "ActionTag": 565713876,
-                "Size": {
-                  "X": 200.0,
-                  "Y": 70.0
-                },
-                "Name": "LabWin",
-                "ctype": "TextAtlasObjectData"
+                "Name": "LabImage",
+                "ctype": "ImageViewObjectData"
               }
             ],
             "ActionTag": -110047513,
