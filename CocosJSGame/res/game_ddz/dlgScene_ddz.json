@@ -1,0 +1,418 @@
+{
+  "ID": "cafb852e-df7a-47dd-9907-5e01a7e8fb7f",
+  "Version": "2.3.4",
+  "Name": "dlgScene_ddz",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 168,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "ddzsouces/doudzui0003.png",
+              "Plist": "ddzGamePlist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 370.0,
+              "Y": 650.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2774,
+              "Y": 0.8667
+            },
+            "PreSize": {
+              "X": 0.2114,
+              "Y": 0.1013
+            },
+            "LeftMargin": 370.0,
+            "RightMargin": 682.0,
+            "TopMargin": 24.0,
+            "BottomMargin": 650.0,
+            "Tag": 170,
+            "ActionTag": 1628672767,
+            "Size": {
+              "X": 282.0,
+              "Y": 76.0
+            },
+            "Name": "multiple",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "ddzsouces/doudzui0004.png",
+              "Plist": "ddzGamePlist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 670.0002,
+              "Y": 651.2563
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5022,
+              "Y": 0.8683
+            },
+            "PreSize": {
+              "X": 0.2114,
+              "Y": 0.1013
+            },
+            "LeftMargin": 670.0002,
+            "RightMargin": 381.9998,
+            "TopMargin": 22.7437,
+            "BottomMargin": 651.2563,
+            "Tag": 171,
+            "ActionTag": -1281007036,
+            "Size": {
+              "X": 282.0,
+              "Y": 76.0
+            },
+            "Name": "BaseScore",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "CharWidth": 25,
+            "CharHeight": 40,
+            "LabelText": "0",
+            "StartChar": ".",
+            "LabelAtlasFileImage_CNB": {
+              "Type": "Normal",
+              "Path": "ddzPic/shuz2.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 560.0,
+              "Y": 690.0
+            },
+            "Scale": {
+              "ScaleX": 0.7,
+              "ScaleY": 0.7
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4198,
+              "Y": 0.92
+            },
+            "PreSize": {
+              "X": 0.0187,
+              "Y": 0.0533
+            },
+            "LeftMargin": 547.5,
+            "RightMargin": 761.5,
+            "TopMargin": 40.0,
+            "BottomMargin": 670.0,
+            "Tag": 124,
+            "ActionTag": 751543748,
+            "Size": {
+              "X": 25.0,
+              "Y": 40.0
+            },
+            "Name": "Text_multiple",
+            "ctype": "TextAtlasObjectData"
+          },
+          {
+            "CharWidth": 25,
+            "CharHeight": 40,
+            "LabelText": "0",
+            "StartChar": ".",
+            "LabelAtlasFileImage_CNB": {
+              "Type": "Normal",
+              "Path": "ddzPic/shuz2.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 860.0,
+              "Y": 690.0
+            },
+            "Scale": {
+              "ScaleX": 0.7,
+              "ScaleY": 0.7
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6447,
+              "Y": 0.92
+            },
+            "PreSize": {
+              "X": 0.0187,
+              "Y": 0.0533
+            },
+            "LeftMargin": 847.5,
+            "RightMargin": 461.5,
+            "TopMargin": 40.0,
+            "BottomMargin": 670.0,
+            "Tag": 125,
+            "ActionTag": -304542776,
+            "Size": {
+              "X": 25.0,
+              "Y": 40.0
+            },
+            "Name": "Text_BaseScore",
+            "ctype": "TextAtlasObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 600.0,
+              "Y": 550.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4498,
+              "Y": 0.7333
+            },
+            "PreSize": {
+              "X": 0.1499,
+              "Y": 0.2667
+            },
+            "LeftMargin": 600.0,
+            "RightMargin": 534.0,
+            "BottomMargin": 550.0,
+            "Tag": 172,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 46,
+                "Scale9Height": 46,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 0.56,
+                  "ScaleY": 0.56
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.63,
+                  "Y": 0.875
+                },
+                "RightMargin": 74.0,
+                "TopMargin": 25.0,
+                "Tag": 173,
+                "ActionTag": -486692166,
+                "Size": {
+                  "X": 126.0,
+                  "Y": 175.0
+                },
+                "Name": "Image_Hand0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 46,
+                "Scale9Height": 46,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 40.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 0.56,
+                  "ScaleY": 0.56
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.63,
+                  "Y": 0.875
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 34.0,
+                "TopMargin": 25.0,
+                "Tag": 174,
+                "ActionTag": 909093784,
+                "Size": {
+                  "X": 126.0,
+                  "Y": 175.0
+                },
+                "Name": "Image_Hand1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 46,
+                "Scale9Height": 46,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 80.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 0.56,
+                  "ScaleY": 0.56
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.63,
+                  "Y": 0.875
+                },
+                "LeftMargin": 80.0,
+                "RightMargin": -6.0,
+                "TopMargin": 25.0,
+                "Tag": 175,
+                "ActionTag": 1756733487,
+                "Size": {
+                  "X": 126.0,
+                  "Y": 175.0
+                },
+                "Name": "Image_Hand2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0019.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 97,
+                "Scale9OriginY": 25,
+                "Scale9Width": 100,
+                "Scale9Height": 27,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -80.0,
+                  "Y": -15.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.4,
+                  "Y": -0.075
+                },
+                "PreSize": {
+                  "X": 1.47,
+                  "Y": 0.385
+                },
+                "LeftMargin": -80.0,
+                "RightMargin": -14.0,
+                "TopMargin": 138.0,
+                "BottomMargin": -15.0,
+                "Tag": 213,
+                "ActionTag": 1160951995,
+                "Size": {
+                  "X": 294.0,
+                  "Y": 77.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1969557160,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "Panel_whitecard",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "ddzGamePlist.plist",
+        "ddzGamePlist.png",
+        "ddzPic/shuz2.png",
+        "Default/ImageFile.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

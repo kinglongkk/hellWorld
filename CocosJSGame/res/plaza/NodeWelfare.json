@@ -1,0 +1,299 @@
+{
+  "ID": "d7a411b8-ea1d-4aa9-8bb7-83d3ecfd7e60",
+  "Version": "2.3.4",
+  "Name": "NodeWelfare",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 72,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "welfare/btn_plaza_msg_bg.png",
+              "Plist": "dlgWelfarePlist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 28,
+            "Scale9OriginY": 15,
+            "Scale9Width": 29,
+            "Scale9Height": 16,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -450.0,
+            "RightMargin": -450.0,
+            "TopMargin": -51.0,
+            "BottomMargin": -49.0,
+            "Tag": 73,
+            "ActionTag": -1611481325,
+            "Size": {
+              "X": 900.0,
+              "Y": 100.0
+            },
+            "Name": "Img_bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "welfare/icon_firstday.png",
+              "Plist": "dlgWelfarePlist.plist"
+            },
+            "Scale9OriginX": 31,
+            "Scale9OriginY": 38,
+            "Scale9Width": 33,
+            "Scale9Height": 41,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -396.6138,
+              "Y": -2.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -444.1138,
+            "RightMargin": 349.1138,
+            "TopMargin": -45.5,
+            "BottomMargin": -49.5,
+            "Tag": 74,
+            "ActionTag": -2073673326,
+            "Size": {
+              "X": 95.0,
+              "Y": 95.0
+            },
+            "Name": "Img_header",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 48,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "welfare/btn_ensure.png",
+              "Plist": "dlgWelfarePlist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 164,
+            "Scale9Height": 65,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 353.5801,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 256.5801,
+            "RightMargin": -450.5801,
+            "TopMargin": -43.5,
+            "BottomMargin": -43.5,
+            "Tag": 75,
+            "ActionTag": -1931806488,
+            "Size": {
+              "X": 194.0,
+              "Y": 87.0
+            },
+            "Name": "Btn_fun",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "welfare/text_baseEnsure.png",
+              "Plist": "dlgWelfarePlist.plist"
+            },
+            "Scale9OriginX": 51,
+            "Scale9OriginY": 15,
+            "Scale9Width": 55,
+            "Scale9Height": 16,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -263.0,
+              "Y": 22.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -341.5,
+            "RightMargin": 184.5,
+            "TopMargin": -45.0,
+            "BottomMargin": -1.0,
+            "Tag": 70,
+            "ActionTag": -469958116,
+            "Size": {
+              "X": 157.0,
+              "Y": 46.0
+            },
+            "Name": "Img_content",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 22,
+            "LabelText": "Text ",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -41.5,
+              "Y": -21.15
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 127,
+              "G": 127,
+              "B": 127
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -341.5,
+            "RightMargin": -258.5,
+            "TopMargin": 7.15,
+            "BottomMargin": -35.15,
+            "Tag": 77,
+            "ActionTag": -555620363,
+            "Size": {
+              "X": 600.0,
+              "Y": 28.0
+            },
+            "Name": "Text_detail",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/Button_Press.png",
+        "dlgWelfarePlist.plist",
+        "dlgWelfarePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>openRoom/openRoomBg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{232,921},{186,78}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{186,78}</string>
+			</dict>
+			<key>openRoom/openRoomOK.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{232,685},{236,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{236,87}</string>
+			</dict>
+			<key>openRoom/openRoomSelectBg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{372,765},{84,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{84,64}</string>
+			</dict>
+			<key>openRoom/openRoomSelectIcon.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{372,685},{80,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{80,80}</string>
+			</dict>
+			<key>openRoom/openRoomTitle.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{319,685},{203,53}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{203,53}</string>
+			</dict>
+			<key>openRoom/openRoom_add.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{117,685},{317,115}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{317,115}</string>
+			</dict>
+			<key>openRoom/openRoom_invite.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,685},{324,117}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{324,117}</string>
+			</dict>
+			<key>openRoom/openRoom_tipBg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{1043,685}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1043,685}</string>
+			</dict>
+			<key>openRoom/openRoom_tipBgF.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{372,849},{85,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{85,46}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>dlgOpenRoomPlist.png</string>
+			<key>realTextureFileName</key>
+			<string>dlgOpenRoomPlist.png</string>
+			<key>size</key>
+			<string>{1043,1009}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1043</integer>
+			<key>height</key>
+			<integer>1009</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,348 @@
+{
+  "ID": "38647cfd-68ca-46f3-bdd0-c8e8b78bd0b5",
+  "Version": "2.3.4",
+  "Name": "dlgReady_ddz",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 176,
+        "Children": [
+          {
+            "FontSize": 26,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "ddzsouces/doudzui0010.png",
+              "Plist": "ddzGamePlist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 174,
+            "Scale9Height": 65,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 867.0,
+              "Y": 220.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6499,
+              "Y": 0.2933
+            },
+            "PreSize": {
+              "X": 0.1312,
+              "Y": 0.1013
+            },
+            "LeftMargin": 779.5,
+            "RightMargin": 379.5,
+            "TopMargin": 492.0,
+            "BottomMargin": 182.0,
+            "Tag": 177,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0010b.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 67,
+                "Scale9OriginY": 28,
+                "Scale9Width": 70,
+                "Scale9Height": 31,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 218,
+                "ActionTag": 775862493,
+                "Size": {
+                  "X": 175.0,
+                  "Y": 76.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 520627758,
+            "Size": {
+              "X": 175.0,
+              "Y": 76.0
+            },
+            "Name": "Button_Invfriend",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 26,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "ddzsouces/doudzui0010.png",
+              "Plist": "ddzGamePlist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 174,
+            "Scale9Height": 65,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 220.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.2933
+            },
+            "PreSize": {
+              "X": 0.1312,
+              "Y": 0.1013
+            },
+            "LeftMargin": 579.5,
+            "RightMargin": 579.5,
+            "TopMargin": 492.0,
+            "BottomMargin": 182.0,
+            "Tag": 178,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0010g.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 67,
+                "Scale9OriginY": 28,
+                "Scale9Width": 70,
+                "Scale9Height": 31,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 219,
+                "ActionTag": -600016820,
+                "Size": {
+                  "X": 175.0,
+                  "Y": 76.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1172298684,
+            "Size": {
+              "X": 175.0,
+              "Y": 76.0
+            },
+            "Name": "Button_dissroom",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 26,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "ddzsouces/doudzui0013.png",
+              "Plist": "ddzGamePlist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 145,
+            "Scale9Height": 54,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5267,
+              "ScaleY": 0.4999
+            },
+            "Position": {
+              "X": 467.0,
+              "Y": 220.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3501,
+              "Y": 0.2933
+            },
+            "PreSize": {
+              "X": 0.1312,
+              "Y": 0.1013
+            },
+            "LeftMargin": 374.8275,
+            "RightMargin": 784.1725,
+            "TopMargin": 491.9924,
+            "BottomMargin": 182.0076,
+            "Tag": 179,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0009b.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 67,
+                "Scale9OriginY": 28,
+                "Scale9Width": 70,
+                "Scale9Height": 31,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 220,
+                "ActionTag": -2068146205,
+                "Size": {
+                  "X": 175.0,
+                  "Y": 76.0
+                },
+                "Name": "Image_3",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 2121337116,
+            "Size": {
+              "X": 175.0,
+              "Y": 76.0
+            },
+            "Name": "Button_begin",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "ddzGamePlist.plist",
+        "ddzGamePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

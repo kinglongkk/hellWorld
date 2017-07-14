@@ -1,0 +1,2465 @@
+{
+  "ID": "95662199-324a-4c93-a087-a85a4ec1bfc7",
+  "Version": "2.3.4",
+  "Name": "dlgPlayer_ddz",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 134,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -1.5841,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0012,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.1199,
+              "Y": 0.2667
+            },
+            "LeftMargin": -1.5841,
+            "RightMargin": 1175.5841,
+            "TopMargin": 550.0,
+            "Tag": 135,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0001b.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 39,
+                "Scale9OriginY": 39,
+                "Scale9Width": 19,
+                "Scale9Height": 49,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 62.0,
+                  "Y": 100.0
+                },
+                "Scale": {
+                  "ScaleX": 0.68,
+                  "ScaleY": 0.68
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3875,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "LeftMargin": -18.0,
+                "RightMargin": 18.0,
+                "Tag": 138,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/ImageFile.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 16,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 19.793,
+                      "Y": 43.7231
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.55
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1237,
+                      "Y": 0.2186
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 19.793,
+                    "RightMargin": -19.793,
+                    "TopMargin": -43.7231,
+                    "BottomMargin": 43.7231,
+                    "Tag": 139,
+                    "ActionTag": 847689551,
+                    "Size": {
+                      "X": 160.0,
+                      "Y": 200.0
+                    },
+                    "Name": "Image_player",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 25,
+                    "CharHeight": 40,
+                    "LabelText": "1000",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "ddzPic/shuz2.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 75.0,
+                      "Y": 25.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4688,
+                      "Y": 0.125
+                    },
+                    "PreSize": {
+                      "X": 0.625,
+                      "Y": 0.2
+                    },
+                    "LeftMargin": 25.0,
+                    "RightMargin": 35.0,
+                    "TopMargin": 155.0,
+                    "BottomMargin": 5.0,
+                    "Tag": 213,
+                    "ActionTag": 1294725710,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Text_money",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "我是玩家三号",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 80.0,
+                      "Y": 175.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.875
+                    },
+                    "PreSize": {
+                      "X": 0.875,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": 10.0,
+                    "RightMargin": 10.0,
+                    "BottomMargin": 150.0,
+                    "Tag": 141,
+                    "ActionTag": -520654718,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 50.0
+                    },
+                    "Name": "Text_nickname",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -388547496,
+                "Size": {
+                  "X": 160.0,
+                  "Y": 200.0
+                },
+                "Name": "Image_break",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 718.848,
+                  "Y": 12.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 4.4928,
+                  "Y": 0.06
+                },
+                "PreSize": {
+                  "X": 7.5,
+                  "Y": 0.9
+                },
+                "LeftMargin": 118.848,
+                "RightMargin": -1158.848,
+                "TopMargin": 8.0,
+                "BottomMargin": 12.0,
+                "Tag": 143,
+                "ActionTag": -807405121,
+                "Size": {
+                  "X": 1200.0,
+                  "Y": 180.0
+                },
+                "Name": "Panel_cardbox",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0011.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 67,
+                "Scale9OriginY": 28,
+                "Scale9Width": 8,
+                "Scale9Height": 32,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 639.1196,
+                  "Y": 267.3317
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 3.9945,
+                  "Y": 1.3367
+                },
+                "PreSize": {
+                  "X": 0.8875,
+                  "Y": 0.44
+                },
+                "LeftMargin": 568.1196,
+                "RightMargin": -550.1196,
+                "TopMargin": -111.3317,
+                "BottomMargin": 223.3317,
+                "Tag": 144,
+                "ActionTag": -618560141,
+                "Size": {
+                  "X": 142.0,
+                  "Y": 88.0
+                },
+                "Name": "ImgReady",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0059.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 87,
+                "Scale9OriginY": 39,
+                "Scale9Width": 92,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 226.0,
+                  "Y": 230.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.4125,
+                  "Y": 1.15
+                },
+                "PreSize": {
+                  "X": 2.375,
+                  "Y": 0.9
+                },
+                "LeftMargin": 36.0,
+                "RightMargin": -256.0,
+                "TopMargin": -120.0,
+                "BottomMargin": 140.0,
+                "Tag": 145,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 35,
+                    "LabelText": "不要吵了，专心玩游戏吧",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 190.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6667
+                    },
+                    "PreSize": {
+                      "X": 0.9211,
+                      "Y": 0.6667
+                    },
+                    "LeftMargin": 15.0,
+                    "RightMargin": 15.0,
+                    "BottomMargin": 60.0,
+                    "Tag": 146,
+                    "ActionTag": -738535006,
+                    "Size": {
+                      "X": 350.0,
+                      "Y": 120.0
+                    },
+                    "Name": "Text_word",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1148155159,
+                "Size": {
+                  "X": 380.0,
+                  "Y": 180.0
+                },
+                "Name": "Image_Dialog",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0014.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 51,
+                "Scale9Width": 46,
+                "Scale9Height": 53,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 290.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.25,
+                  "Y": 1.45
+                },
+                "PreSize": {
+                  "X": 0.8125,
+                  "Y": 0.775
+                },
+                "LeftMargin": 135.0,
+                "RightMargin": -105.0,
+                "TopMargin": -167.5,
+                "BottomMargin": 212.5,
+                "Tag": 149,
+                "Children": [
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 55,
+                    "LabelText": "39",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "ddzPic/shuz1.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 77.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6,
+                      "Y": 0.3548
+                    },
+                    "LeftMargin": 26.0,
+                    "RightMargin": 26.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 150,
+                    "ActionTag": 2023149628,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 55.0
+                    },
+                    "Name": "Atl_second",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 1076112485,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 155.0
+                },
+                "Name": "Image_clock",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0015.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 57,
+                "Scale9OriginY": 25,
+                "Scale9Width": 30,
+                "Scale9Height": 40,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 631.6884,
+                  "Y": 284.9349
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 3.9481,
+                  "Y": 1.4247
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.45
+                },
+                "LeftMargin": 559.6884,
+                "RightMargin": -543.6884,
+                "TopMargin": -129.9349,
+                "BottomMargin": 239.9349,
+                "Tag": 124,
+                "ActionTag": 213738322,
+                "Size": {
+                  "X": 144.0,
+                  "Y": 90.0
+                },
+                "Name": "Text_Score",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 230.0
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 4.0,
+                  "Y": 1.15
+                },
+                "PreSize": {
+                  "X": 5.7875,
+                  "Y": 0.875
+                },
+                "LeftMargin": 177.0,
+                "RightMargin": -943.0,
+                "TopMargin": -205.0,
+                "BottomMargin": 230.0,
+                "Tag": 181,
+                "ActionTag": 836996661,
+                "Size": {
+                  "X": 926.0,
+                  "Y": 175.0
+                },
+                "Name": "Panel_outcard",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "15km",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 75.0,
+                  "Y": 180.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4688,
+                  "Y": 0.9
+                },
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.2
+                },
+                "LeftMargin": 35.0,
+                "RightMargin": 45.0,
+                "BottomMargin": 160.0,
+                "Tag": 111,
+                "ActionTag": -635235870,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 40.0
+                },
+                "Name": "Tplayer_distance",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0001c.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 4,
+                "Scale9OriginY": 6,
+                "Scale9Width": 5,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 40.0,
+                  "Y": 185.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.25,
+                  "Y": 0.925
+                },
+                "PreSize": {
+                  "X": 0.125,
+                  "Y": 0.15
+                },
+                "LeftMargin": 30.0,
+                "RightMargin": 110.0,
+                "BottomMargin": 170.0,
+                "Tag": 112,
+                "ActionTag": -1983944738,
+                "Size": {
+                  "X": 20.0,
+                  "Y": 30.0
+                },
+                "Name": "Image_position",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0021.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 44,
+                "Scale9OriginY": 46,
+                "Scale9Width": 46,
+                "Scale9Height": 50,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 260.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 1.3
+                },
+                "PreSize": {
+                  "X": 0.8375,
+                  "Y": 0.71
+                },
+                "LeftMargin": 13.0,
+                "RightMargin": 13.0,
+                "TopMargin": -131.0,
+                "BottomMargin": 189.0,
+                "Tag": 178,
+                "ActionTag": 83096638,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 142.0
+                },
+                "Name": "Image_Land",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 426573707,
+            "Size": {
+              "X": 160.0,
+              "Y": 200.0
+            },
+            "Name": "Panel_player0",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1163.6306,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8723,
+              "Y": 0.5333
+            },
+            "PreSize": {
+              "X": 0.1199,
+              "Y": 0.2667
+            },
+            "LeftMargin": 1163.6306,
+            "RightMargin": 10.3694,
+            "TopMargin": 150.0,
+            "BottomMargin": 400.0,
+            "Tag": 153,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -160.0,
+                  "Y": 200.0
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "RotationSkewX": 46.9996,
+                "RotationSkewY": 47.0021,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -1.0,
+                  "Y": 1.0
+                },
+                "PreSize": {
+                  "X": 1.875,
+                  "Y": 0.5
+                },
+                "LeftMargin": -160.0,
+                "RightMargin": 20.0,
+                "TopMargin": -100.0,
+                "BottomMargin": 200.0,
+                "Tag": 183,
+                "ActionTag": -417031345,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 100.0
+                },
+                "Name": "Panel_cardbox",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0001b.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 39,
+                "Scale9OriginY": 39,
+                "Scale9Width": 19,
+                "Scale9Height": 49,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 84.9977,
+                  "Y": 130.0
+                },
+                "Scale": {
+                  "ScaleX": 0.68,
+                  "ScaleY": 0.68
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5312,
+                  "Y": 0.65
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "LeftMargin": 4.9977,
+                "RightMargin": -4.9977,
+                "TopMargin": -30.0,
+                "BottomMargin": 30.0,
+                "Tag": 154,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/ImageFile.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 16,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 20.006,
+                      "Y": 44.3006
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.55
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.125,
+                      "Y": 0.2215
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 20.006,
+                    "RightMargin": -20.006,
+                    "TopMargin": -44.3006,
+                    "BottomMargin": 44.3006,
+                    "Tag": 155,
+                    "ActionTag": -985895691,
+                    "Size": {
+                      "X": 160.0,
+                      "Y": 200.0
+                    },
+                    "Name": "Image_player",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 25,
+                    "CharHeight": 40,
+                    "LabelText": "1000",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "ddzPic/shuz2.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 75.0,
+                      "Y": 25.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4688,
+                      "Y": 0.125
+                    },
+                    "PreSize": {
+                      "X": 0.625,
+                      "Y": 0.2
+                    },
+                    "LeftMargin": 25.0,
+                    "RightMargin": 35.0,
+                    "TopMargin": 155.0,
+                    "BottomMargin": 5.0,
+                    "Tag": 214,
+                    "ActionTag": 137551209,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Text_money",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "我是玩家三号",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 80.0,
+                      "Y": 175.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.875
+                    },
+                    "PreSize": {
+                      "X": 0.875,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": 10.0,
+                    "RightMargin": 10.0,
+                    "BottomMargin": 150.0,
+                    "Tag": 157,
+                    "ActionTag": -650632670,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 50.0
+                    },
+                    "Name": "Text_nickname",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1209841030,
+                "Size": {
+                  "X": 160.0,
+                  "Y": 200.0
+                },
+                "Name": "Image_break",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": -128.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": -0.8,
+                  "Y": 0.3
+                },
+                "PreSize": {
+                  "X": 1.875,
+                  "Y": 1.0
+                },
+                "LeftMargin": -428.0,
+                "RightMargin": 288.0,
+                "TopMargin": 140.0,
+                "BottomMargin": -140.0,
+                "Tag": 158,
+                "ActionTag": 731370290,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 200.0
+                },
+                "Name": "Panel_outcard",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0011.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 67,
+                "Scale9OriginY": 28,
+                "Scale9Width": 8,
+                "Scale9Height": 32,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -130.0914,
+                  "Y": 78.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.8131,
+                  "Y": 0.39
+                },
+                "PreSize": {
+                  "X": 0.8875,
+                  "Y": 0.44
+                },
+                "LeftMargin": -201.0914,
+                "RightMargin": 219.0914,
+                "TopMargin": 78.0,
+                "BottomMargin": 34.0,
+                "Tag": 159,
+                "ActionTag": 72941573,
+                "Size": {
+                  "X": 142.0,
+                  "Y": 88.0
+                },
+                "Name": "ImgReady",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0059.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 87,
+                "Scale9OriginY": 39,
+                "Scale9Width": 92,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -40.825,
+                  "Y": -10.7499
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "RotationSkewX": 180.0,
+                "RotationSkewY": 180.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.2552,
+                  "Y": -0.0537
+                },
+                "PreSize": {
+                  "X": 2.625,
+                  "Y": 0.9
+                },
+                "LeftMargin": -250.825,
+                "RightMargin": -9.175,
+                "TopMargin": 120.7499,
+                "BottomMargin": -100.7499,
+                "Tag": 160,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 35,
+                    "LabelText": "不要吵了，专心玩游戏吧",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 200.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 180.0,
+                    "RotationSkewY": 180.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4762,
+                      "Y": 0.6667
+                    },
+                    "PreSize": {
+                      "X": 0.8333,
+                      "Y": 0.6667
+                    },
+                    "LeftMargin": 25.0,
+                    "RightMargin": 45.0,
+                    "BottomMargin": 60.0,
+                    "Tag": 161,
+                    "ActionTag": -73782589,
+                    "Size": {
+                      "X": 350.0,
+                      "Y": 120.0
+                    },
+                    "Name": "Text_word",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1885453654,
+                "Size": {
+                  "X": 420.0,
+                  "Y": 180.0
+                },
+                "Name": "Image_Dialog",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0014.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 51,
+                "Scale9Width": 46,
+                "Scale9Height": 53,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -180.0,
+                  "Y": 140.0
+                },
+                "Scale": {
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -1.125,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 0.8125,
+                  "Y": 0.775
+                },
+                "LeftMargin": -245.0,
+                "RightMargin": 275.0,
+                "TopMargin": -17.5,
+                "BottomMargin": 62.5,
+                "Tag": 162,
+                "Children": [
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 55,
+                    "LabelText": "39",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "ddzPic/shuz1.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 77.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6,
+                      "Y": 0.3548
+                    },
+                    "LeftMargin": 26.0,
+                    "RightMargin": 26.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 163,
+                    "ActionTag": -320611616,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 55.0
+                    },
+                    "Name": "Atl_second",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 1183375239,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 155.0
+                },
+                "Name": "Image_clock",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0015.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 29,
+                "Scale9Width": 50,
+                "Scale9Height": 32,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -133.6625,
+                  "Y": 78.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.8354,
+                  "Y": 0.39
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.45
+                },
+                "LeftMargin": -205.6625,
+                "RightMargin": 221.6625,
+                "TopMargin": 77.0,
+                "BottomMargin": 33.0,
+                "Tag": 126,
+                "ActionTag": -1949441015,
+                "Size": {
+                  "X": 144.0,
+                  "Y": 90.0
+                },
+                "Name": "Text_Score",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "15km",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 98.0,
+                  "Y": 208.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6125,
+                  "Y": 1.04
+                },
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.2
+                },
+                "LeftMargin": 58.0,
+                "RightMargin": 22.0,
+                "TopMargin": -28.0,
+                "BottomMargin": 188.0,
+                "Tag": 110,
+                "ActionTag": 15847625,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 40.0
+                },
+                "Name": "Tplayer_distance",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0001c.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 4,
+                "Scale9OriginY": 6,
+                "Scale9Width": 5,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60.0,
+                  "Y": 214.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.375,
+                  "Y": 1.07
+                },
+                "PreSize": {
+                  "X": 0.125,
+                  "Y": 0.15
+                },
+                "LeftMargin": 50.0,
+                "RightMargin": 90.0,
+                "TopMargin": -29.0,
+                "BottomMargin": 199.0,
+                "Tag": 113,
+                "ActionTag": -1085087626,
+                "Size": {
+                  "X": 20.0,
+                  "Y": 30.0
+                },
+                "Name": "Image_position",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0021.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 44,
+                "Scale9OriginY": 46,
+                "Scale9Width": 46,
+                "Scale9Height": 50,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -45.9226,
+                  "Y": 150.4974
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.287,
+                  "Y": 0.7525
+                },
+                "PreSize": {
+                  "X": 0.8375,
+                  "Y": 0.71
+                },
+                "LeftMargin": -112.9226,
+                "RightMargin": 138.9226,
+                "TopMargin": -21.4974,
+                "BottomMargin": 79.4974,
+                "Tag": 179,
+                "ActionTag": 659677862,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 142.0
+                },
+                "Name": "Image_Land",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -17.9648,
+                  "Y": -71.8599
+                },
+                "Scale": {
+                  "ScaleX": 0.65,
+                  "ScaleY": 0.65
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.1123,
+                  "Y": -0.3593
+                },
+                "PreSize": {
+                  "X": 1.25,
+                  "Y": 1.0
+                },
+                "LeftMargin": -17.9648,
+                "RightMargin": -22.0352,
+                "TopMargin": 71.8599,
+                "BottomMargin": -71.8599,
+                "Tag": 54,
+                "ActionTag": -1447360322,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "Panel_2",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 556577394,
+            "Size": {
+              "X": 160.0,
+              "Y": 200.0
+            },
+            "Name": "Panel_player1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1.9757,
+              "Y": 400.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0015,
+              "Y": 0.5333
+            },
+            "PreSize": {
+              "X": 0.1199,
+              "Y": 0.2667
+            },
+            "LeftMargin": 1.9757,
+            "RightMargin": 1172.0243,
+            "TopMargin": 150.0,
+            "BottomMargin": 400.0,
+            "Tag": 166,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 170.0,
+                  "Y": 40.0
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "RotationSkewX": -46.9972,
+                "RotationSkewY": -46.9991,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0625,
+                  "Y": 0.2
+                },
+                "PreSize": {
+                  "X": 0.625,
+                  "Y": 1.5
+                },
+                "LeftMargin": 170.0,
+                "RightMargin": -110.0,
+                "TopMargin": -140.0,
+                "BottomMargin": 40.0,
+                "Tag": 182,
+                "ActionTag": 1724657712,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 300.0
+                },
+                "Name": "Panel_cardbox",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0001b.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 39,
+                "Scale9OriginY": 39,
+                "Scale9Width": 19,
+                "Scale9Height": 49,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.0,
+                  "Y": 120.0
+                },
+                "Scale": {
+                  "ScaleX": 0.68,
+                  "ScaleY": 0.68
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4375,
+                  "Y": 0.6
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "LeftMargin": -10.0,
+                "RightMargin": 10.0,
+                "TopMargin": -20.0,
+                "BottomMargin": 20.0,
+                "Tag": 167,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/ImageFile.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 16,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 18.5792,
+                      "Y": 41.3057
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.55
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1161,
+                      "Y": 0.2065
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 18.5792,
+                    "RightMargin": -18.5792,
+                    "TopMargin": -41.3057,
+                    "BottomMargin": 41.3057,
+                    "Tag": 168,
+                    "ActionTag": 360438650,
+                    "Size": {
+                      "X": 160.0,
+                      "Y": 200.0
+                    },
+                    "Name": "Image_player",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 25,
+                    "CharHeight": 40,
+                    "LabelText": "1000",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "ddzPic/shuz2.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 75.0,
+                      "Y": 25.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4688,
+                      "Y": 0.125
+                    },
+                    "PreSize": {
+                      "X": 0.625,
+                      "Y": 0.2
+                    },
+                    "LeftMargin": 25.0,
+                    "RightMargin": 35.0,
+                    "TopMargin": 155.0,
+                    "BottomMargin": 5.0,
+                    "Tag": 215,
+                    "ActionTag": -1283329190,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Text_money",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "我是玩家三号",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 80.0,
+                      "Y": 175.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.875
+                    },
+                    "PreSize": {
+                      "X": 0.875,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": 10.0,
+                    "RightMargin": 10.0,
+                    "BottomMargin": 150.0,
+                    "Tag": 170,
+                    "ActionTag": 785282700,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 50.0
+                    },
+                    "Name": "Text_nickname",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1843864057,
+                "Size": {
+                  "X": 160.0,
+                  "Y": 200.0
+                },
+                "Name": "Image_break",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 448.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 2.8,
+                  "Y": 0.3
+                },
+                "PreSize": {
+                  "X": 1.875,
+                  "Y": 1.0
+                },
+                "LeftMargin": 148.0,
+                "RightMargin": -288.0,
+                "TopMargin": 140.0,
+                "BottomMargin": -140.0,
+                "Tag": 171,
+                "ActionTag": 1281566175,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 200.0
+                },
+                "Name": "Panel_outcard",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0011.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 67,
+                "Scale9OriginY": 28,
+                "Scale9Width": 8,
+                "Scale9Height": 32,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 322.36,
+                  "Y": 58.995
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 2.0148,
+                  "Y": 0.295
+                },
+                "PreSize": {
+                  "X": 0.8875,
+                  "Y": 0.44
+                },
+                "LeftMargin": 251.36,
+                "RightMargin": -233.36,
+                "TopMargin": 97.005,
+                "BottomMargin": 14.995,
+                "Tag": 172,
+                "ActionTag": 1785571185,
+                "Size": {
+                  "X": 142.0,
+                  "Y": 88.0
+                },
+                "Name": "ImgReady",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0059.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 87,
+                "Scale9OriginY": 39,
+                "Scale9Width": 92,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 11.0
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "RotationSkewX": 180.0,
+                "RotationSkewY": 360.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.25,
+                  "Y": 0.055
+                },
+                "PreSize": {
+                  "X": 2.625,
+                  "Y": 0.9
+                },
+                "LeftMargin": -10.0,
+                "RightMargin": -250.0,
+                "TopMargin": 99.0,
+                "BottomMargin": -79.0,
+                "Tag": 173,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 35,
+                    "LabelText": "不要吵了，专心玩游戏吧",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 200.0,
+                      "Y": 119.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 180.0,
+                    "RotationSkewY": 360.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4762,
+                      "Y": 0.6667
+                    },
+                    "PreSize": {
+                      "X": 0.8333,
+                      "Y": 0.6667
+                    },
+                    "LeftMargin": 25.0,
+                    "RightMargin": 45.0,
+                    "TopMargin": 0.0001,
+                    "BottomMargin": 59.9999,
+                    "Tag": 174,
+                    "ActionTag": 2064286369,
+                    "Size": {
+                      "X": 350.0,
+                      "Y": 120.0
+                    },
+                    "Name": "Text_word",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -359698121,
+                "Size": {
+                  "X": 420.0,
+                  "Y": 180.0
+                },
+                "Name": "Image_Dialog",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0014.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 51,
+                "Scale9Width": 46,
+                "Scale9Height": 53,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 331.3919,
+                  "Y": 140.0
+                },
+                "Scale": {
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 2.0712,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 0.8125,
+                  "Y": 0.775
+                },
+                "LeftMargin": 266.3919,
+                "RightMargin": -236.3919,
+                "TopMargin": -17.5,
+                "BottomMargin": 62.5,
+                "Tag": 175,
+                "Children": [
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 55,
+                    "LabelText": "39",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "ddzPic/shuz1.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 77.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.927
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6,
+                      "Y": 0.3548
+                    },
+                    "LeftMargin": 26.0,
+                    "RightMargin": 26.0,
+                    "TopMargin": 50.0,
+                    "BottomMargin": 50.0,
+                    "Tag": 176,
+                    "ActionTag": 2079766622,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 55.0
+                    },
+                    "Name": "Atl_second",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 1949880317,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 155.0
+                },
+                "Name": "Image_clock",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0015.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 29,
+                "Scale9Width": 50,
+                "Scale9Height": 32,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 330.0,
+                  "Y": 78.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 2.0625,
+                  "Y": 0.39
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.45
+                },
+                "LeftMargin": 258.0,
+                "RightMargin": -242.0,
+                "TopMargin": 77.0,
+                "BottomMargin": 33.0,
+                "Tag": 125,
+                "ActionTag": 1856638858,
+                "Size": {
+                  "X": 144.0,
+                  "Y": 90.0
+                },
+                "Name": "Text_Score",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "15km",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 90.0,
+                  "Y": 197.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5625,
+                  "Y": 0.985
+                },
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.2
+                },
+                "LeftMargin": 50.0,
+                "RightMargin": 30.0,
+                "TopMargin": -17.0,
+                "BottomMargin": 177.0,
+                "Tag": 108,
+                "ActionTag": -2144444815,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 40.0
+                },
+                "Name": "Tplayer_distance",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0001c.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 4,
+                "Scale9OriginY": 6,
+                "Scale9Width": 5,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 202.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3125,
+                  "Y": 1.01
+                },
+                "PreSize": {
+                  "X": 0.125,
+                  "Y": 0.15
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 100.0,
+                "TopMargin": -17.0,
+                "BottomMargin": 187.0,
+                "Tag": 114,
+                "ActionTag": -1711284653,
+                "Size": {
+                  "X": 20.0,
+                  "Y": 30.0
+                },
+                "Name": "Image_position",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0021.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 44,
+                "Scale9OriginY": 46,
+                "Scale9Width": 46,
+                "Scale9Height": 50,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 179.0112,
+                  "Y": 137.8254
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.1188,
+                  "Y": 0.6891
+                },
+                "PreSize": {
+                  "X": 0.8375,
+                  "Y": 0.71
+                },
+                "LeftMargin": 112.0112,
+                "RightMargin": -86.0112,
+                "TopMargin": -8.8254,
+                "BottomMargin": 66.8254,
+                "Tag": 180,
+                "ActionTag": 717083702,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 142.0
+                },
+                "Name": "Image_Land",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 16.504,
+                  "Y": -70.2891
+                },
+                "Scale": {
+                  "ScaleX": 0.65,
+                  "ScaleY": 0.65
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1031,
+                  "Y": -0.3514
+                },
+                "PreSize": {
+                  "X": 1.25,
+                  "Y": 1.0
+                },
+                "LeftMargin": 16.504,
+                "RightMargin": -56.504,
+                "TopMargin": 70.2891,
+                "BottomMargin": -70.2891,
+                "Tag": 53,
+                "ActionTag": -1980050090,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "Panel_1",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -2041743252,
+            "Size": {
+              "X": 160.0,
+              "Y": 200.0
+            },
+            "Name": "Panel_player2",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "ddzGamePlist.plist",
+        "ddzGamePlist.png",
+        "ddzPic/shuz1.png",
+        "ddzPic/shuz2.png",
+        "Default/ImageFile.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

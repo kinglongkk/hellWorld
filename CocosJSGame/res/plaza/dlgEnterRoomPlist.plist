@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>enterRoom/enterRoomPanel_frameBg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{158,164}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{158,164}</string>
+			</dict>
+			<key>enterRoom/enterRPanel_numBg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{158,138},{150,96}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{150,96}</string>
+			</dict>
+			<key>enterRoom/enterRPanel_numInputBg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,164},{78,62}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,62}</string>
+			</dict>
+			<key>enterRoom/enterRPanel_textFrame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{62,164},{79,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{79,61}</string>
+			</dict>
+			<key>enterRoom/enterRPanel_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{158,0},{138,138}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{138,138}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>dlgEnterRoomPlist.png</string>
+			<key>realTextureFileName</key>
+			<string>dlgEnterRoomPlist.png</string>
+			<key>size</key>
+			<string>{308,243}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>308</integer>
+			<key>height</key>
+			<integer>243</integer>
+		</dict>
+	</dict>
+</plist>

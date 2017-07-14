@@ -1,0 +1,615 @@
+{
+  "ID": "2e40c1c5-ce5b-4141-98cb-7a08571ecc08",
+  "Version": "2.3.4",
+  "Name": "LoginScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 81,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 25,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "public/login_bg.jpg",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 440,
+                "Scale9OriginY": 247,
+                "Scale9Width": 454,
+                "Scale9Height": 256,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 376.425
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5019
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "TopMargin": -1.425,
+                "BottomMargin": 1.425,
+                "Tag": 24,
+                "ActionTag": 524845770,
+                "Size": {
+                  "X": 1334.0,
+                  "Y": 750.0
+                },
+                "Name": "login_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "login/login_logo.png",
+                  "Plist": "LoginPlist.plist"
+                },
+                "Scale9OriginX": 165,
+                "Scale9OriginY": 127,
+                "Scale9Width": 171,
+                "Scale9Height": 132,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 525.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 0.3756,
+                  "Y": 0.5147
+                },
+                "LeftMargin": 416.5,
+                "RightMargin": 416.5,
+                "TopMargin": 32.0,
+                "BottomMargin": 332.0,
+                "Tag": 27,
+                "ActionTag": -125348907,
+                "Size": {
+                  "X": 501.0,
+                  "Y": 386.0
+                },
+                "Name": "login_logo",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "login/login_btnWxPress.png",
+                  "Plist": "LoginPlist.plist"
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "login/login_btnWxPress.png",
+                  "Plist": "LoginPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "login/login_btnWxNomal.png",
+                  "Plist": "LoginPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 356,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 210.975
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2813
+                },
+                "PreSize": {
+                  "X": 0.2894,
+                  "Y": 0.144
+                },
+                "LeftMargin": 474.0,
+                "RightMargin": 474.0,
+                "TopMargin": 485.025,
+                "BottomMargin": 156.975,
+                "Tag": 28,
+                "ActionTag": 815261857,
+                "Size": {
+                  "X": 386.0,
+                  "Y": 108.0
+                },
+                "Name": "login_btnWx",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.2
+                },
+                "VerticalEdge": "BottomEdge",
+                "TopMargin": 600.0,
+                "Tag": 29,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "public/login_bgButom.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 440,
+                    "Scale9OriginY": 28,
+                    "Scale9Width": 454,
+                    "Scale9Height": 29,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 42.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.2833
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.5667
+                    },
+                    "VerticalEdge": "BottomEdge",
+                    "TopMargin": 65.0,
+                    "Tag": 26,
+                    "ActionTag": -13852621,
+                    "Size": {
+                      "X": 1334.0,
+                      "Y": 85.0
+                    },
+                    "Name": "login_bgButtom",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "著作权人：厦门怀沣网络科技有限公司",
+                    "FontResource": {
+                      "Type": "Default",
+                      "Path": "",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 18.4092,
+                      "Y": 32.595
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0138,
+                      "Y": 0.2173
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.5997,
+                      "Y": 0.28
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 18.4092,
+                    "RightMargin": 515.5911,
+                    "TopMargin": 96.405,
+                    "BottomMargin": 11.595,
+                    "Tag": 30,
+                    "ActionTag": -621667210,
+                    "Size": {
+                      "X": 799.9998,
+                      "Y": 42.0
+                    },
+                    "Name": "Text_company",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "批准文号：981681000010086",
+                    "FontResource": {
+                      "Type": "Default",
+                      "Path": "",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1304.3853,
+                      "Y": 36.09
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9778,
+                      "Y": 0.2406
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.4498,
+                      "Y": 0.2333
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 704.3521,
+                    "RightMargin": 29.6147,
+                    "TopMargin": 96.4125,
+                    "BottomMargin": 18.5925,
+                    "Tag": 31,
+                    "ActionTag": 1024461972,
+                    "Size": {
+                      "X": 600.0332,
+                      "Y": 34.995
+                    },
+                    "Name": "Text_approval",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 36,
+                    "LabelText": "抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当\n适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活",
+                    "FontResource": {
+                      "Type": "Default",
+                      "Path": "",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {},
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": 0.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 116.145
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.7743
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.9745,
+                      "Y": 0.6667
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 17.0085,
+                    "RightMargin": 17.0085,
+                    "TopMargin": -16.1475,
+                    "BottomMargin": 66.1425,
+                    "Tag": 32,
+                    "ActionTag": -1586628771,
+                    "Size": {
+                      "X": 1299.983,
+                      "Y": 100.005
+                    },
+                    "Name": "Text_tip",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -442400591,
+                "Size": {
+                  "X": 1334.0,
+                  "Y": 150.0
+                },
+                "Name": "login_buttomLayer",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 48,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "请输入账号",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 450.508,
+                  "Y": 287.4297
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3377,
+                  "Y": 0.3832
+                },
+                "PreSize": {
+                  "X": 0.2999,
+                  "Y": 0.08
+                },
+                "LeftMargin": 250.508,
+                "RightMargin": 683.492,
+                "TopMargin": 432.5703,
+                "BottomMargin": 257.4297,
+                "Tag": 12,
+                "ActionTag": -974173184,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 60.0
+                },
+                "Name": "TextField_account",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 48,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "请输入密码",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 896.7465,
+                  "Y": 293.7343
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6722,
+                  "Y": 0.3916
+                },
+                "PreSize": {
+                  "X": 0.2999,
+                  "Y": 0.08
+                },
+                "LeftMargin": 696.7465,
+                "RightMargin": 237.2534,
+                "TopMargin": 426.2657,
+                "BottomMargin": 263.7343,
+                "Tag": 13,
+                "ActionTag": -1703638523,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 60.0
+                },
+                "Name": "TextField_password",
+                "ctype": "TextFieldObjectData"
+              }
+            ],
+            "ActionTag": -1345265567,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "login_mainLayer",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "LoginPlist.plist",
+        "LoginPlist.png",
+        "public/login_bg.jpg",
+        "public/login_bgButom.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

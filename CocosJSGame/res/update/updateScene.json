@@ -1,0 +1,539 @@
+{
+  "ID": "ce620a83-3f12-437b-93f7-15a0110652ab",
+  "Version": "2.3.4",
+  "Name": "updateScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 59,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "StretchWidthEnable": true,
+            "StretchHeightEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 60,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "updatePlist/img_bg.png",
+                  "Plist": "updatePlist.plist"
+                },
+                "Scale9Width": 960,
+                "Scale9Height": 640,
+                "StretchWidthEnable": true,
+                "StretchHeightEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 480.0,
+                  "Y": 320.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "Tag": 61,
+                "ActionTag": -166325433,
+                "Size": {
+                  "X": 960.0,
+                  "Y": 640.0
+                },
+                "Name": "ImgBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 480.0,
+                  "Y": 320.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.8333,
+                  "Y": 0.9375
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 80.0,
+                "RightMargin": 80.0,
+                "TopMargin": 20.0,
+                "BottomMargin": 20.0,
+                "Tag": 63,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "updatePlist/img_bar_bg.png",
+                      "Plist": "updatePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 418.0,
+                      "Y": 213.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5225,
+                      "Y": 0.355
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 109.0,
+                    "RightMargin": 73.0,
+                    "TopMargin": 342.0,
+                    "BottomMargin": 168.0,
+                    "Tag": 65,
+                    "ActionTag": 1910228004,
+                    "Size": {
+                      "X": 618.0,
+                      "Y": 90.0
+                    },
+                    "Name": "SprBarBg",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "ProgressInfo": 0,
+                    "ImageFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "updatePlist/img_bar.png",
+                      "Plist": "updatePlist.plist"
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 400.0,
+                      "Y": 210.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.35
+                    },
+                    "PreSize": {
+                      "X": 0.6212,
+                      "Y": 0.0367
+                    },
+                    "LeftMargin": 151.5,
+                    "RightMargin": 151.5,
+                    "TopMargin": 379.0,
+                    "BottomMargin": 199.0,
+                    "Tag": 68,
+                    "ActionTag": -1421988111,
+                    "Size": {
+                      "X": 497.0,
+                      "Y": 22.0
+                    },
+                    "Name": "BarUpdate",
+                    "ctype": "LoadingBarObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "updatePlist/img_bar_r.png",
+                      "Plist": "updatePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 172.0,
+                      "Y": 226.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.215,
+                      "Y": 0.3767
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 145.5,
+                    "RightMargin": 601.5,
+                    "TopMargin": 342.0,
+                    "BottomMargin": 194.0,
+                    "Tag": 69,
+                    "ActionTag": 1034457783,
+                    "Size": {
+                      "X": 53.0,
+                      "Y": 64.0
+                    },
+                    "Name": "SprBarR",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "updatePlist/img_text.png",
+                      "Plist": "updatePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 169.0,
+                      "Y": 230.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2113,
+                      "Y": 0.3833
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 112.0,
+                    "RightMargin": 574.0,
+                    "TopMargin": 342.0,
+                    "BottomMargin": 202.0,
+                    "Tag": 67,
+                    "ActionTag": -1383266183,
+                    "Size": {
+                      "X": 114.0,
+                      "Y": 56.0
+                    },
+                    "Name": "SprText",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "LabelText": "0%",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/update_0.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 400.0,
+                      "Y": 210.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.35
+                    },
+                    "PreSize": {
+                      "X": 0.0012,
+                      "Y": 0.0683
+                    },
+                    "LeftMargin": 368.0,
+                    "RightMargin": 368.0,
+                    "TopMargin": 369.5,
+                    "BottomMargin": 189.5,
+                    "Tag": 71,
+                    "ActionTag": -2139692732,
+                    "Size": {
+                      "X": 64.0,
+                      "Y": 41.0
+                    },
+                    "Name": "BFLabPercent",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 24,
+                    "LabelText": "正在更新游戏中，请稍后...",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 0,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 129,
+                      "G": 50,
+                      "B": 19
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -1.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 400.0,
+                      "Y": 163.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 129,
+                      "G": 50,
+                      "B": 19
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.2717
+                    },
+                    "PreSize": {
+                      "X": 0.75,
+                      "Y": 0.0667
+                    },
+                    "LeftMargin": 100.0,
+                    "RightMargin": 100.0,
+                    "TopMargin": 417.0,
+                    "BottomMargin": 143.0,
+                    "Tag": 70,
+                    "ActionTag": 1258131449,
+                    "Size": {
+                      "X": 600.0,
+                      "Y": 40.0
+                    },
+                    "Name": "TextTip",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "updatePlist/btn_re_update_1.png",
+                      "Plist": "updatePlist.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "updatePlist/btn_re_update_2.png",
+                      "Plist": "updatePlist.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "updatePlist/btn_re_update_1.png",
+                      "Plist": "updatePlist.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 171,
+                    "Scale9Height": 50,
+                    "OutlineSize": 0,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": 0.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 400.0,
+                      "Y": 98.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1633
+                    },
+                    "PreSize": {
+                      "X": 0.2512,
+                      "Y": 0.12
+                    },
+                    "LeftMargin": 299.5,
+                    "RightMargin": 299.5,
+                    "TopMargin": 466.0,
+                    "BottomMargin": 62.0,
+                    "Tag": 66,
+                    "ActionTag": -704443007,
+                    "Size": {
+                      "X": 201.0,
+                      "Y": 72.0
+                    },
+                    "Name": "BtnReUpdate",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 1029126902,
+                "Size": {
+                  "X": 800.0,
+                  "Y": 600.0
+                },
+                "Name": "PanelSub",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 593569744,
+            "Size": {
+              "X": 960.0,
+              "Y": 640.0
+            },
+            "Name": "PanelBg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "font/update_0.fnt",
+        "font/update_0.png",
+        "updatePlist.plist",
+        "updatePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

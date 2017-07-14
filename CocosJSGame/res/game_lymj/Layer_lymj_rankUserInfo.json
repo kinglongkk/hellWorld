@@ -1,0 +1,232 @@
+{
+  "ID": "ea8cc8b9-9649-4a24-95cf-5f94ce548c5f",
+  "Version": "2.3.4",
+  "Name": "Layer_lymj_rankUserInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 23,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -52.5,
+            "RightMargin": -52.5,
+            "TopMargin": -60.0,
+            "BottomMargin": -60.0,
+            "Tag": 2236,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 16,
+                "LabelText": "玩家小丸子",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 54.4635,
+                  "Y": 101.2055
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5187,
+                  "Y": 0.8434
+                },
+                "PreSize": {
+                  "X": 2.2857,
+                  "Y": 0.2333
+                },
+                "LeftMargin": -65.5365,
+                "RightMargin": -69.4635,
+                "TopMargin": 4.7945,
+                "BottomMargin": 87.2055,
+                "Tag": 39,
+                "ActionTag": -430559097,
+                "Size": {
+                  "X": 240.0,
+                  "Y": 28.0
+                },
+                "Name": "Text_nickName",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "lymj_userInfo/userInfo_headFrame.png",
+                  "Plist": "Plist_lymj_userInfo.plist"
+                },
+                "Scale9OriginX": 33,
+                "Scale9OriginY": 33,
+                "Scale9Width": 6,
+                "Scale9Height": 6,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 54.4635,
+                  "Y": 42.4762
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5187,
+                  "Y": 0.354
+                },
+                "PreSize": {
+                  "X": 0.6476,
+                  "Y": 0.5667
+                },
+                "LeftMargin": 20.4635,
+                "RightMargin": 16.5365,
+                "TopMargin": 43.5238,
+                "BottomMargin": 8.4762,
+                "Tag": 37,
+                "ActionTag": 1775808975,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 68.0
+                },
+                "Name": "Image_headFrame",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "lymj_userInfo/userInfo_flowerIcon.png",
+                  "Plist": "Plist_lymj_userInfo.plist"
+                },
+                "Scale9OriginX": 14,
+                "Scale9OriginY": 13,
+                "Scale9Width": 16,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 54.4659,
+                  "Y": 42.4762
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5187,
+                  "Y": 0.354
+                },
+                "PreSize": {
+                  "X": 0.6476,
+                  "Y": 0.5667
+                },
+                "LeftMargin": 20.4659,
+                "RightMargin": 16.5341,
+                "TopMargin": 43.5238,
+                "BottomMargin": 8.4762,
+                "Tag": 38,
+                "ActionTag": -1062691227,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 68.0
+                },
+                "Name": "Image_head",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1773018506,
+            "Size": {
+              "X": 105.0,
+              "Y": 120.0
+            },
+            "Name": "Panel_root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Plist_lymj_userInfo.plist",
+        "Plist_lymj_userInfo.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

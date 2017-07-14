@@ -1,0 +1,1635 @@
+{
+  "ID": "f2f510fa-c083-439e-9201-a3a2a738c9e2",
+  "Version": "2.3.4",
+  "Name": "dlgEnterRoomScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 40,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -440,
+            "Scale9OriginY": -247,
+            "Scale9Width": 880,
+            "Scale9Height": 494,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.7,
+              "ScaleY": 1.7
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 59,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_bg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 52,
+                "Scale9OriginY": 54,
+                "Scale9Width": 34,
+                "Scale9Height": 30,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.1921,
+                  "Y": 383.0002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5001,
+                  "Y": 0.5107
+                },
+                "PreSize": {
+                  "X": 0.2849,
+                  "Y": 0.56
+                },
+                "LeftMargin": 477.1921,
+                "RightMargin": 476.8079,
+                "TopMargin": 156.9998,
+                "BottomMargin": 173.0002,
+                "Tag": 60,
+                "ActionTag": 2087075916,
+                "Size": {
+                  "X": 380.0,
+                  "Y": 420.0
+                },
+                "Name": "Image_roomFrame",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 26,
+                "Scale9OriginY": 20,
+                "Scale9Width": 98,
+                "Scale9Height": 56,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 530.06
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7067
+                },
+                "PreSize": {
+                  "X": 0.2399,
+                  "Y": 0.128
+                },
+                "LeftMargin": 507.0,
+                "RightMargin": 507.0,
+                "TopMargin": 171.94,
+                "BottomMargin": 482.06,
+                "Tag": 61,
+                "ActionTag": -947465785,
+                "Size": {
+                  "X": 320.0,
+                  "Y": 96.0
+                },
+                "Name": "Image_numBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "CharWidth": 48,
+                "CharHeight": 56,
+                "LabelText": "",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "enterRoom/enterRPanel_num1.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 661.6399,
+                  "Y": 537.1976
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.496,
+                  "Y": 0.7163
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 661.6399,
+                "RightMargin": 672.3601,
+                "TopMargin": 212.8024,
+                "BottomMargin": 537.1976,
+                "Tag": 62,
+                "ActionTag": -285364887,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "AtlasLabel_input",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FontSize": 22,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "请输入房间号码进入游戏",
+                "MaxLengthText": 10,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 655.3979,
+                  "Y": 537.072
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4913,
+                  "Y": 0.7161
+                },
+                "PreSize": {
+                  "X": 0.1874,
+                  "Y": 0.032
+                },
+                "LeftMargin": 530.3979,
+                "RightMargin": 553.6021,
+                "TopMargin": 200.928,
+                "BottomMargin": 525.072,
+                "Tag": 68,
+                "ActionTag": 868558219,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 24.0
+                },
+                "Name": "TextField_inPutTip",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numInputBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_textFrame.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 49,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 561.6476,
+                  "Y": 462.076
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.421,
+                  "Y": 0.6161
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.0813
+                },
+                "LeftMargin": 522.1476,
+                "RightMargin": 732.8524,
+                "TopMargin": 257.424,
+                "BottomMargin": 431.576,
+                "Tag": 64,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 46,
+                    "LabelText": "1",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "enterRoom/enterRPanel_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.5,
+                      "Y": 30.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 127,
+                      "B": 127
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.481,
+                      "Y": 0.7541
+                    },
+                    "LeftMargin": 20.5,
+                    "RightMargin": 20.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 7.5,
+                    "Tag": 73,
+                    "ActionTag": -1143725594,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 46.0
+                    },
+                    "Name": "AtlasLabel_num",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 909393888,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 61.0
+                },
+                "Name": "Button_1",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numInputBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_textFrame.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 49,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 663.6914,
+                  "Y": 462.076
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4975,
+                  "Y": 0.6161
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.0813
+                },
+                "LeftMargin": 624.1914,
+                "RightMargin": 630.8086,
+                "TopMargin": 257.424,
+                "BottomMargin": 431.576,
+                "Tag": 74,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 46,
+                    "LabelText": "2",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "enterRoom/enterRPanel_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.5,
+                      "Y": 30.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 127,
+                      "B": 127
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.481,
+                      "Y": 0.7541
+                    },
+                    "LeftMargin": 20.5,
+                    "RightMargin": 20.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 7.5,
+                    "Tag": 75,
+                    "ActionTag": 604337277,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 46.0
+                    },
+                    "Name": "AtlasLabel_num",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 1426574656,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 61.0
+                },
+                "Name": "Button_2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numInputBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_textFrame.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 49,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 765.3813,
+                  "Y": 462.076
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5737,
+                  "Y": 0.6161
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.0813
+                },
+                "LeftMargin": 725.8813,
+                "RightMargin": 529.1187,
+                "TopMargin": 257.424,
+                "BottomMargin": 431.576,
+                "Tag": 76,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 46,
+                    "LabelText": "3",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "enterRoom/enterRPanel_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.5,
+                      "Y": 30.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 127,
+                      "B": 127
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.481,
+                      "Y": 0.7541
+                    },
+                    "LeftMargin": 20.5,
+                    "RightMargin": 20.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 7.5,
+                    "Tag": 77,
+                    "ActionTag": -919280843,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 46.0
+                    },
+                    "Name": "AtlasLabel_num",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -1718391105,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 61.0
+                },
+                "Name": "Button_3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numInputBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_textFrame.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 49,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 561.6476,
+                  "Y": 394.7012
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.421,
+                  "Y": 0.5263
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.0813
+                },
+                "LeftMargin": 522.1476,
+                "RightMargin": 732.8524,
+                "TopMargin": 324.7988,
+                "BottomMargin": 364.2012,
+                "Tag": 78,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 46,
+                    "LabelText": "4",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "enterRoom/enterRPanel_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.5,
+                      "Y": 30.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 127,
+                      "B": 127
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.481,
+                      "Y": 0.7541
+                    },
+                    "LeftMargin": 20.5,
+                    "RightMargin": 20.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 7.5,
+                    "Tag": 79,
+                    "ActionTag": -338445877,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 46.0
+                    },
+                    "Name": "AtlasLabel_num",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 848925834,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 61.0
+                },
+                "Name": "Button_4",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numInputBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_textFrame.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 49,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 663.6914,
+                  "Y": 394.7012
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4975,
+                  "Y": 0.5263
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.0813
+                },
+                "LeftMargin": 624.1914,
+                "RightMargin": 630.8086,
+                "TopMargin": 324.7988,
+                "BottomMargin": 364.2012,
+                "Tag": 80,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 46,
+                    "LabelText": "5",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "enterRoom/enterRPanel_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.5,
+                      "Y": 30.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 127,
+                      "B": 127
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.481,
+                      "Y": 0.7541
+                    },
+                    "LeftMargin": 20.5,
+                    "RightMargin": 20.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 7.5,
+                    "Tag": 81,
+                    "ActionTag": 632407258,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 46.0
+                    },
+                    "Name": "AtlasLabel_num",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -810738219,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 61.0
+                },
+                "Name": "Button_5",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numInputBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_textFrame.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 49,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 765.3813,
+                  "Y": 394.7012
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5737,
+                  "Y": 0.5263
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.0813
+                },
+                "LeftMargin": 725.8813,
+                "RightMargin": 529.1187,
+                "TopMargin": 324.7988,
+                "BottomMargin": 364.2012,
+                "Tag": 82,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 46,
+                    "LabelText": "6",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "enterRoom/enterRPanel_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.5,
+                      "Y": 30.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 127,
+                      "B": 127
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.481,
+                      "Y": 0.7541
+                    },
+                    "LeftMargin": 20.5,
+                    "RightMargin": 20.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 7.5,
+                    "Tag": 83,
+                    "ActionTag": 1252766557,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 46.0
+                    },
+                    "Name": "AtlasLabel_num",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 797502110,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 61.0
+                },
+                "Name": "Button_6",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numInputBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_textFrame.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 49,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 561.6476,
+                  "Y": 327.326
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.421,
+                  "Y": 0.4364
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.0813
+                },
+                "LeftMargin": 522.1476,
+                "RightMargin": 732.8524,
+                "TopMargin": 392.174,
+                "BottomMargin": 296.826,
+                "Tag": 84,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 46,
+                    "LabelText": "7",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "enterRoom/enterRPanel_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.5,
+                      "Y": 30.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 127,
+                      "B": 127
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.481,
+                      "Y": 0.7541
+                    },
+                    "LeftMargin": 20.5,
+                    "RightMargin": 20.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 7.5,
+                    "Tag": 85,
+                    "ActionTag": 59134733,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 46.0
+                    },
+                    "Name": "AtlasLabel_num",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -2105443267,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 61.0
+                },
+                "Name": "Button_7",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numInputBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_textFrame.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 49,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 663.6914,
+                  "Y": 327.326
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4975,
+                  "Y": 0.4364
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.0813
+                },
+                "LeftMargin": 624.1914,
+                "RightMargin": 630.8086,
+                "TopMargin": 392.174,
+                "BottomMargin": 296.826,
+                "Tag": 86,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 46,
+                    "LabelText": "8",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "enterRoom/enterRPanel_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.5,
+                      "Y": 30.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 127,
+                      "B": 127
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.481,
+                      "Y": 0.7541
+                    },
+                    "LeftMargin": 20.5,
+                    "RightMargin": 20.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 7.5,
+                    "Tag": 87,
+                    "ActionTag": 935870860,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 46.0
+                    },
+                    "Name": "AtlasLabel_num",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -802804130,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 61.0
+                },
+                "Name": "Button_8",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numInputBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_textFrame.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 49,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 765.3813,
+                  "Y": 327.326
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5737,
+                  "Y": 0.4364
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.0813
+                },
+                "LeftMargin": 725.8813,
+                "RightMargin": 529.1187,
+                "TopMargin": 392.174,
+                "BottomMargin": 296.826,
+                "Tag": 88,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 46,
+                    "LabelText": "9",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "enterRoom/enterRPanel_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.5,
+                      "Y": 30.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 127,
+                      "B": 127
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.481,
+                      "Y": 0.7541
+                    },
+                    "LeftMargin": 20.5,
+                    "RightMargin": 20.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 7.5,
+                    "Tag": 89,
+                    "ActionTag": -961205612,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 46.0
+                    },
+                    "Name": "AtlasLabel_num",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -1543929811,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 61.0
+                },
+                "Name": "Button_9",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numInputBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_textFrame.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 49,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 663.6914,
+                  "Y": 259.9505
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4975,
+                  "Y": 0.3466
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.0813
+                },
+                "LeftMargin": 624.1914,
+                "RightMargin": 630.8086,
+                "TopMargin": 459.5495,
+                "BottomMargin": 229.4505,
+                "Tag": 90,
+                "Children": [
+                  {
+                    "CharWidth": 38,
+                    "CharHeight": 46,
+                    "LabelText": "0",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "enterRoom/enterRPanel_num.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.5,
+                      "Y": 30.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 127,
+                      "B": 127
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.481,
+                      "Y": 0.7541
+                    },
+                    "LeftMargin": 20.5,
+                    "RightMargin": 20.5,
+                    "TopMargin": 7.5,
+                    "BottomMargin": 7.5,
+                    "Tag": 91,
+                    "ActionTag": 1921152428,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 46.0
+                    },
+                    "Name": "AtlasLabel_num",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 1695483576,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 61.0
+                },
+                "Name": "Button_0",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 36,
+                "ButtonText": "清除",
+                "TextColor": {
+                  "G": 165,
+                  "B": 0
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numInputBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_textFrame.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 49,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 561.6476,
+                  "Y": 259.9505
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.421,
+                  "Y": 0.3466
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.0813
+                },
+                "LeftMargin": 522.1476,
+                "RightMargin": 732.8524,
+                "TopMargin": 459.5495,
+                "BottomMargin": 229.4505,
+                "Tag": 92,
+                "ActionTag": 3556485,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 61.0
+                },
+                "Name": "Button_clear",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 36,
+                "ButtonText": "删除",
+                "TextColor": {
+                  "G": 165,
+                  "B": 0
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_numInputBg.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "enterRoom/enterRPanel_textFrame.png",
+                  "Plist": "dlgEnterRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 49,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 765.3813,
+                  "Y": 259.9505
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5737,
+                  "Y": 0.3466
+                },
+                "PreSize": {
+                  "X": 0.0592,
+                  "Y": 0.0813
+                },
+                "LeftMargin": 725.8813,
+                "RightMargin": 529.1187,
+                "TopMargin": 459.5495,
+                "BottomMargin": 229.4505,
+                "Tag": 94,
+                "ActionTag": -1526619473,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 61.0
+                },
+                "Name": "Button_del",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1552194088,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "dlgEnterRoomPlist.plist",
+        "dlgEnterRoomPlist.png",
+        "enterRoom/enterRPanel_num.png",
+        "enterRoom/enterRPanel_num1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

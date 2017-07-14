@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>set/Text_sound.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{776,0},{122,122}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{122,122}</string>
+			</dict>
+			<key>set/Text_voice.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{898,0},{122,122}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{122,122}</string>
+			</dict>
+			<key>set/tuodongtiaonode.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{764,122},{103,103}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{103,103}</string>
+			</dict>
+			<key>set/tuo_two.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,122},{764,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{764,32}</string>
+			</dict>
+			<key>set/tuo_one.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{776,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{776,44}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>dlgPlazaSetScenePlist.png</string>
+			<key>realTextureFileName</key>
+			<string>dlgPlazaSetScenePlist.png</string>
+			<key>size</key>
+			<string>{1024,256}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>256</integer>
+		</dict>
+	</dict>
+</plist>

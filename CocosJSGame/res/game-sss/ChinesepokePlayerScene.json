@@ -1,0 +1,5070 @@
+{
+  "ID": "ef9b75f8-b575-4bcb-960e-f2bcc8331b98",
+  "Version": "2.3.4",
+  "Name": "ChinesepokePlayerScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": 1691748622,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 210.0,
+                "Y": 184.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1691748622,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.5,
+                "Y": 0.5,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1691748622,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1110,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 110.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.1467
+            },
+            "PreSize": {
+              "X": 0.8246,
+              "Y": 0.2933
+            },
+            "RightMargin": 234.0,
+            "TopMargin": 530.0,
+            "Tag": 1137,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 104,
+                  "G": 97,
+                  "B": 97
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 127.8524,
+                  "Y": 75.8862
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 191,
+                  "G": 191,
+                  "B": 191
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1162,
+                  "Y": 0.3449
+                },
+                "PreSize": {
+                  "X": 0.1818,
+                  "Y": 0.4545
+                },
+                "LeftMargin": 27.8524,
+                "RightMargin": 872.1476,
+                "TopMargin": 94.1138,
+                "BottomMargin": 25.8862,
+                "Tag": 1138,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/position.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9OriginX": 4,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 5,
+                    "Scale9Height": 9,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5016,
+                      "ScaleY": 0.684
+                    },
+                    "Position": {
+                      "X": 1.3,
+                      "Y": 132.11
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0065,
+                      "Y": 1.3211
+                    },
+                    "PreSize": {
+                      "X": 0.065,
+                      "Y": 0.21
+                    },
+                    "LeftMargin": -5.2208,
+                    "RightMargin": 192.2208,
+                    "TopMargin": -38.746,
+                    "BottomMargin": 117.746,
+                    "Tag": 1142,
+                    "ActionTag": 485906039,
+                    "Size": {
+                      "X": 13.0,
+                      "Y": 21.0
+                    },
+                    "Name": "Image_position",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/thumb_bg.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 33,
+                    "Scale9OriginY": 33,
+                    "Scale9Width": 31,
+                    "Scale9Height": 61,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 40.0,
+                      "Y": 51.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": 0.51
+                    },
+                    "PreSize": {
+                      "X": 0.485,
+                      "Y": 1.27
+                    },
+                    "LeftMargin": -8.5,
+                    "RightMargin": 111.5,
+                    "TopMargin": -14.5,
+                    "BottomMargin": -12.5,
+                    "Tag": 860,
+                    "ActionTag": 1330401582,
+                    "Size": {
+                      "X": 97.0,
+                      "Y": 127.0
+                    },
+                    "Name": "Image_thumb",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 24,
+                    "LabelText": "1000",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 77,
+                      "G": 77,
+                      "B": 77
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 39.38,
+                      "Y": -17.44
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1969,
+                      "Y": -0.1744
+                    },
+                    "PreSize": {
+                      "X": 0.525,
+                      "Y": 0.3
+                    },
+                    "LeftMargin": -13.12,
+                    "RightMargin": 108.12,
+                    "TopMargin": 87.44,
+                    "BottomMargin": -17.44,
+                    "Tag": 1141,
+                    "ActionTag": 543096741,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 30.0
+                    },
+                    "Name": "Text_money",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 16,
+                    "LabelText": "我是玩家三号",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 40.28,
+                      "Y": 101.55
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2014,
+                      "Y": 1.0155
+                    },
+                    "PreSize": {
+                      "X": 0.6,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": -19.72,
+                    "RightMargin": 99.72,
+                    "TopMargin": -14.05,
+                    "BottomMargin": 89.05,
+                    "Tag": 1140,
+                    "ActionTag": 1380129556,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 25.0
+                    },
+                    "Name": "Text_nickname",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 23,
+                    "LabelText": "15km",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 56.08,
+                      "Y": 125.27
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2804,
+                      "Y": 1.2527
+                    },
+                    "PreSize": {
+                      "X": 0.3,
+                      "Y": 0.3
+                    },
+                    "LeftMargin": 26.08,
+                    "RightMargin": 113.92,
+                    "TopMargin": -40.27,
+                    "BottomMargin": 110.27,
+                    "Tag": 1139,
+                    "ActionTag": 832562988,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 30.0
+                    },
+                    "Name": "Tplayer_distance",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/nobody_bg.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9OriginX": 39,
+                    "Scale9OriginY": 39,
+                    "Scale9Width": 42,
+                    "Scale9Height": 42,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 40.92,
+                      "Y": 48.8875
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2046,
+                      "Y": 0.4889
+                    },
+                    "PreSize": {
+                      "X": 0.4,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 0.92,
+                    "RightMargin": 119.08,
+                    "TopMargin": 11.1125,
+                    "BottomMargin": 8.8875,
+                    "Tag": 1143,
+                    "ActionTag": -526180396,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 80.0
+                    },
+                    "Name": "Image_player",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 126118897,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 100.0
+                },
+                "Name": "Player_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 672.98,
+                  "Y": 23.5612
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.6118,
+                  "Y": 0.1071
+                },
+                "PreSize": {
+                  "X": 0.7273,
+                  "Y": 0.8182
+                },
+                "LeftMargin": 272.98,
+                "RightMargin": 27.02,
+                "TopMargin": 16.4388,
+                "BottomMargin": 23.5612,
+                "Tag": 1144,
+                "ActionTag": 1204039828,
+                "Size": {
+                  "X": 800.0,
+                  "Y": 180.0
+                },
+                "Name": "Panel_cardbox",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 683.02,
+                  "Y": 57.002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6209,
+                  "Y": 0.2591
+                },
+                "PreSize": {
+                  "X": 0.1818,
+                  "Y": 1.0455
+                },
+                "LeftMargin": 583.02,
+                "RightMargin": 316.98,
+                "TopMargin": -67.002,
+                "BottomMargin": 57.002,
+                "Tag": 1145,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/over.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 217,
+                    "Scale9Height": 220,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.26,
+                      "Y": 115.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5013,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.235,
+                      "Y": 1.087
+                    },
+                    "LeftMargin": -23.24,
+                    "RightMargin": -23.76,
+                    "TopMargin": -10.0,
+                    "BottomMargin": -10.0,
+                    "Tag": 108,
+                    "ActionTag": 87370696,
+                    "Size": {
+                      "X": 247.0,
+                      "Y": 250.0
+                    },
+                    "Name": "Image_over",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/win_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.0,
+                      "Y": 299.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.65,
+                      "Y": 1.3
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 330.0,
+                    "RightMargin": -130.0,
+                    "TopMargin": -69.0,
+                    "BottomMargin": 299.0,
+                    "Tag": 217,
+                    "ActionTag": 1331179933,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultfirst_win",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/lost_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.0,
+                      "Y": 299.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.65,
+                      "Y": 1.3
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 330.0,
+                    "RightMargin": -130.0,
+                    "TopMargin": -69.0,
+                    "BottomMargin": 299.0,
+                    "Tag": 218,
+                    "ActionTag": 1897384083,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultfirst_lost",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/win_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.0,
+                      "Y": 230.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.65,
+                      "Y": 1.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 330.0,
+                    "RightMargin": -130.0,
+                    "BottomMargin": 230.0,
+                    "Tag": 219,
+                    "ActionTag": 575866843,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultsecond_win",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/lost_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.0,
+                      "Y": 230.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.65,
+                      "Y": 1.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 330.0,
+                    "RightMargin": -130.0,
+                    "BottomMargin": 230.0,
+                    "Tag": 220,
+                    "ActionTag": 100788017,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultsecond_lost",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/win_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.0,
+                      "Y": 161.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.65,
+                      "Y": 0.7
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 330.0,
+                    "RightMargin": -130.0,
+                    "TopMargin": 69.0,
+                    "BottomMargin": 161.0,
+                    "Tag": 221,
+                    "ActionTag": 429912309,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resulthird_win",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/lost_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 330.0,
+                      "Y": 161.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.65,
+                      "Y": 0.7
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 330.0,
+                    "RightMargin": -130.0,
+                    "TopMargin": 69.0,
+                    "BottomMargin": 161.0,
+                    "Tag": 222,
+                    "ActionTag": -1734770228,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resulthird_lost",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 33,
+                    "LabelText": "",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 109.22,
+                      "Y": -21.9287
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 128,
+                      "G": 0,
+                      "B": 128
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5461,
+                      "Y": -0.0953
+                    },
+                    "PreSize": {
+                      "X": 3.5,
+                      "Y": 0.2174
+                    },
+                    "LeftMargin": -240.78,
+                    "RightMargin": -259.22,
+                    "TopMargin": 226.9287,
+                    "BottomMargin": -46.9287,
+                    "Tag": 397,
+                    "ActionTag": 2040888949,
+                    "Size": {
+                      "X": 700.0,
+                      "Y": 50.0
+                    },
+                    "Name": "Text_Result",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_AllWater.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 96.2593,
+                      "Y": -11.0061
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4813,
+                      "Y": -0.0479
+                    },
+                    "PreSize": {
+                      "X": 5.2,
+                      "Y": 0.2826
+                    },
+                    "LeftMargin": -423.7407,
+                    "RightMargin": -416.2593,
+                    "TopMargin": 208.5061,
+                    "BottomMargin": -43.5061,
+                    "Tag": 245,
+                    "Children": [
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": ".500",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/win_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 430.0,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4135,
+                          "Y": 0.4615
+                        },
+                        "PreSize": {
+                          "X": 0.1346,
+                          "Y": 0.9231
+                        },
+                        "LeftMargin": 360.0,
+                        "RightMargin": 540.0,
+                        "TopMargin": 5.0,
+                        "Tag": 246,
+                        "ActionTag": 483157376,
+                        "Size": {
+                          "X": 140.0,
+                          "Y": 60.0
+                        },
+                        "Name": "resultsecond_win",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": "/500",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/lost_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 430.0,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4135,
+                          "Y": 0.4615
+                        },
+                        "PreSize": {
+                          "X": 0.1346,
+                          "Y": 0.9231
+                        },
+                        "LeftMargin": 360.0,
+                        "RightMargin": 540.0,
+                        "TopMargin": 5.0,
+                        "Tag": 247,
+                        "ActionTag": 1669315118,
+                        "Size": {
+                          "X": 140.0,
+                          "Y": 60.0
+                        },
+                        "Name": "resultsecond_lost",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": ".500",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/win_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 195.0,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1875,
+                          "Y": 0.4615
+                        },
+                        "PreSize": {
+                          "X": 0.1346,
+                          "Y": 0.9231
+                        },
+                        "LeftMargin": 125.0,
+                        "RightMargin": 775.0,
+                        "TopMargin": 5.0,
+                        "Tag": 248,
+                        "ActionTag": 1244470767,
+                        "Size": {
+                          "X": 140.0,
+                          "Y": 60.0
+                        },
+                        "Name": "resultfirst_win",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": "/500",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/lost_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 196.0,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1885,
+                          "Y": 0.4615
+                        },
+                        "PreSize": {
+                          "X": 0.1346,
+                          "Y": 0.9231
+                        },
+                        "LeftMargin": 126.0,
+                        "RightMargin": 774.0,
+                        "TopMargin": 5.0,
+                        "Tag": 249,
+                        "ActionTag": -1619719286,
+                        "Size": {
+                          "X": 140.0,
+                          "Y": 60.0
+                        },
+                        "Name": "resultfirst_lost",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": ".500",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/win_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 660.0,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.6346,
+                          "Y": 0.4615
+                        },
+                        "PreSize": {
+                          "X": 0.1346,
+                          "Y": 0.9231
+                        },
+                        "LeftMargin": 590.0,
+                        "RightMargin": 310.0,
+                        "TopMargin": 5.0,
+                        "Tag": 250,
+                        "ActionTag": -707747975,
+                        "Size": {
+                          "X": 140.0,
+                          "Y": 60.0
+                        },
+                        "Name": "resulthird_win",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": "/500",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/lost_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 660.0,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.6346,
+                          "Y": 0.4615
+                        },
+                        "PreSize": {
+                          "X": 0.1346,
+                          "Y": 0.9231
+                        },
+                        "LeftMargin": 590.0,
+                        "RightMargin": 310.0,
+                        "TopMargin": 5.0,
+                        "Tag": 251,
+                        "ActionTag": 1134152801,
+                        "Size": {
+                          "X": 140.0,
+                          "Y": 60.0
+                        },
+                        "Name": "resulthird_lost",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": ".500",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/win_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 890.0,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8558,
+                          "Y": 0.4615
+                        },
+                        "PreSize": {
+                          "X": 0.1346,
+                          "Y": 0.9231
+                        },
+                        "LeftMargin": 820.0,
+                        "RightMargin": 80.0,
+                        "TopMargin": 5.0,
+                        "Tag": 252,
+                        "ActionTag": -1072102368,
+                        "Size": {
+                          "X": 140.0,
+                          "Y": 60.0
+                        },
+                        "Name": "resulAll_win",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": "/500",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/lost_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 890.0,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8558,
+                          "Y": 0.4615
+                        },
+                        "PreSize": {
+                          "X": 0.1346,
+                          "Y": 0.9231
+                        },
+                        "LeftMargin": 820.0,
+                        "RightMargin": 80.0,
+                        "TopMargin": 5.0,
+                        "Tag": 253,
+                        "ActionTag": -2072333121,
+                        "Size": {
+                          "X": 140.0,
+                          "Y": 60.0
+                        },
+                        "Name": "resulAll_lost",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": 1020494252,
+                    "Size": {
+                      "X": 1040.0,
+                      "Y": 65.0
+                    },
+                    "Name": "Image_Water",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -2020956336,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 230.0
+                },
+                "Name": "Panel_outcard",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/Dialogbox.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "Scale9OriginX": 105,
+                "Scale9OriginY": 45,
+                "Scale9Width": 109,
+                "Scale9Height": 47,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 190.0,
+                  "Y": 165.2162
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "RotationSkewX": 180.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1727,
+                  "Y": 0.751
+                },
+                "PreSize": {
+                  "X": 0.29,
+                  "Y": 0.6227
+                },
+                "LeftMargin": 30.5,
+                "RightMargin": 750.5,
+                "TopMargin": -13.7162,
+                "BottomMargin": 96.7162,
+                "Tag": 1146,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "不要吵了，专心玩游戏吧",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.4717,
+                      "ScaleY": 0.5529
+                    },
+                    "Position": {
+                      "X": 152.9286,
+                      "Y": 43.1002
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 180.0,
+                    "RotationSkewY": 360.0,
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4794,
+                      "Y": 0.3146
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.95,
+                      "Y": 0.7
+                    },
+                    "LeftMargin": 9.9799,
+                    "RightMargin": 5.9701,
+                    "TopMargin": 51.0229,
+                    "BottomMargin": -9.9229,
+                    "Tag": 1147,
+                    "ActionTag": 50096599,
+                    "Size": {
+                      "X": 303.05,
+                      "Y": 95.9
+                    },
+                    "Name": "Text_word",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -2018560122,
+                "Size": {
+                  "X": 319.0,
+                  "Y": 137.0
+                },
+                "Name": "Image_Dialog",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/ready.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "Scale9OriginX": 68,
+                "Scale9OriginY": 40,
+                "Scale9Width": 6,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 678.9807,
+                  "Y": 162.1718
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6173,
+                  "Y": 0.7371
+                },
+                "PreSize": {
+                  "X": 0.1291,
+                  "Y": 0.4
+                },
+                "LeftMargin": 607.9807,
+                "RightMargin": 350.0193,
+                "TopMargin": 13.8282,
+                "BottomMargin": 118.1718,
+                "Tag": 1148,
+                "ActionTag": -760799535,
+                "Size": {
+                  "X": 142.0,
+                  "Y": 88.0
+                },
+                "Name": "Img_ready",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1360166372,
+            "Size": {
+              "X": 1100.0,
+              "Y": 220.0
+            },
+            "Name": "Panel_player0",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1334.0,
+              "Y": 450.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.6
+            },
+            "PreSize": {
+              "X": 0.1499,
+              "Y": 0.5333
+            },
+            "LeftMargin": 1134.0,
+            "TopMargin": 100.0,
+            "BottomMargin": 250.0,
+            "Tag": 1124,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 104,
+                  "G": 97,
+                  "B": 97
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 189.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 191,
+                  "G": 191,
+                  "B": 191
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.4725
+                },
+                "PreSize": {
+                  "X": 0.6,
+                  "Y": 0.45
+                },
+                "LeftMargin": 80.0,
+                "TopMargin": 121.0,
+                "BottomMargin": 99.0,
+                "Tag": 1125,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 23,
+                    "LabelText": "15km",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.58,
+                      "Y": 172.278
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5215,
+                      "Y": 0.9571
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.1667
+                    },
+                    "LeftMargin": 32.58,
+                    "RightMargin": 27.42,
+                    "TopMargin": -7.278,
+                    "BottomMargin": 157.278,
+                    "Tag": 1126,
+                    "ActionTag": 1078049613,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 30.0
+                    },
+                    "Name": "Tplayer_distance",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/position.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9OriginX": 4,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 5,
+                    "Scale9Height": 9,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 14.136,
+                      "Y": 176.256
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1178,
+                      "Y": 0.9792
+                    },
+                    "PreSize": {
+                      "X": 0.1083,
+                      "Y": 0.1167
+                    },
+                    "LeftMargin": 7.636,
+                    "RightMargin": 99.364,
+                    "TopMargin": -6.756,
+                    "BottomMargin": 165.756,
+                    "Tag": 1129,
+                    "ActionTag": 1634747271,
+                    "Size": {
+                      "X": 13.0,
+                      "Y": 21.0
+                    },
+                    "Name": "Image_position",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/thumb_bg.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 33,
+                    "Scale9OriginY": 33,
+                    "Scale9Width": 31,
+                    "Scale9Height": 61,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 54.7705,
+                      "Y": 100.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4564,
+                      "Y": 0.5556
+                    },
+                    "PreSize": {
+                      "X": 0.8083,
+                      "Y": 0.7056
+                    },
+                    "LeftMargin": 6.2705,
+                    "RightMargin": 16.7295,
+                    "TopMargin": 16.5,
+                    "BottomMargin": 36.5,
+                    "Tag": 859,
+                    "ActionTag": 837066421,
+                    "Size": {
+                      "X": 97.0,
+                      "Y": 127.0
+                    },
+                    "Name": "Image_thumb",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 24,
+                    "LabelText": "",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 77,
+                      "G": 77,
+                      "B": 77
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 54.348,
+                      "Y": 31.302
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4529,
+                      "Y": 0.1739
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.1667
+                    },
+                    "LeftMargin": -5.652,
+                    "RightMargin": 5.652,
+                    "TopMargin": 118.698,
+                    "BottomMargin": 31.302,
+                    "Tag": 1128,
+                    "ActionTag": -1026476047,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 30.0
+                    },
+                    "Name": "Text_money",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 16,
+                    "LabelText": "",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 54.0,
+                      "Y": 151.056
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.45,
+                      "Y": 0.8392
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.1389
+                    },
+                    "LeftMargin": -6.0,
+                    "RightMargin": 6.0,
+                    "TopMargin": 16.444,
+                    "BottomMargin": 138.556,
+                    "Tag": 1127,
+                    "ActionTag": 1793589690,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 25.0
+                    },
+                    "Name": "Text_nickname",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/nobody_bg.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9OriginX": 39,
+                    "Scale9OriginY": 39,
+                    "Scale9Width": 42,
+                    "Scale9Height": 42,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 55.52,
+                      "Y": 97.47
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9,
+                      "ScaleY": 0.9
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4627,
+                      "Y": 0.5415
+                    },
+                    "PreSize": {
+                      "X": 0.6667,
+                      "Y": 0.4444
+                    },
+                    "LeftMargin": 15.52,
+                    "RightMargin": 24.48,
+                    "TopMargin": 42.53,
+                    "BottomMargin": 57.47,
+                    "Tag": 1130,
+                    "ActionTag": -87074366,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 80.0
+                    },
+                    "Name": "Image_player",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -527846959,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 180.0
+                },
+                "Name": "Player_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -83.12,
+                  "Y": 280.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 90.0,
+                "RotationSkewY": 90.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": -0.4156,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 1.5,
+                  "Y": 0.4
+                },
+                "LeftMargin": -83.12,
+                "RightMargin": -16.88,
+                "TopMargin": -40.0001,
+                "BottomMargin": 280.0001,
+                "Tag": 1131,
+                "ActionTag": 2114079912,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 160.0
+                },
+                "Name": "Panel_cardbox",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 250.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.25,
+                  "Y": 0.625
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.575
+                },
+                "LeftMargin": -150.0,
+                "RightMargin": 150.0,
+                "TopMargin": 35.0,
+                "BottomMargin": 135.0,
+                "Tag": 1133,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/over.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9OriginX": 72,
+                    "Scale9OriginY": 30,
+                    "Scale9Width": 103,
+                    "Scale9Height": 190,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 115.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.235,
+                      "Y": 1.087
+                    },
+                    "LeftMargin": -23.5,
+                    "RightMargin": -23.5,
+                    "TopMargin": -10.0,
+                    "BottomMargin": -10.0,
+                    "Tag": 109,
+                    "ActionTag": -1145144993,
+                    "Size": {
+                      "X": 247.0,
+                      "Y": 250.0
+                    },
+                    "Name": "Image_over",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/win_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 175.789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.7643
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "RightMargin": 200.0,
+                    "TopMargin": 54.211,
+                    "BottomMargin": 175.789,
+                    "Tag": 211,
+                    "ActionTag": -676727070,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultfirst_win",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/lost_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 175.789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.7643
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "RightMargin": 200.0,
+                    "TopMargin": 54.211,
+                    "BottomMargin": 175.789,
+                    "Tag": 212,
+                    "ActionTag": -2049949140,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultfirst_lost",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/win_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 129.789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.5643
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "RightMargin": 200.0,
+                    "TopMargin": 100.211,
+                    "BottomMargin": 129.789,
+                    "Tag": 213,
+                    "ActionTag": -1889629999,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultsecond_win",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/lost_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 129.789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.5643
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "RightMargin": 200.0,
+                    "TopMargin": 100.211,
+                    "BottomMargin": 129.789,
+                    "Tag": 214,
+                    "ActionTag": 1468756665,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultsecond_lost",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/win_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 83.789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.3643
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "RightMargin": 200.0,
+                    "TopMargin": 146.211,
+                    "BottomMargin": 83.789,
+                    "Tag": 215,
+                    "ActionTag": -810536866,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resulthird_win",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/lost_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 83.789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.3643
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "RightMargin": 200.0,
+                    "TopMargin": 146.211,
+                    "BottomMargin": 83.789,
+                    "Tag": 216,
+                    "ActionTag": 1870122275,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resulthird_lost",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Water.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": -5.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": -0.0217
+                    },
+                    "PreSize": {
+                      "X": 0.925,
+                      "Y": 0.2391
+                    },
+                    "LeftMargin": 7.5,
+                    "RightMargin": 7.5,
+                    "TopMargin": 207.5,
+                    "BottomMargin": -32.5,
+                    "Tag": 242,
+                    "Children": [
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": "",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/win_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 93.8373,
+                          "Y": 27.5647
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5072,
+                          "Y": 0.5012
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 93.8373,
+                        "RightMargin": 91.1627,
+                        "TopMargin": 27.4353,
+                        "BottomMargin": 27.5647,
+                        "Tag": 243,
+                        "ActionTag": 896073470,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Name": "resulAll_win",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": "",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/lost_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 94.1234,
+                          "Y": 26.9927
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5088,
+                          "Y": 0.4908
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 94.1234,
+                        "RightMargin": 90.8766,
+                        "TopMargin": 28.0073,
+                        "BottomMargin": 26.9927,
+                        "Tag": 244,
+                        "ActionTag": -2056775672,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Name": "resulAll_lost",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": 276743076,
+                    "Size": {
+                      "X": 185.0,
+                      "Y": 55.0
+                    },
+                    "Name": "Image_Water",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_card3.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 160.0,
+                      "Y": 60.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8,
+                      "Y": 0.2609
+                    },
+                    "PreSize": {
+                      "X": 0.91,
+                      "Y": 0.8652
+                    },
+                    "LeftMargin": 69.0,
+                    "RightMargin": -51.0,
+                    "TopMargin": 70.5,
+                    "BottomMargin": -39.5,
+                    "Tag": 271,
+                    "ActionTag": 650847727,
+                    "Size": {
+                      "X": 182.0,
+                      "Y": 199.0
+                    },
+                    "Name": "Image_card",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1349102724,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 230.0
+                },
+                "Name": "Panel_outcard",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/Dialogbox.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "Scale9OriginX": 105,
+                "Scale9OriginY": 45,
+                "Scale9Width": 109,
+                "Scale9Height": 47,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -13.0,
+                  "Y": 124.9999
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "RotationSkewY": 180.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": -0.065,
+                  "Y": 0.3125
+                },
+                "PreSize": {
+                  "X": 1.595,
+                  "Y": 0.3425
+                },
+                "LeftMargin": -172.5,
+                "RightMargin": 53.5,
+                "TopMargin": 206.5001,
+                "BottomMargin": 56.4999,
+                "Tag": 1134,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "快点吧，我等到花儿都谢了！",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 159.5,
+                      "Y": 47.95
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewY": 180.0,
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.35
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.95,
+                      "Y": 0.7
+                    },
+                    "LeftMargin": 7.975,
+                    "RightMargin": 7.975,
+                    "TopMargin": 41.1,
+                    "Tag": 1135,
+                    "ActionTag": -2118518089,
+                    "Size": {
+                      "X": 303.05,
+                      "Y": 95.9
+                    },
+                    "Name": "Text_word",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1542626009,
+                "Size": {
+                  "X": 319.0,
+                  "Y": 137.0
+                },
+                "Name": "Image_Dialog",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/ready.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "Scale9OriginX": 68,
+                "Scale9OriginY": 40,
+                "Scale9Width": 6,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -4.033,
+                  "Y": 249.9962
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0202,
+                  "Y": 0.625
+                },
+                "PreSize": {
+                  "X": 0.71,
+                  "Y": 0.22
+                },
+                "LeftMargin": -75.033,
+                "RightMargin": 133.033,
+                "TopMargin": 106.0038,
+                "BottomMargin": 205.9962,
+                "Tag": 1136,
+                "ActionTag": 998396578,
+                "Size": {
+                  "X": 142.0,
+                  "Y": 88.0
+                },
+                "Name": "Img_ready",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 376200514,
+            "Size": {
+              "X": 200.0,
+              "Y": 400.0
+            },
+            "Name": "Panel_player3",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 431.6824,
+              "Y": 746.85
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.3236,
+              "Y": 0.9958
+            },
+            "PreSize": {
+              "X": 0.5247,
+              "Y": 0.2933
+            },
+            "LeftMargin": 431.6824,
+            "RightMargin": 202.3176,
+            "TopMargin": 3.15,
+            "BottomMargin": 526.85,
+            "Tag": 1149,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 104,
+                  "G": 97,
+                  "B": 97
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 85.0,
+                  "Y": 120.01
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 191,
+                  "G": 191,
+                  "B": 191
+                },
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1214,
+                  "Y": 0.5455
+                },
+                "PreSize": {
+                  "X": 0.2857,
+                  "Y": 0.4545
+                },
+                "LeftMargin": -15.0,
+                "RightMargin": 515.0,
+                "TopMargin": -0.01,
+                "BottomMargin": 120.01,
+                "Tag": 1150,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 23,
+                    "LabelText": "15km",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 47.06,
+                      "Y": 71.41
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2353,
+                      "Y": 0.7141
+                    },
+                    "PreSize": {
+                      "X": 0.3,
+                      "Y": 0.3
+                    },
+                    "LeftMargin": 17.06,
+                    "RightMargin": 122.94,
+                    "TopMargin": 13.59,
+                    "BottomMargin": 56.41,
+                    "Tag": 1151,
+                    "ActionTag": -590186633,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 30.0
+                    },
+                    "Name": "Tplayer_distance",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/position.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9OriginX": 4,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 5,
+                    "Scale9Height": 9,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5016,
+                      "ScaleY": 0.684
+                    },
+                    "Position": {
+                      "X": -0.7,
+                      "Y": 80.11
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": -0.0035,
+                      "Y": 0.8011
+                    },
+                    "PreSize": {
+                      "X": 0.065,
+                      "Y": 0.21
+                    },
+                    "LeftMargin": -7.2208,
+                    "RightMargin": 194.2208,
+                    "TopMargin": 13.254,
+                    "BottomMargin": 65.746,
+                    "Tag": 1154,
+                    "ActionTag": 1684362242,
+                    "Size": {
+                      "X": 13.0,
+                      "Y": 21.0
+                    },
+                    "Name": "Image_position",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/thumb_bg.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 33,
+                    "Scale9OriginY": 33,
+                    "Scale9Width": 31,
+                    "Scale9Height": 61,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 40.0,
+                      "Y": -2.0003
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": -0.02
+                    },
+                    "PreSize": {
+                      "X": 0.485,
+                      "Y": 1.27
+                    },
+                    "LeftMargin": -8.5,
+                    "RightMargin": 111.5,
+                    "TopMargin": 38.5003,
+                    "BottomMargin": -65.5003,
+                    "Tag": 858,
+                    "ActionTag": -827142998,
+                    "Size": {
+                      "X": 97.0,
+                      "Y": 127.0
+                    },
+                    "Name": "Image_thumb",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 24,
+                    "LabelText": "",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 77,
+                      "G": 77,
+                      "B": 77
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 39.2,
+                      "Y": -68.98
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.196,
+                      "Y": -0.6898
+                    },
+                    "PreSize": {
+                      "X": 0.525,
+                      "Y": 0.3
+                    },
+                    "LeftMargin": -13.3,
+                    "RightMargin": 108.3,
+                    "TopMargin": 138.98,
+                    "BottomMargin": -68.98,
+                    "Tag": 1153,
+                    "ActionTag": 2125583895,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 30.0
+                    },
+                    "Name": "Text_money",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 16,
+                    "LabelText": "",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 39.58,
+                      "Y": 45.62
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1979,
+                      "Y": 0.4562
+                    },
+                    "PreSize": {
+                      "X": 0.6,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": -20.42,
+                    "RightMargin": 100.42,
+                    "TopMargin": 41.88,
+                    "BottomMargin": 33.12,
+                    "Tag": 1152,
+                    "ActionTag": -1684309680,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 25.0
+                    },
+                    "Name": "Text_nickname",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/nobody_bg.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9OriginX": 39,
+                    "Scale9OriginY": 39,
+                    "Scale9Width": 42,
+                    "Scale9Height": 42,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 41.13,
+                      "Y": -4.2926
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2057,
+                      "Y": -0.0429
+                    },
+                    "PreSize": {
+                      "X": 0.4,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 1.13,
+                    "RightMargin": 118.87,
+                    "TopMargin": 64.2926,
+                    "BottomMargin": -44.2926,
+                    "Tag": 1155,
+                    "ActionTag": -912781007,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 80.0
+                    },
+                    "Name": "Image_player",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 867421096,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 100.0
+                },
+                "Name": "Player_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 125.02,
+                  "Y": -22.0133
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.1786,
+                  "Y": -0.1001
+                },
+                "PreSize": {
+                  "X": 0.6429,
+                  "Y": 0.7273
+                },
+                "LeftMargin": 125.02,
+                "RightMargin": 124.98,
+                "TopMargin": 82.0133,
+                "BottomMargin": -22.0133,
+                "Tag": 1156,
+                "ActionTag": 1206627267,
+                "Size": {
+                  "X": 450.0,
+                  "Y": 160.0
+                },
+                "Name": "Panel_cardbox",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 226.99,
+                  "Y": -22.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3243,
+                  "Y": -0.1
+                },
+                "PreSize": {
+                  "X": 0.2857,
+                  "Y": 1.0455
+                },
+                "LeftMargin": 126.99,
+                "RightMargin": 373.01,
+                "TopMargin": 12.0,
+                "BottomMargin": -22.0,
+                "Tag": 1157,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/over.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9OriginX": 72,
+                    "Scale9OriginY": 30,
+                    "Scale9Width": 103,
+                    "Scale9Height": 190,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 115.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.235,
+                      "Y": 1.087
+                    },
+                    "LeftMargin": -23.5,
+                    "RightMargin": -23.5,
+                    "TopMargin": -10.0,
+                    "BottomMargin": -10.0,
+                    "Tag": 110,
+                    "ActionTag": -2065484370,
+                    "Size": {
+                      "X": 247.0,
+                      "Y": 250.0
+                    },
+                    "Name": "Image_over",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/win_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 210.0,
+                      "Y": 184.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.05,
+                      "Y": 0.8
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 210.0,
+                    "RightMargin": -10.0,
+                    "TopMargin": 46.0,
+                    "BottomMargin": 184.0,
+                    "Tag": 190,
+                    "ActionTag": 1691748622,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultfirst_win",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/lost_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 210.0,
+                      "Y": 184.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.05,
+                      "Y": 0.8
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 210.0,
+                    "RightMargin": -10.0,
+                    "TopMargin": 46.0,
+                    "BottomMargin": 184.0,
+                    "Tag": 193,
+                    "ActionTag": 1184109657,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultfirst_lost",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/win_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 210.0,
+                      "Y": 138.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.05,
+                      "Y": 0.6
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 210.0,
+                    "RightMargin": -10.0,
+                    "TopMargin": 92.0,
+                    "BottomMargin": 138.0,
+                    "Tag": 194,
+                    "ActionTag": 793183461,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultsecond_win",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/lost_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 210.0,
+                      "Y": 138.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.05,
+                      "Y": 0.6
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 210.0,
+                    "RightMargin": -10.0,
+                    "TopMargin": 92.0,
+                    "BottomMargin": 138.0,
+                    "Tag": 195,
+                    "ActionTag": -705169961,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultsecond_lost",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/win_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 210.0,
+                      "Y": 92.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.05,
+                      "Y": 0.4
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 210.0,
+                    "RightMargin": -10.0,
+                    "TopMargin": 138.0,
+                    "BottomMargin": 92.0,
+                    "Tag": 196,
+                    "ActionTag": -874506791,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resulthird_win",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/lost_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 210.0,
+                      "Y": 92.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.05,
+                      "Y": 0.4
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 210.0,
+                    "RightMargin": -10.0,
+                    "TopMargin": 138.0,
+                    "BottomMargin": 92.0,
+                    "Tag": 197,
+                    "ActionTag": -356490145,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resulthird_lost",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Water.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": -5.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": -0.0217
+                    },
+                    "PreSize": {
+                      "X": 0.925,
+                      "Y": 0.2391
+                    },
+                    "LeftMargin": 7.5,
+                    "RightMargin": 7.5,
+                    "TopMargin": 207.5,
+                    "BottomMargin": -32.5,
+                    "Tag": 239,
+                    "Children": [
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": "",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/win_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 93.8373,
+                          "Y": 27.5647
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5072,
+                          "Y": 0.5012
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 93.8373,
+                        "RightMargin": 91.1627,
+                        "TopMargin": 27.4353,
+                        "BottomMargin": 27.5647,
+                        "Tag": 240,
+                        "ActionTag": -1187345910,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Name": "resulAll_win",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": "",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/lost_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 94.1234,
+                          "Y": 26.9927
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5088,
+                          "Y": 0.4908
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 94.1234,
+                        "RightMargin": 90.8766,
+                        "TopMargin": 28.0073,
+                        "BottomMargin": 26.9927,
+                        "Tag": 241,
+                        "ActionTag": 694227625,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Name": "resulAll_lost",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": 264281577,
+                    "Size": {
+                      "X": 185.0,
+                      "Y": 55.0
+                    },
+                    "Name": "Image_Water",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_card2.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 98.01
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4261
+                    },
+                    "PreSize": {
+                      "X": 1.785,
+                      "Y": 0.6957
+                    },
+                    "LeftMargin": -78.5,
+                    "RightMargin": -78.5,
+                    "TopMargin": 51.99,
+                    "BottomMargin": 18.01,
+                    "Tag": 272,
+                    "ActionTag": -132295793,
+                    "Size": {
+                      "X": 357.0,
+                      "Y": 160.0
+                    },
+                    "Name": "Image_card",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -352683392,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 230.0
+                },
+                "Name": "Panel_outcard",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/Dialogbox.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "Scale9OriginX": 105,
+                "Scale9OriginY": 45,
+                "Scale9Width": 109,
+                "Scale9Height": 47,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 192.5388,
+                  "Y": 84.1157
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2751,
+                  "Y": 0.3823
+                },
+                "PreSize": {
+                  "X": 0.4557,
+                  "Y": 0.6227
+                },
+                "LeftMargin": 33.0388,
+                "RightMargin": 347.9612,
+                "TopMargin": 67.3843,
+                "BottomMargin": 15.6157,
+                "Tag": 1158,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "不要吵了，专心玩游戏吧",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 159.5,
+                      "Y": 48.1692
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.3516
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.95,
+                      "Y": 0.7
+                    },
+                    "LeftMargin": 7.975,
+                    "RightMargin": 7.975,
+                    "TopMargin": 40.8808,
+                    "BottomMargin": 0.2192,
+                    "Tag": 1159,
+                    "ActionTag": -1175736693,
+                    "Size": {
+                      "X": 303.05,
+                      "Y": 95.9
+                    },
+                    "Name": "Text_word",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1960411756,
+                "Size": {
+                  "X": 319.0,
+                  "Y": 137.0
+                },
+                "Name": "Image_Dialog",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/ready.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "Scale9OriginX": 68,
+                "Scale9OriginY": 40,
+                "Scale9Width": 6,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 336.3094,
+                  "Y": 99.0396
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4804,
+                  "Y": 0.4502
+                },
+                "PreSize": {
+                  "X": 0.2029,
+                  "Y": 0.4
+                },
+                "LeftMargin": 265.3094,
+                "RightMargin": 292.6906,
+                "TopMargin": 76.9604,
+                "BottomMargin": 55.0396,
+                "Tag": 1160,
+                "ActionTag": 1896451598,
+                "Size": {
+                  "X": 142.0,
+                  "Y": 88.0
+                },
+                "Name": "Img_ready",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 113580665,
+            "Size": {
+              "X": 700.0,
+              "Y": 220.0
+            },
+            "Name": "Panel_player2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 100.0,
+              "Y": 450.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.075,
+              "Y": 0.6
+            },
+            "PreSize": {
+              "X": 0.1499,
+              "Y": 0.5333
+            },
+            "RightMargin": 1134.0,
+            "TopMargin": 100.0,
+            "BottomMargin": 250.0,
+            "Tag": 1111,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 104,
+                  "G": 97,
+                  "B": 97
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 56.941,
+                  "Y": 189.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 191,
+                  "G": 191,
+                  "B": 191
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2847,
+                  "Y": 0.4725
+                },
+                "PreSize": {
+                  "X": 0.6,
+                  "Y": 0.45
+                },
+                "LeftMargin": -3.059,
+                "RightMargin": 83.059,
+                "TopMargin": 121.0,
+                "BottomMargin": 99.0,
+                "Tag": 1112,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 23,
+                    "LabelText": "15km\n",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 67.188,
+                      "Y": 172.8
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5599,
+                      "Y": 0.96
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.1667
+                    },
+                    "LeftMargin": 37.188,
+                    "RightMargin": 22.812,
+                    "TopMargin": -7.8,
+                    "BottomMargin": 157.8,
+                    "Tag": 1113,
+                    "ActionTag": 2128561267,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 30.0
+                    },
+                    "Name": "Tplayer_distance",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/position.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9OriginX": 4,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 5,
+                    "Scale9Height": 9,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 20.94,
+                      "Y": 176.058
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1745,
+                      "Y": 0.9781
+                    },
+                    "PreSize": {
+                      "X": 0.1083,
+                      "Y": 0.1167
+                    },
+                    "LeftMargin": 14.44,
+                    "RightMargin": 92.56,
+                    "TopMargin": -6.558,
+                    "BottomMargin": 165.558,
+                    "Tag": 1116,
+                    "ActionTag": -381028912,
+                    "Size": {
+                      "X": 13.0,
+                      "Y": 21.0
+                    },
+                    "Name": "Image_position",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/thumb_bg.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 67,
+                    "Scale9Height": 97,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 58.9774,
+                      "Y": 99.9998
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4915,
+                      "Y": 0.5556
+                    },
+                    "PreSize": {
+                      "X": 0.8083,
+                      "Y": 0.7056
+                    },
+                    "LeftMargin": 10.4774,
+                    "RightMargin": 12.5226,
+                    "TopMargin": 16.5002,
+                    "BottomMargin": 36.4998,
+                    "Tag": 857,
+                    "ActionTag": -1495860758,
+                    "Size": {
+                      "X": 97.0,
+                      "Y": 127.0
+                    },
+                    "Name": "Image_thumb",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 24,
+                    "LabelText": "",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 77,
+                      "G": 77,
+                      "B": 77
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 60.0,
+                      "Y": 33.408
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1856
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.1667
+                    },
+                    "TopMargin": 116.592,
+                    "BottomMargin": 33.408,
+                    "Tag": 1115,
+                    "ActionTag": -1388639341,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 30.0
+                    },
+                    "Name": "Text_money",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 16,
+                    "LabelText": "",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60.0,
+                      "Y": 150.012
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.8334
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.1389
+                    },
+                    "TopMargin": 17.488,
+                    "BottomMargin": 137.512,
+                    "Tag": 1114,
+                    "ActionTag": 650181314,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 25.0
+                    },
+                    "Name": "Text_nickname",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/nobody_bg.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9OriginX": 39,
+                    "Scale9OriginY": 39,
+                    "Scale9Width": 42,
+                    "Scale9Height": 42,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 59.0891,
+                      "Y": 98.3634
+                    },
+                    "Scale": {
+                      "ScaleX": 0.95,
+                      "ScaleY": 0.95
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4924,
+                      "Y": 0.5465
+                    },
+                    "PreSize": {
+                      "X": 0.6667,
+                      "Y": 0.4444
+                    },
+                    "LeftMargin": 19.0891,
+                    "RightMargin": 20.9109,
+                    "TopMargin": 41.6366,
+                    "BottomMargin": 58.3634,
+                    "Tag": 1117,
+                    "ActionTag": -309310677,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 80.0
+                    },
+                    "Name": "Image_player",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -212097705,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 180.0
+                },
+                "Name": "Player_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 120.0,
+                  "Y": 279.9968
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 90.0,
+                "RotationSkewY": 90.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.6,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 1.5,
+                  "Y": 0.4
+                },
+                "LeftMargin": 120.0,
+                "RightMargin": -220.0,
+                "TopMargin": -39.9968,
+                "BottomMargin": 279.9968,
+                "Tag": 1118,
+                "ActionTag": -1137134895,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 160.0
+                },
+                "Name": "Panel_cardbox",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 150.0,
+                  "Y": 135.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.75,
+                  "Y": 0.3375
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.575
+                },
+                "LeftMargin": 150.0,
+                "RightMargin": -150.0,
+                "TopMargin": 35.0,
+                "BottomMargin": 135.0,
+                "Tag": 1120,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/over.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "Scale9OriginX": 72,
+                    "Scale9OriginY": 30,
+                    "Scale9Width": 103,
+                    "Scale9Height": 190,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 115.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.235,
+                      "Y": 1.087
+                    },
+                    "LeftMargin": -23.5,
+                    "RightMargin": -23.5,
+                    "TopMargin": -10.0,
+                    "BottomMargin": -10.0,
+                    "Tag": 111,
+                    "ActionTag": -1627859579,
+                    "Size": {
+                      "X": 247.0,
+                      "Y": 250.0
+                    },
+                    "Name": "Image_over",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/win_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 220.0,
+                      "Y": 175.789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.1,
+                      "Y": 0.7643
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 220.0,
+                    "RightMargin": -20.0,
+                    "TopMargin": 54.211,
+                    "BottomMargin": 175.789,
+                    "Tag": 198,
+                    "ActionTag": -2038296528,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultfirst_win",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/lost_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 220.0,
+                      "Y": 175.789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.1,
+                      "Y": 0.7643
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 220.0,
+                    "RightMargin": -20.0,
+                    "TopMargin": 54.211,
+                    "BottomMargin": 175.789,
+                    "Tag": 199,
+                    "ActionTag": -1220519821,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultfirst_lost",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/win_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 220.0,
+                      "Y": 129.789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.1,
+                      "Y": 0.5643
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 220.0,
+                    "RightMargin": -20.0,
+                    "TopMargin": 100.211,
+                    "BottomMargin": 129.789,
+                    "Tag": 200,
+                    "ActionTag": -1987627066,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultsecond_win",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/lost_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 220.0,
+                      "Y": 129.789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.1,
+                      "Y": 0.5643
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 220.0,
+                    "RightMargin": -20.0,
+                    "TopMargin": 100.211,
+                    "BottomMargin": 129.789,
+                    "Tag": 201,
+                    "ActionTag": -1032855514,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resultsecond_lost",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/win_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 220.0,
+                      "Y": 83.789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.1,
+                      "Y": 0.3643
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 220.0,
+                    "RightMargin": -20.0,
+                    "TopMargin": 146.211,
+                    "BottomMargin": 83.789,
+                    "Tag": 202,
+                    "ActionTag": 21622910,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resulthird_win",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 35,
+                    "CharHeight": 60,
+                    "LabelText": "",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/lost_number.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 220.0,
+                      "Y": 83.789
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.1,
+                      "Y": 0.3643
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 220.0,
+                    "RightMargin": -20.0,
+                    "TopMargin": 146.211,
+                    "BottomMargin": 83.789,
+                    "Tag": 203,
+                    "ActionTag": -671011406,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "resulthird_lost",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Water.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": -5.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": -0.0217
+                    },
+                    "PreSize": {
+                      "X": 0.925,
+                      "Y": 0.2391
+                    },
+                    "LeftMargin": 7.5,
+                    "RightMargin": 7.5,
+                    "TopMargin": 207.5,
+                    "BottomMargin": -32.5,
+                    "Tag": 236,
+                    "Children": [
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": "",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/win_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 93.8373,
+                          "Y": 27.5647
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5072,
+                          "Y": 0.5012
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 93.8373,
+                        "RightMargin": 91.1627,
+                        "TopMargin": 27.4353,
+                        "BottomMargin": 27.5647,
+                        "Tag": 237,
+                        "ActionTag": 1940101237,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Name": "resulAll_win",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "CharWidth": 35,
+                        "CharHeight": 60,
+                        "LabelText": "",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "outcome/lost_number.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 94.1234,
+                          "Y": 26.9927
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5088,
+                          "Y": 0.4908
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 94.1234,
+                        "RightMargin": 90.8766,
+                        "TopMargin": 28.0073,
+                        "BottomMargin": 26.9927,
+                        "Tag": 238,
+                        "ActionTag": 1038350680,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Name": "resulAll_lost",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": -1803617064,
+                    "Size": {
+                      "X": 185.0,
+                      "Y": 55.0
+                    },
+                    "Name": "Image_Water",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_card1.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 38.72,
+                      "Y": 58.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1936,
+                      "Y": 0.2522
+                    },
+                    "PreSize": {
+                      "X": 0.91,
+                      "Y": 0.8652
+                    },
+                    "LeftMargin": -52.28,
+                    "RightMargin": 70.28,
+                    "TopMargin": 72.5,
+                    "BottomMargin": -41.5,
+                    "Tag": 253,
+                    "ActionTag": 1892677870,
+                    "Size": {
+                      "X": 182.0,
+                      "Y": 199.0
+                    },
+                    "Name": "Image_card",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1669835175,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 230.0
+                },
+                "Name": "Panel_outcard",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/Dialogbox.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "Scale9OriginX": 105,
+                "Scale9OriginY": 45,
+                "Scale9Width": 109,
+                "Scale9Height": 47,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 189.9992,
+                  "Y": 125.0
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.95,
+                  "Y": 0.3125
+                },
+                "PreSize": {
+                  "X": 1.595,
+                  "Y": 0.3425
+                },
+                "LeftMargin": 30.4992,
+                "RightMargin": -149.4992,
+                "TopMargin": 206.5,
+                "BottomMargin": 56.5,
+                "Tag": 1121,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 159.5,
+                      "Y": 48.7994
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.3562
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.95,
+                      "Y": 0.7
+                    },
+                    "LeftMargin": 7.975,
+                    "RightMargin": 7.975,
+                    "TopMargin": 40.2506,
+                    "BottomMargin": 0.8494,
+                    "Tag": 1122,
+                    "ActionTag": 333654496,
+                    "Size": {
+                      "X": 303.05,
+                      "Y": 95.9
+                    },
+                    "Name": "Text_word",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -577124340,
+                "Size": {
+                  "X": 319.0,
+                  "Y": 137.0
+                },
+                "Name": "Image_Dialog",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/ready.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "Scale9OriginX": 68,
+                "Scale9OriginY": 40,
+                "Scale9Width": 6,
+                "Scale9Height": 8,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 210.9958,
+                  "Y": 249.9969
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.055,
+                  "Y": 0.625
+                },
+                "PreSize": {
+                  "X": 0.71,
+                  "Y": 0.22
+                },
+                "LeftMargin": 139.9958,
+                "RightMargin": -81.9958,
+                "TopMargin": 106.0031,
+                "BottomMargin": 205.9969,
+                "Tag": 1123,
+                "ActionTag": -515748289,
+                "Size": {
+                  "X": 142.0,
+                  "Y": 88.0
+                },
+                "Name": "Img_ready",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1921808217,
+            "Size": {
+              "X": 200.0,
+              "Y": 400.0
+            },
+            "Name": "Panel_player1",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "ddzCNPokePlist.plist",
+        "ddzCNPokePlist.png",
+        "outcome/lost_number.png",
+        "outcome/win_number.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

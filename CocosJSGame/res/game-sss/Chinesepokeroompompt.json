@@ -1,0 +1,448 @@
+{
+  "ID": "de397779-ee87-4166-8ccb-3034b8802053",
+  "Version": "2.3.4",
+  "Name": "Chinesepokeroompompt",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 272,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 273,
+            "ActionTag": -26104718,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Alpha": 135,
+            "Name": "Panel_bg",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "ddzsouces/pompt_bg.png",
+              "Plist": "ddzCNPokePlist.plist"
+            },
+            "Scale9OriginX": 344,
+            "Scale9OriginY": 226,
+            "Scale9Width": 355,
+            "Scale9Height": 233,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 0.7,
+              "ScaleY": 0.7
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7819,
+              "Y": 0.9133
+            },
+            "LeftMargin": 145.5,
+            "RightMargin": 145.5,
+            "TopMargin": 32.5,
+            "BottomMargin": 32.5,
+            "Tag": 274,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/pompt_main.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 42,
+                "Scale9Width": 44,
+                "Scale9Height": 44,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 515.4998,
+                  "Y": 320.9952
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.4942,
+                  "Y": 0.4686
+                },
+                "PreSize": {
+                  "X": 0.7958,
+                  "Y": 0.6131
+                },
+                "LeftMargin": 100.4998,
+                "RightMargin": 112.5002,
+                "TopMargin": 154.0048,
+                "BottomMargin": 110.9952,
+                "Tag": 275,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 415.001,
+                      "Y": 7.7902
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.0185
+                    },
+                    "PreSize": {
+                      "X": 0.7229,
+                      "Y": 0.3571
+                    },
+                    "LeftMargin": 115.001,
+                    "RightMargin": 114.999,
+                    "TopMargin": 262.2098,
+                    "BottomMargin": 7.7902,
+                    "Tag": 276,
+                    "Children": [
+                      {
+                        "FontSize": 33,
+                        "ButtonText": "不同意",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "NormalFileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ddzsouces/btn_yellow2.png",
+                          "Plist": "ddzCNPokePlist.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 256,
+                        "Scale9Height": 102,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 471.4586,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.7858,
+                          "Y": 0.5333
+                        },
+                        "PreSize": {
+                          "X": 0.3167,
+                          "Y": 0.6333
+                        },
+                        "LeftMargin": 376.4586,
+                        "RightMargin": 33.5414,
+                        "TopMargin": 22.5,
+                        "BottomMargin": 32.5,
+                        "Tag": 277,
+                        "ActionTag": -859727316,
+                        "Size": {
+                          "X": 190.0,
+                          "Y": 95.0
+                        },
+                        "Name": "Button_disagree",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 33,
+                        "ButtonText": "同意",
+                        "TextColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "NormalFileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "ddzsouces/btn_green2.png",
+                          "Plist": "ddzCNPokePlist.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 256,
+                        "Scale9Height": 102,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.0,
+                          "Y": 80.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.2,
+                          "Y": 0.5333
+                        },
+                        "PreSize": {
+                          "X": 0.3167,
+                          "Y": 0.6333
+                        },
+                        "LeftMargin": 25.0,
+                        "RightMargin": 385.0,
+                        "TopMargin": 22.5,
+                        "BottomMargin": 32.5,
+                        "Tag": 278,
+                        "ActionTag": 2068411133,
+                        "Size": {
+                          "X": 190.0,
+                          "Y": 95.0
+                        },
+                        "Name": "Btn_agree",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": -685791329,
+                    "Size": {
+                      "X": 600.0,
+                      "Y": 150.0
+                    },
+                    "Name": "Panel_3",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 40,
+                    "LabelText": "房主:XXXXXX\n\n要求解散房间请求你的意见",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 77,
+                      "G": 77,
+                      "B": 77
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 415.0,
+                      "Y": 275.7177
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6565
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.98,
+                      "Y": 0.6
+                    },
+                    "LeftMargin": 8.3,
+                    "RightMargin": 8.3,
+                    "TopMargin": 18.2823,
+                    "BottomMargin": 149.7177,
+                    "Tag": 279,
+                    "ActionTag": 868081442,
+                    "Size": {
+                      "X": 813.4,
+                      "Y": 252.0
+                    },
+                    "Name": "Text_1",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 306799063,
+                "Size": {
+                  "X": 830.0,
+                  "Y": 420.0
+                },
+                "Name": "Panel_word",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1482564036,
+            "Size": {
+              "X": 1043.0,
+              "Y": 685.0
+            },
+            "Name": "Image_pompt",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "ddzCNPokePlist.plist",
+        "ddzCNPokePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

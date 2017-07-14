@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>hzmj_userInfo/userInfo_flowerIcon.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{384,124},{44,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{44,42}</string>
+			</dict>
+			<key>hzmj_userInfo/userInfo_frame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{319,93},{65,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{65,32}</string>
+			</dict>
+			<key>hzmj_userInfo/userInfo_headFrame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{319,0},{93,93}}</string>
+				<key>offset</key>
+				<string>{2,-2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>hzmj_userInfo/userInfo_positionIcon.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{428,124},{30,37}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{30,37}</string>
+			</dict>
+			<key>hzmj_userInfo/userInfo_nil.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{412,0},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>hzmj_userInfo/userInfo__banker.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{319,125},{37,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{39,41}</string>
+			</dict>
+			<key>hzmj_userInfo/userInfo__roomHost.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{412,84},{40,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{40,76}</string>
+			</dict>
+			<key>hzmj_userInfo/userInfo_msgFrame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{319,137}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{319,137}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist_hzmj_userInfo.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist_hzmj_userInfo.png</string>
+			<key>size</key>
+			<string>{496,166}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>496</integer>
+			<key>height</key>
+			<integer>166</integer>
+		</dict>
+	</dict>
+</plist>

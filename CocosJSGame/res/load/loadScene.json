@@ -1,0 +1,598 @@
+{
+  "ID": "80f7996b-22d4-44a3-9797-7c04ecdf340c",
+  "Version": "2.3.4",
+  "Name": "loadScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 10,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "loadPlist/load_bg.png",
+              "Plist": "loadPlist.plist"
+            },
+            "Scale9Width": 960,
+            "Scale9Height": 640,
+            "TouchEnable": true,
+            "StretchWidthEnable": true,
+            "StretchHeightEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 11,
+            "ActionTag": -266787700,
+            "Size": {
+              "X": 960.0,
+              "Y": 640.0
+            },
+            "Name": "ImgBg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.8854,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 55.0,
+            "RightMargin": 55.0,
+            "Tag": 12,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 36,
+                "LabelText": "更新总进度",
+                "HorizontalAlignmentType": "HT_Right",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineSize": 0,
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 292.0,
+                  "Y": 286.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 246,
+                  "B": 187
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3435,
+                  "Y": 0.4469
+                },
+                "PreSize": {
+                  "X": 0.3529,
+                  "Y": 0.0781
+                },
+                "LeftMargin": -8.0,
+                "RightMargin": 558.0,
+                "TopMargin": 329.0,
+                "BottomMargin": 261.0,
+                "Tag": 13,
+                "ActionTag": -1507471885,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 50.0
+                },
+                "Name": "Lab_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "loadPlist/load_bar_0.png",
+                  "Plist": "loadPlist.plist"
+                },
+                "Scale9Width": 378,
+                "Scale9Height": 46,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 489.0,
+                  "Y": 286.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5753,
+                  "Y": 0.4469
+                },
+                "PreSize": {
+                  "X": 0.4447,
+                  "Y": 0.0719
+                },
+                "LeftMargin": 300.0,
+                "RightMargin": 172.0,
+                "TopMargin": 331.0,
+                "BottomMargin": 263.0,
+                "Tag": 14,
+                "ActionTag": -2045194879,
+                "Size": {
+                  "X": 378.0,
+                  "Y": 46.0
+                },
+                "Name": "Img_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ProgressInfo": 100,
+                "ImageFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "loadPlist/load_bar_1.png",
+                  "Plist": "loadPlist.plist"
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 489.0,
+                  "Y": 286.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5753,
+                  "Y": 0.4469
+                },
+                "PreSize": {
+                  "X": 0.4447,
+                  "Y": 0.0719
+                },
+                "LeftMargin": 300.0,
+                "RightMargin": 172.0,
+                "TopMargin": 331.0,
+                "BottomMargin": 263.0,
+                "Tag": 15,
+                "ActionTag": -1873404441,
+                "Size": {
+                  "X": 378.0,
+                  "Y": 46.0
+                },
+                "Name": "ProgressBar_1",
+                "ctype": "LoadingBarObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 36,
+                "LabelText": "100%",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineSize": 0,
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 489.0,
+                  "Y": 288.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 246,
+                  "B": 187
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5753,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1176,
+                  "Y": 0.0781
+                },
+                "LeftMargin": 439.0,
+                "RightMargin": 311.0,
+                "TopMargin": 327.0,
+                "BottomMargin": 263.0,
+                "Tag": 19,
+                "ActionTag": -1797353093,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 50.0
+                },
+                "Name": "LabPercent_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 36,
+                "LabelText": "当前进度",
+                "HorizontalAlignmentType": "HT_Right",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineSize": 0,
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 292.0,
+                  "Y": 214.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 246,
+                  "B": 187
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3435,
+                  "Y": 0.3344
+                },
+                "PreSize": {
+                  "X": 0.3529,
+                  "Y": 0.0781
+                },
+                "LeftMargin": -8.0,
+                "RightMargin": 558.0,
+                "TopMargin": 401.0,
+                "BottomMargin": 189.0,
+                "Tag": 20,
+                "ActionTag": -1838822853,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 50.0
+                },
+                "Name": "Lab_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "loadPlist/load_bar_0.png",
+                  "Plist": "loadPlist.plist"
+                },
+                "Scale9Width": 378,
+                "Scale9Height": 46,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 489.0,
+                  "Y": 214.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5753,
+                  "Y": 0.3344
+                },
+                "PreSize": {
+                  "X": 0.4447,
+                  "Y": 0.0719
+                },
+                "LeftMargin": 300.0,
+                "RightMargin": 172.0,
+                "TopMargin": 403.0,
+                "BottomMargin": 191.0,
+                "Tag": 21,
+                "ActionTag": 1075216291,
+                "Size": {
+                  "X": 378.0,
+                  "Y": 46.0
+                },
+                "Name": "Img_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ProgressInfo": 100,
+                "ImageFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "loadPlist/load_bar_2.png",
+                  "Plist": "loadPlist.plist"
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 489.0,
+                  "Y": 214.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5753,
+                  "Y": 0.3344
+                },
+                "PreSize": {
+                  "X": 0.4447,
+                  "Y": 0.0719
+                },
+                "LeftMargin": 300.0,
+                "RightMargin": 172.0,
+                "TopMargin": 403.0,
+                "BottomMargin": 191.0,
+                "Tag": 22,
+                "ActionTag": 565403968,
+                "Size": {
+                  "X": 378.0,
+                  "Y": 46.0
+                },
+                "Name": "ProgressBar_2",
+                "ctype": "LoadingBarObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 36,
+                "LabelText": "100%",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineSize": 0,
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 489.0,
+                  "Y": 216.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 246,
+                  "B": 187
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5753,
+                  "Y": 0.3375
+                },
+                "PreSize": {
+                  "X": 0.1176,
+                  "Y": 0.0781
+                },
+                "LeftMargin": 439.0,
+                "RightMargin": 311.0,
+                "TopMargin": 399.0,
+                "BottomMargin": 191.0,
+                "Tag": 23,
+                "ActionTag": -1326911630,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 50.0
+                },
+                "Name": "LabPercent_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 26,
+                "LabelText": "更新失败！请重新尝试！",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineSize": 0,
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 425.0,
+                  "Y": 156.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 246,
+                  "B": 187
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2438
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.0781
+                },
+                "TopMargin": 459.0,
+                "BottomMargin": 131.0,
+                "Tag": 16,
+                "ActionTag": 1120114173,
+                "Size": {
+                  "X": 850.0,
+                  "Y": 50.0
+                },
+                "Name": "LabTip",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "loadPlist/load_re_update_1.png",
+                  "Plist": "loadPlist.plist"
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "loadPlist/load_re_update_2.png",
+                  "Plist": "loadPlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "loadPlist/load_re_update_1.png",
+                  "Plist": "loadPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 227,
+                "Scale9Height": 59,
+                "OutlineSize": 0,
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 425.0,
+                  "Y": 88.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1375
+                },
+                "PreSize": {
+                  "X": 0.2671,
+                  "Y": 0.0922
+                },
+                "LeftMargin": 311.5,
+                "RightMargin": 311.5,
+                "TopMargin": 522.5,
+                "BottomMargin": 58.5,
+                "Tag": 17,
+                "ActionTag": 1477302960,
+                "Size": {
+                  "X": 227.0,
+                  "Y": 59.0
+                },
+                "Name": "BtnReUpdate",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1150199499,
+            "Size": {
+              "X": 850.0,
+              "Y": 640.0
+            },
+            "Name": "Panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "loadPlist.plist",
+        "loadPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

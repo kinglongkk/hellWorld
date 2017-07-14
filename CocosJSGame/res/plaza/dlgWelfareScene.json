@@ -1,0 +1,263 @@
+{
+  "ID": "9e366009-da39-4daf-8dea-565c8c799045",
+  "Version": "2.3.4",
+  "Name": "dlgWelfareScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 66,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 151,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0001,
+              "Y": 2.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0027
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 0.0001,
+            "TopMargin": -2.0,
+            "BottomMargin": 2.0,
+            "Tag": 67,
+            "ActionTag": 1682758932,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Alpha": 135,
+            "Name": "Panel_bg",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "welfare/btn_plaza_msg_frame.png",
+              "Plist": "dlgWelfarePlist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 28,
+            "Scale9OriginY": 15,
+            "Scale9Width": 658,
+            "Scale9Height": 420,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 398.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5307
+            },
+            "PreSize": {
+              "X": 0.7496,
+              "Y": 0.8
+            },
+            "HorizontalEdge": "BothEdge",
+            "LeftMargin": 167.0,
+            "RightMargin": 167.0,
+            "TopMargin": 52.0,
+            "BottomMargin": 98.0,
+            "Tag": 68,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "welfare/btn_plaza_close.png",
+                  "Plist": "dlgWelfarePlist.plist"
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "welfare/btn_plaza_close.png",
+                  "Plist": "dlgWelfarePlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "welfare/btn_plaza_close.png",
+                  "Plist": "dlgWelfarePlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 74,
+                "Scale9Height": 83,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 938.4008,
+                  "Y": 540.5196
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.9384,
+                  "Y": 0.9009
+                },
+                "PreSize": {
+                  "X": 0.104,
+                  "Y": 0.175
+                },
+                "LeftMargin": 886.4008,
+                "RightMargin": 9.5992,
+                "TopMargin": 6.9804,
+                "BottomMargin": 488.0196,
+                "Tag": 69,
+                "ActionTag": 1552290634,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 105.0
+                },
+                "Name": "Button_close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 49.4429,
+                  "Y": 59.8463
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0494,
+                  "Y": 0.0997
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.7167
+                },
+                "LeftMargin": 49.4429,
+                "RightMargin": 50.5571,
+                "TopMargin": 110.1537,
+                "BottomMargin": 59.8463,
+                "Tag": 78,
+                "ActionTag": -1357957735,
+                "Size": {
+                  "X": 900.0,
+                  "Y": 430.0
+                },
+                "Name": "Panel_List",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1406945606,
+            "Size": {
+              "X": 1000.0,
+              "Y": 600.0
+            },
+            "Name": "Image_bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "dlgWelfarePlist.plist",
+        "dlgWelfarePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

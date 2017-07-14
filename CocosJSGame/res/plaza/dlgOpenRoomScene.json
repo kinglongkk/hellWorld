@@ -1,0 +1,2292 @@
+{
+  "ID": "398bb73b-7d9b-4734-8eaa-9e5753fd07af",
+  "Version": "2.3.4",
+  "Name": "dlgOpenRoomScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 65,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -440,
+            "Scale9OriginY": -247,
+            "Scale9Width": 880,
+            "Scale9Height": 494,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 66,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "openRoom/openRoomBg.png",
+                  "Plist": "dlgOpenRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 60,
+                "Scale9Width": 1,
+                "Scale9Height": 8,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.6667
+                },
+                "RightMargin": 667.0,
+                "TopMargin": 250.0,
+                "Tag": 67,
+                "ActionTag": 815856322,
+                "Size": {
+                  "X": 667.0,
+                  "Y": 500.0
+                },
+                "Name": "Image_bg1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "openRoom/openRoomBg.png",
+                  "Plist": "dlgOpenRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 60,
+                "Scale9Width": 1,
+                "Scale9Height": 8,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1334.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.6667
+                },
+                "HorizontalEdge": "LeftEdge",
+                "LeftMargin": 1334.0,
+                "RightMargin": -667.0,
+                "TopMargin": 250.0,
+                "Tag": 69,
+                "ActionTag": 561297772,
+                "Size": {
+                  "X": 667.0,
+                  "Y": 500.0
+                },
+                "Name": "Image_bg2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "openRoom/openRoomTitle.png",
+                  "Plist": "dlgOpenRoomPlist.plist"
+                },
+                "Scale9OriginX": 66,
+                "Scale9OriginY": 17,
+                "Scale9Width": 71,
+                "Scale9Height": 19,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 462.3172
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6164
+                },
+                "PreSize": {
+                  "X": 0.1522,
+                  "Y": 0.0707
+                },
+                "LeftMargin": 565.5,
+                "RightMargin": 565.5,
+                "TopMargin": 261.1828,
+                "BottomMargin": 435.8172,
+                "Tag": 70,
+                "ActionTag": -766067578,
+                "Size": {
+                  "X": 203.0,
+                  "Y": 53.0
+                },
+                "Name": "Image_title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "openRoom/openRoomOK.png",
+                  "Plist": "dlgOpenRoomPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 206,
+                "Scale9Height": 65,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 50.413
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0672
+                },
+                "PreSize": {
+                  "X": 0.1769,
+                  "Y": 0.116
+                },
+                "LeftMargin": 549.0,
+                "RightMargin": 549.0,
+                "TopMargin": 656.087,
+                "BottomMargin": 6.913,
+                "Tag": 71,
+                "ActionTag": 1438261425,
+                "Size": {
+                  "X": 236.0,
+                  "Y": 87.0
+                },
+                "Name": "Button_ok",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 334.2553
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.4457
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1333
+                },
+                "TopMargin": 315.7447,
+                "BottomMargin": 334.2553,
+                "Tag": 72,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 60,
+                    "LabelText": "局数",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 111.2707,
+                      "Y": 45.89
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0834,
+                      "Y": 0.4589
+                    },
+                    "PreSize": {
+                      "X": 0.1499,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 11.2707,
+                    "RightMargin": 1122.7292,
+                    "TopMargin": 14.11,
+                    "BottomMargin": 5.89,
+                    "Tag": 73,
+                    "ActionTag": 1922582507,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 80.0
+                    },
+                    "Name": "Text_round",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectIcon.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 225.0128,
+                      "Y": 46.7214
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1687,
+                      "Y": 0.4672
+                    },
+                    "PreSize": {
+                      "X": 0.063,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 183.0128,
+                    "RightMargin": 1066.9872,
+                    "TopMargin": 21.2786,
+                    "BottomMargin": 14.7214,
+                    "Tag": 74,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 50,
+                        "LabelText": "2局",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 122.8965,
+                          "Y": 30.3829
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 165,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.4631,
+                          "Y": 0.4747
+                        },
+                        "PreSize": {
+                          "X": 1.7857,
+                          "Y": 1.5625
+                        },
+                        "LeftMargin": 47.8965,
+                        "RightMargin": -113.8965,
+                        "TopMargin": -16.3829,
+                        "BottomMargin": -19.6171,
+                        "Tag": 75,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 30,
+                            "LabelText": "(房卡*1)",
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 175.1469,
+                              "Y": 39.2149
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "G": 165,
+                              "B": 0
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 1.1676,
+                              "Y": 0.3921
+                            },
+                            "PreSize": {
+                              "X": 0.8667,
+                              "Y": 0.5
+                            },
+                            "LeftMargin": 110.1469,
+                            "RightMargin": -90.1469,
+                            "TopMargin": 35.7851,
+                            "BottomMargin": 14.2149,
+                            "Tag": 76,
+                            "ActionTag": -563946534,
+                            "Size": {
+                              "X": 130.0,
+                              "Y": 50.0
+                            },
+                            "Name": "Text_cards",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 1051857666,
+                        "Size": {
+                          "X": 150.0,
+                          "Y": 100.0
+                        },
+                        "Name": "Text_rounds",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -160453815,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 64.0
+                    },
+                    "Name": "CheckBox_rounds_2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectIcon.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 511.1874,
+                      "Y": 46.7214
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3832,
+                      "Y": 0.4672
+                    },
+                    "PreSize": {
+                      "X": 0.063,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 469.1874,
+                    "RightMargin": 780.8126,
+                    "TopMargin": 21.2786,
+                    "BottomMargin": 14.7214,
+                    "Tag": 77,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 50,
+                        "LabelText": "4局",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 122.8965,
+                          "Y": 30.3829
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 165,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.4631,
+                          "Y": 0.4747
+                        },
+                        "PreSize": {
+                          "X": 1.7857,
+                          "Y": 1.5625
+                        },
+                        "LeftMargin": 47.8965,
+                        "RightMargin": -113.8965,
+                        "TopMargin": -16.3829,
+                        "BottomMargin": -19.6171,
+                        "Tag": 78,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 30,
+                            "LabelText": "(房卡*2)",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 171.9687,
+                              "Y": 28.8551
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "G": 165,
+                              "B": 0
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 1.1465,
+                              "Y": 0.2886
+                            },
+                            "PreSize": {
+                              "X": 0.8667,
+                              "Y": 0.5
+                            },
+                            "LeftMargin": 106.9687,
+                            "RightMargin": -86.9687,
+                            "TopMargin": 46.1449,
+                            "BottomMargin": 3.8551,
+                            "Tag": 79,
+                            "ActionTag": 853996461,
+                            "Size": {
+                              "X": 130.0,
+                              "Y": 50.0
+                            },
+                            "Name": "Text_cards",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -340601226,
+                        "Size": {
+                          "X": 150.0,
+                          "Y": 100.0
+                        },
+                        "Name": "Text_rounds",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 14278700,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 64.0
+                    },
+                    "Name": "CheckBox_rounds_4",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectIcon.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 797.3619,
+                      "Y": 46.7214
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5977,
+                      "Y": 0.4672
+                    },
+                    "PreSize": {
+                      "X": 0.063,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 755.3619,
+                    "RightMargin": 494.6381,
+                    "TopMargin": 21.2786,
+                    "BottomMargin": 14.7214,
+                    "Tag": 80,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 50,
+                        "LabelText": "8局",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 122.8965,
+                          "Y": 30.3829
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 165,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.4631,
+                          "Y": 0.4747
+                        },
+                        "PreSize": {
+                          "X": 1.7857,
+                          "Y": 1.5625
+                        },
+                        "LeftMargin": 47.8965,
+                        "RightMargin": -113.8965,
+                        "TopMargin": -16.3829,
+                        "BottomMargin": -19.6171,
+                        "Tag": 81,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 30,
+                            "LabelText": "(房卡*4)",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 171.9661,
+                              "Y": 28.8551
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "G": 165,
+                              "B": 0
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 1.1464,
+                              "Y": 0.2886
+                            },
+                            "PreSize": {
+                              "X": 0.8667,
+                              "Y": 0.5
+                            },
+                            "LeftMargin": 106.9661,
+                            "RightMargin": -86.9661,
+                            "TopMargin": 46.1449,
+                            "BottomMargin": 3.8551,
+                            "Tag": 82,
+                            "ActionTag": -594789273,
+                            "Size": {
+                              "X": 130.0,
+                              "Y": 50.0
+                            },
+                            "Name": "Text_cards",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -1081448516,
+                        "Size": {
+                          "X": 150.0,
+                          "Y": 100.0
+                        },
+                        "Name": "Text_rounds",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1932424282,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 64.0
+                    },
+                    "Name": "CheckBox_rounds_8",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectIcon.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1083.5365,
+                      "Y": 46.7214
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8122,
+                      "Y": 0.4672
+                    },
+                    "PreSize": {
+                      "X": 0.063,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 1041.5365,
+                    "RightMargin": 208.4635,
+                    "TopMargin": 21.2786,
+                    "BottomMargin": 14.7214,
+                    "Tag": 83,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 50,
+                        "LabelText": "16局",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 122.8965,
+                          "Y": 30.3829
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 165,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.4631,
+                          "Y": 0.4747
+                        },
+                        "PreSize": {
+                          "X": 1.7857,
+                          "Y": 1.5625
+                        },
+                        "LeftMargin": 47.8965,
+                        "RightMargin": -113.8965,
+                        "TopMargin": -16.3829,
+                        "BottomMargin": -19.6171,
+                        "Tag": 84,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 30,
+                            "LabelText": "(房卡*8)",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 186.9769,
+                              "Y": 28.8551
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "G": 165,
+                              "B": 0
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 1.2465,
+                              "Y": 0.2886
+                            },
+                            "PreSize": {
+                              "X": 0.8667,
+                              "Y": 0.5
+                            },
+                            "LeftMargin": 121.9769,
+                            "RightMargin": -101.9769,
+                            "TopMargin": 46.1449,
+                            "BottomMargin": 3.8551,
+                            "Tag": 85,
+                            "ActionTag": 1080789162,
+                            "Size": {
+                              "X": 130.0,
+                              "Y": 50.0
+                            },
+                            "Name": "Text_cards",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -558324057,
+                        "Size": {
+                          "X": 150.0,
+                          "Y": 100.0
+                        },
+                        "Name": "Text_rounds",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 655531729,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 64.0
+                    },
+                    "Name": "CheckBox_rounds_16",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": 1808975438,
+                "Size": {
+                  "X": 1334.0,
+                  "Y": 100.0
+                },
+                "Name": "Panel_round",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 229.2558
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.3057
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1333
+                },
+                "TopMargin": 420.7442,
+                "BottomMargin": 229.2558,
+                "Tag": 86,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 60,
+                    "LabelText": "底分",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 111.27,
+                      "Y": 45.89
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0834,
+                      "Y": 0.4589
+                    },
+                    "PreSize": {
+                      "X": 0.1499,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 11.27,
+                    "RightMargin": 1122.73,
+                    "TopMargin": 14.11,
+                    "BottomMargin": 5.89,
+                    "Tag": 87,
+                    "ActionTag": 2030111675,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 80.0
+                    },
+                    "Name": "Text_baseScore",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectIcon.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 225.0128,
+                      "Y": 46.7214
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1687,
+                      "Y": 0.4672
+                    },
+                    "PreSize": {
+                      "X": 0.063,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 183.0128,
+                    "RightMargin": 1066.9872,
+                    "TopMargin": 21.2786,
+                    "BottomMargin": 14.7214,
+                    "Tag": 88,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 50,
+                        "LabelText": "1分",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 122.9,
+                          "Y": 30.3829
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 165,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.4631,
+                          "Y": 0.4747
+                        },
+                        "PreSize": {
+                          "X": 2.381,
+                          "Y": 1.25
+                        },
+                        "LeftMargin": 22.9,
+                        "RightMargin": -138.9,
+                        "TopMargin": -6.3829,
+                        "BottomMargin": -9.6171,
+                        "Tag": 89,
+                        "ActionTag": 385670226,
+                        "Size": {
+                          "X": 200.0,
+                          "Y": 80.0
+                        },
+                        "Name": "Text_baseScore",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1898667086,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 64.0
+                    },
+                    "Name": "CheckBox_baseScore_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectIcon.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 511.1874,
+                      "Y": 46.7214
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3832,
+                      "Y": 0.4672
+                    },
+                    "PreSize": {
+                      "X": 0.063,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 469.1874,
+                    "RightMargin": 780.8126,
+                    "TopMargin": 21.2786,
+                    "BottomMargin": 14.7214,
+                    "Tag": 91,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 50,
+                        "LabelText": "5分",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 122.9,
+                          "Y": 30.3829
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 165,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.4631,
+                          "Y": 0.4747
+                        },
+                        "PreSize": {
+                          "X": 2.381,
+                          "Y": 1.25
+                        },
+                        "LeftMargin": 22.9,
+                        "RightMargin": -138.9,
+                        "TopMargin": -6.3829,
+                        "BottomMargin": -9.6171,
+                        "Tag": 92,
+                        "ActionTag": -401157783,
+                        "Size": {
+                          "X": 200.0,
+                          "Y": 80.0
+                        },
+                        "Name": "Text_baseScore",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -1906042217,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 64.0
+                    },
+                    "Name": "CheckBox_baseScore_5",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectIcon.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 797.3619,
+                      "Y": 46.7214
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5977,
+                      "Y": 0.4672
+                    },
+                    "PreSize": {
+                      "X": 0.063,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 755.3619,
+                    "RightMargin": 494.6381,
+                    "TopMargin": 21.2786,
+                    "BottomMargin": 14.7214,
+                    "Tag": 94,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 50,
+                        "LabelText": "10分",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 122.9,
+                          "Y": 30.3829
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 165,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.4631,
+                          "Y": 0.4747
+                        },
+                        "PreSize": {
+                          "X": 2.381,
+                          "Y": 1.25
+                        },
+                        "LeftMargin": 22.9,
+                        "RightMargin": -138.9,
+                        "TopMargin": -6.3829,
+                        "BottomMargin": -9.6171,
+                        "Tag": 95,
+                        "ActionTag": 2123351937,
+                        "Size": {
+                          "X": 200.0,
+                          "Y": 80.0
+                        },
+                        "Name": "Text_baseScore",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1673989735,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 64.0
+                    },
+                    "Name": "CheckBox_baseScore_10",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectIcon.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1083.5365,
+                      "Y": 46.7214
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8122,
+                      "Y": 0.4672
+                    },
+                    "PreSize": {
+                      "X": 0.063,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 1041.5365,
+                    "RightMargin": 208.4635,
+                    "TopMargin": 21.2786,
+                    "BottomMargin": 14.7214,
+                    "Tag": 97,
+                    "Children": [
+                      {
+                        "FontSize": 30,
+                        "IsCustomSize": true,
+                        "LabelText": "",
+                        "PlaceHolderText": "点击输入底分",
+                        "MaxLengthEnable": true,
+                        "MaxLengthText": 13,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.3046,
+                          "Y": 24.8394
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 2.206,
+                          "Y": 0.3881
+                        },
+                        "PreSize": {
+                          "X": 2.381,
+                          "Y": 0.5469
+                        },
+                        "LeftMargin": 85.3046,
+                        "RightMargin": -201.3046,
+                        "TopMargin": 21.6606,
+                        "BottomMargin": 7.3394,
+                        "Tag": 100,
+                        "ActionTag": -961135090,
+                        "Size": {
+                          "X": 200.0,
+                          "Y": 35.0
+                        },
+                        "Name": "TextField_baseScore",
+                        "ctype": "TextFieldObjectData"
+                      }
+                    ],
+                    "ActionTag": -1802060561,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 64.0
+                    },
+                    "Name": "CheckBox_baseScore_input",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": -2118718272,
+                "Size": {
+                  "X": 1334.0,
+                  "Y": 100.0
+                },
+                "Name": "Panel_baseScore",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 126.2562
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.1683
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1333
+                },
+                "TopMargin": 523.7438,
+                "BottomMargin": 126.2562,
+                "Tag": 101,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 60,
+                    "LabelText": "结算方式",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 164.2707,
+                      "Y": 45.8901
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1231,
+                      "Y": 0.4589
+                    },
+                    "PreSize": {
+                      "X": 0.1799,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 44.2707,
+                    "RightMargin": 1049.7292,
+                    "TopMargin": 14.1099,
+                    "BottomMargin": 5.8901,
+                    "Tag": 102,
+                    "ActionTag": 2103913095,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 80.0
+                    },
+                    "Name": "Text_settlementType",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectIcon.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 367.0113,
+                      "Y": 49.7215
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2751,
+                      "Y": 0.4972
+                    },
+                    "PreSize": {
+                      "X": 0.063,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 325.0113,
+                    "RightMargin": 924.9887,
+                    "TopMargin": 18.2785,
+                    "BottomMargin": 17.7215,
+                    "Tag": 103,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 42,
+                        "LabelText": "放炮三家赔",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.9004,
+                          "Y": 23.3858
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 165,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 2.2131,
+                          "Y": 0.3654
+                        },
+                        "PreSize": {
+                          "X": 2.5,
+                          "Y": 1.25
+                        },
+                        "LeftMargin": 80.9004,
+                        "RightMargin": -206.9004,
+                        "TopMargin": 0.6142,
+                        "BottomMargin": -16.6142,
+                        "Tag": 104,
+                        "ActionTag": 2007495788,
+                        "Size": {
+                          "X": 210.0,
+                          "Y": 80.0
+                        },
+                        "Name": "Text_settlementType",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1376786315,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 64.0
+                    },
+                    "Name": "CheckBox_settlementType_1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoomSelectIcon.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 654.1924,
+                      "Y": 49.7216
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4904,
+                      "Y": 0.4972
+                    },
+                    "PreSize": {
+                      "X": 0.063,
+                      "Y": 0.64
+                    },
+                    "LeftMargin": 612.1924,
+                    "RightMargin": 637.8076,
+                    "TopMargin": 18.2784,
+                    "BottomMargin": 17.7216,
+                    "Tag": 105,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 42,
+                        "LabelText": "放炮单赔",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 171.8973,
+                          "Y": 23.3856
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 165,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 2.0464,
+                          "Y": 0.3654
+                        },
+                        "PreSize": {
+                          "X": 2.0,
+                          "Y": 1.25
+                        },
+                        "LeftMargin": 87.8973,
+                        "RightMargin": -171.8973,
+                        "TopMargin": 0.6144,
+                        "BottomMargin": -16.6144,
+                        "Tag": 106,
+                        "ActionTag": -1816304379,
+                        "Size": {
+                          "X": 168.0,
+                          "Y": 80.0
+                        },
+                        "Name": "Text_settlementType",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 481112784,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 64.0
+                    },
+                    "Name": "CheckBox_settlementType_1",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": 1650230831,
+                "Size": {
+                  "X": 1334.0,
+                  "Y": 100.0
+                },
+                "Name": "Panel_settlementType",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": -344,
+                "Scale9OriginY": -236,
+                "Scale9Width": 688,
+                "Scale9Height": 472,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 375.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 75,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoom_tipBg.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "Scale9OriginX": 166,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 711,
+                    "Scale9Height": 649,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 375.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.7819,
+                      "Y": 0.9573
+                    },
+                    "LeftMargin": 145.5,
+                    "RightMargin": 145.5,
+                    "TopMargin": 16.0,
+                    "BottomMargin": 16.0,
+                    "Tag": 76,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "openRoom/openRoom_tipBgF.png",
+                          "Plist": "dlgOpenRoomPlist.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 28,
+                        "Scale9OriginY": 18,
+                        "Scale9Width": 29,
+                        "Scale9Height": 10,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 514.5119,
+                          "Y": 339.7414
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4933,
+                          "Y": 0.4732
+                        },
+                        "PreSize": {
+                          "X": 0.767,
+                          "Y": 0.5571
+                        },
+                        "LeftMargin": 114.5119,
+                        "RightMargin": 128.4881,
+                        "TopMargin": 178.2586,
+                        "BottomMargin": 139.7414,
+                        "Tag": 77,
+                        "ActionTag": 878479820,
+                        "Size": {
+                          "X": 800.0,
+                          "Y": 400.0
+                        },
+                        "Name": "Image_bg",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1661269294,
+                    "Size": {
+                      "X": 1043.0,
+                      "Y": 718.0
+                    },
+                    "Name": "Image_bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 50,
+                    "LabelText": "创建房间成功",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 618.3
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.8244
+                    },
+                    "PreSize": {
+                      "X": 0.2249,
+                      "Y": 0.0667
+                    },
+                    "LeftMargin": 517.0,
+                    "RightMargin": 517.0,
+                    "TopMargin": 106.7,
+                    "BottomMargin": 593.3,
+                    "Tag": 78,
+                    "ActionTag": 2093955985,
+                    "Size": {
+                      "X": 300.0,
+                      "Y": 50.0
+                    },
+                    "Name": "Text_title",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 60,
+                    "LabelText": "房间号1234567",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 427.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 139,
+                      "G": 105,
+                      "B": 20
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.57
+                    },
+                    "PreSize": {
+                      "X": 0.5997,
+                      "Y": 0.1333
+                    },
+                    "LeftMargin": 267.0,
+                    "RightMargin": 267.0,
+                    "TopMargin": 272.5,
+                    "BottomMargin": 377.5,
+                    "Tag": 79,
+                    "ActionTag": 2083343498,
+                    "Size": {
+                      "X": 800.0,
+                      "Y": 100.0
+                    },
+                    "Name": "Text_roomNum",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "加入房间",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoom_add.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 287,
+                    "Scale9Height": 93,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 466.9,
+                      "Y": 225.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.35,
+                      "Y": 0.3
+                    },
+                    "PreSize": {
+                      "X": 0.2376,
+                      "Y": 0.1533
+                    },
+                    "LeftMargin": 308.4,
+                    "RightMargin": 708.6,
+                    "TopMargin": 467.5,
+                    "BottomMargin": 167.5,
+                    "Tag": 80,
+                    "ActionTag": 1311037103,
+                    "Size": {
+                      "X": 317.0,
+                      "Y": 115.0
+                    },
+                    "Name": "Button_add",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "邀请好友",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "openRoom/openRoom_invite.png",
+                      "Plist": "dlgOpenRoomPlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 294,
+                    "Scale9Height": 95,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 867.1,
+                      "Y": 225.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.65,
+                      "Y": 0.3
+                    },
+                    "PreSize": {
+                      "X": 0.2429,
+                      "Y": 0.156
+                    },
+                    "LeftMargin": 705.1,
+                    "RightMargin": 304.9,
+                    "TopMargin": 466.5,
+                    "BottomMargin": 166.5,
+                    "Tag": 81,
+                    "ActionTag": 735583585,
+                    "Size": {
+                      "X": 324.0,
+                      "Y": 117.0
+                    },
+                    "Name": "Button_invite",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -1666543924,
+                "Size": {
+                  "X": 1334.0,
+                  "Y": 750.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Panel_tip",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -400517511,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "dlgOpenRoomPlist.plist",
+        "dlgOpenRoomPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

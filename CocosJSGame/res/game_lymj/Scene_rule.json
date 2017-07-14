@@ -1,0 +1,393 @@
+{
+  "ID": "19abfeda-10d2-48f8-abf2-6be60c7e6581",
+  "Version": "2.3.4",
+  "Name": "Scene_rule",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 845,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "StretchWidthEnable": true,
+            "StretchHeightEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "RightEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 1136,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lymj_setting_rule/bg0.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 277,
+                "Scale9OriginY": 166,
+                "Scale9Width": 288,
+                "Scale9Height": 174,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 695.2085,
+                  "Y": 379.2245
+                },
+                "Scale": {
+                  "ScaleX": 0.9914,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5211,
+                  "Y": 0.5056
+                },
+                "PreSize": {
+                  "X": 0.6312,
+                  "Y": 0.6747
+                },
+                "LeftMargin": 274.2085,
+                "RightMargin": 217.7915,
+                "TopMargin": 117.7755,
+                "BottomMargin": 126.2245,
+                "Tag": 1137,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lymj_setting_rule/bg1.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 277,
+                    "Scale9OriginY": 166,
+                    "Scale9Width": 344,
+                    "Scale9Height": 78,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 423.4916,
+                      "Y": 132.1248
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9256,
+                      "ScaleY": 1.0681
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.503,
+                      "Y": 0.2611
+                    },
+                    "PreSize": {
+                      "X": 1.0665,
+                      "Y": 0.8103
+                    },
+                    "LeftMargin": -25.5084,
+                    "RightMargin": -30.4916,
+                    "TopMargin": 168.8752,
+                    "BottomMargin": -72.8752,
+                    "Tag": 1138,
+                    "ActionTag": -1407068135,
+                    "Size": {
+                      "X": 898.0,
+                      "Y": 410.0
+                    },
+                    "Name": "Image_bg_0",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -413046603,
+                "Size": {
+                  "X": 842.0,
+                  "Y": 506.0
+                },
+                "Name": "Image_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lymj_setting_rule/bg0.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 277,
+                "Scale9OriginY": 166,
+                "Scale9Width": 288,
+                "Scale9Height": 174,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 695.953,
+                  "Y": 281.8711
+                },
+                "Scale": {
+                  "ScaleX": 0.9507,
+                  "ScaleY": 0.6373
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5217,
+                  "Y": 0.3758
+                },
+                "PreSize": {
+                  "X": 0.6312,
+                  "Y": 0.6747
+                },
+                "LeftMargin": 274.953,
+                "RightMargin": 217.047,
+                "TopMargin": 215.1289,
+                "BottomMargin": 28.8711,
+                "Tag": 1168,
+                "ActionTag": -1670250263,
+                "Size": {
+                  "X": 842.0,
+                  "Y": 506.0
+                },
+                "Name": "Image_bg_1",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -111675869,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_root",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lymj_setting_rule/setting_title.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 50,
+            "Scale9OriginY": 48,
+            "Scale9Width": 54,
+            "Scale9Height": 50,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 312.9548,
+              "Y": 559.3962
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2346,
+              "Y": 0.7459
+            },
+            "PreSize": {
+              "X": 0.1154,
+              "Y": 0.1947
+            },
+            "LeftMargin": 235.9548,
+            "RightMargin": 944.0452,
+            "TopMargin": 117.6038,
+            "BottomMargin": 486.3962,
+            "Tag": 1139,
+            "ActionTag": -1455498535,
+            "Size": {
+              "X": 154.0,
+              "Y": 146.0
+            },
+            "Name": "Image_title",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "lymj_setting_rule/close.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 56,
+            "Scale9Height": 65,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1092.5734,
+              "Y": 566.833
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.819,
+              "Y": 0.7558
+            },
+            "PreSize": {
+              "X": 0.0645,
+              "Y": 0.116
+            },
+            "LeftMargin": 1049.5734,
+            "RightMargin": 198.4266,
+            "TopMargin": 139.667,
+            "BottomMargin": 523.333,
+            "Tag": 1142,
+            "ActionTag": -1461594870,
+            "Size": {
+              "X": 86.0,
+              "Y": 87.0
+            },
+            "Name": "Button_close",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lymj_setting_rule/MJui0019.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 161,
+            "Scale9OriginY": 40,
+            "Scale9Width": 168,
+            "Scale9Height": 43,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 700.5435,
+              "Y": 519.611
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5251,
+              "Y": 0.6928
+            },
+            "PreSize": {
+              "X": 0.3673,
+              "Y": 0.164
+            },
+            "LeftMargin": 455.5435,
+            "RightMargin": 388.4565,
+            "TopMargin": 168.889,
+            "BottomMargin": 458.111,
+            "Tag": 1143,
+            "ActionTag": 613763000,
+            "Size": {
+              "X": 490.0,
+              "Y": 123.0
+            },
+            "Name": "Image_title2",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/Button_Press.png",
+        "lymj_setting_rule/bg0.png",
+        "lymj_setting_rule/bg1.png",
+        "lymj_setting_rule/close.png",
+        "lymj_setting_rule/MJui0019.png",
+        "lymj_setting_rule/setting_title.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

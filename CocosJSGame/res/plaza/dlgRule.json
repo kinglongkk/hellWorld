@@ -1,0 +1,386 @@
+{
+  "ID": "1b9fb9fc-207a-45fd-99fc-9a8110a321c6",
+  "Version": "2.3.4",
+  "Name": "dlgRule",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 2639,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -633,
+            "Scale9OriginY": -356,
+            "Scale9Width": 1266,
+            "Scale9Height": 712,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2640,
+            "ActionTag": 2063508974,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Alpha": 92,
+            "Name": "Panel_background",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "public/panel_back.png",
+              "Plist": "dlgPublic.plist"
+            },
+            "Scale9OriginX": 344,
+            "Scale9OriginY": 226,
+            "Scale9Width": 355,
+            "Scale9Height": 233,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.95,
+              "Y": 0.95
+            },
+            "LeftMargin": 33.35,
+            "RightMargin": 33.3501,
+            "TopMargin": 18.75,
+            "BottomMargin": 18.75,
+            "Tag": 2641,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/ImBg.png",
+                  "Plist": "dlgPublic.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 15,
+                "Scale9Width": 29,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 625.666,
+                  "Y": 334.875
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4937,
+                  "Y": 0.47
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.78,
+                  "Y": 0.58
+                },
+                "LeftMargin": 131.419,
+                "RightMargin": 147.3871,
+                "TopMargin": 171.0,
+                "BottomMargin": 128.25,
+                "Tag": 2643,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 58,
+                    "LabelText": "网络还在九霄云外~请稍等！",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 494.2469,
+                      "Y": 206.625
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.95,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 24.7123,
+                    "RightMargin": 24.7123,
+                    "Tag": 846,
+                    "ActionTag": -2058856277,
+                    "Size": {
+                      "X": 939.0692,
+                      "Y": 413.25
+                    },
+                    "Name": "Text_rulemess",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1775880318,
+                "Size": {
+                  "X": 988.4939,
+                  "Y": 413.25
+                },
+                "Name": "Image_rule",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/plaza_sign_X.png",
+                  "Plist": "dlgPublic.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 74,
+                "Scale9Height": 83,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1106.9084,
+                  "Y": 593.1725
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8734,
+                  "Y": 0.8325
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.0821,
+                  "Y": 0.1474
+                },
+                "LeftMargin": 1054.8857,
+                "RightMargin": 108.3688,
+                "TopMargin": 66.8163,
+                "BottomMargin": 540.6613,
+                "Tag": 2653,
+                "ActionTag": 438470115,
+                "Size": {
+                  "X": 104.0453,
+                  "Y": 105.0225
+                },
+                "Name": "Button_return",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 56,
+                "LabelText": "游戏规则",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 77,
+                  "G": 77,
+                  "B": 77
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 633.65,
+                  "Y": 584.8913
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8209
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.25,
+                  "Y": 0.13
+                },
+                "LeftMargin": 475.2375,
+                "RightMargin": 475.2375,
+                "TopMargin": 81.2962,
+                "BottomMargin": 538.5788,
+                "Tag": 2654,
+                "ActionTag": 1689570939,
+                "Size": {
+                  "X": 316.825,
+                  "Y": 92.625
+                },
+                "Name": "Text_title",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1987959653,
+            "Size": {
+              "X": 1267.2999,
+              "Y": 712.5
+            },
+            "Name": "Image_bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "dlgPublic.plist",
+        "dlgPublic.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

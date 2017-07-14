@@ -1,0 +1,610 @@
+{
+  "ID": "c620e5f8-1c5f-41a6-9030-63a986c4cdb5",
+  "Version": "2.3.4",
+  "Name": "dlgRankScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 39,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -633,
+            "Scale9OriginY": -356,
+            "Scale9Width": 1266,
+            "Scale9Height": 712,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 42,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 115.04
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.1534
+                },
+                "PreSize": {
+                  "X": 0.3223,
+                  "Y": 0.6667
+                },
+                "HorizontalEdge": "LeftEdge",
+                "RightMargin": 904.0,
+                "TopMargin": 134.96,
+                "BottomMargin": 115.04,
+                "Tag": 44,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "rank/rank_frame.png",
+                      "Plist": "dlgRankPlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 46,
+                    "Scale9Width": 22,
+                    "Scale9Height": 50,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 215.0,
+                      "Y": 250.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 43,
+                    "ActionTag": 758697036,
+                    "Size": {
+                      "X": 430.0,
+                      "Y": 500.0
+                    },
+                    "Name": "Image_bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 38,
+                    "ButtonText": "英雄榜",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "rank/rank_btn.png",
+                      "Plist": "dlgRankPlist.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "rank/rank_btn.png",
+                      "Plist": "dlgRankPlist.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "rank/rank_btn.png",
+                      "Plist": "dlgRankPlist.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 4,
+                    "Scale9Width": 177,
+                    "Scale9Height": 95,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 121.2194,
+                      "Y": 435.9127
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2819,
+                      "Y": 0.8718
+                    },
+                    "PreSize": {
+                      "X": 0.4814,
+                      "Y": 0.206
+                    },
+                    "LeftMargin": 17.7194,
+                    "RightMargin": 205.2806,
+                    "TopMargin": 12.5873,
+                    "BottomMargin": 384.4127,
+                    "Tag": 45,
+                    "ActionTag": -1374941908,
+                    "Size": {
+                      "X": 207.0,
+                      "Y": 103.0
+                    },
+                    "Name": "Button_hero",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 38,
+                    "ButtonText": "英雄榜",
+                    "TextColor": {
+                      "G": 165,
+                      "B": 0
+                    },
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "rank/rank_btn.png",
+                      "Plist": "dlgRankPlist.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "rank/rank_btn.png",
+                      "Plist": "dlgRankPlist.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 4,
+                    "Scale9Width": 84,
+                    "Scale9Height": 30,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 327.5338,
+                      "Y": 435.9127
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7617,
+                      "Y": 0.8718
+                    },
+                    "PreSize": {
+                      "X": 0.4814,
+                      "Y": 0.206
+                    },
+                    "LeftMargin": 224.0338,
+                    "RightMargin": -1.0338,
+                    "TopMargin": 12.5873,
+                    "BottomMargin": 384.4127,
+                    "Tag": 46,
+                    "ActionTag": -572812076,
+                    "Size": {
+                      "X": 207.0,
+                      "Y": 103.0
+                    },
+                    "Name": "Button_tuHao",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "rank/rank_frame.png",
+                      "Plist": "dlgRankPlist.plist"
+                    },
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 46,
+                    "Scale9Width": 22,
+                    "Scale9Height": 50,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 15.0313,
+                      "Y": 297.9893
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.035,
+                      "Y": 0.596
+                    },
+                    "PreSize": {
+                      "X": 0.9302,
+                      "Y": 0.2
+                    },
+                    "LeftMargin": 15.0313,
+                    "RightMargin": 14.9687,
+                    "TopMargin": 102.0107,
+                    "BottomMargin": 297.9893,
+                    "Tag": 49,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "rank/rank_first.png",
+                          "Plist": "dlgRankPlist.plist"
+                        },
+                        "Scale9OriginX": 29,
+                        "Scale9OriginY": 24,
+                        "Scale9Width": 31,
+                        "Scale9Height": 25,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 58.1223,
+                          "Y": 51.3932
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1453,
+                          "Y": 0.5139
+                        },
+                        "PreSize": {
+                          "X": 0.2225,
+                          "Y": 0.73
+                        },
+                        "LeftMargin": 13.6223,
+                        "RightMargin": 297.3777,
+                        "TopMargin": 12.1068,
+                        "BottomMargin": 14.8932,
+                        "Tag": 50,
+                        "ActionTag": -2109707573,
+                        "Size": {
+                          "X": 89.0,
+                          "Y": 73.0
+                        },
+                        "Name": "Image_rankIcon",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "CharWidth": 48,
+                        "CharHeight": 56,
+                        "LabelText": "4",
+                        "StartChar": "0",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "rank/rank_num.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 58.1223,
+                          "Y": 51.3931
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1453,
+                          "Y": 0.5139
+                        },
+                        "PreSize": {
+                          "X": 0.12,
+                          "Y": 0.56
+                        },
+                        "LeftMargin": 34.1223,
+                        "RightMargin": 317.8777,
+                        "TopMargin": 20.6069,
+                        "BottomMargin": 23.3931,
+                        "Tag": 51,
+                        "ActionTag": -1165225584,
+                        "Size": {
+                          "X": 48.0,
+                          "Y": 56.0
+                        },
+                        "Name": "AtlasLabel_rankIndex",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "rank/rank_second.png",
+                          "Plist": "dlgRankPlist.plist"
+                        },
+                        "Scale9OriginX": 30,
+                        "Scale9OriginY": 23,
+                        "Scale9Width": 31,
+                        "Scale9Height": 25,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 110.0007,
+                          "Y": 50.0002
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.275,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.215,
+                          "Y": 0.71
+                        },
+                        "LeftMargin": 110.0007,
+                        "RightMargin": 203.9993,
+                        "TopMargin": 14.4998,
+                        "BottomMargin": 14.5002,
+                        "Tag": 52,
+                        "ActionTag": 718128493,
+                        "Size": {
+                          "X": 86.0,
+                          "Y": 71.0
+                        },
+                        "Name": "Image_head",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 24,
+                        "LabelText": "噜噜棋牌",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 204.2473,
+                          "Y": 49.7965
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5106,
+                          "Y": 0.498
+                        },
+                        "PreSize": {
+                          "X": 0.45,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 204.2473,
+                        "RightMargin": 15.7527,
+                        "TopMargin": 35.2035,
+                        "BottomMargin": 34.7965,
+                        "Tag": 53,
+                        "ActionTag": -1888465560,
+                        "Size": {
+                          "X": 180.0,
+                          "Y": 30.0
+                        },
+                        "Name": "Text_nickName",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -234277845,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 100.0
+                    },
+                    "Name": "Panel_rankTemp",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "IsBounceEnabled": true,
+                    "InnerNodeSize": {
+                      "Width": 430,
+                      "Height": 400
+                    },
+                    "ScrollDirectionType": "Vertical",
+                    "ClipAble": true,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "G": 150,
+                      "B": 100
+                    },
+                    "FirstColor": {
+                      "G": 150,
+                      "B": 100
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.8
+                    },
+                    "TopMargin": 100.0,
+                    "Tag": 48,
+                    "ActionTag": -1152683559,
+                    "Size": {
+                      "X": 430.0,
+                      "Y": 400.0
+                    },
+                    "Name": "ScrollView_rank",
+                    "ctype": "ScrollViewObjectData"
+                  }
+                ],
+                "ActionTag": -1354992311,
+                "Size": {
+                  "X": 430.0,
+                  "Y": 500.0
+                },
+                "Name": "Panel_rank",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 581879679,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "dlgRankPlist.plist",
+        "dlgRankPlist.png",
+        "rank/rank_num.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

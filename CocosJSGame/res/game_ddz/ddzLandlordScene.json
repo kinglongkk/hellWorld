@@ -1,0 +1,431 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.4",
+  "Name": "ddzLandlordScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "ddzsouces/beij001.jpg",
+              "Plist": "ddzGamePlist.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 5,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0004.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 670.0,
+                  "Y": 650.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5022,
+                  "Y": 0.8667
+                },
+                "PreSize": {
+                  "X": 0.2114,
+                  "Y": 0.1013
+                },
+                "LeftMargin": 670.0,
+                "RightMargin": 382.0,
+                "TopMargin": 24.0,
+                "BottomMargin": 650.0,
+                "Tag": 15,
+                "ActionTag": -1867757666,
+                "Size": {
+                  "X": 282.0,
+                  "Y": 76.0
+                },
+                "Name": "BaseScore",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0003.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 370.0,
+                  "Y": 650.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2774,
+                  "Y": 0.8667
+                },
+                "PreSize": {
+                  "X": 0.2114,
+                  "Y": 0.1013
+                },
+                "LeftMargin": 370.0,
+                "RightMargin": 682.0,
+                "TopMargin": 24.0,
+                "BottomMargin": 650.0,
+                "Tag": 16,
+                "ActionTag": -711559526,
+                "Size": {
+                  "X": 282.0,
+                  "Y": 76.0
+                },
+                "Name": "multiple",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 39,
+                "CharHeight": 58,
+                "LabelText": "1",
+                "StartChar": ".",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "ddzPic/shuz1.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.3883,
+                  "ScaleY": 0.5951
+                },
+                "Position": {
+                  "X": 556.9497,
+                  "Y": 693.8602
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4175,
+                  "Y": 0.9251
+                },
+                "PreSize": {
+                  "X": 0.0292,
+                  "Y": 0.0773
+                },
+                "LeftMargin": 541.806,
+                "RightMargin": 753.194,
+                "TopMargin": 32.6556,
+                "BottomMargin": 659.3444,
+                "Tag": 126,
+                "ActionTag": -1070816787,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 58.0
+                },
+                "Name": "Text_multiple",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "CharWidth": 39,
+                "CharHeight": 58,
+                "LabelText": "1",
+                "StartChar": ".",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "ddzPic/shuz1.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 860.0,
+                  "Y": 690.0
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6447,
+                  "Y": 0.92
+                },
+                "PreSize": {
+                  "X": 0.0292,
+                  "Y": 0.0773
+                },
+                "LeftMargin": 840.5,
+                "RightMargin": 454.5,
+                "TopMargin": 31.0,
+                "BottomMargin": 661.0,
+                "Tag": 128,
+                "ActionTag": -906165826,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 58.0
+                },
+                "Name": "Text_BaseScore",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0001.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 130.0,
+                  "Y": 695.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0975,
+                  "Y": 0.9267
+                },
+                "PreSize": {
+                  "X": 0.1312,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 42.5,
+                "RightMargin": 1116.5,
+                "TopMargin": 35.0,
+                "BottomMargin": 675.0,
+                "Tag": 22,
+                "Children": [
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 58,
+                    "LabelText": "123456",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "ddzPic/shuz1.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.4,
+                      "ScaleY": 0.4
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7429,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.3371,
+                      "Y": 1.45
+                    },
+                    "LeftMargin": 13.0,
+                    "RightMargin": -72.0,
+                    "TopMargin": -9.0,
+                    "BottomMargin": -9.0,
+                    "Tag": 157,
+                    "ActionTag": -751908610,
+                    "Size": {
+                      "X": 234.0,
+                      "Y": 58.0
+                    },
+                    "Name": "Text_room",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -1959925801,
+                "Size": {
+                  "X": 175.0,
+                  "Y": 40.0
+                },
+                "Name": "Panel_room",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0002.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 290.0,
+                  "Y": 695.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2174,
+                  "Y": 0.9267
+                },
+                "PreSize": {
+                  "X": 0.0997,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 223.5,
+                "RightMargin": 977.5,
+                "TopMargin": 35.0,
+                "BottomMargin": 675.0,
+                "Tag": 24,
+                "Children": [
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 58,
+                    "LabelText": "1/1",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "ddzPic/shuz1.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60.0,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.4,
+                      "ScaleY": 0.4
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4511,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.8797,
+                      "Y": 1.45
+                    },
+                    "LeftMargin": 1.5,
+                    "RightMargin": 14.5,
+                    "TopMargin": -9.0,
+                    "BottomMargin": -9.0,
+                    "Tag": 158,
+                    "ActionTag": 1566362870,
+                    "Size": {
+                      "X": 117.0,
+                      "Y": 58.0
+                    },
+                    "Name": "Text_gnum",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 1622825905,
+                "Size": {
+                  "X": 133.0,
+                  "Y": 40.0
+                },
+                "Name": "Panel_gnum",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 953446860,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_main",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "ddzGamePlist.plist",
+        "ddzGamePlist.png",
+        "ddzPic/shuz1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

@@ -1,0 +1,1283 @@
+{
+  "ID": "d3fd9061-e727-4311-aa6d-b53505feb303",
+  "Version": "2.3.4",
+  "Name": "dlgPlazaMallScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 39,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 126,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -344,
+            "Scale9OriginY": -236,
+            "Scale9Width": 688,
+            "Scale9Height": 472,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 43,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "dlgPlazaMallScenePlist/img_plaza_mall_dlgbg.png",
+                  "Plist": "dlgPlazaMallScenePlist.plist"
+                },
+                "Scale9OriginX": 330,
+                "Scale9OriginY": 207,
+                "Scale9Width": 383,
+                "Scale9Height": 304,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 683.0081,
+                  "Y": 390.975
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.512,
+                  "Y": 0.5213
+                },
+                "PreSize": {
+                  "X": 0.7819,
+                  "Y": 0.9573
+                },
+                "LeftMargin": 161.5081,
+                "RightMargin": 129.4919,
+                "TopMargin": 0.025,
+                "BottomMargin": 31.975,
+                "Tag": 44,
+                "Children": [
+                  {
+                    "FontSize": 72,
+                    "LabelText": "商城",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 513.0,
+                      "Y": 597.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4919,
+                      "Y": 0.8315
+                    },
+                    "PreSize": {
+                      "X": 0.1381,
+                      "Y": 0.1128
+                    },
+                    "LeftMargin": 441.0,
+                    "RightMargin": 458.0,
+                    "TopMargin": 80.5,
+                    "BottomMargin": 556.5,
+                    "Tag": 124,
+                    "ActionTag": 1420279683,
+                    "Size": {
+                      "X": 144.0,
+                      "Y": 81.0
+                    },
+                    "Name": "Text_Title",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_close.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 74,
+                    "Scale9Height": 83,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 969.99,
+                      "Y": 655.0314
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.93,
+                      "Y": 0.9123
+                    },
+                    "PreSize": {
+                      "X": 0.0997,
+                      "Y": 0.1462
+                    },
+                    "LeftMargin": 865.99,
+                    "RightMargin": 73.01,
+                    "TopMargin": 62.9686,
+                    "BottomMargin": 550.0314,
+                    "Tag": 45,
+                    "ActionTag": 1351009979,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 105.0
+                    },
+                    "Name": "Button_Close",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_mall_unpress.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 65,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 69,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 243.0,
+                      "Y": 516.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.233,
+                      "Y": 0.7187
+                    },
+                    "PreSize": {
+                      "X": 0.1908,
+                      "Y": 0.1114
+                    },
+                    "LeftMargin": 143.5,
+                    "RightMargin": 700.5,
+                    "TopMargin": 162.0,
+                    "BottomMargin": 476.0,
+                    "Tag": 125,
+                    "ActionTag": -109610626,
+                    "Size": {
+                      "X": 199.0,
+                      "Y": 80.0
+                    },
+                    "Name": "Image_21",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_mall_unpress.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 65,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 69,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 461.5,
+                      "Y": 516.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4425,
+                      "Y": 0.7187
+                    },
+                    "PreSize": {
+                      "X": 0.1908,
+                      "Y": 0.1114
+                    },
+                    "LeftMargin": 362.0,
+                    "RightMargin": 482.0,
+                    "TopMargin": 162.0,
+                    "BottomMargin": 476.0,
+                    "Tag": 126,
+                    "ActionTag": -211574635,
+                    "Size": {
+                      "X": 199.0,
+                      "Y": 80.0
+                    },
+                    "Name": "Image_21_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_mall_unpress.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 65,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 69,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 686.5,
+                      "Y": 516.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6582,
+                      "Y": 0.7187
+                    },
+                    "PreSize": {
+                      "X": 0.1908,
+                      "Y": 0.1114
+                    },
+                    "LeftMargin": 587.0,
+                    "RightMargin": 257.0,
+                    "TopMargin": 162.0,
+                    "BottomMargin": 476.0,
+                    "Tag": 127,
+                    "ActionTag": 640167968,
+                    "Size": {
+                      "X": 199.0,
+                      "Y": 80.0
+                    },
+                    "Name": "Image_21_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/img_plaza_mall_dlgInsidebg.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 55,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 517.0,
+                      "Y": 286.4107
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4957,
+                      "Y": 0.3989
+                    },
+                    "PreSize": {
+                      "X": 0.7814,
+                      "Y": 0.5432
+                    },
+                    "LeftMargin": 109.5,
+                    "RightMargin": 118.5,
+                    "TopMargin": 236.5893,
+                    "BottomMargin": 91.4107,
+                    "Tag": 123,
+                    "ActionTag": -492140472,
+                    "Size": {
+                      "X": 815.0,
+                      "Y": 390.0
+                    },
+                    "Name": "Image_bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "ScrollDirectionType": 0,
+                    "ClipAble": true,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 521.5,
+                      "Y": 156.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.2173
+                    },
+                    "PreSize": {
+                      "X": 0.7076,
+                      "Y": 0.3677
+                    },
+                    "LeftMargin": 152.5,
+                    "RightMargin": 152.5,
+                    "TopMargin": 298.0,
+                    "BottomMargin": 156.0,
+                    "Tag": 103,
+                    "ActionTag": 94930639,
+                    "Size": {
+                      "X": 738.0,
+                      "Y": 264.0
+                    },
+                    "Name": "ListView_Goods_2",
+                    "ctype": "ListViewObjectData"
+                  },
+                  {
+                    "ScrollDirectionType": 0,
+                    "ClipAble": true,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 521.5,
+                      "Y": 156.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.2173
+                    },
+                    "PreSize": {
+                      "X": 0.7076,
+                      "Y": 0.3677
+                    },
+                    "LeftMargin": 152.5,
+                    "RightMargin": 152.5,
+                    "TopMargin": 298.0,
+                    "BottomMargin": 156.0,
+                    "Tag": 39,
+                    "ActionTag": -375775176,
+                    "Size": {
+                      "X": 738.0,
+                      "Y": 264.0
+                    },
+                    "Name": "ListView_Goods_1",
+                    "ctype": "ListViewObjectData"
+                  },
+                  {
+                    "ScrollDirectionType": 0,
+                    "ClipAble": true,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 521.5,
+                      "Y": 156.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.2173
+                    },
+                    "PreSize": {
+                      "X": 0.7076,
+                      "Y": 0.3677
+                    },
+                    "LeftMargin": 152.5,
+                    "RightMargin": 152.5,
+                    "TopMargin": 298.0,
+                    "BottomMargin": 156.0,
+                    "Tag": 38,
+                    "ActionTag": -349833900,
+                    "Size": {
+                      "X": 738.0,
+                      "Y": 264.0
+                    },
+                    "Name": "ListView_Goods_0",
+                    "ctype": "ListViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_msg_mall_bg.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 168,
+                    "Scale9Height": 19,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 243.0,
+                      "Y": 515.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.233,
+                      "Y": 0.7173
+                    },
+                    "PreSize": {
+                      "X": 0.1918,
+                      "Y": 0.1128
+                    },
+                    "LeftMargin": 143.0,
+                    "RightMargin": 700.0,
+                    "TopMargin": 162.5,
+                    "BottomMargin": 474.5,
+                    "Tag": 164,
+                    "ActionTag": -539233512,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 81.0
+                    },
+                    "Name": "Image_GoodsType_Select_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_msg_mall_bg.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 168,
+                    "Scale9Height": 19,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 462.0,
+                      "Y": 516.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.443,
+                      "Y": 0.7187
+                    },
+                    "PreSize": {
+                      "X": 0.1918,
+                      "Y": 0.1142
+                    },
+                    "LeftMargin": 362.0,
+                    "RightMargin": 481.0,
+                    "TopMargin": 161.0,
+                    "BottomMargin": 475.0,
+                    "Tag": 165,
+                    "ActionTag": 962864651,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 82.0
+                    },
+                    "Name": "Image_GoodsType_Select_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_msg_mall_bg.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 168,
+                    "Scale9Height": 19,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 686.5,
+                      "Y": 516.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6582,
+                      "Y": 0.7187
+                    },
+                    "PreSize": {
+                      "X": 0.1918,
+                      "Y": 0.1128
+                    },
+                    "LeftMargin": 586.5,
+                    "RightMargin": 256.5,
+                    "TopMargin": 161.5,
+                    "BottomMargin": 475.5,
+                    "Tag": 166,
+                    "ActionTag": -1558178595,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 81.0
+                    },
+                    "Name": "Image_GoodsType_Select_2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "ButtonText": "购买钻石",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_mall_blue.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_mall_red.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 146,
+                    "Scale9Height": 38,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 245.0,
+                      "Y": 515.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2349,
+                      "Y": 0.7173
+                    },
+                    "PreSize": {
+                      "X": 0.1687,
+                      "Y": 0.0836
+                    },
+                    "LeftMargin": 157.0,
+                    "RightMargin": 710.0,
+                    "TopMargin": 173.0,
+                    "BottomMargin": 485.0,
+                    "Tag": 128,
+                    "ActionTag": -689878209,
+                    "Size": {
+                      "X": 176.0,
+                      "Y": 60.0
+                    },
+                    "Name": "Button_GoodsType_0",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "ButtonText": "兑换金币",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_mall_blue.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_mall_red.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 146,
+                    "Scale9Height": 38,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 462.5,
+                      "Y": 514.4108
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4434,
+                      "Y": 0.7164
+                    },
+                    "PreSize": {
+                      "X": 0.1687,
+                      "Y": 0.0836
+                    },
+                    "LeftMargin": 374.5,
+                    "RightMargin": 492.5,
+                    "TopMargin": 173.5892,
+                    "BottomMargin": 484.4108,
+                    "Tag": 129,
+                    "ActionTag": -13315128,
+                    "Size": {
+                      "X": 176.0,
+                      "Y": 60.0
+                    },
+                    "Name": "Button_GoodsType_1",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "ButtonText": "兑换房卡",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_mall_blue.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_mall_red.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 146,
+                    "Scale9Height": 38,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 687.5,
+                      "Y": 514.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6592,
+                      "Y": 0.7159
+                    },
+                    "PreSize": {
+                      "X": 0.1687,
+                      "Y": 0.0836
+                    },
+                    "LeftMargin": 599.5,
+                    "RightMargin": 267.5,
+                    "TopMargin": 174.0,
+                    "BottomMargin": 484.0,
+                    "Tag": 130,
+                    "ActionTag": -872943031,
+                    "Size": {
+                      "X": 176.0,
+                      "Y": 60.0
+                    },
+                    "Name": "Button_GoodsType_2",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/img_plaza_mall_diamonds_gold_bg.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9OriginX": 77,
+                    "Scale9OriginY": 14,
+                    "Scale9Width": 82,
+                    "Scale9Height": 17,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 360.0,
+                      "Y": 448.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3452,
+                      "Y": 0.624
+                    },
+                    "PreSize": {
+                      "X": 0.2263,
+                      "Y": 0.0627
+                    },
+                    "LeftMargin": 242.0,
+                    "RightMargin": 565.0,
+                    "TopMargin": 247.5,
+                    "BottomMargin": 425.5,
+                    "Tag": 135,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "dlgPlazaMallScenePlist/img_plaza_mall_imazamox.png",
+                          "Plist": "dlgPlazaMallScenePlist.plist"
+                        },
+                        "Scale9OriginX": 28,
+                        "Scale9OriginY": 24,
+                        "Scale9Width": 29,
+                        "Scale9Height": 26,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 30.0,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1271,
+                          "Y": 0.4889
+                        },
+                        "PreSize": {
+                          "X": 0.3602,
+                          "Y": 1.6444
+                        },
+                        "LeftMargin": -12.5,
+                        "RightMargin": 163.5,
+                        "TopMargin": -14.0,
+                        "BottomMargin": -15.0,
+                        "Tag": 137,
+                        "ActionTag": -1326662494,
+                        "Size": {
+                          "X": 85.0,
+                          "Y": 74.0
+                        },
+                        "Name": "Image_29",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1448437623,
+                    "Size": {
+                      "X": 236.0,
+                      "Y": 45.0
+                    },
+                    "Name": "Image_28",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 24,
+                    "LabelText": "",
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 393.0,
+                      "Y": 448.032
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.3768,
+                      "Y": 0.624
+                    },
+                    "PreSize": {
+                      "X": 0.1438,
+                      "Y": 0.039
+                    },
+                    "LeftMargin": 318.0,
+                    "RightMargin": 575.0,
+                    "TopMargin": 255.968,
+                    "BottomMargin": 434.032,
+                    "Tag": 138,
+                    "ActionTag": -2061415409,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 28.0
+                    },
+                    "Name": "Text_Imazamox",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/img_plaza_mall_diamonds_gold_bg.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9OriginX": 77,
+                    "Scale9OriginY": 14,
+                    "Scale9Width": 82,
+                    "Scale9Height": 17,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 668.0,
+                      "Y": 449.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6405,
+                      "Y": 0.6253
+                    },
+                    "PreSize": {
+                      "X": 0.2263,
+                      "Y": 0.0627
+                    },
+                    "LeftMargin": 550.0,
+                    "RightMargin": 257.0,
+                    "TopMargin": 246.5,
+                    "BottomMargin": 426.5,
+                    "Tag": 139,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "dlgPlazaMallScenePlist/img_plaza_mall_one_diamonds.png",
+                          "Plist": "dlgPlazaMallScenePlist.plist"
+                        },
+                        "Scale9OriginX": 28,
+                        "Scale9OriginY": 24,
+                        "Scale9Width": 51,
+                        "Scale9Height": 39,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 18.0,
+                          "Y": 13.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0763,
+                          "Y": 0.2889
+                        },
+                        "PreSize": {
+                          "X": 0.4534,
+                          "Y": 1.9333
+                        },
+                        "LeftMargin": -35.5,
+                        "RightMargin": 164.5,
+                        "TopMargin": -11.5,
+                        "BottomMargin": -30.5,
+                        "Tag": 140,
+                        "ActionTag": 1240670596,
+                        "Size": {
+                          "X": 107.0,
+                          "Y": 87.0
+                        },
+                        "Name": "Image_29",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 315460860,
+                    "Size": {
+                      "X": 236.0,
+                      "Y": 45.0
+                    },
+                    "Name": "Image_28_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 24,
+                    "LabelText": "",
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 701.0,
+                      "Y": 448.9654
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.6721,
+                      "Y": 0.6253
+                    },
+                    "PreSize": {
+                      "X": 0.1438,
+                      "Y": 0.039
+                    },
+                    "LeftMargin": 626.0,
+                    "RightMargin": 267.0,
+                    "TopMargin": 255.0346,
+                    "BottomMargin": 434.9654,
+                    "Tag": 141,
+                    "ActionTag": 383215650,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 28.0
+                    },
+                    "Name": "Text_Diamonds",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 28,
+                    "ButtonText": "确定",
+                    "TextColor": {},
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/btn_plaza_mall_ok.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 115,
+                    "Scale9Height": 44,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 519.0,
+                      "Y": 127.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4976,
+                      "Y": 0.1769
+                    },
+                    "PreSize": {
+                      "X": 0.139,
+                      "Y": 0.0919
+                    },
+                    "LeftMargin": 446.5,
+                    "RightMargin": 451.5,
+                    "TopMargin": 558.0,
+                    "BottomMargin": 94.0,
+                    "Tag": 163,
+                    "ActionTag": 402177831,
+                    "Size": {
+                      "X": 145.0,
+                      "Y": 66.0
+                    },
+                    "Name": "Button_OK",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 1060291045,
+                "Size": {
+                  "X": 1043.0,
+                  "Y": 718.0
+                },
+                "Name": "Image_bg",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -34230588,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_Root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "dlgPlazaMallScenePlist.plist",
+        "dlgPlazaMallScenePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

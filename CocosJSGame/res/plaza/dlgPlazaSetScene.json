@@ -1,0 +1,815 @@
+{
+  "ID": "daae147b-ee32-4de8-97f4-267c101feb27",
+  "Version": "2.3.4",
+  "Name": "dlgPlazaSetScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 476,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": -200,
+            "Scale9OriginY": -100,
+            "Scale9Width": 400,
+            "Scale9Height": 200,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 477,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "public/panel_back.png",
+                  "Plist": "dlgPublic.plist"
+                },
+                "Scale9OriginX": 344,
+                "Scale9OriginY": 226,
+                "Scale9Width": 355,
+                "Scale9Height": 233,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 645.7362,
+                  "Y": 391.3351
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4841,
+                  "Y": 0.5218
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.7819,
+                  "Y": 0.9133
+                },
+                "LeftMargin": 124.2089,
+                "RightMargin": 166.7366,
+                "TopMargin": 16.1774,
+                "BottomMargin": 48.8476,
+                "Tag": 1405,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 48,
+                    "LabelText": "设置",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 521.5273,
+                      "Y": 569.0772
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.8308
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 0.2,
+                      "Y": 0.0949
+                    },
+                    "LeftMargin": 417.2218,
+                    "RightMargin": 417.2218,
+                    "TopMargin": 83.3978,
+                    "BottomMargin": 536.5772,
+                    "Tag": 479,
+                    "ActionTag": 604161871,
+                    "Size": {
+                      "X": 208.6109,
+                      "Y": 65.0
+                    },
+                    "Name": "Text_flag",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "public/plaza_sign_X.png",
+                      "Plist": "dlgPublic.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 74,
+                    "Scale9Height": 83,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 906.4141,
+                      "Y": 572.3507
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.869,
+                      "Y": 0.8356
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.0997,
+                      "Y": 0.1533
+                    },
+                    "HorizontalEdge": "RightEdge",
+                    "LeftMargin": 854.4178,
+                    "RightMargin": 84.6442,
+                    "TopMargin": 60.1209,
+                    "BottomMargin": 519.8474,
+                    "Tag": 488,
+                    "ActionTag": 1376148683,
+                    "Size": {
+                      "X": 103.9925,
+                      "Y": 105.0067
+                    },
+                    "Name": "BtnClose",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 48,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "public/Btn_green.png",
+                      "Plist": "dlgPublic.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 256,
+                    "Scale9Height": 102,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 521.5273,
+                      "Y": 97.061
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1417
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.2742,
+                      "Y": 0.181
+                    },
+                    "LeftMargin": 378.5245,
+                    "RightMargin": 378.5245,
+                    "TopMargin": 525.9238,
+                    "BottomMargin": 35.0707,
+                    "Tag": 486,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 56,
+                        "LabelText": "解散房间",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 128,
+                          "B": 0
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 143.0028,
+                          "Y": 61.9902
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 0.95,
+                          "Y": 0.95
+                        },
+                        "LeftMargin": 7.1501,
+                        "RightMargin": 7.1501,
+                        "TopMargin": 3.0995,
+                        "BottomMargin": 3.0995,
+                        "Tag": 434,
+                        "ActionTag": -833028456,
+                        "Size": {
+                          "X": 271.7053,
+                          "Y": 117.7815
+                        },
+                        "Name": "Text_mess",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -1427058296,
+                    "Size": {
+                      "X": 286.0056,
+                      "Y": 123.9805
+                    },
+                    "Name": "BtnOtherLogin",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "public/ImBg.png",
+                      "Plist": "dlgPublic.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 28,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 29,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 518.6068,
+                      "Y": 342.4875
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4972,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.75,
+                      "Y": 0.5
+                    },
+                    "HorizontalEdge": "RightEdge",
+                    "LeftMargin": 127.4613,
+                    "RightMargin": 133.3024,
+                    "TopMargin": 171.2438,
+                    "BottomMargin": 171.2437,
+                    "Tag": 478,
+                    "Children": [
+                      {
+                        "BackGroundData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "set/tuo_one.png",
+                          "Plist": "dlgPlazaSetScenePlist.plist"
+                        },
+                        "ProgressBarData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "set/tuo_two.png",
+                          "Plist": "dlgPlazaSetScenePlist.plist"
+                        },
+                        "BallNormalData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "set/tuodongtiaonode.png",
+                          "Plist": "dlgPlazaSetScenePlist.plist"
+                        },
+                        "BallPressedData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "set/tuodongtiaonode.png",
+                          "Plist": "dlgPlazaSetScenePlist.plist"
+                        },
+                        "BallDisabledData": {
+                          "Type": "Default",
+                          "Path": "Default/SliderNode_Disable.png",
+                          "Plist": ""
+                        },
+                        "PercentInfo": 54,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 475.0,
+                          "Y": 239.7412
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6072,
+                          "Y": 0.7
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 0.68,
+                          "Y": 0.17
+                        },
+                        "HorizontalEdge": "RightEdge",
+                        "LeftMargin": 209.0211,
+                        "RightMargin": 41.312,
+                        "TopMargin": 73.6348,
+                        "BottomMargin": 210.6298,
+                        "Tag": 480,
+                        "ActionTag": 452068593,
+                        "Size": {
+                          "X": 531.9578,
+                          "Y": 58.2229
+                        },
+                        "Name": "Slider_voice",
+                        "ctype": "SliderObjectData"
+                      },
+                      {
+                        "BackGroundData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "set/tuo_one.png",
+                          "Plist": "dlgPlazaSetScenePlist.plist"
+                        },
+                        "ProgressBarData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "set/tuo_two.png",
+                          "Plist": "dlgPlazaSetScenePlist.plist"
+                        },
+                        "BallNormalData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "set/tuodongtiaonode.png",
+                          "Plist": "dlgPlazaSetScenePlist.plist"
+                        },
+                        "BallPressedData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "set/tuodongtiaonode.png",
+                          "Plist": "dlgPlazaSetScenePlist.plist"
+                        },
+                        "BallDisabledData": {
+                          "Type": "Default",
+                          "Path": "Default/SliderNode_Disable.png",
+                          "Plist": ""
+                        },
+                        "PercentInfo": 50,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 475.0,
+                          "Y": 102.7463
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6072,
+                          "Y": 0.3
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 0.68,
+                          "Y": 0.17
+                        },
+                        "HorizontalEdge": "RightEdge",
+                        "LeftMargin": 209.0211,
+                        "RightMargin": 41.312,
+                        "TopMargin": 210.6298,
+                        "BottomMargin": 73.6348,
+                        "Tag": 481,
+                        "ActionTag": -1913434419,
+                        "Size": {
+                          "X": 531.9578,
+                          "Y": 58.2229
+                        },
+                        "Name": "Slider_sound",
+                        "ctype": "SliderObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 38,
+                        "LabelText": "音乐",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 239.7412
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 174,
+                          "G": 131,
+                          "B": 23
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.1917,
+                          "Y": 0.7
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.12,
+                          "Y": 0.2044
+                        },
+                        "HorizontalEdge": "BothEdge",
+                        "LeftMargin": 103.0625,
+                        "RightMargin": 585.3535,
+                        "TopMargin": 67.7462,
+                        "BottomMargin": 204.7412,
+                        "Tag": 482,
+                        "ActionTag": 848835000,
+                        "Size": {
+                          "X": 93.8749,
+                          "Y": 70.0
+                        },
+                        "Name": "Text_voice",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 38,
+                        "LabelText": "音效",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.0,
+                          "Y": 102.7463
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 174,
+                          "G": 131,
+                          "B": 23
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.1917,
+                          "Y": 0.3
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.12,
+                          "Y": 0.2044
+                        },
+                        "HorizontalEdge": "BothEdge",
+                        "LeftMargin": 103.0625,
+                        "RightMargin": 585.3535,
+                        "TopMargin": 204.7412,
+                        "BottomMargin": 67.7463,
+                        "Tag": 483,
+                        "ActionTag": 1882884997,
+                        "Size": {
+                          "X": 93.8749,
+                          "Y": 70.0
+                        },
+                        "Name": "Text_sound",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "set/Text_sound.png",
+                          "Plist": "dlgPlazaSetScenePlist.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 58.0,
+                          "Y": 239.7412
+                        },
+                        "Scale": {
+                          "ScaleX": 0.6,
+                          "ScaleY": 0.6
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0741,
+                          "Y": 0.7
+                        },
+                        "PreSize": {
+                          "X": 0.156,
+                          "Y": 0.3562
+                        },
+                        "LeftMargin": -3.0,
+                        "RightMargin": 663.2909,
+                        "TopMargin": 41.7462,
+                        "BottomMargin": 178.7412,
+                        "Tag": 1402,
+                        "ActionTag": -321089853,
+                        "Size": {
+                          "X": 122.0,
+                          "Y": 122.0
+                        },
+                        "Name": "Img_sound",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "set/Text_voice.png",
+                          "Plist": "dlgPlazaSetScenePlist.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 58.0,
+                          "Y": 102.7463
+                        },
+                        "Scale": {
+                          "ScaleX": 0.6,
+                          "ScaleY": 0.6
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0741,
+                          "Y": 0.3
+                        },
+                        "PreSize": {
+                          "X": 0.156,
+                          "Y": 0.3562
+                        },
+                        "LeftMargin": -3.0,
+                        "RightMargin": 663.2909,
+                        "TopMargin": 178.7412,
+                        "BottomMargin": 41.7463,
+                        "Tag": 1403,
+                        "ActionTag": 407091576,
+                        "Size": {
+                          "X": 122.0,
+                          "Y": 122.0
+                        },
+                        "Name": "Img_voice",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1418536410,
+                    "Size": {
+                      "X": 782.2909,
+                      "Y": 342.4875
+                    },
+                    "Name": "ImgBg",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -174816981,
+                "Size": {
+                  "X": 1043.0546,
+                  "Y": 684.975
+                },
+                "Name": "Image_blueback",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 683568592,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_back",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/SliderNode_Disable.png",
+        "dlgPlazaSetScenePlist.plist",
+        "dlgPlazaSetScenePlist.png",
+        "dlgPublic.plist",
+        "dlgPublic.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>information/bean.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{401,45},{85,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{85,74}</string>
+			</dict>
+			<key>information/diamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{637,0},{107,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{107,87}</string>
+			</dict>
+			<key>information/roomcard.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{263,0},{138,117}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{138,117}</string>
+			</dict>
+			<key>information/valueback.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{401,0},{236,45}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{236,45}</string>
+			</dict>
+			<key>information/kinghat.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{263,117},{82,57}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{82,57}</string>
+			</dict>
+			<key>information/Imgthumbback.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{262,263}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{262,263}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>dlgPlazaUserInfoPlist.png</string>
+			<key>realTextureFileName</key>
+			<string>dlgPlazaUserInfoPlist.png</string>
+			<key>size</key>
+			<string>{1024,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

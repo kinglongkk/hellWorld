@@ -1,0 +1,528 @@
+{
+  "ID": "535784dd-a6d5-4df3-bce8-447a09379ffe",
+  "Version": "2.3.4",
+  "Name": "dlgPlazaMallGoodsListCellNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 91,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -111.0,
+              "Y": -129.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -111.0,
+            "RightMargin": -135.0,
+            "TopMargin": -135.0,
+            "BottomMargin": -129.0,
+            "Tag": 104,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "dlgPlazaMallScenePlist/img_plaza_mall_goods_yellow_bg.png",
+                  "Plist": "dlgPlazaMallScenePlist.plist"
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": 63,
+                "Scale9OriginY": 87,
+                "Scale9Width": 66,
+                "Scale9Height": 90,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 123.0,
+                  "Y": 132.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7805,
+                  "Y": 1.0
+                },
+                "LeftMargin": 27.0,
+                "RightMargin": 27.0,
+                "Tag": 101,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/img_plaza_mall_goods_orginge_bg.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9OriginX": 70,
+                    "Scale9OriginY": 94,
+                    "Scale9Width": 73,
+                    "Scale9Height": 97,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 96.0,
+                      "Y": 132.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.1094,
+                      "Y": 1.0795
+                    },
+                    "LeftMargin": -10.5,
+                    "RightMargin": -10.5,
+                    "TopMargin": -10.5,
+                    "BottomMargin": -10.5,
+                    "Tag": 93,
+                    "ActionTag": -739307016,
+                    "Size": {
+                      "X": 213.0,
+                      "Y": 285.0
+                    },
+                    "Name": "Image_btn_select",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/img_plaza_mall_goods_coffee_bg.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9OriginX": 51,
+                    "Scale9OriginY": 52,
+                    "Scale9Width": 54,
+                    "Scale9Height": 56,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 98.0,
+                      "Y": 163.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5104,
+                      "Y": 0.6174
+                    },
+                    "PreSize": {
+                      "X": 0.8125,
+                      "Y": 0.6061
+                    },
+                    "LeftMargin": 20.0,
+                    "RightMargin": 16.0,
+                    "TopMargin": 21.0,
+                    "BottomMargin": 83.0,
+                    "Tag": 94,
+                    "ActionTag": -667961179,
+                    "Size": {
+                      "X": 156.0,
+                      "Y": 160.0
+                    },
+                    "Name": "Image_Coffe",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/img_plaza_mall_goods_pink_triangle.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9OriginX": 30,
+                    "Scale9OriginY": 28,
+                    "Scale9Width": 33,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 52.0,
+                      "Y": 214.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2708,
+                      "Y": 0.8106
+                    },
+                    "PreSize": {
+                      "X": 0.4844,
+                      "Y": 0.3258
+                    },
+                    "LeftMargin": 5.5,
+                    "RightMargin": 93.5,
+                    "TopMargin": 7.0,
+                    "BottomMargin": 171.0,
+                    "Tag": 95,
+                    "ActionTag": -397707103,
+                    "Size": {
+                      "X": 93.0,
+                      "Y": 86.0
+                    },
+                    "Name": "Image_Pink",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/img_plaza_mall_diamonds.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9OriginX": 50,
+                    "Scale9OriginY": 44,
+                    "Scale9Width": 54,
+                    "Scale9Height": 46,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 97.0,
+                      "Y": 151.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5052,
+                      "Y": 0.572
+                    },
+                    "PreSize": {
+                      "X": 0.8021,
+                      "Y": 0.5076
+                    },
+                    "LeftMargin": 20.0,
+                    "RightMargin": 18.0,
+                    "TopMargin": 46.0,
+                    "BottomMargin": 84.0,
+                    "Tag": 96,
+                    "ActionTag": 783744201,
+                    "Size": {
+                      "X": 154.0,
+                      "Y": 134.0
+                    },
+                    "Name": "Image_Goods_Type",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "dlgPlazaMallScenePlist/img_plaza_mall_violet.png",
+                      "Plist": "dlgPlazaMallScenePlist.plist"
+                    },
+                    "Scale9OriginX": 55,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 58,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 92.16,
+                      "Y": 40.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.48,
+                      "Y": 0.1515
+                    },
+                    "PreSize": {
+                      "X": 0.875,
+                      "Y": 0.1818
+                    },
+                    "LeftMargin": 8.16,
+                    "RightMargin": 15.84,
+                    "TopMargin": 200.0,
+                    "BottomMargin": 16.0,
+                    "Tag": 97,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 20,
+                        "LabelText": "50",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 111.0,
+                          "Y": 24.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.6607,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.5357,
+                          "Y": 0.4792
+                        },
+                        "LeftMargin": 66.0,
+                        "RightMargin": 12.0,
+                        "TopMargin": 12.5,
+                        "BottomMargin": 12.5,
+                        "Tag": 98,
+                        "ActionTag": -1192258580,
+                        "Size": {
+                          "X": 90.0,
+                          "Y": 23.0
+                        },
+                        "Name": "Text_Price",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "dlgPlazaMallScenePlist/img_plaza_mall_one_diamonds.png",
+                          "Plist": "dlgPlazaMallScenePlist.plist"
+                        },
+                        "Scale9OriginX": 35,
+                        "Scale9OriginY": 28,
+                        "Scale9Width": 37,
+                        "Scale9Height": 31,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 39.9996,
+                          "Y": 16.9999
+                        },
+                        "Scale": {
+                          "ScaleX": 0.6,
+                          "ScaleY": 0.6
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2381,
+                          "Y": 0.3542
+                        },
+                        "PreSize": {
+                          "X": 0.6369,
+                          "Y": 1.8125
+                        },
+                        "LeftMargin": -13.5004,
+                        "RightMargin": 74.5004,
+                        "TopMargin": -12.4999,
+                        "BottomMargin": -26.5001,
+                        "Tag": 99,
+                        "ActionTag": 684869911,
+                        "Size": {
+                          "X": 107.0,
+                          "Y": 87.0
+                        },
+                        "Name": "Image_Goods_Type",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1179787307,
+                    "Size": {
+                      "X": 168.0,
+                      "Y": 48.0
+                    },
+                    "Name": "Image_Price_bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 24,
+                    "LabelText": "20",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 31.9997,
+                      "Y": 230.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": -45.0,
+                    "RotationSkewY": -45.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1667,
+                      "Y": 0.8712
+                    },
+                    "PreSize": {
+                      "X": 0.2604,
+                      "Y": 0.1061
+                    },
+                    "LeftMargin": 6.9997,
+                    "RightMargin": 135.0003,
+                    "TopMargin": 20.0,
+                    "BottomMargin": 216.0,
+                    "Tag": 100,
+                    "ActionTag": -689478814,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 28.0
+                    },
+                    "Name": "Text_Num",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1825496227,
+                "Size": {
+                  "X": 192.0,
+                  "Y": 264.0
+                },
+                "Name": "Panel_Root",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 1106236871,
+            "Size": {
+              "X": 246.0,
+              "Y": 264.0
+            },
+            "Name": "Panel_Bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "dlgPlazaMallScenePlist.plist",
+        "dlgPlazaMallScenePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

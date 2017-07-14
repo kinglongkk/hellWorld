@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>dlgPlazaMsgNodePlist/btn_plaza_close.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{913,229},{104,105}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{104,105}</string>
+			</dict>
+			<key>dlgPlazaMsgNodePlist/btn_plaza_msg_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{912,333},{85,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{85,46}</string>
+			</dict>
+			<key>dlgPlazaMsgNodePlist/btn_plaza_msg_blue_diamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{714,115},{270,114}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{270,114}</string>
+			</dict>
+			<key>dlgPlazaMsgNodePlist/btn_plaza_msg_frame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{714,450}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{714,450}</string>
+			</dict>
+			<key>dlgPlazaMsgNodePlist/btn_plaza_msg_press_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{714,285},{198,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{198,55}</string>
+			</dict>
+			<key>dlgPlazaMsgNodePlist/btn_plaza_msg_red_diamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{714,0},{270,115}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{270,115}</string>
+			</dict>
+			<key>dlgPlazaMsgNodePlist/btn_plaza_msg_unpress.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{714,229},{199,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,56}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>dlgPlazaMsgNodePlist.png</string>
+			<key>realTextureFileName</key>
+			<string>dlgPlazaMsgNodePlist.png</string>
+			<key>size</key>
+			<string>{1024,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

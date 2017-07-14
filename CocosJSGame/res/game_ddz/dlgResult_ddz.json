@@ -1,0 +1,893 @@
+{
+  "ID": "9b6c9a75-4b67-469b-bd50-c1e6ec575ba8",
+  "Version": "2.3.4",
+  "Name": "dlgResult_ddz",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 29,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 153,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 211,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "ddzsouces/doudzui0025.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 176,
+                "Scale9OriginY": 176,
+                "Scale9Width": 182,
+                "Scale9Height": 182,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 644.2167,
+                  "Y": 377.1826
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4829,
+                  "Y": 0.5029
+                },
+                "PreSize": {
+                  "X": 0.4003,
+                  "Y": 0.712
+                },
+                "LeftMargin": 377.2167,
+                "RightMargin": 422.7833,
+                "TopMargin": 105.8174,
+                "BottomMargin": 110.1826,
+                "Tag": 212,
+                "ActionTag": 1534340123,
+                "Size": {
+                  "X": 534.0,
+                  "Y": 534.0
+                },
+                "Name": "Image_xuan",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "ddzsouces/doudzui0023.png",
+                  "Plist": "ddzGamePlist.plist"
+                },
+                "Scale9OriginX": 182,
+                "Scale9OriginY": 107,
+                "Scale9Width": 189,
+                "Scale9Height": 112,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 385.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4798,
+                  "Y": 0.5133
+                },
+                "PreSize": {
+                  "X": 0.4145,
+                  "Y": 0.4347
+                },
+                "LeftMargin": 363.5,
+                "RightMargin": 417.5,
+                "TopMargin": 202.0,
+                "BottomMargin": 222.0,
+                "Tag": 333,
+                "ActionTag": -1146518544,
+                "Size": {
+                  "X": 553.0,
+                  "Y": 326.0
+                },
+                "Name": "Image_ResultBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.854,
+                  "Y": 0.9708
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0006,
+                  "Y": 0.0013
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "LeftMargin": 0.854,
+                "RightMargin": -0.854,
+                "TopMargin": -0.9708,
+                "BottomMargin": 0.9708,
+                "Tag": 196,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 600.0,
+                      "Y": 300.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4498,
+                      "Y": 0.4
+                    },
+                    "PreSize": {
+                      "X": 0.1499,
+                      "Y": 0.2667
+                    },
+                    "LeftMargin": 600.0,
+                    "RightMargin": 534.0,
+                    "TopMargin": 250.0,
+                    "BottomMargin": 300.0,
+                    "Tag": 31,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": -500.3918,
+                          "Y": -257.2693
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -2.502,
+                          "Y": -1.2863
+                        },
+                        "PreSize": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "LeftMargin": -500.3918,
+                        "RightMargin": 600.3918,
+                        "TopMargin": 357.2693,
+                        "BottomMargin": -257.2693,
+                        "Tag": 95,
+                        "Children": [
+                          {
+                            "CharWidth": 50,
+                            "CharHeight": 70,
+                            "LabelText": "39",
+                            "StartChar": ".",
+                            "LabelAtlasFileImage_CNB": {
+                              "Type": "Normal",
+                              "Path": "ddzsouces/shuz4.png",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 520.0,
+                              "Y": 80.0
+                            },
+                            "Scale": {
+                              "ScaleX": 0.8,
+                              "ScaleY": 0.8
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 5.2,
+                              "Y": 0.8
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 0.7
+                            },
+                            "LeftMargin": 470.0,
+                            "RightMargin": -470.0,
+                            "TopMargin": -15.0,
+                            "BottomMargin": 45.0,
+                            "Tag": 49,
+                            "ActionTag": -1424472020,
+                            "Size": {
+                              "X": 100.0,
+                              "Y": 70.0
+                            },
+                            "Name": "AtlasLabel_lost",
+                            "ctype": "TextAtlasObjectData"
+                          },
+                          {
+                            "CharWidth": 50,
+                            "CharHeight": 70,
+                            "LabelText": "39",
+                            "StartChar": ".",
+                            "LabelAtlasFileImage_CNB": {
+                              "Type": "Normal",
+                              "Path": "ddzsouces/shuz3.png",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 520.0,
+                              "Y": 80.0
+                            },
+                            "Scale": {
+                              "ScaleX": 0.8,
+                              "ScaleY": 0.8
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 5.2,
+                              "Y": 0.8
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 0.7
+                            },
+                            "LeftMargin": 470.0,
+                            "RightMargin": -470.0,
+                            "TopMargin": -15.0,
+                            "BottomMargin": 45.0,
+                            "Tag": 65,
+                            "ActionTag": 1193166783,
+                            "Size": {
+                              "X": 100.0,
+                              "Y": 70.0
+                            },
+                            "Name": "AtlasLabel_win",
+                            "ctype": "TextAtlasObjectData"
+                          }
+                        ],
+                        "ActionTag": -582146574,
+                        "Size": {
+                          "X": 100.0,
+                          "Y": 100.0
+                        },
+                        "Name": "Image_outcome0",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 532.3523,
+                          "Y": 97.1854
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 2.6618,
+                          "Y": 0.4859
+                        },
+                        "PreSize": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "LeftMargin": 532.3523,
+                        "RightMargin": -432.3523,
+                        "TopMargin": 2.8146,
+                        "BottomMargin": 97.1854,
+                        "Tag": 96,
+                        "Children": [
+                          {
+                            "CharWidth": 50,
+                            "CharHeight": 70,
+                            "LabelText": "0",
+                            "StartChar": ".",
+                            "LabelAtlasFileImage_CNB": {
+                              "Type": "Normal",
+                              "Path": "ddzsouces/shuz4.png",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -150.0,
+                              "Y": 100.0
+                            },
+                            "Scale": {
+                              "ScaleX": 0.8,
+                              "ScaleY": 0.8
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": -1.5,
+                              "Y": 1.0
+                            },
+                            "PreSize": {
+                              "X": 0.5,
+                              "Y": 0.7
+                            },
+                            "LeftMargin": -175.0,
+                            "RightMargin": 225.0,
+                            "TopMargin": -35.0,
+                            "BottomMargin": 65.0,
+                            "Tag": 99,
+                            "ActionTag": -1078997709,
+                            "Size": {
+                              "X": 50.0,
+                              "Y": 70.0
+                            },
+                            "Name": "AtlasLabel_lost",
+                            "ctype": "TextAtlasObjectData"
+                          },
+                          {
+                            "CharWidth": 50,
+                            "CharHeight": 70,
+                            "LabelText": "0",
+                            "StartChar": ".",
+                            "LabelAtlasFileImage_CNB": {
+                              "Type": "Normal",
+                              "Path": "ddzsouces/shuz3.png",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -150.0,
+                              "Y": 100.0
+                            },
+                            "Scale": {
+                              "ScaleX": 0.8,
+                              "ScaleY": 0.8
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": -1.5,
+                              "Y": 1.0
+                            },
+                            "PreSize": {
+                              "X": 0.5,
+                              "Y": 0.7
+                            },
+                            "LeftMargin": -175.0,
+                            "RightMargin": 225.0,
+                            "TopMargin": -35.0,
+                            "BottomMargin": 65.0,
+                            "Tag": 100,
+                            "ActionTag": -1580061496,
+                            "Size": {
+                              "X": 50.0,
+                              "Y": 70.0
+                            },
+                            "Name": "AtlasLabel_win",
+                            "ctype": "TextAtlasObjectData"
+                          }
+                        ],
+                        "ActionTag": 996428067,
+                        "Size": {
+                          "X": 100.0,
+                          "Y": 100.0
+                        },
+                        "Name": "Image_outcome1",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": -525.3146,
+                          "Y": 116.8767
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -2.6266,
+                          "Y": 0.5844
+                        },
+                        "PreSize": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "LeftMargin": -525.3146,
+                        "RightMargin": 625.3146,
+                        "TopMargin": -16.8767,
+                        "BottomMargin": 116.8767,
+                        "Tag": 102,
+                        "Children": [
+                          {
+                            "CharWidth": 50,
+                            "CharHeight": 70,
+                            "LabelText": "0",
+                            "StartChar": ".",
+                            "LabelAtlasFileImage_CNB": {
+                              "Type": "Normal",
+                              "Path": "ddzsouces/shuz4.png",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 225.0,
+                              "Y": 70.0
+                            },
+                            "Scale": {
+                              "ScaleX": 0.8,
+                              "ScaleY": 0.8
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 2.25,
+                              "Y": 0.7
+                            },
+                            "PreSize": {
+                              "X": 0.5,
+                              "Y": 0.7
+                            },
+                            "LeftMargin": 200.0,
+                            "RightMargin": -150.0,
+                            "TopMargin": -5.0,
+                            "BottomMargin": 35.0,
+                            "Tag": 105,
+                            "ActionTag": -2072694869,
+                            "Size": {
+                              "X": 50.0,
+                              "Y": 70.0
+                            },
+                            "Name": "AtlasLabel_lost",
+                            "ctype": "TextAtlasObjectData"
+                          },
+                          {
+                            "CharWidth": 50,
+                            "CharHeight": 70,
+                            "LabelText": "0",
+                            "StartChar": ".",
+                            "LabelAtlasFileImage_CNB": {
+                              "Type": "Normal",
+                              "Path": "ddzsouces/shuz3.png",
+                              "Plist": ""
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 225.0,
+                              "Y": 70.0
+                            },
+                            "Scale": {
+                              "ScaleX": 0.8,
+                              "ScaleY": 0.8
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 2.25,
+                              "Y": 0.7
+                            },
+                            "PreSize": {
+                              "X": 0.5,
+                              "Y": 0.7
+                            },
+                            "LeftMargin": 200.0,
+                            "RightMargin": -150.0,
+                            "TopMargin": -5.0,
+                            "BottomMargin": 35.0,
+                            "Tag": 106,
+                            "ActionTag": -1264447168,
+                            "Size": {
+                              "X": 50.0,
+                              "Y": 70.0
+                            },
+                            "Name": "AtlasLabel_win",
+                            "ctype": "TextAtlasObjectData"
+                          }
+                        ],
+                        "ActionTag": -1378501380,
+                        "Size": {
+                          "X": 100.0,
+                          "Y": 100.0
+                        },
+                        "Name": "Image_outcome2",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": -688537263,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 200.0
+                    },
+                    "Name": "Panel_outcome",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "ddzsouces/doudzui0025b.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 305,
+                    "Scale9OriginY": 42,
+                    "Scale9Width": 315,
+                    "Scale9Height": 44,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 218.0583,
+                      "Y": 621.6151
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1635,
+                      "Y": 0.8288
+                    },
+                    "PreSize": {
+                      "X": 0.6934,
+                      "Y": 0.1707
+                    },
+                    "LeftMargin": 218.0583,
+                    "RightMargin": 190.9417,
+                    "TopMargin": 0.3849,
+                    "BottomMargin": 621.6151,
+                    "Tag": 183,
+                    "ActionTag": -1601429643,
+                    "Size": {
+                      "X": 925.0,
+                      "Y": 128.0
+                    },
+                    "Name": "Image_3",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 25,
+                    "CharHeight": 40,
+                    "LabelText": "0",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "ddzPic/shuz2.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 740.102,
+                      "Y": 664.9595
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5548,
+                      "Y": 0.8866
+                    },
+                    "PreSize": {
+                      "X": 0.0187,
+                      "Y": 0.0533
+                    },
+                    "LeftMargin": 727.602,
+                    "RightMargin": 581.398,
+                    "TopMargin": 65.0405,
+                    "BottomMargin": 644.9595,
+                    "Tag": 217,
+                    "ActionTag": -1172658840,
+                    "Size": {
+                      "X": 25.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Text_bomb",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 25,
+                    "CharHeight": 40,
+                    "LabelText": "0",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "ddzPic/shuz2.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1030.0988,
+                      "Y": 664.9595
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7722,
+                      "Y": 0.8866
+                    },
+                    "PreSize": {
+                      "X": 0.0187,
+                      "Y": 0.0533
+                    },
+                    "LeftMargin": 1017.5988,
+                    "RightMargin": 291.4012,
+                    "TopMargin": 65.0405,
+                    "BottomMargin": 644.9595,
+                    "Tag": 218,
+                    "ActionTag": 177662146,
+                    "Size": {
+                      "X": 25.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Text_spring",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "CharWidth": 25,
+                    "CharHeight": 40,
+                    "LabelText": "0",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "ddzPic/shuz2.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 445.106,
+                      "Y": 664.9595
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3337,
+                      "Y": 0.8866
+                    },
+                    "PreSize": {
+                      "X": 0.0187,
+                      "Y": 0.0533
+                    },
+                    "LeftMargin": 432.606,
+                    "RightMargin": 876.394,
+                    "TopMargin": 65.0405,
+                    "BottomMargin": 644.9595,
+                    "Tag": 216,
+                    "ActionTag": 1924288666,
+                    "Size": {
+                      "X": 25.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Text_rocket",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": -631536130,
+                "Size": {
+                  "X": 1334.0,
+                  "Y": 750.0
+                },
+                "Name": "Panel_Res",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 354856941,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_Bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "ddzGamePlist.plist",
+        "ddzGamePlist.png",
+        "ddzPic/shuz2.png",
+        "ddzsouces/doudzui0025.png",
+        "ddzsouces/doudzui0025b.png",
+        "ddzsouces/shuz3.png",
+        "ddzsouces/shuz4.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

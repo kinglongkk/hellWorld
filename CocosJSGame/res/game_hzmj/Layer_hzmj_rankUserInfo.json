@@ -1,0 +1,282 @@
+{
+  "ID": "ea8cc8b9-9649-4a24-95cf-5f94ce548c5f",
+  "Version": "2.3.4",
+  "Name": "Layer_hzmj_rankUserInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 23,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "hzmj_userInfo/userInfo_frame.png",
+              "Plist": "Plist_hzmj_userInfo.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 21,
+            "Scale9OriginY": 10,
+            "Scale9Width": 23,
+            "Scale9Height": 12,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.75,
+              "ScaleY": 0.75
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -70.0,
+            "RightMargin": -70.0,
+            "TopMargin": -100.0,
+            "BottomMargin": -100.0,
+            "Tag": 33,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "hzmj_userInfo/userInfo_flowerIcon.png",
+                  "Plist": "Plist_hzmj_userInfo.plist"
+                },
+                "Scale9OriginX": 14,
+                "Scale9OriginY": 13,
+                "Scale9Width": 16,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 69.9996,
+                  "Y": 129.2519
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6463
+                },
+                "PreSize": {
+                  "X": 0.5429,
+                  "Y": 0.38
+                },
+                "LeftMargin": 31.9996,
+                "RightMargin": 32.0004,
+                "TopMargin": 32.7481,
+                "BottomMargin": 91.2519,
+                "Tag": 38,
+                "ActionTag": -1062691227,
+                "Size": {
+                  "X": 76.0,
+                  "Y": 76.0
+                },
+                "Name": "Image_head",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "hzmj_userInfo/userInfo_headFrame.png",
+                  "Plist": "Plist_hzmj_userInfo.plist"
+                },
+                "Scale9OriginX": 39,
+                "Scale9OriginY": 39,
+                "Scale9Width": 22,
+                "Scale9Height": 22,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.0,
+                  "Y": 129.2538
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6463
+                },
+                "PreSize": {
+                  "X": 0.7143,
+                  "Y": 0.5
+                },
+                "LeftMargin": 20.0,
+                "RightMargin": 20.0,
+                "TopMargin": 20.7462,
+                "BottomMargin": 79.2538,
+                "Tag": 37,
+                "ActionTag": 1775808975,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Name": "Image_headFrame",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 24,
+                "LabelText": "玩家小丸子",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.0,
+                  "Y": 51.9062
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2595
+                },
+                "PreSize": {
+                  "X": 1.7143,
+                  "Y": 0.14
+                },
+                "LeftMargin": -50.0,
+                "RightMargin": -50.0,
+                "TopMargin": 134.0938,
+                "BottomMargin": 37.9062,
+                "Tag": 39,
+                "ActionTag": -430559097,
+                "Size": {
+                  "X": 240.0,
+                  "Y": 28.0
+                },
+                "Name": "Text_nickName",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 24,
+                "LabelText": "936",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.8715,
+                  "Y": 20.2993
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 165,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5062,
+                  "Y": 0.1015
+                },
+                "PreSize": {
+                  "X": 0.7143,
+                  "Y": 0.14
+                },
+                "LeftMargin": 20.8715,
+                "RightMargin": 19.1285,
+                "TopMargin": 165.7007,
+                "BottomMargin": 6.2993,
+                "Tag": 40,
+                "ActionTag": -1622109527,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 28.0
+                },
+                "Name": "Text_gold",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 124418513,
+            "Size": {
+              "X": 140.0,
+              "Y": 200.0
+            },
+            "Name": "Image_nomal",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Plist_hzmj_userInfo.plist",
+        "Plist_hzmj_userInfo.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>outcome/bule_btn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{750,0},{324,117}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{324,117}</string>
+			</dict>
+			<key>outcome/msg_image.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{867,0},{504,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{504,55}</string>
+			</dict>
+			<key>outcome/image_nnbg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{750,324},{282,63}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{282,63}</string>
+			</dict>
+			<key>outcome/win_image.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{922,0},{173,99}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{173,99}</string>
+			</dict>
+			<key>outcome/bg_image.jpg</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{1334,750}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>outcome/lost_image.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{922,173},{173,99}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{173,99}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>sssOutcomeScenePlist.png</string>
+			<key>realTextureFileName</key>
+			<string>sssOutcomeScenePlist.png</string>
+			<key>size</key>
+			<string>{1024,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

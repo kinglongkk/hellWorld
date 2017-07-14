@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>sign/plaza_sign_goldenbeanback.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,925},{101,45}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{101,45}</string>
+			</dict>
+			<key>sign/plaza_sign_nosback.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,285},{93,175}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{93,175}</string>
+			</dict>
+			<key>sign/plaza_sign_outtime.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{108,0},{110,110}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{110,110}</string>
+			</dict>
+			<key>sign/plaza_sign_signedback.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,460},{93,175}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{93,175}</string>
+			</dict>
+			<key>sign/plaza_sign_signedword.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,810},{115,115}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{115,115}</string>
+			</dict>
+			<key>sign/plaza_sign_todayword.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{93,285},{115,115}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{115,115}</string>
+			</dict>
+			<key>sign/plaza_sign_todaywordback.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,635},{93,175}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{93,175}</string>
+			</dict>
+			<key>sign/plaza_sign_wordback.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{108,285}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{108,285}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>dlgSignScene.png</string>
+			<key>realTextureFileName</key>
+			<string>dlgSignScene.png</string>
+			<key>size</key>
+			<string>{256,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>256</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

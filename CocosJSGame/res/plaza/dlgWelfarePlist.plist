@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>welfare/btn_ensure.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{714,0},{194,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{194,87}</string>
+			</dict>
+			<key>welfare/btn_firstday.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{908,0},{194,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{194,87}</string>
+			</dict>
+			<key>welfare/btn_invite.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{714,87},{194,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{194,87}</string>
+			</dict>
+			<key>welfare/btn_plaza_close.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{714,261},{104,105}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{104,105}</string>
+			</dict>
+			<key>welfare/btn_plaza_msg_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{858,497},{85,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{85,46}</string>
+			</dict>
+			<key>welfare/btn_plaza_msg_frame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{714,450}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{714,450}</string>
+			</dict>
+			<key>welfare/btn_share.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{714,174},{194,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{194,87}</string>
+			</dict>
+			<key>welfare/Icon_baseEnsure.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{714,365},{98,97}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{98,97}</string>
+			</dict>
+			<key>welfare/icon_firstday.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{908,194},{95,117}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{95,117}</string>
+			</dict>
+			<key>welfare/icon_invite.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{866,311},{95,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{95,93}</string>
+			</dict>
+			<key>welfare/icon_share.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{866,404},{95,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{95,93}</string>
+			</dict>
+			<key>welfare/text_baseEnsure.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{961,469},{157,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{157,46}</string>
+			</dict>
+			<key>welfare/text_firstday.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{961,311},{158,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{158,46}</string>
+			</dict>
+			<key>welfare/text_invite.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{812,455},{158,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{158,46}</string>
+			</dict>
+			<key>welfare/text_shareWx.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{819,261},{194,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{194,47}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>dlgWelfarePlist.png</string>
+			<key>realTextureFileName</key>
+			<string>dlgWelfarePlist.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

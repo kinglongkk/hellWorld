@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>login/login_btnWxNomal.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,392},{386,108}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{386,108}</string>
+			</dict>
+			<key>login/login_btnWxPress.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,504},{386,108}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{386,108}</string>
+			</dict>
+			<key>login/login_logo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{501,386}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{501,386}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>LoginPlist.png</string>
+			<key>realTextureFileName</key>
+			<string>LoginPlist.png</string>
+			<key>size</key>
+			<string>{505,614}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>505</integer>
+			<key>height</key>
+			<integer>614</integer>
+		</dict>
+	</dict>
+</plist>

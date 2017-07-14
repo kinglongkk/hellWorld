@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>public/again.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/agreen.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{204,0},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/btn_bg_blue2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{408,0},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/btnbg_Blue.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{612,0},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/btnbg_green.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{816,0},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/btnbg_red.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,87},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/exitRoom.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,291},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/invite.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,495},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/main_msgIconNomal.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{174,87},{94,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,94}</string>
+			</dict>
+			<key>public/main_ruleIconNomal.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{174,181},{94,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,94}</string>
+			</dict>
+			<key>public/main_setIconNomal.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{174,275},{94,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,94}</string>
+			</dict>
+			<key>public/main_TalkIconNomal.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{174,369},{94,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,94}</string>
+			</dict>
+			<key>public/ok.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,699},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/ready.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,903},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/reject.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{87,87},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/share.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{87,291},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/show.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{87,495},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/start.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{87,699},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>public/text_black_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{174,463},{162,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{162,40}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist_public.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist_public.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

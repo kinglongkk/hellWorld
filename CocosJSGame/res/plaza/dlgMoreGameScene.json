@@ -1,0 +1,1622 @@
+{
+  "ID": "3f6e9644-f5bf-4527-a720-b115544e94df",
+  "Version": "2.3.4",
+  "Name": "dlgMoreGameScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "more/img_moregame_bg.jpg",
+              "Plist": ""
+            },
+            "Scale9OriginX": 440,
+            "Scale9OriginY": 247,
+            "Scale9Width": 454,
+            "Scale9Height": 256,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2,
+            "ActionTag": -1559500950,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Image_bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "more/img_shadow.png",
+              "Plist": "dlgMoreGamePlist.plist"
+            },
+            "Scale9OriginX": 158,
+            "Scale9OriginY": 75,
+            "Scale9Width": 165,
+            "Scale9Height": 79,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 222.0,
+              "Y": 145.9466
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1664,
+              "Y": 0.1946
+            },
+            "PreSize": {
+              "X": 0.3606,
+              "Y": 0.3053
+            },
+            "LeftMargin": -18.5,
+            "RightMargin": 871.5,
+            "TopMargin": 489.5534,
+            "BottomMargin": 31.4466,
+            "Tag": 48,
+            "ActionTag": 977899612,
+            "Size": {
+              "X": 481.0,
+              "Y": 229.0
+            },
+            "Name": "Image_bg_0",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "more/img_shadow.png",
+              "Plist": "dlgMoreGamePlist.plist"
+            },
+            "Scale9OriginX": 158,
+            "Scale9OriginY": 75,
+            "Scale9Width": 165,
+            "Scale9Height": 79,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 650.0,
+              "Y": 144.9466
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4873,
+              "Y": 0.1933
+            },
+            "PreSize": {
+              "X": 0.3606,
+              "Y": 0.3053
+            },
+            "LeftMargin": 409.5,
+            "RightMargin": 443.5,
+            "TopMargin": 490.5534,
+            "BottomMargin": 30.4466,
+            "Tag": 49,
+            "ActionTag": -846560857,
+            "Size": {
+              "X": 481.0,
+              "Y": 229.0
+            },
+            "Name": "Image_bg_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "more/img_shadow.png",
+              "Plist": "dlgMoreGamePlist.plist"
+            },
+            "Scale9OriginX": 158,
+            "Scale9OriginY": 75,
+            "Scale9Width": 165,
+            "Scale9Height": 79,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1085.0,
+              "Y": 151.9466
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8133,
+              "Y": 0.2026
+            },
+            "PreSize": {
+              "X": 0.3606,
+              "Y": 0.3053
+            },
+            "LeftMargin": 844.5,
+            "RightMargin": 8.5,
+            "TopMargin": 483.5534,
+            "BottomMargin": 37.4466,
+            "Tag": 50,
+            "ActionTag": -1901359173,
+            "Size": {
+              "X": 481.0,
+              "Y": 229.0
+            },
+            "Name": "Image_bg_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "more/btn_back.png",
+              "Plist": "dlgMoreGamePlist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 55,
+            "Scale9Height": 62,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 61.0,
+              "Y": 695.6427
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0457,
+              "Y": 0.9275
+            },
+            "PreSize": {
+              "X": 0.078,
+              "Y": 0.14
+            },
+            "LeftMargin": 9.0,
+            "RightMargin": 1221.0,
+            "TopMargin": 1.8573,
+            "BottomMargin": 643.1427,
+            "Tag": 3,
+            "ActionTag": -266429800,
+            "Size": {
+              "X": 104.0,
+              "Y": 105.0
+            },
+            "Name": "Button_back",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "more/btn_join_nntb_room.png",
+              "Plist": "dlgMoreGamePlist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 383,
+            "Scale9Height": 447,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.3096,
+              "Y": 0.6253
+            },
+            "LeftMargin": 460.5,
+            "RightMargin": 460.5,
+            "TopMargin": 140.5,
+            "BottomMargin": 140.5,
+            "Tag": 51,
+            "ActionTag": -120675812,
+            "Size": {
+              "X": 413.0,
+              "Y": 469.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Button_join",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "more/btn_creater_nntb_room.png",
+              "Plist": "dlgMoreGamePlist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 371,
+            "Scale9Height": 441,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 25.0004,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 0.9977,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0187,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.3006,
+              "Y": 0.6173
+            },
+            "LeftMargin": 25.0004,
+            "RightMargin": 907.9996,
+            "TopMargin": 143.5,
+            "BottomMargin": 143.5,
+            "Tag": 52,
+            "ActionTag": -746361320,
+            "Size": {
+              "X": 401.0,
+              "Y": 463.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Button_create",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "more/btn_moneyroom.png",
+              "Plist": "dlgMoreGamePlist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 441,
+            "Scale9Height": 458,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.4958
+            },
+            "Position": {
+              "X": 1334.0,
+              "Y": 352.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.47
+            },
+            "PreSize": {
+              "X": 0.3531,
+              "Y": 0.64
+            },
+            "LeftMargin": 863.0,
+            "TopMargin": 155.484,
+            "BottomMargin": 114.516,
+            "Tag": 53,
+            "ActionTag": 1626139677,
+            "Size": {
+              "X": 471.0,
+              "Y": 480.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Button_money",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "more/btn_setting.png",
+              "Plist": "dlgMoreGamePlist.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 30,
+            "Scale9Height": 41,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1266.8635,
+              "Y": 701.7637
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9497,
+              "Y": 0.9357
+            },
+            "PreSize": {
+              "X": 0.045,
+              "Y": 0.084
+            },
+            "LeftMargin": 1236.8635,
+            "RightMargin": 37.1365,
+            "TopMargin": 16.7363,
+            "BottomMargin": 670.2637,
+            "Tag": 36,
+            "ActionTag": 446205910,
+            "Size": {
+              "X": 60.0,
+              "Y": 63.0
+            },
+            "Name": "Button_set",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "more/img_inputbg.png",
+              "Plist": "dlgMoreGamePlist.plist"
+            },
+            "Scale9OriginX": 80,
+            "Scale9OriginY": 20,
+            "Scale9Width": 85,
+            "Scale9Height": 22,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 328.9998,
+              "Y": 700.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2466,
+              "Y": 0.9333
+            },
+            "PreSize": {
+              "X": 0.1837,
+              "Y": 0.0827
+            },
+            "LeftMargin": 206.4998,
+            "RightMargin": 882.5002,
+            "TopMargin": 19.0,
+            "BottomMargin": 669.0,
+            "Tag": 44,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "more/btn_setting.png",
+                  "Plist": "dlgMoreGamePlist.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 27,
+                "Scale9Width": 4,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": -24.3233,
+                  "Y": 66.9166
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": -0.0993,
+                  "Y": 1.0793
+                },
+                "PreSize": {
+                  "X": 0.2449,
+                  "Y": 1.0161
+                },
+                "LeftMargin": -54.3233,
+                "RightMargin": 239.3233,
+                "TopMargin": -4.9166,
+                "BottomMargin": 3.9166,
+                "Tag": 8,
+                "ActionTag": 525226490,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 63.0
+                },
+                "Name": "Image_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "main/plaza_headFrame.png",
+                  "Plist": "dlgPlazaPlist.plist"
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 20,
+                "Scale9Width": 62,
+                "Scale9Height": 60,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -25.2964,
+                  "Y": 30.147
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.1033,
+                  "Y": 0.4862
+                },
+                "PreSize": {
+                  "X": 0.4082,
+                  "Y": 1.6129
+                },
+                "LeftMargin": -75.2964,
+                "RightMargin": 220.2964,
+                "TopMargin": -18.147,
+                "BottomMargin": -19.853,
+                "Tag": 157,
+                "ActionTag": -1733508023,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 100.0
+                },
+                "Name": "Image_13",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 27,
+                "LabelText": "噜噜棋牌",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 99.0,
+                  "Y": 33.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4041,
+                  "Y": 0.5323
+                },
+                "PreSize": {
+                  "X": 0.5714,
+                  "Y": 0.5
+                },
+                "LeftMargin": 29.0,
+                "RightMargin": 76.0,
+                "TopMargin": 13.5,
+                "BottomMargin": 17.5,
+                "Tag": 47,
+                "ActionTag": -119221788,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 31.0
+                },
+                "Name": "Text_gold",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 21094992,
+            "Size": {
+              "X": 245.0,
+              "Y": 62.0
+            },
+            "Name": "Image_Title",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "more/img_inputbg.png",
+              "Plist": "dlgMoreGamePlist.plist"
+            },
+            "Scale9OriginX": 80,
+            "Scale9OriginY": 20,
+            "Scale9Width": 85,
+            "Scale9Height": 22,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 584.8508,
+              "Y": 700.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4384,
+              "Y": 0.9333
+            },
+            "PreSize": {
+              "X": 0.1724,
+              "Y": 0.0827
+            },
+            "LeftMargin": 469.8508,
+            "RightMargin": 634.1492,
+            "TopMargin": 19.0,
+            "BottomMargin": 669.0,
+            "Tag": 37,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "dlgPlazaMallScenePlist/img_plaza_mall_imazamox.png",
+                  "Plist": "dlgPlazaMallScenePlist.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 24,
+                "Scale9Width": 29,
+                "Scale9Height": 26,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -9.0005,
+                  "Y": -9.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0391,
+                  "Y": -0.1452
+                },
+                "PreSize": {
+                  "X": 0.3696,
+                  "Y": 1.1935
+                },
+                "LeftMargin": -9.0005,
+                "RightMargin": 154.0005,
+                "TopMargin": -3.0,
+                "BottomMargin": -9.0,
+                "Tag": 9,
+                "ActionTag": -405394572,
+                "Size": {
+                  "X": 85.0,
+                  "Y": 74.0
+                },
+                "Name": "Image_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "more/btn_Recharge.png",
+                  "Plist": "dlgMoreGamePlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 22,
+                "Scale9Height": 33,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 206.1711,
+                  "Y": 26.3533
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8964,
+                  "Y": 0.4251
+                },
+                "PreSize": {
+                  "X": 0.2261,
+                  "Y": 0.8871
+                },
+                "LeftMargin": 180.1711,
+                "RightMargin": -2.1711,
+                "TopMargin": 8.1467,
+                "BottomMargin": -1.1467,
+                "Tag": 38,
+                "ActionTag": 833054752,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 55.0
+                },
+                "Name": "Button_addGold",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 27,
+                "LabelText": "500000",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.0,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5087,
+                  "Y": 0.4839
+                },
+                "PreSize": {
+                  "X": 0.6087,
+                  "Y": 0.5
+                },
+                "LeftMargin": 47.0,
+                "RightMargin": 43.0,
+                "TopMargin": 16.5,
+                "BottomMargin": 14.5,
+                "Tag": 39,
+                "ActionTag": 1995657023,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 31.0
+                },
+                "Name": "Text_money",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1710524996,
+            "Size": {
+              "X": 230.0,
+              "Y": 62.0
+            },
+            "Name": "Image_gold",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "more/img_inputbg.png",
+              "Plist": "dlgMoreGamePlist.plist"
+            },
+            "Scale9OriginX": 80,
+            "Scale9OriginY": 20,
+            "Scale9Width": 85,
+            "Scale9Height": 22,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 843.2856,
+              "Y": 700.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6321,
+              "Y": 0.9333
+            },
+            "PreSize": {
+              "X": 0.1724,
+              "Y": 0.0827
+            },
+            "LeftMargin": 728.2856,
+            "RightMargin": 375.7144,
+            "TopMargin": 19.0,
+            "BottomMargin": 669.0,
+            "Tag": 40,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "dlgPlazaMallScenePlist/img_plaza_mall_one_diamonds.png",
+                  "Plist": "dlgPlazaMallScenePlist.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 24,
+                "Scale9Width": 51,
+                "Scale9Height": 39,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -17.8201,
+                  "Y": -21.2932
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0775,
+                  "Y": -0.3434
+                },
+                "PreSize": {
+                  "X": 0.4652,
+                  "Y": 1.4032
+                },
+                "LeftMargin": -17.8201,
+                "RightMargin": 140.8201,
+                "TopMargin": -3.7068,
+                "BottomMargin": -21.2932,
+                "Tag": 41,
+                "ActionTag": -806568435,
+                "Size": {
+                  "X": 107.0,
+                  "Y": 87.0
+                },
+                "Name": "Image_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "more/btn_Recharge.png",
+                  "Plist": "dlgMoreGamePlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 22,
+                "Scale9Height": 33,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 205.5987,
+                  "Y": 26.0856
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8939,
+                  "Y": 0.4207
+                },
+                "PreSize": {
+                  "X": 0.2261,
+                  "Y": 0.8871
+                },
+                "LeftMargin": 179.5987,
+                "RightMargin": -1.5987,
+                "TopMargin": 8.4144,
+                "BottomMargin": -1.4144,
+                "Tag": 42,
+                "ActionTag": 2005005966,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 55.0
+                },
+                "Name": "Button_addDiamonds",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 27,
+                "LabelText": "500000",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.0,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5087,
+                  "Y": 0.4839
+                },
+                "PreSize": {
+                  "X": 0.6087,
+                  "Y": 0.5
+                },
+                "LeftMargin": 47.0,
+                "RightMargin": 43.0,
+                "TopMargin": 16.5,
+                "BottomMargin": 14.5,
+                "Tag": 43,
+                "ActionTag": -479423090,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 31.0
+                },
+                "Name": "Text_money",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 636168574,
+            "Size": {
+              "X": 230.0,
+              "Y": 62.0
+            },
+            "Name": "Image_Diamonds",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "more/img_inputbg.png",
+              "Plist": "dlgMoreGamePlist.plist"
+            },
+            "Scale9OriginX": 80,
+            "Scale9OriginY": 20,
+            "Scale9Width": 85,
+            "Scale9Height": 22,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1099.0352,
+              "Y": 700.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8239,
+              "Y": 0.9333
+            },
+            "PreSize": {
+              "X": 0.1724,
+              "Y": 0.0827
+            },
+            "LeftMargin": 984.0352,
+            "RightMargin": 119.9648,
+            "TopMargin": 19.0,
+            "BottomMargin": 669.0,
+            "Tag": 545,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "information/roomcard.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 24,
+                "Scale9Width": 82,
+                "Scale9Height": 69,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -6.6732,
+                  "Y": -1.7889
+                },
+                "Scale": {
+                  "ScaleX": 0.7031,
+                  "ScaleY": 0.827
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.029,
+                  "Y": -0.0289
+                },
+                "PreSize": {
+                  "X": 0.4652,
+                  "Y": 1.4032
+                },
+                "LeftMargin": -6.6732,
+                "RightMargin": 129.6732,
+                "TopMargin": -23.2111,
+                "BottomMargin": -1.7889,
+                "Tag": 546,
+                "ActionTag": -1903637904,
+                "Size": {
+                  "X": 107.0,
+                  "Y": 87.0
+                },
+                "Name": "Image_goldIcon",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "more/btn_Recharge.png",
+                  "Plist": "dlgMoreGamePlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 22,
+                "Scale9Height": 33,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 205.5987,
+                  "Y": 26.0856
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8939,
+                  "Y": 0.4207
+                },
+                "PreSize": {
+                  "X": 0.2261,
+                  "Y": 0.8871
+                },
+                "LeftMargin": 179.5987,
+                "RightMargin": -1.5987,
+                "TopMargin": 8.4144,
+                "BottomMargin": -1.4144,
+                "Tag": 547,
+                "ActionTag": 226973903,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 55.0
+                },
+                "Name": "Button_addRoomCard",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 27,
+                "LabelText": "500000",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.0,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5087,
+                  "Y": 0.4839
+                },
+                "PreSize": {
+                  "X": 0.6087,
+                  "Y": 0.5
+                },
+                "LeftMargin": 47.0,
+                "RightMargin": 43.0,
+                "TopMargin": 16.5,
+                "BottomMargin": 14.5,
+                "Tag": 548,
+                "ActionTag": -1879540309,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 31.0
+                },
+                "Name": "Text_roomCard",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1743267185,
+            "Size": {
+              "X": 230.0,
+              "Y": 62.0
+            },
+            "Name": "Panel_roomCardInfo",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "VerticalType": "Align_VerticalCenter",
+            "ScrollDirectionType": 0,
+            "ClipAble": true,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 150
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 150
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentWidthEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.8467
+            },
+            "TopMargin": 115.0,
+            "Tag": 54,
+            "ActionTag": 2068804110,
+            "Size": {
+              "X": 1334.0,
+              "Y": 635.0
+            },
+            "VisibleForFrame": false,
+            "Name": "ListView_RoomList",
+            "ctype": "ListViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 222.5,
+              "Y": 317.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1668,
+              "Y": 0.4233
+            },
+            "PreSize": {
+              "X": 0.3336,
+              "Y": 0.0667
+            },
+            "RightMargin": 889.0,
+            "TopMargin": 407.5,
+            "BottomMargin": 292.5,
+            "Tag": 202,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "more/img_shadow.png",
+                  "Plist": "dlgMoreGamePlist.plist"
+                },
+                "Scale9OriginX": 158,
+                "Scale9OriginY": 75,
+                "Scale9Width": 165,
+                "Scale9Height": 79,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 222.5,
+                  "Y": -150.002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -3.0
+                },
+                "PreSize": {
+                  "X": 1.0809,
+                  "Y": 4.6
+                },
+                "LeftMargin": -18.0,
+                "RightMargin": -18.0,
+                "TopMargin": 85.002,
+                "BottomMargin": -265.002,
+                "Tag": 203,
+                "ActionTag": 1245322340,
+                "Size": {
+                  "X": 481.0,
+                  "Y": 230.0
+                },
+                "Name": "Image_shadow",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "more/btn_FourCow.png",
+                  "Plist": "dlgMoreGamePlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 293,
+                "Scale9Height": 404,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 222.5,
+                  "Y": 50.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 1.0
+                },
+                "PreSize": {
+                  "X": 0.7258,
+                  "Y": 8.52
+                },
+                "LeftMargin": 61.0,
+                "RightMargin": 61.0,
+                "TopMargin": -213.0,
+                "BottomMargin": -163.0,
+                "Tag": 204,
+                "ActionTag": 1790970629,
+                "Size": {
+                  "X": 323.0,
+                  "Y": 426.0
+                },
+                "Name": "Button_game",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1278476811,
+            "Size": {
+              "X": 445.0,
+              "Y": 50.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Panel_gameTemp",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "VerticalType": "Align_VerticalCenter",
+            "ScrollDirectionType": 0,
+            "ClipAble": true,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 150
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 150
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -0.0001,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentWidthEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.8467
+            },
+            "LeftMargin": -0.0001,
+            "TopMargin": 115.0,
+            "Tag": 201,
+            "ActionTag": 1741091461,
+            "Size": {
+              "X": 1334.0,
+              "Y": 635.0
+            },
+            "Name": "ListView_GameList",
+            "ctype": "ListViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "dlgMoreGamePlist.plist",
+        "dlgMoreGamePlist.png",
+        "dlgPlazaMallScenePlist.plist",
+        "dlgPlazaMallScenePlist.png",
+        "dlgPlazaPlist.plist",
+        "dlgPlazaPlist.png",
+        "information/roomcard.png",
+        "more/img_moregame_bg.jpg"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

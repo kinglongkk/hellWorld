@@ -1,0 +1,849 @@
+{
+  "ID": "87e542a9-cf87-4f69-a880-3b9129cfd2e1",
+  "Version": "2.3.4",
+  "Name": "sssMainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 189,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sss/mian_bg.jpg",
+              "Plist": "ddzCNPokePlist.plist"
+            },
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 5,
+            "Scale9OriginY": 5,
+            "Scale9Width": 1324,
+            "Scale9Height": 740,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 190,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/shissuiLoge.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 668.4905,
+                  "Y": 457.083
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5011,
+                  "Y": 0.6094
+                },
+                "PreSize": {
+                  "X": 0.2564,
+                  "Y": 0.2013
+                },
+                "LeftMargin": 497.4905,
+                "RightMargin": 494.5095,
+                "TopMargin": 217.417,
+                "BottomMargin": 381.583,
+                "Tag": 619,
+                "ActionTag": 1443437291,
+                "Size": {
+                  "X": 342.0,
+                  "Y": 151.0
+                },
+                "Name": "Logo",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/BaseScore.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 664.999,
+                  "Y": 458.775
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4985,
+                  "Y": 0.6117
+                },
+                "PreSize": {
+                  "X": 0.1147,
+                  "Y": 0.0853
+                },
+                "LeftMargin": 588.499,
+                "RightMargin": 592.501,
+                "TopMargin": 259.225,
+                "BottomMargin": 426.775,
+                "Tag": 193,
+                "ActionTag": 2016207644,
+                "Size": {
+                  "X": 153.0,
+                  "Y": 64.0
+                },
+                "Name": "BaseScore",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 30,
+                "LabelText": "0",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 670.0682,
+                  "Y": 444.75
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5023,
+                  "Y": 0.593
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.044
+                },
+                "LeftMargin": 620.0682,
+                "RightMargin": 613.9318,
+                "TopMargin": 288.75,
+                "BottomMargin": 428.25,
+                "Tag": 196,
+                "ActionTag": 1015929295,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 33.0
+                },
+                "Name": "Text_BaseScore",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {},
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 31.4369,
+                  "Y": 685.0078
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0236,
+                  "Y": 0.9133
+                },
+                "PreSize": {
+                  "X": 0.1349,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 31.4369,
+                "RightMargin": 1122.5631,
+                "TopMargin": 24.9922,
+                "BottomMargin": 685.0078,
+                "Tag": 237,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 24,
+                    "LabelText": "123456",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 117.846,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.6547,
+                      "Y": 0.5
+                    },
+                    "PercentHeightEnable": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.6667,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 57.846,
+                    "RightMargin": 2.154,
+                    "Tag": 238,
+                    "ActionTag": 2025640264,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Text_room",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/RoomID_Bg.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.3939,
+                      "ScaleY": 0.5804
+                    },
+                    "Position": {
+                      "X": 66.3544,
+                      "Y": 23.959
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3686,
+                      "Y": 0.599
+                    },
+                    "PreSize": {
+                      "X": 1.0333,
+                      "Y": 1.05
+                    },
+                    "LeftMargin": -6.911,
+                    "RightMargin": 0.911,
+                    "TopMargin": -1.5822,
+                    "BottomMargin": -0.4178,
+                    "Tag": 217,
+                    "ActionTag": 242162538,
+                    "Size": {
+                      "X": 186.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Image_RoomBg",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -327769415,
+                "Size": {
+                  "X": 180.0,
+                  "Y": 40.0
+                },
+                "Name": "Panel_room",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {},
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 278.8544,
+                  "Y": 691.8894
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.209,
+                  "Y": 0.9225
+                },
+                "PreSize": {
+                  "X": 0.0975,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 278.8544,
+                "RightMargin": 925.1456,
+                "TopMargin": 18.1106,
+                "BottomMargin": 691.8894,
+                "Tag": 239,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 24,
+                    "LabelText": "0/12",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -20.358,
+                      "Y": 13.476
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": -0.1566,
+                      "Y": 0.3369
+                    },
+                    "PercentHeightEnable": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.7692,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": -20.358,
+                    "RightMargin": 50.358,
+                    "TopMargin": 6.524,
+                    "BottomMargin": -6.524,
+                    "Tag": 240,
+                    "ActionTag": -1641139001,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Text_gnum",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/PlayCount_Bg.png",
+                      "Plist": "ddzCNPokePlist.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.7495,
+                      "Y": 12.1127
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2365,
+                      "Y": 0.3028
+                    },
+                    "PreSize": {
+                      "X": 1.2538,
+                      "Y": 1.05
+                    },
+                    "LeftMargin": -50.7505,
+                    "RightMargin": 17.7505,
+                    "TopMargin": 6.8873,
+                    "BottomMargin": -8.8873,
+                    "Tag": 618,
+                    "ActionTag": -1676197052,
+                    "Size": {
+                      "X": 163.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Image_PlayerCountBg",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1387435473,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 40.0
+                },
+                "Name": "Panel_gnum",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/rule.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 64,
+                "Scale9Height": 72,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1280.2305,
+                  "Y": 595.36
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9597,
+                  "Y": 0.7938
+                },
+                "PreSize": {
+                  "X": 0.0705,
+                  "Y": 0.1253
+                },
+                "LeftMargin": 1233.2305,
+                "RightMargin": 6.7695,
+                "TopMargin": 107.64,
+                "BottomMargin": 548.36,
+                "Tag": 244,
+                "ActionTag": -1770602248,
+                "Size": {
+                  "X": 94.0,
+                  "Y": 94.0
+                },
+                "Name": "Button_help",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/set.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 64,
+                "Scale9Height": 72,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1280.7729,
+                  "Y": 693.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9601,
+                  "Y": 0.924
+                },
+                "PreSize": {
+                  "X": 0.0705,
+                  "Y": 0.1253
+                },
+                "LeftMargin": 1233.7729,
+                "RightMargin": 6.2271,
+                "TopMargin": 10.0,
+                "BottomMargin": 646.0,
+                "Tag": 245,
+                "ActionTag": 1250652273,
+                "Size": {
+                  "X": 94.0,
+                  "Y": 94.0
+                },
+                "Name": "Button_set",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/clock.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 110,
+                "Scale9Height": 112,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1021.2798,
+                  "Y": 665.7195
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7656,
+                  "Y": 0.8876
+                },
+                "PreSize": {
+                  "X": 0.1049,
+                  "Y": 0.1893
+                },
+                "LeftMargin": 951.2798,
+                "RightMargin": 242.7202,
+                "TopMargin": 13.2805,
+                "BottomMargin": 594.7195,
+                "Tag": 371,
+                "Children": [
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 60,
+                    "LabelText": "0",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "outcome/Lab_Time.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0305,
+                      "Y": 65.2648
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5002,
+                      "Y": 0.4596
+                    },
+                    "PreSize": {
+                      "X": 0.2786,
+                      "Y": 0.4225
+                    },
+                    "LeftMargin": 50.5305,
+                    "RightMargin": 50.4695,
+                    "TopMargin": 46.7352,
+                    "BottomMargin": 35.2648,
+                    "Tag": 245,
+                    "ActionTag": -115781669,
+                    "Size": {
+                      "X": 39.0,
+                      "Y": 60.0
+                    },
+                    "Name": "AtlasLabel_Time",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 225322516,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 142.0
+                },
+                "Name": "Image_clock",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/Image_Close_02.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/Image_Close_01.png",
+                  "Plist": "ddzCNPokePlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 54,
+                "Scale9Height": 62,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 56.334,
+                  "Y": 629.9167
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0422,
+                  "Y": 0.8399
+                },
+                "PreSize": {
+                  "X": 0.063,
+                  "Y": 0.112
+                },
+                "LeftMargin": 14.334,
+                "RightMargin": 1235.666,
+                "TopMargin": 78.0833,
+                "BottomMargin": 587.9167,
+                "Tag": 257,
+                "ActionTag": 747734851,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 84.0
+                },
+                "Name": "Button_back",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -22098635,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_main",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "ddzCNPokePlist.plist",
+        "ddzCNPokePlist.png",
+        "Default/Button_Disable.png",
+        "outcome/Lab_Time.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

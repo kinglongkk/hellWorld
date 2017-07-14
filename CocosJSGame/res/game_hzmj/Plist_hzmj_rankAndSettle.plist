@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>hzmj_settleAndRank/rank_bg0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,346},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>hzmj_settleAndRank/rank_bg1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{111,207},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>hzmj_settleAndRank/rank_bg2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{94,474},{35,29}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{35,29}</string>
+			</dict>
+			<key>hzmj_settleAndRank/rank_title.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{111,139},{243,65}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{243,65}</string>
+			</dict>
+			<key>hzmj_settleAndRank/rank_totalScore.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,474},{94,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,34}</string>
+			</dict>
+			<key>hzmj_settleAndRank/settle_failed.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{393,207},{179,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{179,64}</string>
+			</dict>
+			<key>hzmj_settleAndRank/settle_singleBg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{354,139},{39,111}}</string>
+				<key>offset</key>
+				<string>{4,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{47,111}</string>
+			</dict>
+			<key>hzmj_settleAndRank/settle_titleBg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{393,139}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{394,140}</string>
+			</dict>
+			<key>hzmj_settleAndRank/settle_win.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{239,204},{179,65}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{179,65}</string>
+			</dict>
+			<key>hzmj_settleAndRank/settleAndRank_bBtn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{393,0},{207,111}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{209,113}</string>
+			</dict>
+			<key>hzmj_settleAndRank/settleAndRank_yBtn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,139},{207,111}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{209,113}</string>
+			</dict>
+			<key>hzmj_settleAndRank/settle_draw.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{128,335},{120,63}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{120,63}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist_hzmj_rankAndSettle.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist_hzmj_rankAndSettle.png</string>
+			<key>size</key>
+			<string>{504,509}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>504</integer>
+			<key>height</key>
+			<integer>509</integer>
+		</dict>
+	</dict>
+</plist>

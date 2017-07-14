@@ -1,0 +1,844 @@
+{
+  "ID": "c047a3cf-2592-4b6e-85e1-2ddd6785b1bb",
+  "Version": "2.3.4",
+  "Name": "dlgMsg_ddz",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 100,
+        "Children": [
+          {
+            "DirectionType": "Vertical",
+            "ScrollDirectionType": 0,
+            "ClipAble": false,
+            "BackColorAlpha": 25,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 150
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 150
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 1067.2,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.8,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.2999,
+              "Y": 0.4
+            },
+            "LeftMargin": 667.2,
+            "RightMargin": 266.8,
+            "TopMargin": 450.0,
+            "Tag": 101,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.8333
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1667
+                },
+                "BottomMargin": 300.0,
+                "Tag": 102,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "ButtonText": "快点吧，我等到花儿也谢了!",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/doudzui0058.png",
+                      "Plist": "Plist.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Press.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/doudzui0057.png",
+                      "Plist": "Plist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 436,
+                    "Scale9Height": 28,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 198.0503,
+                      "Y": 30.1162
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4951,
+                      "Y": 0.5019
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.6667
+                    },
+                    "LeftMargin": -1.9497,
+                    "RightMargin": 1.9497,
+                    "TopMargin": 9.8838,
+                    "BottomMargin": 10.1162,
+                    "Tag": 107,
+                    "ActionTag": -1089814382,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Button_word1",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -465873924,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 60.0
+                },
+                "Name": "Panel_cell",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 240.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.6667
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1667
+                },
+                "TopMargin": 60.0,
+                "BottomMargin": 240.0,
+                "Tag": 120,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "ButtonText": "快点吧，我等到花儿也谢了!",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/doudzui0058.png",
+                      "Plist": "Plist.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Press.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/doudzui0057.png",
+                      "Plist": "Plist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 436,
+                    "Scale9Height": 28,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 198.0503,
+                      "Y": 30.1162
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4951,
+                      "Y": 0.5019
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.6667
+                    },
+                    "LeftMargin": -1.9497,
+                    "RightMargin": 1.9497,
+                    "TopMargin": 9.8838,
+                    "BottomMargin": 10.1162,
+                    "Tag": 121,
+                    "ActionTag": 1524835033,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Button_word1",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 913369129,
+                "ZOrder": 1,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 60.0
+                },
+                "Name": "Panel_cell_0",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 180.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1667
+                },
+                "TopMargin": 120.0,
+                "BottomMargin": 180.0,
+                "Tag": 122,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "ButtonText": "快点吧，我等到花儿也谢了!",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/doudzui0058.png",
+                      "Plist": "Plist.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Press.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/doudzui0057.png",
+                      "Plist": "Plist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 436,
+                    "Scale9Height": 28,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 198.0503,
+                      "Y": 30.1162
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4951,
+                      "Y": 0.5019
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.6667
+                    },
+                    "LeftMargin": -1.9497,
+                    "RightMargin": 1.9497,
+                    "TopMargin": 9.8838,
+                    "BottomMargin": 10.1162,
+                    "Tag": 123,
+                    "ActionTag": 1556634439,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Button_word1",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -473121691,
+                "ZOrder": 2,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 60.0
+                },
+                "Name": "Panel_cell_1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 120.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.3333
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1667
+                },
+                "TopMargin": 180.0,
+                "BottomMargin": 120.0,
+                "Tag": 124,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "ButtonText": "快点吧，我等到花儿也谢了!",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/doudzui0058.png",
+                      "Plist": "Plist.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Press.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/doudzui0057.png",
+                      "Plist": "Plist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 436,
+                    "Scale9Height": 28,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 198.0503,
+                      "Y": 30.1162
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4951,
+                      "Y": 0.5019
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.6667
+                    },
+                    "LeftMargin": -1.9497,
+                    "RightMargin": 1.9497,
+                    "TopMargin": 9.8838,
+                    "BottomMargin": 10.1162,
+                    "Tag": 125,
+                    "ActionTag": -744006675,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Button_word1",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -119779774,
+                "ZOrder": 3,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 60.0
+                },
+                "Name": "Panel_cell_2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.1667
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1667
+                },
+                "TopMargin": 240.0,
+                "BottomMargin": 60.0,
+                "Tag": 126,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "ButtonText": "快点吧，我等到花儿也谢了!",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/doudzui0058.png",
+                      "Plist": "Plist.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Press.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/doudzui0057.png",
+                      "Plist": "Plist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 436,
+                    "Scale9Height": 28,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 198.0503,
+                      "Y": 30.1162
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4951,
+                      "Y": 0.5019
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.6667
+                    },
+                    "LeftMargin": -1.9497,
+                    "RightMargin": 1.9497,
+                    "TopMargin": 9.8838,
+                    "BottomMargin": 10.1162,
+                    "Tag": 127,
+                    "ActionTag": -1239957372,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Button_word1",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 1261453430,
+                "ZOrder": 4,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 60.0
+                },
+                "Name": "Panel_cell_3",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1667
+                },
+                "TopMargin": 300.0,
+                "Tag": 132,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "ButtonText": "快点吧，我等到花儿也谢了!",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/doudzui0058.png",
+                      "Plist": "Plist.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Press.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "ddzsouces/doudzui0057.png",
+                      "Plist": "Plist.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 436,
+                    "Scale9Height": 28,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 198.0503,
+                      "Y": 30.1162
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4951,
+                      "Y": 0.5019
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.6667
+                    },
+                    "LeftMargin": -1.9497,
+                    "RightMargin": 1.9497,
+                    "TopMargin": 9.8838,
+                    "BottomMargin": 10.1162,
+                    "Tag": 133,
+                    "ActionTag": -1657173829,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Button_word1",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -1699670205,
+                "ZOrder": 5,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 60.0
+                },
+                "Name": "Panel_cell_4",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1309191973,
+            "Size": {
+              "X": 400.0,
+              "Y": 300.0
+            },
+            "Name": "List_word",
+            "ctype": "ListViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Press.png",
+        "Plist.plist",
+        "Plist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

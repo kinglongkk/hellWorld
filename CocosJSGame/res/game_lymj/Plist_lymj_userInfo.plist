@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>lymj_userInfo/userInfo_flowerIcon.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{443,104},{44,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{44,42}</string>
+			</dict>
+			<key>lymj_userInfo/userInfo_frame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{475,0},{65,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{65,32}</string>
+			</dict>
+			<key>lymj_userInfo/userInfo_headFrame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{403,0},{72,72}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{72,72}</string>
+			</dict>
+			<key>lymj_userInfo/userInfo_positionIcon.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{443,72},{13,21}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{13,21}</string>
+			</dict>
+			<key>lymj_userInfo/userInfo_nil.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{319,0},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>lymj_userInfo/userInfo__banker.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{475,65},{37,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{39,41}</string>
+			</dict>
+			<key>lymj_userInfo/userInfo__roomHost.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{403,72},{40,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{40,76}</string>
+			</dict>
+			<key>lymj_userInfo/userInfo_msgFrame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{319,137}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{319,137}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist_lymj_userInfo.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist_lymj_userInfo.png</string>
+			<key>size</key>
+			<string>{512,148}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>148</integer>
+		</dict>
+	</dict>
+</plist>
