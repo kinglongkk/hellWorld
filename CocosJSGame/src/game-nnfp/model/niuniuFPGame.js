@@ -323,18 +323,20 @@ var NiuniuFPGame = cc.Class.extend({
         var playerData = this.getPlayerDataByChairId(chairId);
         if (playerData) return playerData.resultCards;
     },
-    setAllSurplusCards: function () {
-        for (var i = 0; i < CMD_NIUNIU_TB.GAME_PLAYER; i++) {
-            var playerData = this.getPlayerDataByChairId(i);
-            var arr1 = this.getResultCardsValue(i);
-            var arr2 = this.getSevenCardsValue(i);
-            var surplusCards = this.niuniu.GetPublicCards(arr1, arr2);
-            if (playerData) playerData.surplusCards = surplusCards;
-        }
+    setSurplusCards: function (chairId) {
+        var playerData = this.getPlayerDataByChairId(chairId);
+        var arr1 = this.getSevenCardsValue(chairId);
+        var arr2 = this.getResultCardsValue(chairId);
+        var surplusCards = this.niuniu.GetPublicCards(arr1, arr2);
+        cc.log("设置多出的两张牌");
+        cc.log(surplusCards);
+        if (playerData) playerData.surplusCards = surplusCards;
     },
 
     getSurplusCards: function (chairId) {
         var playerData = this.getPlayerDataByChairId(chairId);
+        cc.log("获取多出的两张牌");
+        cc.log(playerData.surplusCards);
         if (playerData) return playerData.surplusCards;
     },
 
@@ -342,6 +344,7 @@ var NiuniuFPGame = cc.Class.extend({
     openCard: function (chairId, cardType, cardData) {
         this.setResultCardsValue(chairId, cardData);
         this.setCardsTypeByChairId(chairId, cardType);
+        this.setSurplusCards(chairId, cardData);
 
         var playerData = this.getPlayerDataByChairId(chairId);
         if (playerData) {
@@ -451,8 +454,8 @@ var NiuniuFPGame = cc.Class.extend({
             var score = endInfo.GameScore[i];
             this.setScore(i, score);
 
-            var tax = endInfo.lGameTax[i];
-            this.setTax(i, tax);
+            /*var tax = endInfo.lGameTax[i];
+             this.setTax(i, tax);*/
         }
     },
 
