@@ -1,0 +1,81 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "cocostudio", "extensions", "external"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+
+        "src/libs/MyUtil.js",
+
+        "src/public/config/platform.js",
+
+        "src/public/consts/define.js",
+
+        "src/public/manager/UIMgr.js",
+        "src/public/manager/sceneUIMgr.js",
+        "src/public/manager/sendCardMgr.js",
+        "src/public/manager/gameUIMgr.js",
+        "src/public/manager/gameKindMgr.js",
+        "src/public/manager/gameMsgMgr.js",
+
+        "src/public/network/gameServer/gameMsg.js",
+
+        "src/public/views/cardSprite.js",
+        "src/public/views/cardGroup.js",
+
+        "src/public/model/card.js",
+        "src/public/model/clientData.js",
+        "src/public/model/player.js",
+        "src/public/model/hero.js",
+        "src/public/model/table.js",
+
+        "src/game-nnfp/model/niuniuFP.js",
+        "src/game-nnfp/model/niuniuFPGame.js",
+        "src/game-nnfp/network/cmdGame.js",
+        "src/game-nnfp/network/niuniuFPGameMsg.js",
+        "src/game-nnfp/ui/niuniuFPScene.js",
+        "src/game-nnfp/ui/niuniuFPUIMgr.js",
+        "src/game-nnfp/ui/indexDlgId.js",
+        "src/game-nnfp/ui/dlgReminder.js",
+        "src/game-nnfp/ui/nnFpDlgPlayer.js",
+        "src/game-nnfp/ui/nnFpDlgClock.js",
+        "src/game-nnfp/ui/nnFpDlgOpen.js",
+        "src/game-nnfp/ui/nnFpDlgReady.js",
+        "src/game-nnfp/ui/nnFpDlgSystem.js",
+        "src/game-nnfp/ui/nnFpDlgGetType.js",
+        "src/game-nnfp/ui/dlgNnFpMsgList.js",
+        "src/game-nnfp/ui/dlgNnFpSet.js",
+        "src/game-nnfp/ui/dlgNnFpRule.js",
+        "src/game-nnfp/ui/dlgNnFpResult.js",
+        "src/game-nnfp/ui/nnFpDlgAddChip.js",
+        "src/game-nnfp/ui/nnFpDlgRobBanker.js",
+
+
+        "src/game-nnfp/ui/ddzDlgCardOp.js",
+
+
+
+        "src/gameConfig.js",
+        "src/BaseLayer.js",
+
+        "src/chapter01/Lesson0303/Lesson0303.js",
+        "src/chapter01/Lesson0304/Lesson0304.js",
+        "src/chapter01/Lesson0306/Lesson0306.js",
+
+        "src/chapter01/Lesson0401/Lesson0401.js",
+
+        "src/chapter01/Lesson0501/MainMenu.js",
+        "src/chapter01/Lesson0502/UTouchSprite.js",
+        "src/chapter01/Lesson0502/Lesson0502.js"
+
+    ]
+}

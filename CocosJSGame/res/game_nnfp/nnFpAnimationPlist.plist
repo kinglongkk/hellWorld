@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>nnFpAnimationPlist/nnui0013.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,560},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013a.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,764},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013b.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{190,560},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013c.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{210,330},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013d.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{190,764},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013e.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{330,0},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013f.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{380,534},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013g.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{380,738},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013h.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{400,204},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013i.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{520,0},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013j.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{570,408},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013k.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{590,204},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0014c.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{330,330}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{330,330}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013l.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{710,0},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013m.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{774,408},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013n.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{780,204},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013o.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{570,598},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013p.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{570,802},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013q.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{760,598},{204,190}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,190}</string>
+			</dict>
+			<key>nnFpAnimationPlist/nnui0013r.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,330},{230,210}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{230,210}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>nnFpAnimationPlist.png</string>
+			<key>realTextureFileName</key>
+			<string>nnFpAnimationPlist.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>
