@@ -661,36 +661,34 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         }*/
     },
 
-    //显示亮牌用户
-    onOpenCard: function (chairId) {
-        cc.log("广播亮牌用户");
+    //显示玩家牌值
+    onShowOpenCard: function (chairId) {
         if (!this._bInit) return;
-
         var game = ClientData.getInstance().getGame();
         if (!game) return;
+        var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
+        if (!dlg) return;
 
-        var dlgPlayer = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
-        if (!dlgPlayer) return;
-
-        var bPlayHero = game.isPlayByChairId(g_objHero.getChairID());
-        if (bPlayHero) {
-            UIMgr.getInstance().closeDlg(ID_NnFpDlgReady);
-            if (chairId === g_objHero.getChairID()) {
-                UIMgr.getInstance().closeDlg(ID_NnFpDlgClock);
-                // UIMgr.getInstance().closeDlg(ID_NnFpDlgGetType);
-                UIMgr.getInstance().closeDlg(ID_NnFpDlgOpen);
-            }
-        }
-
+        //获取亮牌玩家牌和位置
+        var cardsValue = game.getResultCardsValue(chairId);
+        var surplusCards = game.getSurplusCards(chairId);
         var pos = this.getPlayerPosByChairId(chairId);
+        dlg.showCardsValue(pos, cardsValue, surplusCards);
+        this.onShowOpenCardType(chairId);
+    },
 
-        var cardsValue = game.getHandCardValues(chairId);
-        dlgPlayer.showCard(pos, cardsValue);
+    //显示玩家牌型
+    onShowOpenCardType: function (chairId) {
+        if (!this._bInit) return;
+        var game = ClientData.getInstance().getGame();
+        if (!game) return;
+        var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
+        if (!dlg) return;
 
-        if (!game.isNoType()) {
-            var cardsData = game.getResultCardsAndTypeByChairId(chairId);
-            dlgPlayer.showNiuType(pos, cardsData.type);
-        } else dlgPlayer.showNiuType(pos, 0);
+        //获取亮牌玩家牌和位置
+        var cardsType = game.getCardsTypeByChairId(chairId);
+        var pos = this.getPlayerPosByChairId(chairId);
+        dlg.showCardsType(pos, cardsType);
     },
 
     onGameEnd: function () {

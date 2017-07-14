@@ -120,13 +120,10 @@ var NnFpDlgPlayer = DlgBase.extend({
             this.handCards[i].x = size.width / 2;
             this.handCards[i].y = size.height / 2;
             this.PanelCardGroup[i].addChild(this.handCards[i]);
-            if (i === 0) {
-                this.handCards[i].setCardSpace(new cc.p(80, 0));
-                this.handCards[i].setScale(1);
-            } else {
-                this.handCards[i].setCardSpace(new cc.p(50, 0));
-                this.handCards[i].setScale(64 / 100);
-            }
+
+            if (i === 0) this.handCards[i].setCardSpace(new cc.p(80, 0));
+            else this.handCards[i].setCardSpace(new cc.p(50, 0));
+
             //this.handCards[i].addCardList([0x01,0x01,0x01,0x01,0x01], true)
 
             //开牌
@@ -136,13 +133,9 @@ var NnFpDlgPlayer = DlgBase.extend({
             this.openCards[i].x = oCSize.width / 2;
             this.openCards[i].y = oCSize.height / 2;
             this.PanelOpen[i].addChild(this.openCards[i]);
-            if (i === 0) {
-                this.openCards[i].setCardSpace(new cc.p(60, 0));
-                this.openCards[i].setScale(1);
-            } else {
-                this.openCards[i].setCardSpace(new cc.p(50, 0));
-                this.openCards[i].setScale(72 / 100);
-            }
+
+            if (i === 0) this.openCards[i].setCardSpace(new cc.p(60, 0));
+            else this.openCards[i].setCardSpace(new cc.p(50, 0));
 
             this.PanelType[i].setVisible(false);
             this.LabBet[i].setVisible(false);
@@ -157,8 +150,8 @@ var NnFpDlgPlayer = DlgBase.extend({
         var size = this.PanelPublicCards.getSize();
         this.publicCards.x = size.width / 2;
         this.publicCards.y = size.height / 2;
-        this.PanelCardGroup.addChild(this.publicCards);
-        this.publicCards.setCardSpace(new cc.p(360, 0));
+        this.PanelPublicCards.addChild(this.publicCards);
+        this.publicCards.setCardSpace(new cc.p(300, 0));
 
         this.PanelOpenPublicCards = this.PanelPlayerPos[0].getChildByName("PanelOpenPublicCards");
         this.openSurplusCards = CardGroup.create(0, false);
@@ -458,7 +451,7 @@ var NnFpDlgPlayer = DlgBase.extend({
     },
 
     //type = 0 - 11
-    showNiuType: function (pos, type) {
+    showCardsType: function (pos, type) {
         if (type < 0) type = 0;
         var sex = "woman";
         var bullNum = "nnftb_niuniu" + type;
