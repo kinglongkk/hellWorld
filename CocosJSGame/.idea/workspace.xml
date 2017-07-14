@@ -53,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/game-nnfp/ui/nnFpDlgPlayer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1945">
-              <caret line="166" column="40" lean-forward="true" selection-start-line="166" selection-start-column="40" selection-end-line="166" selection-end-column="40" />
+              <caret line="166" column="40" lean-forward="false" selection-start-line="166" selection-start-column="40" selection-end-line="166" selection-end-column="40" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#803#831#0" expanded="false" />
@@ -123,8 +123,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2399" />
-    <option name="y" value="253" />
+    <option name="x" value="2082" />
+    <option name="y" value="175" />
     <option name="width" value="1369" />
     <option name="height" value="775" />
   </component>
@@ -363,7 +363,7 @@
     <option name="totallyTimeSpent" value="14706000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2399" y="253" width="1369" height="775" extended-state="0" />
+    <frame x="2082" y="175" width="1369" height="775" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -527,7 +527,7 @@
     <entry file="file://$PROJECT_DIR$/src/game-nnfp/ui/nnFpDlgPlayer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1945">
-          <caret line="166" column="40" lean-forward="true" selection-start-line="166" selection-start-column="40" selection-end-line="166" selection-end-column="40" />
+          <caret line="166" column="40" lean-forward="false" selection-start-line="166" selection-start-column="40" selection-end-line="166" selection-end-column="40" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#803#831#0" expanded="false" />
