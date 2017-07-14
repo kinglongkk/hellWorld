@@ -21,8 +21,7 @@ var NnFpDlgPlayer = DlgBase.extend({
         this.LabBet = [];
         this.PanelBanker = [];
         this.PanelAddChip = [];
-        this.LabLose = [];
-        this.LabWin = [];
+        this.LabImage = [];
 
         this.DlgBg = [];
         this.TextDlg = [];
@@ -101,13 +100,14 @@ var NnFpDlgPlayer = DlgBase.extend({
             this.LabBet[i] = this.PanelPlayerPos[i].getChildByName("LabBet");
             this.LabBet[i].ignoreContentAdaptWithSize(true);
 
-            this.LabLose[i] = this.PanelPlayerPos[i].getChildByName("LabLose");
-            this.LabLose[i].ignoreContentAdaptWithSize(true);
-            this.LabLose[i].setVisible(false);
+            // this.LabLose[i] = this.PanelPlayerPos[i].getChildByName("LabLose");
+            this.LabImage[i] = this.PanelPlayerPos[i].getChildByName("LabImage");
+            // this.LabLose[i].ignoreContentAdaptWithSize(true);
+            this.LabImage[i].setVisible(false);
 
-            this.LabWin[i] = this.PanelPlayerPos[i].getChildByName("LabWin");
+/*            this.LabWin[i] = this.PanelPlayerPos[i].getChildByName("LabWin");
             this.LabWin[i].ignoreContentAdaptWithSize(true);
-            this.LabWin[i].setVisible(false);
+            this.LabWin[i].setVisible(false);*/
 
             this.DlgBg[i] = this.PanelPlayerPos[i].getChildByName("Image_dlg");
             this.TextDlg[i] = this.DlgBg[i].getChildByName("Text_dlg");
@@ -132,12 +132,12 @@ var NnFpDlgPlayer = DlgBase.extend({
             //开牌
             this.openCards[i] = CardGroup.create(0, false);
             this.openCards[i].setAnchorPoint(cc.p(0.5, 0.5));
-            var size = this.PanelOpen[i].getSize();
-            this.openCards[i].x = size.width / 2;
-            this.openCards[i].y = size.height / 2;
+            var oCSize = this.PanelOpen[i].getSize();
+            this.openCards[i].x = oCSize.width / 2;
+            this.openCards[i].y = oCSize.height / 2;
             this.PanelOpen[i].addChild(this.openCards[i]);
             if (i === 0) {
-                this.openCards[i].setCardSpace(new cc.p(80, 0));
+                this.openCards[i].setCardSpace(new cc.p(60, 0));
                 this.openCards[i].setScale(1);
             } else {
                 this.openCards[i].setCardSpace(new cc.p(50, 0));
@@ -150,6 +150,24 @@ var NnFpDlgPlayer = DlgBase.extend({
             this.PanelPlayerPos[i].setEnabled(false);
             this.PanelPlayerPos[i].setVisible(false);
         }
+
+        this.PanelPublicCards = this.PanelPlayerPos[0].getChildByName("PanelPublicCards");
+        this.publicCards = CardGroup.create(0, false);
+        this.publicCards.setAnchorPoint(cc.p(0.5, 0.5));
+        var size = this.PanelPublicCards.getSize();
+        this.publicCards.x = size.width / 2;
+        this.publicCards.y = size.height / 2;
+        this.PanelCardGroup.addChild(this.publicCards);
+        this.publicCards.setCardSpace(new cc.p(360, 0));
+
+        this.PanelOpenPublicCards = this.PanelPlayerPos[0].getChildByName("PanelOpenPublicCards");
+        this.openSurplusCards = CardGroup.create(0, false);
+        this.openSurplusCards.setAnchorPoint(cc.p(0.5, 0.5));
+        var oPCardsSize = this.PanelOpenPublicCards.getSize();
+        this.openSurplusCards.x = oPCardsSize.width / 2;
+        this.openSurplusCards.y = oPCardsSize.height / 2;
+        this.PanelOpenPublicCards.addChild(this.openSurplusCards);
+        this.openSurplusCards.setCardSpace(new cc.p(140, 0));
 
         //显示赢了 动画
         this.PanelWin = this.PanelPlayerPos[0].getChildByName("Panel_Win");
@@ -353,21 +371,26 @@ var NnFpDlgPlayer = DlgBase.extend({
         // SoundMgr.getInstance().playEffect("add_score", 0, false);
     },
 
-    scoreValue: function (pos, value) {
+    showScoreValue: function (pos, value) {
         this.LabBet[pos].setVisible(false);
 
+        this.LabImage[pos].setVisible(true);
+        var labLose = this.LabImage[pos].getChildByName("LabLose");
+        var labWin = this.LabImage[pos].getChildByName("LabWin");
+        labLose.ignoreContentAdaptWithSize(true);
+        labWin.ignoreContentAdaptWithSize(true);
         cc.log("游戏结束，分数：" + pos + "," + value);
         var strValue = value;
         if (value > 0) {
             strValue = "." + value;
-            this.LabLose[pos].setVisible(false);
-            this.LabWin[pos].setVisible(true);
-            this.LabWin[pos].string = strValue;
+            labLose.setVisible(false);
+            labWin.setVisible(true);
+            labWin.string = strValue;
         } else {
             strValue = "/" + value;
-            this.LabLose[pos].setVisible(true);
-            this.LabWin[pos].setVisible(false);
-            this.LabLose[pos].string = strValue;
+            labLose.setVisible(true);
+            labWin.setVisible(false);
+            labLose.string = strValue;
         }
         // this.setMoney(pos);
     },
@@ -380,6 +403,10 @@ var NnFpDlgPlayer = DlgBase.extend({
                 this.handCards[i].setCardSpace(new cc.p(60, 0));
             }
         }
+    },
+
+    showPublicCards: function(cardsValue) {
+        this.publicCards.addCardList(cardsValue, true);
     },
 
     //发牌结束点位置
@@ -504,8 +531,7 @@ var NnFpDlgPlayer = DlgBase.extend({
             this.PanelType[i].setVisible(false);
             this.LabBet[i].setVisible(false);
             this.openCards[i].clearAllCard();
-            this.LabLose[i].setVisible(false);
-            this.LabWin[i].setVisible(false);
+            this.LabImage[i].setVisible(false);
         }
         this.PanelWin.setVisible(false);
         this.imgLose.setVisible(false);
@@ -518,8 +544,7 @@ var NnFpDlgPlayer = DlgBase.extend({
         this.PanelType[pos].setVisible(false);
         this.LabBet[pos].setVisible(false);
         this.openCards[pos].clearAllCard();
-        this.LabLose[pos].setVisible(false);
-        this.LabWin[pos].setVisible(false);
+        this.LabImage[pos].setVisible(false);
         if (pos === 0) {
             this.PanelWin.setVisible(false);
             this.imgLose.setVisible(false);
@@ -550,7 +575,9 @@ var NnFpDlgPlayer = DlgBase.extend({
 
         this.openCards[pos].addCardList(cardsValue, true);
 
-        this.handCards[0].addCardList(surplusCards, true);
+        if (surplusCards) {
+            this.openSurplusCards.addCardList(surplusCards, true);
+        }
         /*        var size = this.PanelOpen[0].getSize();
          for (var i = 0; i < cardsValue.length; i++) {
          var card = this.openCards[pos].getCardByIndex(i);

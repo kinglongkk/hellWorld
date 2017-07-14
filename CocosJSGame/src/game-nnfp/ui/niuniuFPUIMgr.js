@@ -237,7 +237,9 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         var game = ClientData.getInstance().getGame();
         // game.setPublicCards([0x25, 0x15]);
         if (game) cards = game.getPublicCards();
-        var card = CardGroup.create(0, false);
+        var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
+        if (!dlg) return;
+/*        var card = CardGroup.create(0, false);
         card.name = "publicCards";
         card.setAnchorPoint(cc.p(0.5, 0.5));
         var size = cc.winSize;
@@ -245,7 +247,9 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         card.y = size.height / 2;
         card.setCardSpace(cc.p(360, 0));
         this._uiLayer.addChild(card);
-        card.addCardList(cards, true);
+        card.addCardList(cards, true);*/
+        cards = game.getPublicCards();
+        dlg.showPublicCards(cards);
     },
 
     //发四张牌
@@ -726,7 +730,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
                 g_outcome.setPointByChairId(i, score);
                 var dlgPlayer = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
                 if (dlgPlayer) {
-                    dlgPlayer.scoreValue(pos, score);
+                    dlgPlayer.showScoreValue(pos, score);
                 }
             }
         }
