@@ -557,6 +557,16 @@ NiuNiuFP.prototype.GetResultCardType = function (cardsData) {
     return resultData;
 };
 
+//获得随机数
+NiuNiuFP.prototype.GetArr = function (num) {
+    var numArr = [];
+    for (var i = 0; i < num; i++) {
+        var random = Math.floor(Math.random()*13 + 1);
+        numArr[i] = random;
+    }
+    return numArr;
+
+};
 
 /*var resultData = {
  type: NiuNiuFP.CardType.OX_VALUE0,
