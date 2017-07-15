@@ -390,13 +390,11 @@ var NiuniuFPGameMsg = GameMsg.extend({
         ]);*/
 
         ///////////////////////////////////先数据处理//////////////////////////////////////////
-        if (!CMD_NIUNIU_TB.isLocal) {
-            var game = ClientData.getInstance().getGame();
-            if (game) game.setAllPlayerCards(data.CardData);
+        var game = ClientData.getInstance().getGame();
+        if (game) game.setAllPlayerCards(data.CardData);
 
-            var table = ClientData.getInstance().getTable();
-            if (table) table.setGameStatus(CMD_NIUNIU_TB.GS_TK_PLAYING);
-        }
+        var table = ClientData.getInstance().getTable();
+        if (table) table.setGameStatus(CMD_NIUNIU_TB.GS_TK_PLAYING);
 
         ///////////////////////////////////后UI处理 //////////////////////////////////////////
         NiuniuFPUIMgr.getInstance().onSendCard(4);
@@ -419,9 +417,11 @@ var NiuniuFPGameMsg = GameMsg.extend({
         cc.log("### 游戏服务器， （通比牛牛游戏命令 ）广播抢庄用户");
 
         ///////////////////////////////////先数据处理//////////////////////////////////////////
+        var game = ClientData.getInstance().getGame();
         if (!CMD_NIUNIU_TB.isLocal) {
-            var game = ClientData.getInstance().getGame();
             if (game) game.setRobBankerScore(data.ChairID, data.CallScore);
+        } else {
+
         }
         ///////////////////////////////////后UI处理//////////////////////////////////////////
         NiuniuFPUIMgr.getInstance().onCallScore(data.ChairID);

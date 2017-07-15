@@ -66,10 +66,13 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
     },
 
     onButtonTouchEvent: function (send, type) {
+        var game = ClientData.getInstance().getGame();
         var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
         var data = {
-            PublicCardData: [Math.floor(Math.random()*13) + 1, Math.floor(Math.random()*13) +1],
-            CardData: [7, 8, 9, 12, 13],
+            PublicCardData: game.niuniu.GetArr(2),
+            CardData: [game.niuniu.GetArr(5), game.niuniu.GetArr(5),
+                        game.niuniu.GetArr(5), game.niuniu.GetArr(5),
+                        game.niuniu.GetArr(5), game.niuniu.GetArr(5)],
             chairId: 0,
             CallScore: 2,
             Banker: 0,
@@ -328,7 +331,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         // if (!this._bInit) return;
 
         var game = ClientData.getInstance().getGame();
-        // if (!game) return;
+        if (!game) return;
 
         var bPlayHero = game.isPlayByChairId(g_objHero.getChairID());
         if (bPlayHero) {
@@ -340,7 +343,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         game.setPlayByChairId(g_objHero.getChairID(), true);
 
         for (var i = 0; i < cardIndex; i++) {
-            for (var pos = 0; pos < 6; pos++) {
+            for (var pos = 0; pos < CMD_NIUNIU_TB.GAME_PLAYER; pos++) {
                 var chairId = this.getChairIdByPlayerPos(pos);
 
                 // cc.log("发牌---2");
@@ -349,7 +352,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
                 if (!bPlay) continue;*/
 
                 // cc.log("发牌---3");
-                var cardsValue = [29, 45, 37, 38, 34];
+                var cardsValue = game.getHandCardValues(pos);
                 // cc.log("@@@@@ 发牌" + cardsValue);
                 var dlgPlayer = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
                 var ptEnd = dlgPlayer.getCardPosByIndex(pos, i);
@@ -370,19 +373,14 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
                     //发牌到结束位置回调
                     function (playerPos, cardIdx, cardIndex) {
                         return function () {
-                            var chairId = _self.getChairIdByPlayerPos(playerPos);
-                            var cardsValue = [29, 45, 37, 38, 34];
+                            var cardsValue = game.getHandCardValues(playerPos);
                             var cardValue = 0;
                             if (cardIndex === 4) cardValue = cardsValue[cardIdx];
                             if (cardIndex === 1) cardValue = cardsValue[4];
 
                             var dlgPlayer = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
                             if (dlgPlayer) {
-                                //已经亮牌就不处理
-                                var bOpen = game.isOpenCard(chairId);
-                                if (!bOpen) {
-                                    dlgPlayer.addCard(playerPos, cardValue, false, _self.heroSendEnd.bind(_self));
-                                }
+                                dlgPlayer.addCard(playerPos, cardValue, false, _self.heroSendEnd.bind(_self));
                             }
                         };
                     }(pos, i, cardIndex)
@@ -758,10 +756,10 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         this.sprite.setVisible(false);
         var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
         if (!dlg) return;
+        var game = ClientData.getInstance().getGame();
+        if (!game) return;
         if (chairId) {
             if (!this._bInit) return;
-            var game = ClientData.getInstance().getGame();
-            if (!game) return;
 
             //获取亮牌玩家牌和位置
             var cardsValue = game.getResultCardsValue(chairId);
@@ -771,8 +769,8 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
             this.onShowOpenCardType(chairId);
         } else {
             for (var i =0; i < 6; i++) {
-                if (i === 0) dlg.showCardsValue(i, [4,6,9,1,3], [13,7]);
-                dlg.showCardsValue(i, [6,3,8,2,1]);
+                if (i === 0) dlg.showCardsValue(i, game.niuniu.GetArr(5), game.niuniu.GetArr(2));
+                dlg.showCardsValue(i, game.niuniu.GetArr(5));
                 dlg.showCardsType(i, Math.floor(Math.random()*18) + 1);
             }
         }
