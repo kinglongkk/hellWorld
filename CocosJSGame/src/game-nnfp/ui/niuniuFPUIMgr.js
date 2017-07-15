@@ -4,9 +4,15 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
     resetData: function () {
         this._bDealGameScene = false;
         this._endPhase = false;
+
+        this.btn = {
+            state: 0
+        }
+
     },
 
     startGame: function () {
+        cc.log("运行次数");
         this.resetData();
         //设置游戏人数
         this.setPlayerCount(CMD_NIUNIU_TB.GAME_PLAYER);
@@ -30,6 +36,22 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         var playerDlg = UIMgr.getInstance().openDlg(ID_NnFpDlgPlayer);
         playerDlg.updateResultIcon(false);
 
+        this.sprite = new cc.Sprite("#huaiFengCardListPlist/img_card_back.png");
+        this.sprite.setVisible(false);
+        this._uiLayer.addChild(this.sprite);
+
+        var imgStr = "gameNnFpPlist/nnui0042.png";
+        this.bankerWorld = new ccui.ImageView(imgStr, ccui.Widget.PLIST_TEXTURE);
+        this.bankerWorld.setVisible(false);
+        this._uiLayer.addChild(this.bankerWorld);
+
+        var btnStr = "gameNnFpPlist/nnui0009.png";
+        var btn = new ccui.Button(btnStr, "", "", ccui.Widget.PLIST_TEXTURE);
+        btn.setPosition(cc.p(1200, 50));
+        btn.setScale(0.7);
+        btn.addTouchEventListener(this.onButtonTouchEvent, this);
+        this._uiLayer.addChild(btn, 10);
+
 /*        UIMgr.getInstance().openDlg(ID_DlgChatScene);
         UIMgr.getInstance().openDlg(ID_NnFpDlgSystem);*/
 
@@ -41,6 +63,55 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
 
         // // SoundMgr.getInstance().playMusic("nnftb_bg", 0, true);
 
+    },
+
+    onButtonTouchEvent: function (send, type) {
+        var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
+        var data = {
+            PublicCardData: [Math.floor(Math.random()*13) + 1, Math.floor(Math.random()*13) +1],
+            CardData: [7, 8, 9, 12, 13],
+            chairId: 0,
+            CallScore: 2,
+            Banker: 0,
+            AddScoreCount: 3,
+            LastCard: [7, 8, 9, 12, 13],
+            CardType: 18,
+            lGameScore: 10
+        };
+        if (ccui.Widget.TOUCH_ENDED === type) {
+            switch (this.btn.state) {
+                case 0:
+                    dlg.resetDlg();
+                    break;
+                case 1:
+                    NiuniuFPGameMsg.getInstance().onGameMsgSendPublicCard(data);
+                    break;
+                case 2:
+                    NiuniuFPGameMsg.getInstance().onGameMsgSendCard(data);
+                    break;
+                case 3:
+                    NiuniuFPGameMsg.getInstance().onGameMsgCallScore(data);
+                    break;
+                case 4:
+                    NiuniuFPGameMsg.getInstance().onGameMsgResultCallScore(data);
+                    break;
+                case 5:
+                    NiuniuFPGameMsg.getInstance().onGameMsgAddScore(data);
+                    break;
+                case 6:
+                    NiuniuFPGameMsg.getInstance().onGameMsgSendLastCard(data);
+                    break;
+                case 7:
+                    NiuniuFPGameMsg.getInstance().onGameMsgOpenCard(data);
+                    break;
+                case 8:
+                    NiuniuFPGameMsg.getInstance().onGameMsgGameEnd(data);
+                    break;
+                default:
+                    break;
+            }
+            this.btn.state = (this.btn.state + 1) % 9;
+        }
     },
 
     ////////////////////////////////////实现父类中包含的函数/////////////////////////////////////////////
@@ -357,15 +428,22 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
 
     //显示抢庄玩家
     onCallScore: function (chairId) {
-        if (!this._bInit) return;
-        var game = ClientData.getInstance().getGame();
-        if (!game) return;
+        var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
+        if (chairId) {
+            if (!this._bInit) return;
+            var game = ClientData.getInstance().getGame();
+            if (!game) return;
 
-        //获取抢庄玩家的位置
-        var scoreMultiple = game.getRobBankerScore(chairId);
-        var pos = this.getPlayerPosByChairId(chairId);
-        var dlgPlayer = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
-        if (dlgPlayer) dlgPlayer.showCallScore(pos, scoreMultiple);
+            //获取抢庄玩家的位置
+            var scoreMultiple = game.getRobBankerScore(chairId);
+            var pos = this.getPlayerPosByChairId(chairId);
+            if (dlg) dlg.showCallScore(pos, scoreMultiple);
+        } else {
+            UIMgr.getInstance().closeDlg(ID_DlgNnFpRobBanker);
+            for (var i = 0; i < 6; i++) {
+                dlg.showCallScore(i, Math.floor(Math.random()*5));
+            }
+        }
     },
 
 /*    //显示庄家
@@ -410,64 +488,74 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
 
     //得到广播庄家用户显示庄字动画
     bankerWordAnimation: function () {
-        if (!this._bInit) return;
-        var game = ClientData.getInstance().getGame();
-        if (!game) return;
-        var dlgPlayer = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
-        if (!dlgPlayer) return;
-        UIMgr.getInstance().closeDlg(ID_DlgNnFpRobBanker);
-        JSON.stringify(game.getPlayerData(), null, 2);
-        for (var i = 0; i < 4; i++) {
-            var scoreMultiple = game.getRobBankerScore(i);
-            if (scoreMultiple === -1) scoreMultiple = 0;
-            var callScorePos = this.getPlayerPosByChairId(i);
-            // dlgPlayer.showCallScoreMultiple(callScorePos, scoreMultiple);
+        UIMgr.getInstance().openDlg(ID_DlgNnFpAddChip);
+        var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
+        if (!dlg) return;
+        if (!CMD_NIUNIU_TB.isLocal) {
+            if (!this._bInit) return;
+            var game = ClientData.getInstance().getGame();
+            if (!game) return;
+            UIMgr.getInstance().closeDlg(ID_DlgNnFpRobBanker);
+            JSON.stringify(game.getPlayerData(), null, 2);
+            for (var i = 0; i < 4; i++) {
+                var scoreMultiple = game.getRobBankerScore(i);
+                if (scoreMultiple === -1) scoreMultiple = 0;
+                var callScorePos = this.getPlayerPosByChairId(i);
+                dlg.showCallScoreMultiple(callScorePos, scoreMultiple);
+            }
+
+            //获得庄家用户位置
+            var bankerId = game.getBankerChairId();
+            var pos = this.getPlayerPosByChairId(bankerId);
+            cc.log("庄家的位置 = " + pos);
+            var faceSize = dlgPlayer.getBankerWordPos(pos);
+            var sizeDir = cc.director.getWinSize();
+            var imgStr = "gameNnFpPlist/nnui0042.png";
+            var node = new ccui.ImageView(imgStr, ccui.Widget.PLIST_TEXTURE);
+            this._uiLayer.addChild(node);
+            node.setPosition(cc.p(sizeDir.width / 2, sizeDir.height / 2));
+
+            var spawn1 = cc.spawn(
+                cc.scaleTo(0, 0.2)
+                // cc.blink(0.5, 5)
+            );
+
+            var spawn2 = cc.spawn(
+                cc.scaleTo(0.2, 0.4)
+            );
+
+            var spawn3 = cc.spawn(
+                cc.scaleTo(0.2, 0.5)
+            );
+
+            var delay = cc.delayTime(0.3);
+
+            /*        var moveBy1 = cc.moveBy(0.5, cc.p(0, sizeDir.height / 2));
+             var moveBy2 = cc.moveBy(0.5, cc.p(sizeDir.width / 2, 0));
+             var moveBy3 = cc.moveBy(0.5, cc.p(0, sizeDir.height));
+             var moveBy4 = cc.moveBy(0.5, cc.p(-sizeDir.width, 0));
+             var moveBy5 = cc.moveBy(0.5, cc.p(0, sizeDir.height));
+             var moveBy6 = cc.moveBy(0.5, cc.p(sizeDir.width / 2, 0));*/
+
+            var moveTo1 = cc.moveTo(0.5, faceSize);
+
+            var callFun = cc.CallFunc(function () {
+                //显示等待或者加注按钮
+                if (dlgPlayer) dlgPlayer.showBtnOrAddChip();
+            }, this);
+            // var seq = cc.sequence(spawn1, spawn2, spawn3, delay, moveBy1, moveBy2, moveBy3, moveBy4, moveBy5, moveBy6);
+            var seq = cc.sequence(spawn1, spawn2, spawn3, delay, moveTo1);
+            var rep = cc.repeatForever(seq);
+
+            node.runAction(seq);
+
+        } else {
+            this.testBankerWordAnimation(Math.floor(Math.random()*4));
+            for (var i = 0; i < 6; i++) {
+                dlg.showCallScoreMultiple(i, Math.floor(Math.random()*4));
+            }
         }
 
-        //获得庄家用户位置
-        var bankerId = game.getBankerChairId();
-        var pos = this.getPlayerPosByChairId(bankerId);
-        cc.log("庄家的位置 = " + pos);
-        var faceSize = dlgPlayer.getBankerWordPos(pos);
-        var sizeDir = cc.director.getWinSize();
-        var imgStr = "gameNnFpPlist/nnui0042.png";
-        var node = new ccui.ImageView(imgStr, ccui.Widget.PLIST_TEXTURE);
-        this._uiLayer.addChild(node);
-        node.setPosition(cc.p(sizeDir.width / 2, sizeDir.height / 2));
-
-        var spawn1 = cc.spawn(
-            cc.scaleTo(0, 0.2)
-            // cc.blink(0.5, 5)
-        );
-
-        var spawn2 = cc.spawn(
-            cc.scaleTo(0.2, 0.4)
-        );
-
-        var spawn3 = cc.spawn(
-            cc.scaleTo(0.2, 0.5)
-        );
-
-        var delay = cc.delayTime(0.3);
-
-        /*        var moveBy1 = cc.moveBy(0.5, cc.p(0, sizeDir.height / 2));
-         var moveBy2 = cc.moveBy(0.5, cc.p(sizeDir.width / 2, 0));
-         var moveBy3 = cc.moveBy(0.5, cc.p(0, sizeDir.height));
-         var moveBy4 = cc.moveBy(0.5, cc.p(-sizeDir.width, 0));
-         var moveBy5 = cc.moveBy(0.5, cc.p(0, sizeDir.height));
-         var moveBy6 = cc.moveBy(0.5, cc.p(sizeDir.width / 2, 0));*/
-
-        var moveTo1 = cc.moveTo(0.5, faceSize);
-
-        var callFun = cc.CallFunc(function () {
-            //显示等待或者加注按钮
-            if (dlgPlayer) dlgPlayer.showBtnOrAddChip();
-        }, this);
-        // var seq = cc.sequence(spawn1, spawn2, spawn3, delay, moveBy1, moveBy2, moveBy3, moveBy4, moveBy5, moveBy6);
-        var seq = cc.sequence(spawn1, spawn2, spawn3, delay, moveTo1);
-        var rep = cc.repeatForever(seq);
-
-        node.runAction(seq);
     },
 
     //得到广播庄家用户显示庄字动画
@@ -478,10 +566,8 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         if (!dlg) return;
         var faceSize = dlg.getBankerWordPos(pos);
         var sizeDir = cc.director.getWinSize();
-        var imgStr = "gameNnFpPlist/nnui0042.png";
-        var node = new ccui.ImageView(imgStr, ccui.Widget.PLIST_TEXTURE);
-        this._uiLayer.addChild(node);
-        node.setPosition(cc.p(sizeDir.width / 2, sizeDir.height / 2));
+        this.bankerWorld.setVisible(true);
+        this.bankerWorld.setPosition(cc.p(sizeDir.width / 2, sizeDir.height / 2));
 
         var spawn1 = cc.spawn(
             cc.scaleTo(0, 3.0)
@@ -515,7 +601,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         var seq = cc.sequence(spawn1, spawn2, spawn3, delay, moveTo1);
         var rep = cc.repeatForever(seq);
 
-        node.runAction(seq);
+        this.bankerWorld.runAction(seq);
     },
 
     //玩家加注
@@ -556,15 +642,22 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
 
     //显示加注玩家
     onAddChip: function (chairId) {
-        if (!this._bInit) return;
-        var game = ClientData.getInstance().getGame();
-        if (!game) return;
+        var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
+        if (chairId) {
+            if (!this._bInit) return;
+            var game = ClientData.getInstance().getGame();
+            if (!game) return;
 
-        //获取加注玩家倍数和位置
-        var chipMultiple = game.getAddChipScore(chairId);
-        var pos = this.getPlayerPosByChairId(chairId);
-        var dlgPlayer = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
-        if (dlgPlayer) dlgPlayer.showAddChipMultiple(pos, chipMultiple);
+            //获取加注玩家倍数和位置
+            var chipMultiple = game.getAddChipScore(chairId);
+            var pos = this.getPlayerPosByChairId(chairId);
+            if (dlg) dlg.showAddChipMultiple(pos, chipMultiple);
+        } else {
+            UIMgr.getInstance().closeDlg(ID_DlgNnFpAddChip);
+            for (var i = 0; i < 6; i++) {
+                dlg.showAddChipMultiple(i, Math.floor(Math.random()*3));
+            }
+        }
     },
 
     //最后一张牌发完之后
@@ -572,9 +665,8 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
         if (!dlg) return;
 
-        var sprite = new cc.Sprite("#huaiFengCardListPlist/img_card_back.png");
-        sprite.setPosition(dlg.getLastCardPos());
-        this._uiLayer.addChild(sprite);
+        this.sprite.setPosition(dlg.getLastCardPos());
+        this.sprite.setVisible(true);
 
         var listener = cc.EventListener.create({
             event: cc.EventListener.TOUCH_ONE_BY_ONE,
@@ -605,7 +697,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
             }
         });
 
-        cc.eventManager.addListener(listener, sprite);
+        cc.eventManager.addListener(listener, this.sprite);
 
 
 
@@ -663,18 +755,27 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
 
     //显示玩家牌值
     onShowOpenCard: function (chairId) {
-        if (!this._bInit) return;
-        var game = ClientData.getInstance().getGame();
-        if (!game) return;
+        this.sprite.setVisible(false);
         var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
         if (!dlg) return;
+        if (chairId) {
+            if (!this._bInit) return;
+            var game = ClientData.getInstance().getGame();
+            if (!game) return;
 
-        //获取亮牌玩家牌和位置
-        var cardsValue = game.getResultCardsValue(chairId);
-        var surplusCards = game.getSurplusCards(chairId);
-        var pos = this.getPlayerPosByChairId(chairId);
-        dlg.showCardsValue(pos, cardsValue, surplusCards);
-        this.onShowOpenCardType(chairId);
+            //获取亮牌玩家牌和位置
+            var cardsValue = game.getResultCardsValue(chairId);
+            var surplusCards = game.getSurplusCards(chairId);
+            var pos = this.getPlayerPosByChairId(chairId);
+            dlg.showCardsValue(pos, cardsValue, surplusCards);
+            this.onShowOpenCardType(chairId);
+        } else {
+            for (var i =0; i < 6; i++) {
+                if (i === 0) dlg.showCardsValue(i, [4,6,9,1,3], [13,7]);
+                dlg.showCardsValue(i, [6,3,8,2,1]);
+                dlg.showCardsType(i, Math.floor(Math.random()*18) + 1);
+            }
+        }
     },
 
     //显示玩家牌型
@@ -692,80 +793,84 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
     },
 
     onGameEnd: function () {
-        if (!this._bInit) {
-            return;
-        }
+        if (!CMD_NIUNIU_TB.isLocal) {
+            if (!this._bInit) return;
 
-        this._endPhase = true;
+            this._endPhase = true;
 
-        var game = ClientData.getInstance().getGame();
-        if (!game) {
-            return;
-        }
+            var game = ClientData.getInstance().getGame();
+            if (!game) return;
 
-        // 赋值玩家ID
-        var table = ClientData.getInstance().getTable();
-        if (table) {
-            for (var pos = 0; pos < CMD_NIUNIU_TB.GAME_PLAYER; pos++) {
-                var chairId = this.getChairIdByPlayerPos(pos);
-                var player = table.getPlayerByChairID(chairId);
-                if (player) {
-                    g_outcome.setPlayerByChairId(chairId, player);
-                }
-            }
-        }
-
-        cc.log("自己的id" + g_objHero.getUserId());
-        var scoreArr = [];
-        for (var i = 0; i < CMD_NIUNIU_TB.GAME_PLAYER; i++) {
-            var bPlay = game.isPlayByChairId(i);
-            if (bPlay) {
-                //得分
-                var score = game.getScore(i);
-                var pos = this.getPlayerPosByChairId(i);
-
-                scoreArr[i] = score;
-                g_outcome.setPointByChairId(i, score);
-                var dlgPlayer = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
-                if (dlgPlayer) {
-                    dlgPlayer.showScoreValue(pos, score);
-                }
-            }
-        }
-
-        var plaza = ClientData.getInstance().getPlaza();
-        var curGameType = plaza.getCurGameType();	//设置游戏类型 1：房卡 其他：金币
-
-        if (curGameType === GAME_GENRE_PERSONAL) {
-            // 房卡模式，不弹结束页
-            cc.log("弹准备");
-            g_objHero.setStatus(US_SIT);
-            var dlg = UIMgr.getInstance().openDlg(ID_NnFpDlgReady);
-            dlg.setReadBtbPosition();
+            // 赋值玩家ID
             var table = ClientData.getInstance().getTable();
-            if (table && table.getPlayers().length > 3) dlg.setInviteFriend(false);
-            else dlg.setInviteFriend(true);
-        } else {
-            var delay = cc.DelayTime.create(3);
-            var callFunc = cc.CallFunc.create(function () {
-                // SoundMgr.getInstance().playEffect("game_end", 0, false);
-                //UIMgr.getInstance().openDlg(ID_NnTbDlgResult);
-
-                var heroChairId = g_objHero.getChairID();
-                var bHeroPlay = game.isPlayByChairId(heroChairId);
-                if (bHeroPlay) {
-                    UIMgr.getInstance().openDlg(ID_NnTbDlgResult);
-                } else {
-                    this.againGame();
+            if (table) {
+                for (var pos = 0; pos < CMD_NIUNIU_TB.GAME_PLAYER; pos++) {
+                    var chairId = this.getChairIdByPlayerPos(pos);
+                    var player = table.getPlayerByChairID(chairId);
+                    if (player) {
+                        g_outcome.setPlayerByChairId(chairId, player);
+                    }
                 }
-            }, this);
+            }
 
-            var seq = cc.sequence(delay, callFunc);
-            this._uiLayer.runAction(seq);
+            cc.log("自己的id" + g_objHero.getUserId());
+            var scoreArr = [];
+            for (var i = 0; i < CMD_NIUNIU_TB.GAME_PLAYER; i++) {
+                var bPlay = game.isPlayByChairId(i);
+                if (bPlay) {
+                    //得分
+                    var score = game.getScore(i);
+                    var pos = this.getPlayerPosByChairId(i);
+
+                    scoreArr[i] = score;
+                    g_outcome.setPointByChairId(i, score);
+                    var dlgPlayer = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
+                    if (dlgPlayer) {
+                        dlgPlayer.showScoreValue(pos, score);
+                    }
+                }
+            }
+
+            var plaza = ClientData.getInstance().getPlaza();
+            var curGameType = plaza.getCurGameType();	//设置游戏类型 1：房卡 其他：金币
+
+            if (curGameType === GAME_GENRE_PERSONAL) {
+                // 房卡模式，不弹结束页
+                cc.log("弹准备");
+                g_objHero.setStatus(US_SIT);
+                var dlg = UIMgr.getInstance().openDlg(ID_NnFpDlgReady);
+                dlg.setReadBtbPosition();
+                var table = ClientData.getInstance().getTable();
+                if (table && table.getPlayers().length > 3) dlg.setInviteFriend(false);
+                else dlg.setInviteFriend(true);
+            } else {
+                var delay = cc.DelayTime.create(3);
+                var callFunc = cc.CallFunc.create(function () {
+                    // SoundMgr.getInstance().playEffect("game_end", 0, false);
+                    //UIMgr.getInstance().openDlg(ID_NnTbDlgResult);
+
+                    var heroChairId = g_objHero.getChairID();
+                    var bHeroPlay = game.isPlayByChairId(heroChairId);
+                    if (bHeroPlay) {
+                        UIMgr.getInstance().openDlg(ID_NnTbDlgResult);
+                    } else {
+                        this.againGame();
+                    }
+                }, this);
+
+                var seq = cc.sequence(delay, callFunc);
+                this._uiLayer.runAction(seq);
+            }
+
+            this.onUpdateAllPlayerInfo();
+            UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer).updateResultIcon(true);
+        } else {
+            var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
+            this.bankerWorld.setVisible(false);
+            for (var i = 0; i < 6; i++) {
+                dlg.showScoreValue(i, Math.floor(Math.random()*100) -50);
+            }
         }
-
-        this.onUpdateAllPlayerInfo();
-        UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer).updateResultIcon(true);
     },
 
     //显示战绩中心
