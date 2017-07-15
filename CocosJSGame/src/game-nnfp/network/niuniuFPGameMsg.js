@@ -390,11 +390,13 @@ var NiuniuFPGameMsg = GameMsg.extend({
         ]);*/
 
         ///////////////////////////////////先数据处理//////////////////////////////////////////
-        var game = ClientData.getInstance().getGame();
-        if (game) game.setAllPlayerCards(data.CardData);
+        if (!CMD_NIUNIU_TB.isLocal) {
+            var game = ClientData.getInstance().getGame();
+            if (game) game.setAllPlayerCards(data.CardData);
 
-        var table = ClientData.getInstance().getTable();
-        if (table) table.setGameStatus(CMD_NIUNIU_TB.GS_TK_PLAYING);
+            var table = ClientData.getInstance().getTable();
+            if (table) table.setGameStatus(CMD_NIUNIU_TB.GS_TK_PLAYING);
+        }
 
         ///////////////////////////////////后UI处理 //////////////////////////////////////////
         NiuniuFPUIMgr.getInstance().onSendCard(4);
@@ -417,8 +419,10 @@ var NiuniuFPGameMsg = GameMsg.extend({
         cc.log("### 游戏服务器， （通比牛牛游戏命令 ）广播抢庄用户");
 
         ///////////////////////////////////先数据处理//////////////////////////////////////////
-        var game = ClientData.getInstance().getGame();
-        if (game) game.setRobBankerScore(data.ChairID, data.CallScore);
+        if (!CMD_NIUNIU_TB.isLocal) {
+            var game = ClientData.getInstance().getGame();
+            if (game) game.setRobBankerScore(data.ChairID, data.CallScore);
+        }
         ///////////////////////////////////后UI处理//////////////////////////////////////////
         NiuniuFPUIMgr.getInstance().onCallScore(data.ChairID);
     },
@@ -430,8 +434,10 @@ var NiuniuFPGameMsg = GameMsg.extend({
         cc.log("### 游戏服务器， （通比牛牛游戏命令 ）广播成为庄家用户");
 
         ///////////////////////////////////先数据处理//////////////////////////////////////////
-        var game = ClientData.getInstance().getGame();
-        if (game) game.setBankerChairId(data.Banker);
+        if (!CMD_NIUNIU_TB.isLocal) {
+            var game = ClientData.getInstance().getGame();
+            if (game) game.setBankerChairId(data.Banker);
+        }
         ///////////////////////////////////后UI处理//////////////////////////////////////////
         NiuniuFPUIMgr.getInstance().bankerWordAnimation();
     },
@@ -453,9 +459,10 @@ var NiuniuFPGameMsg = GameMsg.extend({
         cc.log("### 游戏服务端， （通比牛牛游戏命令 ）广播用户加注倍数");
 
         ///////////////////////////////////先数据处理//////////////////////////////////////////
-        var game = ClientData.getInstance().getGame();
-        if (game) game.setAddChipScore(data.ChairID, data.AddScoreCount);
-
+        if (!CMD_NIUNIU_TB.isLocal) {
+            var game = ClientData.getInstance().getGame();
+            if (game) game.setAddChipScore(data.ChairID, data.AddScoreCount);
+        }
         ///////////////////////////////////后UI处理 //////////////////////////////////////////
         NiuniuFPUIMgr.getInstance().onAddChip(data.ChairID);
     },
@@ -467,9 +474,10 @@ var NiuniuFPGameMsg = GameMsg.extend({
         cc.log("### 游戏服务器， （通比牛牛游戏命令 ）发最后一张牌消息");
 
         ///////////////////////////////////先数据处理 //////////////////////////////////////////
-        var game = ClientData.getInstance().getGame();
-        if (game) game.setAllPlayerCards(data.LastCard);
-
+        if (!CMD_NIUNIU_TB.isLocal) {
+            var game = ClientData.getInstance().getGame();
+            if (game) game.setAllPlayerCards(data.LastCard);
+        }
         ///////////////////////////////////后UI处理 //////////////////////////////////////////
         NiuniuFPUIMgr.getInstance().onSendCard(1);
     },
@@ -492,11 +500,12 @@ var NiuniuFPGameMsg = GameMsg.extend({
         cc.log("### 游戏服务器， （通比牛牛游戏命令 ）广播用户亮牌");
 
         ///////////////////////////////////先数据处理//////////////////////////////////////////
-        var game = ClientData.getInstance().getGame();
-        if (game) game.openCard(data.chairId, data.CardType, data.CardData);
-
+        if (!CMD_NIUNIU_TB.isLocal) {
+            var game = ClientData.getInstance().getGame();
+            if (game) game.openCard(data.chairId, data.CardType, data.CardData);
+        }
         ///////////////////////////////////后UI处理 //////////////////////////////////////////
-        NiuniuFPUIMgr.getInstance().onOpenCard(data.chairId);
+        NiuniuFPUIMgr.getInstance().onShowOpenCard(data.chairId);
     },
 
     //游戏结束 104
@@ -516,23 +525,25 @@ var NiuniuFPGameMsg = GameMsg.extend({
         ]);*/
 
         ///////////////////////////////////先数据处理//////////////////////////////////////////
-        var game = ClientData.getInstance().getGame();
-        if (game) game.gameEnd(data);
+        if (!CMD_NIUNIU_TB.isLocal) {
+            var game = ClientData.getInstance().getGame();
+            if (game) game.gameEnd(data);
 
-        var table = ClientData.getInstance().getTable();
-        if (table) {
-            table.setGameStatus(CMD_NIUNIU_TB.GS_TK_FREE);
+            var table = ClientData.getInstance().getTable();
+            if (table) {
+                table.setGameStatus(CMD_NIUNIU_TB.GS_TK_FREE);
 
-            // 更新金币跟积分
-            var plaza = ClientData.getInstance().getPlaza();
-            var curGameType = plaza.getCurGameType();	//设置游戏类型 1：房卡 其他：金币
-            for (var i = 0; i < data.lGameScore.length; i++) {
-                if (data.lGameScore[i] === 0) continue;
-                var player = table.getPlayerByChairID(i);
-                if (player) {
-                    if (curGameType === GAME_GENRE_PERSONAL) {
-                        //房卡
-                        player.setScore(player.getScore() + data.lGameScore[i]);
+                // 更新金币跟积分
+                var plaza = ClientData.getInstance().getPlaza();
+                var curGameType = plaza.getCurGameType();	//设置游戏类型 1：房卡 其他：金币
+                for (var i = 0; i < data.lGameScore.length; i++) {
+                    if (data.lGameScore[i] === 0) continue;
+                    var player = table.getPlayerByChairID(i);
+                    if (player) {
+                        if (curGameType === GAME_GENRE_PERSONAL) {
+                            //房卡
+                            player.setScore(player.getScore() + data.lGameScore[i]);
+                        }
                     }
                 }
             }
