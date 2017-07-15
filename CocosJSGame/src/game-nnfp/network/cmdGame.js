@@ -1,7 +1,8 @@
 //通比牛牛
 var CMD_NIUNIU_TB = {
+		isLocal:                        true,									//是否本地
 		KIND_ID:						28,										//游戏 I D
-		GAME_PLAYER:					4,										//游戏人数
+		GAME_PLAYER:					6,										//游戏人数
 		GAME_NAME:						"通比牛牛",								//游戏名字
 		MAXCOUNT:						5,										//扑克最大数目
 	
