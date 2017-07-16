@@ -361,6 +361,7 @@ var NnFpDlgPlayer = DlgBase.extend({
             multiple.setString(scoreMultipleValue);
             this.PanelAddChip[pos].setVisible(true);
         }
+        // this.PanelAddChip[bankerPos].setPosition(cc.p(this.addChipArr[bankerPos]));
         var pEnd;
         var faceSize = this.ImgBg[pos].getPosition();
         pEnd = cc.pSub(faceSize, cc.p(0, 90));
@@ -403,6 +404,13 @@ var NnFpDlgPlayer = DlgBase.extend({
             var multiple = this.PanelAddChip[pos].getChildren();
             multiple[0].setVisible(false);
             multiple[1].setVisible(false);
+            for (var i = 0; i < this.PanelAddChip[pos].getChildren().length; i++) {
+                if (this.PanelAddChip[pos].getChildren()[i] !== multiple[0] ||
+                    this.PanelAddChip[pos].getChildren()[i] !== multiple[1]) {
+                    this.PanelAddChip[pos].removeChild();
+                }
+            }
+            cc.log(this.PanelAddChip[pos].getChildren());
             var imgStr = "gameNnFpPlist/nnui0033e.png";
             var img = new ccui.ImageView(imgStr, ccui.Widget.PLIST_TEXTURE);
             this.PanelAddChip[pos].addChild(img);
