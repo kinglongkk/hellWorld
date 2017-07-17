@@ -348,10 +348,12 @@ var NnFpDlgPlayer = DlgBase.extend({
     //显示抢庄倍数
     showCallScoreMultiple: function (pos, scoreMultiple, bankerPos) {
         this.PanelBanker[pos].removeAllChildren();
+        var noAddImg = this.PanelAddChip[pos].getChildByName("Image_NoAdd");
         if (scoreMultiple > 0) {
             var scoreMultipleValue = "." + scoreMultiple;
             var multiple = this.PanelAddChip[pos].getChildByName("AtlasLabel_Multiple");
             var multipleImg =  this.PanelAddChip[pos].getChildByName("Image_26");
+            noAddImg.setVisible(true);
             multipleImg.setColor(cc.color(255, 255, 255));
             multiple.setColor(cc.color(255, 255, 0));
             if (pos === bankerPos) {
@@ -360,6 +362,8 @@ var NnFpDlgPlayer = DlgBase.extend({
             }
             multiple.setString(scoreMultipleValue);
             this.PanelAddChip[pos].setVisible(true);
+        } else {
+            noAddImg.setVisible(false);
         }
         // this.PanelAddChip[bankerPos].setPosition(cc.p(this.addChipArr[bankerPos]));
         var pEnd;
@@ -395,25 +399,19 @@ var NnFpDlgPlayer = DlgBase.extend({
         cc.log("这里是显示加注");
         cc.log("显示加注座位 = " + pos);
         cc.log("显示加注分数 = " + chipMultiple);
+        var AddChipArr = this.PanelAddChip[pos].getChildren();
         this.PanelAddChip[pos].setVisible(true);
         if (chipMultiple > 0) {
             var chipMultipleValue = "." + chipMultiple;
             var multiple = this.PanelAddChip[pos].getChildByName("AtlasLabel_Multiple");
             multiple.setString(chipMultipleValue);
+            AddChipArr[0].setVisible(true);
+            AddChipArr[1].setVisible(true);
+            AddChipArr[2].setVisible(false);
         } else {
-            var multiple = this.PanelAddChip[pos].getChildren();
-            multiple[0].setVisible(false);
-            multiple[1].setVisible(false);
-            for (var i = 0; i < this.PanelAddChip[pos].getChildren().length; i++) {
-                if (this.PanelAddChip[pos].getChildren()[i] !== multiple[0] ||
-                    this.PanelAddChip[pos].getChildren()[i] !== multiple[1]) {
-                    this.PanelAddChip[pos].removeChild();
-                }
-            }
-            cc.log(this.PanelAddChip[pos].getChildren());
-            var imgStr = "gameNnFpPlist/nnui0033e.png";
-            var img = new ccui.ImageView(imgStr, ccui.Widget.PLIST_TEXTURE);
-            this.PanelAddChip[pos].addChild(img);
+            AddChipArr[0].setVisible(false);
+            AddChipArr[1].setVisible(false);
+            AddChipArr[2].setVisible(true);
         }
 
         var pEnd;
@@ -422,7 +420,7 @@ var NnFpDlgPlayer = DlgBase.extend({
         if (pos === 0) pEnd = cc.pAdd(faceSize, cc.p(100, 0));
         if (pos === 3) pEnd = cc.pSub(faceSize, cc.p(100, 0));
 
-        this.PanelAddChip[pos].runAction(cc.sequence(cc.moveTo(0.5, cc.p(pEnd))))
+        this.PanelAddChip[pos].runAction(cc.sequence(cc.moveTo(0.5, cc.p(pEnd))));
     },
 
     //显示亮牌用户
