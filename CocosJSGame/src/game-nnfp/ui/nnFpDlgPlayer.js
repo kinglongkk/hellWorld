@@ -353,7 +353,7 @@ var NnFpDlgPlayer = DlgBase.extend({
             var scoreMultipleValue = "." + scoreMultiple;
             var multiple = this.PanelAddChip[pos].getChildByName("AtlasLabel_Multiple");
             var multipleImg =  this.PanelAddChip[pos].getChildByName("Image_26");
-            noAddImg.setVisible(true);
+            noAddImg.setVisible(false);
             multipleImg.setColor(cc.color(255, 255, 255));
             multiple.setColor(cc.color(255, 255, 0));
             if (pos === bankerPos) {
@@ -362,8 +362,6 @@ var NnFpDlgPlayer = DlgBase.extend({
             }
             multiple.setString(scoreMultipleValue);
             this.PanelAddChip[pos].setVisible(true);
-        } else {
-            noAddImg.setVisible(false);
         }
         // this.PanelAddChip[bankerPos].setPosition(cc.p(this.addChipArr[bankerPos]));
         var pEnd;
