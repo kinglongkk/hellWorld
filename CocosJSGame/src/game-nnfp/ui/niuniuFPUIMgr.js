@@ -307,6 +307,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
 
     //发两张牌
     sendPublicCard: function () {
+        this.bankerWorld.setVisible(false);
         var cards = [];
         var game = ClientData.getInstance().getGame();
         // game.setPublicCards([0x25, 0x15]);
@@ -864,7 +865,6 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
             UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer).updateResultIcon(true);
         } else {
             var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
-            this.bankerWorld.setVisible(false);
             for (var i = 0; i < 6; i++) {
                 dlg.showScoreValue(i, Math.floor(Math.random()*100) -50);
             }

@@ -427,7 +427,7 @@ NiuNiuFP.prototype.getCardsResult = function (cardsData) {
     var dicNiuNiu = []; // 牛牛
     var maxNiuData = {
         type: NiuNiuFP.CardType.OX_VALUE0,
-        cards: []
+        cards: cardGroup[0]
     };
     for (var i = 0; i < cardGroup.length; i++) {
         var result = Get_OX_VALUE0(cardGroup[i]);
