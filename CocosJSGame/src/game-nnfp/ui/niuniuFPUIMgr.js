@@ -482,7 +482,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         // actions.push(callFunc);
 
         var seq = cc.sequence(actions);
-        img.runAction(seq.repeatForever());
+        img.runAction(seq.repeat(4));
     },
 
     //得到广播庄家用户显示庄字动画

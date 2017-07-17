@@ -359,18 +359,19 @@ var NnFpDlgPlayer = DlgBase.extend({
             if (pos === bankerPos) {
                 multipleImg.setColor(cc.color(255, 255, 0));
                 multiple.setColor(cc.color(255, 0, 255));
+
+                this.PanelAddChip[bankerPos].setPosition(cc.p(this.addChipArr[bankerPos]));
+                var pEnd;
+                var faceSize = this.ImgBg[pos].getPosition();
+                pEnd = cc.pSub(faceSize, cc.p(0, 90));
+                if (bankerPos === 0) pEnd = cc.pAdd(faceSize, cc.p(100, -30));
+                if (bankerPos === 3) pEnd = cc.pSub(faceSize, cc.p(100, 0));
+
+                this.PanelAddChip[bankerPos].runAction(cc.sequence(cc.moveTo(0.5, cc.p(pEnd))));
             }
             multiple.setString(scoreMultipleValue);
             this.PanelAddChip[pos].setVisible(true);
         }
-        // this.PanelAddChip[bankerPos].setPosition(cc.p(this.addChipArr[bankerPos]));
-        var pEnd;
-        var faceSize = this.ImgBg[pos].getPosition();
-        pEnd = cc.pSub(faceSize, cc.p(0, 90));
-        if (pos === 0) pEnd = cc.pAdd(faceSize, cc.p(100, -30));
-        if (pos === 3) pEnd = cc.pSub(faceSize, cc.p(100, 0));
-
-        // this.PanelAddChip[bankerPos].runAction(cc.sequence(cc.moveTo(0.5, cc.p(pEnd))))
     },
 
     //显示加注按钮或者等待开始
