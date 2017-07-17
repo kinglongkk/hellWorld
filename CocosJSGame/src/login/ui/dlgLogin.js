@@ -7,51 +7,51 @@
  * 	登录界面控件 交互
  * */
 DLG_CREATOR[ID_DlgLogin] = function() {
-	return new DlgLogin();
+    return new DlgLogin();
 };
 
 var DlgLogin = DlgBase.extend({
-	ctor: function () {
-	},
+    ctor: function () {
+    },
 
-	onCreate: function() {
-		this.init();
-	},
+    onCreate: function() {
+        this.init();
+    },
 
-	onClose: function() {
+    onClose: function() {
 
-	},
-	
-	init: function(){
-		var json = ccs.load(res.LoginScene_json);
-		this._rootWidget = json.node;
-		
-		//自适应屏幕大小
-		var sizeDir = cc.director.getWinSize();
-		this._rootWidget.setContentSize(sizeDir);
-		ccui.helper.doLayout(this._rootWidget);	
-		
-		this.login_mainLayer = this._rootWidget.getChildByName('login_mainLayer');
-		this.login_btnWx = this.login_mainLayer.getChildByName('login_btnWx');
-		this.login_btnWx.addTouchEventListener(this.onClickWxLogin, this);
-		
-		this.login_buttomLayer = this.login_mainLayer.getChildByName('login_buttomLayer');
-		this.Text_tip = this.login_buttomLayer.getChildByName('Text_tip');
-		this.Text_company = this.login_buttomLayer.getChildByName('Text_company');
-		this.Text_approval = this.login_buttomLayer.getChildByName('Text_approval');
+    },
 
-		this.Text_tip.setFontSize(32);
-		this.Text_company.setFontSize(28);
-		this.Text_approval.setFontSize(28);
-		this.Text_tip.setScale(1);
-		this.Text_company.setScale(1);
-		this.Text_approval.setScale(1);
+    init: function(){
+        var json = ccs.load(res.LoginScene_json);
+        this._rootWidget = json.node;
+
+        //自适应屏幕大小
+        var sizeDir = cc.director.getWinSize();
+        this._rootWidget.setContentSize(sizeDir);
+        ccui.helper.doLayout(this._rootWidget);
+
+        this.login_mainLayer = this._rootWidget.getChildByName('login_mainLayer');
+        this.login_btnWx = this.login_mainLayer.getChildByName('login_btnWx');
+        this.login_btnWx.addTouchEventListener(this.onClickWxLogin, this);
+
+        this.login_buttomLayer = this.login_mainLayer.getChildByName('login_buttomLayer');
+        this.Text_tip = this.login_buttomLayer.getChildByName('Text_tip');
+        this.Text_company = this.login_buttomLayer.getChildByName('Text_company');
+        this.Text_approval = this.login_buttomLayer.getChildByName('Text_approval');
+
+        this.Text_tip.setFontSize(32);
+        this.Text_company.setFontSize(28);
+        this.Text_approval.setFontSize(28);
+        this.Text_tip.setScale(1);
+        this.Text_company.setScale(1);
+        this.Text_approval.setScale(1);
         var password = LocalStorageMgr.getInstance()._locarStorage.getItem("_passwd_")
         var account = LocalStorageMgr.getInstance()._locarStorage.getItem("_account_")
 
-		this.EditAccount = this.login_mainLayer.getChildByName('TextField_account');
-		this.EditPassword = this.login_mainLayer.getChildByName('TextField_password');
-		cc.log("_locarStorage  accoutn ", account, password)
+        this.EditAccount = this.login_mainLayer.getChildByName('TextField_account');
+        this.EditPassword = this.login_mainLayer.getChildByName('TextField_password');
+        cc.log("_locarStorage  accoutn ", account, password)
         this.EditAccount.setString(account)
         this.EditPassword.setString(password)
 
@@ -64,7 +64,7 @@ var DlgLogin = DlgBase.extend({
 //		//spineBoy.setAnimationListener(this, this.animationStateEvent);
 //		//spineBoy.setScale(0.5);
 //		rootWidget.addChild(spineBoy, 4);
-		
+
 //		var handler1 = function(Armature, MovementEventType, name){
 //			if(MovementEventType == ccs.MovementEventType.complete){
 //				cc.log("Complete...");
@@ -86,61 +86,72 @@ var DlgLogin = DlgBase.extend({
 //
 //		var armatureDataManager = ccs.ArmatureDataManager.getInstance();
 //		armatureDataManager.addArmatureFileInfoAsync("res/login/bear0.png", "res/login/bear0.plist", "res/login/bear.ExportJson",callback, this);
-		
-	},
 
-	onExit : function () {
-		this._super();
-	},
-	
-	onClickWxLogin: function(sender, type) {
-		switch (type) {
-		case ccui.Widget.TOUCH_BEGAN:
-			SoundMgr.getInstance().playMusic("button_press",0,false);
-			break;
-		case ccui.Widget.TOUCH_MOVED:
-			break;
-		case ccui.Widget.TOUCH_ENDED:
-			//acounts test
-			if(cc.sys.os == cc.sys.OS_WINDOWS){
-				//LoginSceneUIMgr.getInstance().sendLogon("jiangweilian888", "j12345678");
-				//LoginSceneUIMgr.getInstance().sendLogon("jiangweilian999", "j12345678");
-				//LoginSceneUIMgr.getInstance().sendLogon("huaifeng1", "j12345678");//.1.37
-				//LoginSceneUIMgr.getInstance().sendLogon("weilian001", "j12345678");//.1.37
-				LoginRegisterMsg.getInstance().sendMBRegister("ll002", "ll123456");
-				
-				//return;
-				var account = this.EditAccount.string;
-				var password = this.EditPassword.string;
+    },
 
-				if(account == "" || password == ""){
-					DlgTip.openSysTip("账号、密码不能为空！");
-					return;
-				}
+    onExit : function () {
+        this._super();
+    },
+
+    onClickWxLogin: function(sender, type) {
+        switch (type) {
+            case ccui.Widget.TOUCH_BEGAN:
+                SoundMgr.getInstance().playMusic("button_press",0,false);
+                break;
+            case ccui.Widget.TOUCH_MOVED:
+                break;
+            case ccui.Widget.TOUCH_ENDED:
+                //acounts test
+                var account = this.EditAccount.string;
+                var password = this.EditPassword.string;
+
+                if(account === "" || password === ""){
+                    DlgTip.openSysTip("账号、密码不能为空！");
+                    return;
+                }
                 cc.log("1111111111111 ", password, account)
                 LocalStorageMgr.getInstance()._locarStorage.setItem("_passwd_", password)
                 LocalStorageMgr.getInstance()._locarStorage.setItem("_account_", account)
-				LoginSceneUIMgr.getInstance().sendLogon(account, password);
-				
-			}
-			else{
+                LoginSceneUIMgr.getInstance().sendLogon(account, password);
+                if(cc.sys.os == cc.sys.OS_WINDOWS){
+                    //LoginSceneUIMgr.getInstance().sendLogon("jiangweilian888", "j12345678");
+                    //LoginSceneUIMgr.getInstance().sendLogon("jiangweilian999", "j12345678");
+                    //LoginSceneUIMgr.getInstance().sendLogon("huaifeng1", "j12345678");//.1.37
+                    // LoginSceneUIMgr.getInstance().sendLogon("tang002", "a123456");//.1.37
+                    //LoginRegisterMsg.getInstance().sendMBRegister("tang002", "a123456");
 
-				if(cc.sys.isNative){
-                    cc.log('onClickWxLogin');
-					gg.WxSdkMgr.getInstance().sendWxLogin();
-				}
-				cc.log("BtnLoginWX - open");
-				
-				//LoginSceneUIMgr.getInstance().sendLogon("huaifeng1", "j12345678");//.1.37
-			}
-			
-			//LoginSceneUIMgr.getInstance().sendLogon("jiangweilian888", "j12345678");
-			//LoginSceneUIMgr.getInstance().sendLogon("jiangweilian999", "j12345678");
-			//LoginSceneUIMgr.getInstance().sendLogon("huaifeng1", "j12345678");//.1.37
-			
-			break;
-		default:
-			break;
-		}
-	},
+                    //return;
+//				var account = this.EditAccount.string;
+//				var password = this.EditPassword.string;
+//
+//				if(account == "" || password == ""){
+//					DlgTip.openSysTip("账号、密码不能为空！");
+//					return;
+//				}
+//                cc.log("1111111111111 ", password, account)
+//                LocalStorageMgr.getInstance()._locarStorage.setItem("_passwd_", password)
+//                LocalStorageMgr.getInstance()._locarStorage.setItem("_account_", account)
+//				LoginSceneUIMgr.getInstance().sendLogon(account, password);
+
+                }
+                else{
+
+                    if(cc.sys.isNative){
+                        cc.log('onClickWxLogin');
+                        gg.WxSdkMgr.getInstance().sendWxLogin();
+                    }
+                    cc.log("BtnLoginWX - open");
+
+                    //LoginSceneUIMgr.getInstance().sendLogon("huaifeng1", "j12345678");//.1.37
+                }
+
+                //LoginSceneUIMgr.getInstance().sendLogon("jiangweilian888", "j12345678");
+                //LoginSceneUIMgr.getInstance().sendLogon("jiangweilian999", "j12345678");
+                //LoginSceneUIMgr.getInstance().sendLogon("huaifeng1", "j12345678");//.1.37
+
+                break;
+            default:
+                break;
+        }
+    }
 });
