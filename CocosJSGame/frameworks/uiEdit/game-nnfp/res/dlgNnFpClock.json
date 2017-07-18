@@ -60,7 +60,7 @@
                 "StartChar": ".",
                 "LabelAtlasFileImage_CNB": {
                   "Type": "Normal",
-                  "Path": "",
+                  "Path": "font/shuz1.png",
                   "Plist": ""
                 },
                 "AnchorPoint": {
@@ -118,6 +118,7 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
+        "font/shuz1.png",
         "gameNnFpPlist.plist",
         "gameNnFpPlist.png"
       ],

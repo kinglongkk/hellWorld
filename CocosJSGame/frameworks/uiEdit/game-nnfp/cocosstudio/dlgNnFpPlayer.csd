@@ -9,6 +9,29 @@
           <AbstractNodeData Name="PanelPlayerPos_0" ActionTag="-1960997987" Tag="159" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TopMargin="375.0000" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="1334.0000" Y="375.0000" />
             <Children>
+              <AbstractNodeData Name="Image_WaitForAddChip" ActionTag="-938823727" Tag="142" IconVisible="False" LeftMargin="518.5000" RightMargin="462.5000" TopMargin="47.5000" BottomMargin="252.5000" LeftEage="116" RightEage="116" TopEage="24" BottomEage="24" Scale9OriginX="116" Scale9OriginY="24" Scale9Width="121" Scale9Height="27" ctype="ImageViewObjectData">
+                <Size X="353.0000" Y="75.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="695.0000" Y="290.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.5210" Y="0.7733" />
+                <PreSize X="0.2646" Y="0.2000" />
+                <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0046.png" Plist="gameNnFpPlist.plist" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="PanelPublicCards" ActionTag="1695582229" Tag="145" IconVisible="False" LeftMargin="535.0000" RightMargin="649.0000" TopMargin="-60.0000" BottomMargin="365.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                <Size X="150.0000" Y="70.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="610.0000" Y="400.0000" />
+                <Scale ScaleX="0.8500" ScaleY="0.8500" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.4573" Y="1.0667" />
+                <PreSize X="0.1124" Y="0.1867" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </AbstractNodeData>
               <AbstractNodeData Name="PanelCardGroup" ActionTag="-1524864884" Tag="160" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BottomEdge" LeftMargin="531.9700" RightMargin="652.0300" TopMargin="280.3363" BottomMargin="24.6637" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -22,13 +45,26 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="PanelOpen" ActionTag="1400437433" Tag="161" IconVisible="False" LeftMargin="594.9348" RightMargin="589.0652" TopMargin="280.0000" BottomMargin="25.0000" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+              <AbstractNodeData Name="PanelOpen" ActionTag="1400437433" Tag="161" IconVisible="False" LeftMargin="525.0000" RightMargin="659.0000" TopMargin="280.0000" BottomMargin="25.0000" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="669.9348" Y="60.0000" />
+                <Position X="600.0000" Y="60.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5022" Y="0.1600" />
+                <PrePosition X="0.4498" Y="0.1600" />
+                <PreSize X="0.1124" Y="0.1867" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="PanelOpenPublicCards" ActionTag="-1604778302" Tag="149" IconVisible="False" LeftMargin="911.6100" RightMargin="272.3900" TopMargin="280.0000" BottomMargin="25.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                <Size X="150.0000" Y="70.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="986.6100" Y="60.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.7396" Y="0.1600" />
                 <PreSize X="0.1124" Y="0.1867" />
                 <SingleColor A="255" R="150" G="200" B="255" />
                 <FirstColor A="255" R="150" G="200" B="255" />
@@ -58,7 +94,7 @@
                 <PreSize X="0.1064" Y="0.2347" />
                 <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0009a.png" Plist="gameNnFpPlist.plist" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ImgBg" ActionTag="-1718917268" Tag="164" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BottomEdge" LeftMargin="20.2010" RightMargin="1216.7990" TopMargin="208.3727" BottomMargin="39.6273" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="77" Scale9Height="107" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="ImgBg" ActionTag="-1718917268" Tag="164" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BottomEdge" LeftMargin="20.2010" RightMargin="1216.7990" TopMargin="208.3700" BottomMargin="39.6300" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="77" Scale9Height="107" ctype="ImageViewObjectData">
                 <Size X="97.0000" Y="127.0000" />
                 <Children>
                   <AbstractNodeData Name="ImgFaceBg" ActionTag="-959618372" Tag="165" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="25.5000" RightMargin="25.5000" TopMargin="40.5000" BottomMargin="40.5000" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="15" Scale9Width="16" Scale9Height="16" ctype="ImageViewObjectData">
@@ -94,25 +130,70 @@
                     <OutlineColor A="255" R="255" G="0" B="0" />
                     <ShadowColor A="255" R="255" G="127" B="80" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="LabMoney" ActionTag="567218953" Tag="171" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="3.5000" RightMargin="3.5000" TopMargin="103.0834" BottomMargin="0.9166" IsCustomSize="True" FontSize="20" LabelText="1000&#xA;" HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" ctype="TextObjectData">
+                  <AbstractNodeData Name="LabMoney" ActionTag="567218953" Tag="171" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="3.5000" RightMargin="3.5000" TopMargin="104.2500" BottomMargin="-0.2500" IsCustomSize="True" FontSize="20" LabelText="1000&#xA;" HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" ctype="TextObjectData">
                     <Size X="90.0000" Y="23.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="48.5000" Y="12.4166" />
+                    <Position X="48.5000" Y="11.2500" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="0" />
-                    <PrePosition X="0.5000" Y="0.0978" />
+                    <PrePosition X="0.5000" Y="0.0886" />
                     <PreSize X="0.9278" Y="0.1811" />
                     <OutlineColor A="255" R="255" G="0" B="0" />
                     <ShadowColor A="255" R="255" G="127" B="80" />
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="68.7010" Y="103.1273" />
+                <Position X="68.7010" Y="103.1300" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.0515" Y="0.2750" />
                 <PreSize X="0.0727" Y="0.3387" />
                 <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0003.png" Plist="gameNnFpPlist.plist" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Panel_AddScore" ActionTag="-1761480537" Tag="835" IconVisible="False" LeftMargin="670.0000" RightMargin="614.0000" TopMargin="75.0000" BottomMargin="280.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                <Size X="50.0000" Y="20.0000" />
+                <Children>
+                  <AbstractNodeData Name="Image_26" ActionTag="1678812665" Tag="836" IconVisible="False" LeftMargin="17.7692" RightMargin="-7.7692" TopMargin="-13.1039" BottomMargin="-8.8961" LeftEage="13" RightEage="13" TopEage="13" BottomEage="13" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="14" Scale9Height="16" ctype="ImageViewObjectData">
+                    <Size X="40.0000" Y="42.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="37.7692" Y="12.1039" />
+                    <Scale ScaleX="0.8000" ScaleY="0.8000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.7554" Y="0.6052" />
+                    <PreSize X="0.8000" Y="2.1000" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0041.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="AtlasLabel_Multiple" ActionTag="767808361" Tag="837" IconVisible="False" LeftMargin="-41.4191" RightMargin="13.4191" TopMargin="-21.1367" BottomMargin="-18.8633" CharWidth="39" CharHeight="60" LabelText=".4" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="78.0000" Y="60.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="-2.4191" Y="11.1367" />
+                    <Scale ScaleX="0.6000" ScaleY="0.6000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="-0.0484" Y="0.5568" />
+                    <PreSize X="1.5600" Y="3.0000" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Image_NoAdd" ActionTag="-1143345745" Tag="838" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-77.0000" RightMargin="-77.0000" TopMargin="-33.5000" BottomMargin="-33.5000" LeftEage="67" RightEage="67" TopEage="28" BottomEage="28" Scale9OriginX="67" Scale9OriginY="28" Scale9Width="70" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="204.0000" Y="87.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="25.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="4.0800" Y="4.3500" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0033e.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="695.0000" Y="290.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.5210" Y="0.7733" />
+                <PreSize X="0.0375" Y="0.0533" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
               <AbstractNodeData Name="Panel_Banker" ActionTag="1687284204" Tag="122" IconVisible="False" LeftMargin="670.0000" RightMargin="614.0000" TopMargin="75.0000" BottomMargin="280.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="50.0000" Y="20.0000" />
@@ -150,6 +231,16 @@
                     <PreSize X="1.5600" Y="3.0000" />
                     <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
                   </AbstractNodeData>
+                  <AbstractNodeData Name="Image_NoAdd" ActionTag="-849572485" Tag="136" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-77.0000" RightMargin="-77.0000" TopMargin="-33.5000" BottomMargin="-33.5000" LeftEage="67" RightEage="67" TopEage="28" BottomEage="28" Scale9OriginX="67" Scale9OriginY="28" Scale9Width="70" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="204.0000" Y="87.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="25.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="4.0800" Y="4.3500" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0033e.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="695.0000" Y="290.0000" />
@@ -172,25 +263,37 @@
                 <PreSize X="0.0165" Y="0.0747" />
                 <LabelBMFontFile_CNB Type="Normal" Path="font/betValue_0.fnt" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="LabLose" ActionTag="-2094914988" Tag="118" IconVisible="False" LeftMargin="581.8163" RightMargin="552.1837" TopMargin="-11.7360" BottomMargin="316.7360" CharWidth="50" CharHeight="70" LabelText="/150" StartChar="." ctype="TextAtlasObjectData">
-                <Size X="200.0000" Y="70.0000" />
+              <AbstractNodeData Name="LabImage" ActionTag="2141880543" Tag="128" IconVisible="False" LeftMargin="442.0000" RightMargin="436.0000" TopMargin="42.0000" BottomMargin="267.0000" LeftEage="150" RightEage="150" TopEage="21" BottomEage="21" Scale9OriginX="150" Scale9OriginY="21" Scale9Width="156" Scale9Height="24" ctype="ImageViewObjectData">
+                <Size X="456.0000" Y="66.0000" />
+                <Children>
+                  <AbstractNodeData Name="LabLose" ActionTag="-2094914988" Tag="118" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="128.0000" RightMargin="128.0000" TopMargin="-2.0000" BottomMargin="-2.0000" CharWidth="50" CharHeight="70" LabelText="/150" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="200.0000" Y="70.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="228.0000" Y="33.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.4386" Y="1.0606" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz3.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="LabWin" ActionTag="-368767178" Tag="117" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="128.0000" RightMargin="128.0000" TopMargin="-2.0000" BottomMargin="-2.0000" CharWidth="50" CharHeight="70" LabelText=".150" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="200.0000" Y="70.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="228.0000" Y="33.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.4386" Y="1.0606" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz2.png" Plist="" />
+                  </AbstractNodeData>
+                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="681.8163" Y="351.7360" />
+                <Position X="670.0000" Y="300.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5111" Y="0.9380" />
-                <PreSize X="0.1499" Y="0.1867" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz3.png" Plist="" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="LabWin" Visible="False" ActionTag="-368767178" Tag="117" IconVisible="False" LeftMargin="580.9300" RightMargin="553.0700" TopMargin="-12.6187" BottomMargin="317.6187" CharWidth="50" CharHeight="70" LabelText=".150" StartChar="." ctype="TextAtlasObjectData">
-                <Size X="200.0000" Y="70.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="680.9300" Y="352.6187" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5104" Y="0.9403" />
-                <PreSize X="0.1499" Y="0.1867" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz2.png" Plist="" />
+                <PrePosition X="0.5022" Y="0.8000" />
+                <PreSize X="0.3418" Y="0.1760" />
+                <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0047.png" Plist="gameNnFpPlist.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="Img_lose" ActionTag="-1392280791" Tag="597" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="293.2000" RightMargin="826.8000" TopMargin="80.5000" BottomMargin="80.5000" LeftEage="70" RightEage="70" TopEage="70" BottomEage="70" Scale9OriginX="70" Scale9OriginY="70" Scale9Width="74" Scale9Height="74" ctype="ImageViewObjectData">
                 <Size X="214.0000" Y="214.0000" />
@@ -257,10 +360,55 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="200.0333" Y="200.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.6400" ScaleY="0.6400" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.2999" Y="0.5333" />
                 <PreSize X="0.2249" Y="0.1867" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Panel_AddScore" ActionTag="-751982721" Tag="839" IconVisible="False" LeftMargin="245.0000" RightMargin="372.0000" TopMargin="95.0000" BottomMargin="260.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                <Size X="50.0000" Y="20.0000" />
+                <Children>
+                  <AbstractNodeData Name="Image_26" ActionTag="-59482918" Tag="840" IconVisible="False" LeftMargin="17.7692" RightMargin="-7.7692" TopMargin="-13.1039" BottomMargin="-8.8961" LeftEage="13" RightEage="13" TopEage="13" BottomEage="13" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="14" Scale9Height="16" ctype="ImageViewObjectData">
+                    <Size X="40.0000" Y="42.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="37.7692" Y="12.1039" />
+                    <Scale ScaleX="0.8000" ScaleY="0.8000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.7554" Y="0.6052" />
+                    <PreSize X="0.8000" Y="2.1000" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0041.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="AtlasLabel_Multiple" ActionTag="299165076" Tag="841" IconVisible="False" LeftMargin="-41.4191" RightMargin="13.4191" TopMargin="-21.1367" BottomMargin="-18.8633" CharWidth="39" CharHeight="60" LabelText=".4" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="78.0000" Y="60.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="-2.4191" Y="11.1367" />
+                    <Scale ScaleX="0.6000" ScaleY="0.6000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="-0.0484" Y="0.5568" />
+                    <PreSize X="1.5600" Y="3.0000" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Image_NoAdd" ActionTag="-1372591988" Tag="842" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-77.0000" RightMargin="-77.0000" TopMargin="-33.5000" BottomMargin="-33.5000" LeftEage="67" RightEage="67" TopEage="28" BottomEage="28" Scale9OriginX="67" Scale9OriginY="28" Scale9Width="70" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="204.0000" Y="87.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="25.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="4.0800" Y="4.3500" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0033e.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="270.0000" Y="270.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.4048" Y="0.7200" />
+                <PreSize X="0.0750" Y="0.0533" />
                 <SingleColor A="255" R="150" G="200" B="255" />
                 <FirstColor A="255" R="150" G="200" B="255" />
                 <EndColor A="255" R="255" G="255" B="255" />
@@ -282,25 +430,35 @@
               <AbstractNodeData Name="Panel_AddChip" ActionTag="1202518289" Tag="125" IconVisible="False" LeftMargin="245.0000" RightMargin="372.0000" TopMargin="95.0000" BottomMargin="260.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="50.0000" Y="20.0000" />
                 <Children>
-                  <AbstractNodeData Name="Image_26" ActionTag="1679243311" Tag="196" IconVisible="False" LeftMargin="37.7692" RightMargin="-27.7692" TopMargin="6.8961" BottomMargin="-28.8961" LeftEage="13" RightEage="13" TopEage="13" BottomEage="13" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="14" Scale9Height="16" ctype="ImageViewObjectData">
+                  <AbstractNodeData Name="Image_26" ActionTag="1679243311" Tag="196" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="37.7692" RightMargin="-27.7692" TopMargin="-11.0000" BottomMargin="-11.0000" LeftEage="13" RightEage="13" TopEage="13" BottomEage="13" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="14" Scale9Height="16" ctype="ImageViewObjectData">
                     <Size X="40.0000" Y="42.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="57.7692" Y="-7.8961" />
+                    <Position X="57.7692" Y="10.0000" />
                     <Scale ScaleX="0.8000" ScaleY="0.8000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="1.1554" Y="-0.3948" />
+                    <PrePosition X="1.1554" Y="0.5000" />
                     <PreSize X="0.8000" Y="2.1000" />
                     <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0041.png" Plist="gameNnFpPlist.plist" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="AtlasLabel_Multiple" ActionTag="1279415762" Tag="197" IconVisible="False" LeftMargin="-21.4192" RightMargin="-6.5808" TopMargin="-1.1367" BottomMargin="-38.8633" CharWidth="39" CharHeight="60" LabelText=".4" StartChar="." ctype="TextAtlasObjectData">
+                  <AbstractNodeData Name="AtlasLabel_Multiple" ActionTag="1279415762" Tag="197" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="-21.4192" RightMargin="-6.5808" TopMargin="-20.0000" BottomMargin="-20.0000" CharWidth="39" CharHeight="60" LabelText=".4" StartChar="." ctype="TextAtlasObjectData">
                     <Size X="78.0000" Y="60.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="17.5808" Y="-8.8633" />
+                    <Position X="17.5808" Y="10.0000" />
                     <Scale ScaleX="0.6000" ScaleY="0.6000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.3516" Y="-0.4432" />
+                    <PrePosition X="0.3516" Y="0.5000" />
                     <PreSize X="1.5600" Y="3.0000" />
                     <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Image_NoAdd" ActionTag="-971837910" Tag="137" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-77.0000" RightMargin="-77.0000" TopMargin="-33.5000" BottomMargin="-33.5000" LeftEage="67" RightEage="67" TopEage="28" BottomEage="28" Scale9OriginX="67" Scale9OriginY="28" Scale9Width="70" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="204.0000" Y="87.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="25.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="4.0800" Y="4.3500" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0033e.png" Plist="gameNnFpPlist.plist" />
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -318,7 +476,7 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="205.9696" Y="180.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.5600" ScaleY="0.5600" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.3088" Y="0.4800" />
                 <PreSize X="0.2249" Y="0.1867" />
@@ -331,7 +489,7 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="242.9881" Y="287.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.7000" ScaleY="0.7000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.3643" Y="0.7653" />
                 <PreSize X="0.2249" Y="0.1867" />
@@ -437,25 +595,37 @@
                 <PreSize X="0.0330" Y="0.0747" />
                 <LabelBMFontFile_CNB Type="Normal" Path="font/betValue_0.fnt" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="LabLose" ActionTag="631503579" Tag="119" IconVisible="False" LeftMargin="259.4267" RightMargin="207.5733" TopMargin="40.3229" BottomMargin="264.6771" CharWidth="50" CharHeight="70" LabelText="/250" StartChar="." ctype="TextAtlasObjectData">
-                <Size X="200.0000" Y="70.0000" />
+              <AbstractNodeData Name="LabImage" ActionTag="-151897358" Tag="130" IconVisible="False" LeftMargin="22.0000" RightMargin="189.0000" TopMargin="12.0000" BottomMargin="297.0000" LeftEage="150" RightEage="150" TopEage="21" BottomEage="21" Scale9OriginX="150" Scale9OriginY="21" Scale9Width="156" Scale9Height="24" ctype="ImageViewObjectData">
+                <Size X="456.0000" Y="66.0000" />
+                <Children>
+                  <AbstractNodeData Name="LabLose" ActionTag="500907691" Tag="131" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="128.0000" RightMargin="128.0000" TopMargin="-2.0000" BottomMargin="-2.0000" CharWidth="50" CharHeight="70" LabelText="/150" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="200.0000" Y="70.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="228.0000" Y="33.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.4386" Y="1.0606" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz3.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="LabWin" ActionTag="-548870009" Tag="132" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="128.0000" RightMargin="128.0000" TopMargin="-2.0000" BottomMargin="-2.0000" CharWidth="50" CharHeight="70" LabelText=".150" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="200.0000" Y="70.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="228.0000" Y="33.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.4386" Y="1.0606" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz2.png" Plist="" />
+                  </AbstractNodeData>
+                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="359.4267" Y="299.6771" />
-                <Scale ScaleX="0.9000" ScaleY="0.9000" />
+                <Position X="250.0000" Y="330.0000" />
+                <Scale ScaleX="0.6000" ScaleY="0.6000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5389" Y="0.7991" />
-                <PreSize X="0.2999" Y="0.1867" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz3.png" Plist="" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="LabWin" ActionTag="1904112406" Tag="120" IconVisible="False" LeftMargin="257.7991" RightMargin="209.2009" TopMargin="40.0710" BottomMargin="264.9290" CharWidth="50" CharHeight="70" LabelText=".250" StartChar="." ctype="TextAtlasObjectData">
-                <Size X="200.0000" Y="70.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="357.7991" Y="299.9290" />
-                <Scale ScaleX="0.9000" ScaleY="0.9000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5364" Y="0.7998" />
-                <PreSize X="0.2999" Y="0.1867" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz2.png" Plist="" />
+                <PrePosition X="0.3748" Y="0.8800" />
+                <PreSize X="0.6837" Y="0.1760" />
+                <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0047.png" Plist="gameNnFpPlist.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="Image_dlg" Visible="False" ActionTag="-1967170303" Tag="252" IconVisible="False" LeftMargin="57.1954" RightMargin="343.8046" TopMargin="-29.2600" BottomMargin="283.2600" LeftEage="105" RightEage="105" TopEage="45" BottomEage="45" Scale9OriginX="105" Scale9OriginY="45" Scale9Width="56" Scale9Height="31" ctype="ImageViewObjectData">
                 <Size X="266.0000" Y="121.0000" />
@@ -499,10 +669,55 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="200.0333" Y="200.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.6400" ScaleY="0.6400" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.2999" Y="0.5333" />
                 <PreSize X="0.2249" Y="0.1867" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Panel_AddScore" ActionTag="-499573539" Tag="843" IconVisible="False" LeftMargin="245.0000" RightMargin="372.0000" TopMargin="95.0000" BottomMargin="260.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                <Size X="50.0000" Y="20.0000" />
+                <Children>
+                  <AbstractNodeData Name="Image_26" ActionTag="1946511739" Tag="844" IconVisible="False" LeftMargin="17.7692" RightMargin="-7.7692" TopMargin="-13.1039" BottomMargin="-8.8961" LeftEage="13" RightEage="13" TopEage="13" BottomEage="13" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="14" Scale9Height="16" ctype="ImageViewObjectData">
+                    <Size X="40.0000" Y="42.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="37.7692" Y="12.1039" />
+                    <Scale ScaleX="0.8000" ScaleY="0.8000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.7554" Y="0.6052" />
+                    <PreSize X="0.8000" Y="2.1000" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0041.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="AtlasLabel_Multiple" ActionTag="1307552307" Tag="845" IconVisible="False" LeftMargin="-41.4191" RightMargin="13.4191" TopMargin="-21.1367" BottomMargin="-18.8633" CharWidth="39" CharHeight="60" LabelText=".4" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="78.0000" Y="60.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="-2.4191" Y="11.1367" />
+                    <Scale ScaleX="0.6000" ScaleY="0.6000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="-0.0484" Y="0.5568" />
+                    <PreSize X="1.5600" Y="3.0000" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Image_NoAdd" ActionTag="1845083986" Tag="846" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-77.0000" RightMargin="-77.0000" TopMargin="-33.5000" BottomMargin="-33.5000" LeftEage="67" RightEage="67" TopEage="28" BottomEage="28" Scale9OriginX="67" Scale9OriginY="28" Scale9Width="70" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="204.0000" Y="87.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="25.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="4.0800" Y="4.3500" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0033e.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="270.0000" Y="270.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.4048" Y="0.7200" />
+                <PreSize X="0.0750" Y="0.0533" />
                 <SingleColor A="255" R="150" G="200" B="255" />
                 <FirstColor A="255" R="150" G="200" B="255" />
                 <EndColor A="255" R="255" G="255" B="255" />
@@ -524,25 +739,35 @@
               <AbstractNodeData Name="Panel_AddChip" ActionTag="-923224043" Tag="132" IconVisible="False" LeftMargin="245.0000" RightMargin="372.0000" TopMargin="95.0000" BottomMargin="260.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="50.0000" Y="20.0000" />
                 <Children>
-                  <AbstractNodeData Name="Image_26" ActionTag="1969493808" Tag="198" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="22.4876" RightMargin="-12.4876" TopMargin="-12.1900" BottomMargin="-9.8100" LeftEage="13" RightEage="13" TopEage="13" BottomEage="13" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="14" Scale9Height="16" ctype="ImageViewObjectData">
+                  <AbstractNodeData Name="Image_26" ActionTag="1969493808" Tag="198" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="37.7700" RightMargin="-27.7700" TopMargin="-11.0000" BottomMargin="-11.0000" LeftEage="13" RightEage="13" TopEage="13" BottomEage="13" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="14" Scale9Height="16" ctype="ImageViewObjectData">
                     <Size X="40.0000" Y="42.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="42.4876" Y="11.1900" />
+                    <Position X="57.7700" Y="10.0000" />
                     <Scale ScaleX="0.8000" ScaleY="0.8000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.8498" Y="0.5595" />
+                    <PrePosition X="1.1554" Y="0.5000" />
                     <PreSize X="0.8000" Y="2.1000" />
                     <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0041.png" Plist="gameNnFpPlist.plist" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="AtlasLabel_Multiple" ActionTag="-994763142" Tag="199" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="-36.7009" RightMargin="8.7009" TopMargin="-21.1900" BottomMargin="-18.8100" CharWidth="39" CharHeight="60" LabelText=".4" StartChar="." ctype="TextAtlasObjectData">
+                  <AbstractNodeData Name="AtlasLabel_Multiple" ActionTag="-994763142" Tag="199" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="-36.7009" RightMargin="8.7009" TopMargin="-20.0000" BottomMargin="-20.0000" CharWidth="39" CharHeight="60" LabelText=".4" StartChar="." ctype="TextAtlasObjectData">
                     <Size X="78.0000" Y="60.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="2.2991" Y="11.1900" />
+                    <Position X="2.2991" Y="10.0000" />
                     <Scale ScaleX="0.6000" ScaleY="0.6000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.0460" Y="0.5595" />
+                    <PrePosition X="0.0460" Y="0.5000" />
                     <PreSize X="1.5600" Y="3.0000" />
                     <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Image_NoAdd" ActionTag="416904678" Tag="138" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-77.0000" RightMargin="-77.0000" TopMargin="-33.5000" BottomMargin="-33.5000" LeftEage="67" RightEage="67" TopEage="28" BottomEage="28" Scale9OriginX="67" Scale9OriginY="28" Scale9Width="70" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="204.0000" Y="87.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="25.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="4.0800" Y="4.3500" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0033e.png" Plist="gameNnFpPlist.plist" />
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -560,7 +785,7 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="205.9696" Y="180.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.5600" ScaleY="0.5600" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.3088" Y="0.4800" />
                 <PreSize X="0.2249" Y="0.1867" />
@@ -573,7 +798,7 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="242.9881" Y="280.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.7000" ScaleY="0.7000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.3643" Y="0.7467" />
                 <PreSize X="0.2249" Y="0.1867" />
@@ -679,25 +904,37 @@
                 <PreSize X="0.0330" Y="0.0747" />
                 <LabelBMFontFile_CNB Type="Normal" Path="font/betValue_0.fnt" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="LabLose" ActionTag="1808528295" Tag="145" IconVisible="False" LeftMargin="259.4267" RightMargin="207.5733" TopMargin="40.3229" BottomMargin="264.6771" CharWidth="50" CharHeight="70" LabelText="/250" StartChar="." ctype="TextAtlasObjectData">
-                <Size X="200.0000" Y="70.0000" />
+              <AbstractNodeData Name="LabImage" ActionTag="425434431" Tag="133" IconVisible="False" LeftMargin="22.0000" RightMargin="189.0000" TopMargin="12.0000" BottomMargin="297.0000" LeftEage="150" RightEage="150" TopEage="21" BottomEage="21" Scale9OriginX="150" Scale9OriginY="21" Scale9Width="156" Scale9Height="24" ctype="ImageViewObjectData">
+                <Size X="456.0000" Y="66.0000" />
+                <Children>
+                  <AbstractNodeData Name="LabLose" ActionTag="1114227859" Tag="134" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="128.0000" RightMargin="128.0000" TopMargin="-2.0000" BottomMargin="-2.0000" CharWidth="50" CharHeight="70" LabelText="/150" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="200.0000" Y="70.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="228.0000" Y="33.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.4386" Y="1.0606" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz3.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="LabWin" ActionTag="263583960" Tag="135" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="128.0000" RightMargin="128.0000" TopMargin="-2.0000" BottomMargin="-2.0000" CharWidth="50" CharHeight="70" LabelText=".150" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="200.0000" Y="70.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="228.0000" Y="33.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.4386" Y="1.0606" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz2.png" Plist="" />
+                  </AbstractNodeData>
+                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="359.4267" Y="299.6771" />
-                <Scale ScaleX="0.9000" ScaleY="0.9000" />
+                <Position X="250.0000" Y="330.0000" />
+                <Scale ScaleX="0.6000" ScaleY="0.6000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5389" Y="0.7991" />
-                <PreSize X="0.2999" Y="0.1867" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz3.png" Plist="" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="LabWin" ActionTag="-663256057" Tag="146" IconVisible="False" LeftMargin="257.7991" RightMargin="209.2009" TopMargin="40.0710" BottomMargin="264.9290" CharWidth="50" CharHeight="70" LabelText=".250" StartChar="." ctype="TextAtlasObjectData">
-                <Size X="200.0000" Y="70.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="357.7991" Y="299.9290" />
-                <Scale ScaleX="0.9000" ScaleY="0.9000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5364" Y="0.7998" />
-                <PreSize X="0.2999" Y="0.1867" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz2.png" Plist="" />
+                <PrePosition X="0.3748" Y="0.8800" />
+                <PreSize X="0.6837" Y="0.1760" />
+                <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0047.png" Plist="gameNnFpPlist.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="Image_dlg" Visible="False" ActionTag="37571338" Tag="147" IconVisible="False" LeftMargin="57.1954" RightMargin="343.8046" TopMargin="-29.2600" BottomMargin="283.2600" LeftEage="105" RightEage="105" TopEage="45" BottomEage="45" Scale9OriginX="105" Scale9OriginY="45" Scale9Width="56" Scale9Height="31" ctype="ImageViewObjectData">
                 <Size X="266.0000" Y="121.0000" />
@@ -741,10 +978,55 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="606.9700" Y="180.1200" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.6400" ScaleY="0.6400" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.4550" Y="0.4803" />
                 <PreSize X="0.1124" Y="0.1867" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Panel_AddScore" ActionTag="-486192215" Tag="847" IconVisible="False" LeftMargin="655.0000" RightMargin="629.0000" TopMargin="115.0000" BottomMargin="240.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                <Size X="50.0000" Y="20.0000" />
+                <Children>
+                  <AbstractNodeData Name="Image_26" ActionTag="1735826146" Tag="848" IconVisible="False" LeftMargin="17.7692" RightMargin="-7.7692" TopMargin="-13.1039" BottomMargin="-8.8961" LeftEage="13" RightEage="13" TopEage="13" BottomEage="13" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="14" Scale9Height="16" ctype="ImageViewObjectData">
+                    <Size X="40.0000" Y="42.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="37.7692" Y="12.1039" />
+                    <Scale ScaleX="0.8000" ScaleY="0.8000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.7554" Y="0.6052" />
+                    <PreSize X="0.8000" Y="2.1000" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0041.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="AtlasLabel_Multiple" ActionTag="1923217082" Tag="849" IconVisible="False" LeftMargin="-41.4191" RightMargin="13.4191" TopMargin="-21.1367" BottomMargin="-18.8633" CharWidth="39" CharHeight="60" LabelText=".4" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="78.0000" Y="60.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="-2.4191" Y="11.1367" />
+                    <Scale ScaleX="0.6000" ScaleY="0.6000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="-0.0484" Y="0.5568" />
+                    <PreSize X="1.5600" Y="3.0000" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Image_NoAdd" ActionTag="-783333548" Tag="850" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-77.0000" RightMargin="-77.0000" TopMargin="-33.5000" BottomMargin="-33.5000" LeftEage="67" RightEage="67" TopEage="28" BottomEage="28" Scale9OriginX="67" Scale9OriginY="28" Scale9Width="70" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="204.0000" Y="87.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="25.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="4.0800" Y="4.3500" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0033e.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="680.0000" Y="250.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.5097" Y="0.6667" />
+                <PreSize X="0.0375" Y="0.0533" />
                 <SingleColor A="255" R="150" G="200" B="255" />
                 <FirstColor A="255" R="150" G="200" B="255" />
                 <EndColor A="255" R="255" G="255" B="255" />
@@ -786,6 +1068,16 @@
                     <PreSize X="1.5600" Y="3.0000" />
                     <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
                   </AbstractNodeData>
+                  <AbstractNodeData Name="Image_NoAdd" ActionTag="659570088" Tag="139" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-77.0000" RightMargin="-77.0000" TopMargin="-33.5000" BottomMargin="-33.5000" LeftEage="67" RightEage="67" TopEage="28" BottomEage="28" Scale9OriginX="67" Scale9OriginY="28" Scale9Width="70" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="204.0000" Y="87.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="25.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="4.0800" Y="4.3500" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0033e.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="680.0000" Y="250.0000" />
@@ -798,13 +1090,13 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="PanelOpen" ActionTag="-2092515138" Tag="176" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="525.0332" RightMargin="658.9668" TopMargin="136.0000" BottomMargin="169.0000" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+              <AbstractNodeData Name="PanelOpen" ActionTag="-2092515138" Tag="176" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="525.0332" RightMargin="658.9668" TopMargin="160.0000" BottomMargin="145.0000" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="600.0332" Y="204.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Position X="600.0332" Y="180.0000" />
+                <Scale ScaleX="0.5600" ScaleY="0.5600" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.4498" Y="0.5440" />
+                <PrePosition X="0.4498" Y="0.4800" />
                 <PreSize X="0.1124" Y="0.1867" />
                 <SingleColor A="255" R="150" G="200" B="255" />
                 <FirstColor A="255" R="150" G="200" B="255" />
@@ -815,7 +1107,7 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="640.0532" Y="308.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.7000" ScaleY="0.7000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.4798" Y="0.8213" />
                 <PreSize X="0.1124" Y="0.1867" />
@@ -844,25 +1136,37 @@
                 <PreSize X="0.0165" Y="0.0747" />
                 <LabelBMFontFile_CNB Type="Normal" Path="font/betValue_0.fnt" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="LabLose" ActionTag="369798858" Tag="123" IconVisible="False" LeftMargin="758.3550" RightMargin="375.6450" TopMargin="68.8875" BottomMargin="236.1125" CharWidth="50" CharHeight="70" LabelText="/300" StartChar="." ctype="TextAtlasObjectData">
-                <Size X="200.0000" Y="70.0000" />
+              <AbstractNodeData Name="LabImage" ActionTag="-236637863" Tag="136" IconVisible="False" LeftMargin="442.0000" RightMargin="436.0000" TopMargin="12.0000" BottomMargin="297.0000" LeftEage="150" RightEage="150" TopEage="21" BottomEage="21" Scale9OriginX="150" Scale9OriginY="21" Scale9Width="156" Scale9Height="24" ctype="ImageViewObjectData">
+                <Size X="456.0000" Y="66.0000" />
+                <Children>
+                  <AbstractNodeData Name="LabLose" ActionTag="-467170069" Tag="137" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="128.0000" RightMargin="128.0000" TopMargin="-2.0000" BottomMargin="-2.0000" CharWidth="50" CharHeight="70" LabelText="/150" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="200.0000" Y="70.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="228.0000" Y="33.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.4386" Y="1.0606" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz3.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="LabWin" ActionTag="-1063298886" Tag="138" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="128.0000" RightMargin="128.0000" TopMargin="-2.0000" BottomMargin="-2.0000" CharWidth="50" CharHeight="70" LabelText=".150" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="200.0000" Y="70.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="228.0000" Y="33.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.4386" Y="1.0606" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz2.png" Plist="" />
+                  </AbstractNodeData>
+                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="858.3550" Y="271.1125" />
-                <Scale ScaleX="0.9000" ScaleY="0.9000" />
+                <Position X="670.0000" Y="330.0000" />
+                <Scale ScaleX="0.6000" ScaleY="0.6000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.6434" Y="0.7230" />
-                <PreSize X="0.1499" Y="0.1867" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz3.png" Plist="" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="LabWin" ActionTag="-287610973" Tag="124" IconVisible="False" LeftMargin="754.1490" RightMargin="379.8510" TopMargin="68.9747" BottomMargin="236.0253" CharWidth="50" CharHeight="70" LabelText=".300" StartChar="." ctype="TextAtlasObjectData">
-                <Size X="200.0000" Y="70.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="854.1490" Y="271.0253" />
-                <Scale ScaleX="0.9000" ScaleY="0.9000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.6403" Y="0.7227" />
-                <PreSize X="0.1499" Y="0.1867" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz2.png" Plist="" />
+                <PrePosition X="0.5022" Y="0.8800" />
+                <PreSize X="0.3418" Y="0.1760" />
+                <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0047.png" Plist="gameNnFpPlist.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="ImgBg" ActionTag="-557963758" Tag="179" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="TopEdge" LeftMargin="408.5284" RightMargin="828.4716" TopMargin="41.3800" BottomMargin="206.6200" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="77" Scale9Height="107" ctype="ImageViewObjectData">
                 <Size X="97.0000" Y="127.0000" />
@@ -983,7 +1287,7 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="399.9999" Y="200.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.6400" ScaleY="0.6400" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5997" Y="0.5333" />
                 <PreSize X="0.2249" Y="0.1867" />
@@ -996,7 +1300,7 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="349.9749" Y="180.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.5600" ScaleY="0.5600" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5247" Y="0.4800" />
                 <PreSize X="0.2249" Y="0.1867" />
@@ -1009,7 +1313,7 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="391.9959" Y="287.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.7000" ScaleY="0.7000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5877" Y="0.7653" />
                 <PreSize X="0.2249" Y="0.1867" />
@@ -1118,6 +1422,51 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
+              <AbstractNodeData Name="Panel_AddScore" ActionTag="139387818" Tag="851" IconVisible="False" LeftMargin="445.0000" RightMargin="172.0000" TopMargin="95.0000" BottomMargin="260.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                <Size X="50.0000" Y="20.0000" />
+                <Children>
+                  <AbstractNodeData Name="Image_26" ActionTag="-1174214961" Tag="852" IconVisible="False" LeftMargin="17.7692" RightMargin="-7.7692" TopMargin="-13.1039" BottomMargin="-8.8961" LeftEage="13" RightEage="13" TopEage="13" BottomEage="13" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="14" Scale9Height="16" ctype="ImageViewObjectData">
+                    <Size X="40.0000" Y="42.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="37.7692" Y="12.1039" />
+                    <Scale ScaleX="0.8000" ScaleY="0.8000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.7554" Y="0.6052" />
+                    <PreSize X="0.8000" Y="2.1000" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0041.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="AtlasLabel_Multiple" ActionTag="1795279462" Tag="853" IconVisible="False" LeftMargin="-41.4191" RightMargin="13.4191" TopMargin="-21.1367" BottomMargin="-18.8633" CharWidth="39" CharHeight="60" LabelText=".4" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="78.0000" Y="60.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="-2.4191" Y="11.1367" />
+                    <Scale ScaleX="0.6000" ScaleY="0.6000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="-0.0484" Y="0.5568" />
+                    <PreSize X="1.5600" Y="3.0000" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Image_NoAdd" ActionTag="977446005" Tag="854" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-77.0000" RightMargin="-77.0000" TopMargin="-33.5000" BottomMargin="-33.5000" LeftEage="67" RightEage="67" TopEage="28" BottomEage="28" Scale9OriginX="67" Scale9OriginY="28" Scale9Width="70" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="204.0000" Y="87.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="25.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="4.0800" Y="4.3500" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0033e.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="470.0000" Y="270.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.7046" Y="0.7200" />
+                <PreSize X="0.0750" Y="0.0533" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </AbstractNodeData>
               <AbstractNodeData Name="Panel_AddChip" ActionTag="-1291829702" Tag="162" IconVisible="False" LeftMargin="445.0000" RightMargin="172.0000" TopMargin="95.0000" BottomMargin="260.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="50.0000" Y="20.0000" />
                 <Children>
@@ -1140,6 +1489,16 @@
                     <PrePosition X="0.3396" Y="0.6254" />
                     <PreSize X="1.5600" Y="3.0000" />
                     <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Image_NoAdd" ActionTag="117195643" Tag="140" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-77.0000" RightMargin="-77.0000" TopMargin="-33.5000" BottomMargin="-33.5000" LeftEage="67" RightEage="67" TopEage="28" BottomEage="28" Scale9OriginX="67" Scale9OriginY="28" Scale9Width="70" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="204.0000" Y="87.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="25.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="4.0800" Y="4.3500" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0033e.png" Plist="gameNnFpPlist.plist" />
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -1186,25 +1545,37 @@
                 <PreSize X="0.3988" Y="0.3227" />
                 <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0035.png" Plist="gameNnFpPlist.plist" />
               </AbstractNodeData>
-              <AbstractNodeData Name="LabLose" ActionTag="1711834133" Tag="166" IconVisible="False" LeftMargin="205.5812" RightMargin="311.4188" TopMargin="26.5038" BottomMargin="278.4962" CharWidth="50" CharHeight="70" LabelText="/35" StartChar="." ctype="TextAtlasObjectData">
-                <Size X="150.0000" Y="70.0000" />
+              <AbstractNodeData Name="LabImage" ActionTag="-1700815852" Tag="139" IconVisible="False" LeftMargin="172.0000" RightMargin="39.0000" TopMargin="12.0000" BottomMargin="297.0000" LeftEage="150" RightEage="150" TopEage="21" BottomEage="21" Scale9OriginX="150" Scale9OriginY="21" Scale9Width="156" Scale9Height="24" ctype="ImageViewObjectData">
+                <Size X="456.0000" Y="66.0000" />
+                <Children>
+                  <AbstractNodeData Name="LabLose" ActionTag="-2004085435" Tag="140" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="128.0000" RightMargin="128.0000" TopMargin="-2.0000" BottomMargin="-2.0000" CharWidth="50" CharHeight="70" LabelText="/150" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="200.0000" Y="70.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="228.0000" Y="33.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.4386" Y="1.0606" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz3.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="LabWin" ActionTag="958197541" Tag="141" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="128.0000" RightMargin="128.0000" TopMargin="-2.0000" BottomMargin="-2.0000" CharWidth="50" CharHeight="70" LabelText=".150" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="200.0000" Y="70.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="228.0000" Y="33.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.4386" Y="1.0606" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz2.png" Plist="" />
+                  </AbstractNodeData>
+                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="280.5812" Y="313.4962" />
-                <Scale ScaleX="0.9000" ScaleY="0.9000" />
+                <Position X="400.0000" Y="330.0000" />
+                <Scale ScaleX="0.6000" ScaleY="0.6000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.4207" Y="0.8360" />
-                <PreSize X="0.2249" Y="0.1867" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz3.png" Plist="" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="LabWin" ActionTag="1679926807" Tag="167" IconVisible="False" LeftMargin="175.8342" RightMargin="291.1658" TopMargin="28.1271" BottomMargin="276.8729" CharWidth="50" CharHeight="70" LabelText=".350" StartChar="." ctype="TextAtlasObjectData">
-                <Size X="200.0000" Y="70.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="275.8342" Y="311.8729" />
-                <Scale ScaleX="0.9000" ScaleY="0.9000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.4135" Y="0.8317" />
-                <PreSize X="0.2999" Y="0.1867" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz2.png" Plist="" />
+                <PrePosition X="0.5997" Y="0.8800" />
+                <PreSize X="0.6837" Y="0.1760" />
+                <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0047.png" Plist="gameNnFpPlist.plist" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -1225,7 +1596,7 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="399.9999" Y="200.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.6400" ScaleY="0.6400" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5997" Y="0.5333" />
                 <PreSize X="0.2249" Y="0.1867" />
@@ -1238,7 +1609,7 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="349.9749" Y="180.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.5600" ScaleY="0.5600" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5247" Y="0.4800" />
                 <PreSize X="0.2249" Y="0.1867" />
@@ -1251,7 +1622,7 @@
                 <Size X="150.0000" Y="70.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="391.9959" Y="290.0000" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <Scale ScaleX="0.7000" ScaleY="0.7000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5877" Y="0.7733" />
                 <PreSize X="0.2249" Y="0.1867" />
@@ -1360,6 +1731,51 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
+              <AbstractNodeData Name="Panel_AddScore" ActionTag="327945271" Tag="855" IconVisible="False" LeftMargin="445.0000" RightMargin="172.0000" TopMargin="95.0000" BottomMargin="260.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                <Size X="50.0000" Y="20.0000" />
+                <Children>
+                  <AbstractNodeData Name="Image_26" ActionTag="815448530" Tag="856" IconVisible="False" LeftMargin="17.7692" RightMargin="-7.7692" TopMargin="-13.1039" BottomMargin="-8.8961" LeftEage="13" RightEage="13" TopEage="13" BottomEage="13" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="14" Scale9Height="16" ctype="ImageViewObjectData">
+                    <Size X="40.0000" Y="42.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="37.7692" Y="12.1039" />
+                    <Scale ScaleX="0.8000" ScaleY="0.8000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.7554" Y="0.6052" />
+                    <PreSize X="0.8000" Y="2.1000" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0041.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="AtlasLabel_Multiple" ActionTag="1174772608" Tag="857" IconVisible="False" LeftMargin="-41.4191" RightMargin="13.4191" TopMargin="-21.1367" BottomMargin="-18.8633" CharWidth="39" CharHeight="60" LabelText=".4" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="78.0000" Y="60.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="-2.4191" Y="11.1367" />
+                    <Scale ScaleX="0.6000" ScaleY="0.6000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="-0.0484" Y="0.5568" />
+                    <PreSize X="1.5600" Y="3.0000" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Image_NoAdd" ActionTag="-677426618" Tag="858" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-77.0000" RightMargin="-77.0000" TopMargin="-33.5000" BottomMargin="-33.5000" LeftEage="67" RightEage="67" TopEage="28" BottomEage="28" Scale9OriginX="67" Scale9OriginY="28" Scale9Width="70" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="204.0000" Y="87.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="25.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="4.0800" Y="4.3500" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0033e.png" Plist="gameNnFpPlist.plist" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="470.0000" Y="270.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.7046" Y="0.7200" />
+                <PreSize X="0.0750" Y="0.0533" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </AbstractNodeData>
               <AbstractNodeData Name="Panel_AddChip" ActionTag="-969226081" Tag="129" IconVisible="False" LeftMargin="445.0000" RightMargin="172.0000" TopMargin="95.0000" BottomMargin="260.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="50.0000" Y="20.0000" />
                 <Children>
@@ -1382,6 +1798,16 @@
                     <PrePosition X="-0.0900" Y="0.5000" />
                     <PreSize X="1.5600" Y="3.0000" />
                     <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Image_NoAdd" ActionTag="-1153614676" Tag="141" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-77.0000" RightMargin="-77.0000" TopMargin="-33.5000" BottomMargin="-33.5000" LeftEage="67" RightEage="67" TopEage="28" BottomEage="28" Scale9OriginX="67" Scale9OriginY="28" Scale9Width="70" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="204.0000" Y="87.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="25.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="4.0800" Y="4.3500" />
+                    <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0033e.png" Plist="gameNnFpPlist.plist" />
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -1428,25 +1854,37 @@
                 <PreSize X="0.3988" Y="0.3227" />
                 <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0035.png" Plist="gameNnFpPlist.plist" />
               </AbstractNodeData>
-              <AbstractNodeData Name="LabLose" ActionTag="1991794316" Tag="125" IconVisible="False" LeftMargin="205.5812" RightMargin="311.4188" TopMargin="26.5038" BottomMargin="278.4962" CharWidth="50" CharHeight="70" LabelText="/35" StartChar="." ctype="TextAtlasObjectData">
-                <Size X="150.0000" Y="70.0000" />
+              <AbstractNodeData Name="LabImage" ActionTag="1723971541" Tag="142" IconVisible="False" LeftMargin="172.0000" RightMargin="39.0000" TopMargin="12.0000" BottomMargin="297.0000" LeftEage="150" RightEage="150" TopEage="21" BottomEage="21" Scale9OriginX="150" Scale9OriginY="21" Scale9Width="156" Scale9Height="24" ctype="ImageViewObjectData">
+                <Size X="456.0000" Y="66.0000" />
+                <Children>
+                  <AbstractNodeData Name="LabLose" ActionTag="-817511956" Tag="143" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="128.0000" RightMargin="128.0000" TopMargin="-2.0000" BottomMargin="-2.0000" CharWidth="50" CharHeight="70" LabelText="/150" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="200.0000" Y="70.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="228.0000" Y="33.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.4386" Y="1.0606" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz3.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="LabWin" ActionTag="1282454488" Tag="144" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="128.0000" RightMargin="128.0000" TopMargin="-2.0000" BottomMargin="-2.0000" CharWidth="50" CharHeight="70" LabelText=".150" StartChar="." ctype="TextAtlasObjectData">
+                    <Size X="200.0000" Y="70.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="228.0000" Y="33.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.4386" Y="1.0606" />
+                    <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz2.png" Plist="" />
+                  </AbstractNodeData>
+                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="280.5812" Y="313.4962" />
-                <Scale ScaleX="0.9000" ScaleY="0.9000" />
+                <Position X="400.0000" Y="330.0000" />
+                <Scale ScaleX="0.6000" ScaleY="0.6000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.4207" Y="0.8360" />
-                <PreSize X="0.2249" Y="0.1867" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz3.png" Plist="" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="LabWin" ActionTag="565713876" Tag="126" IconVisible="False" LeftMargin="175.8342" RightMargin="291.1658" TopMargin="28.1271" BottomMargin="276.8729" CharWidth="50" CharHeight="70" LabelText=".350" StartChar="." ctype="TextAtlasObjectData">
-                <Size X="200.0000" Y="70.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="275.8342" Y="311.8729" />
-                <Scale ScaleX="0.9000" ScaleY="0.9000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.4135" Y="0.8317" />
-                <PreSize X="0.2999" Y="0.1867" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz2.png" Plist="" />
+                <PrePosition X="0.5997" Y="0.8800" />
+                <PreSize X="0.6837" Y="0.1760" />
+                <FileData Type="MarkedSubImage" Path="gameNnFpPlist/nnui0047.png" Plist="gameNnFpPlist.plist" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />

@@ -90,6 +90,7 @@
           <Image Name="nnui0043b.png" />
           <Image Name="nnui0044.png" />
           <Image Name="nnui0046.png" />
+          <Image Name="nnui0047.png" />
         </Folder>
         <Folder Name="nnFpAnimationPlist">
           <Image Name="nnui0013.png" />
@@ -138,6 +139,8 @@
         <Project Name="testNode.csd" Type="Node" />
         <Project Name="testScene.csd" Type="Scene" />
         <PlistParticleFile Name="tx1huoyan.plist" />
+        <Image Name="Value_0b_Style_0.png" />
+        <Image Name="Value_0c_Style_0.png" />
       </RootFolder>
     </Group>
   </SolutionFolder>

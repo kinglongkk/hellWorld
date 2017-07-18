@@ -107,7 +107,7 @@ var NnFpDlgClock = DlgBase.extend({
         this.LabTime.string = strTime;
 
         if (this.remainTime <= 5) {
-            SoundMgr.getInstance().playEffect("game_warn", 0, false);
+            // SoundMgr.getInstance().playEffect("game_warn", 0, false);
         }
 
         if (this.remainTime <= 0) {

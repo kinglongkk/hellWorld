@@ -22,6 +22,8 @@ var NnFpDlgPlayer = DlgBase.extend({
         this.PanelBanker = [];
         this.PanelAddChip = [];
         this.addChipArr = [];
+        this.PanelAddScore = [];
+        this.addScoreArr = [];
         this.LabImage = [];
 
         this.DlgBg = [];
@@ -99,6 +101,10 @@ var NnFpDlgPlayer = DlgBase.extend({
             this.addChipArr[i]  = this.PanelAddChip[i].getPosition();
             this.PanelAddChip[i].setVisible(false);
 
+            this.PanelAddScore[i] = this.PanelPlayerPos[i].getChildByName("Panel_AddScore");
+            this.addScoreArr[i] = this.PanelAddScore[i].getPosition();
+            this.PanelAddScore[i].setVisible(false);
+
             this.LabBet[i] = this.PanelPlayerPos[i].getChildByName("LabBet");
             this.LabBet[i].ignoreContentAdaptWithSize(true);
 
@@ -145,6 +151,9 @@ var NnFpDlgPlayer = DlgBase.extend({
             this.PanelPlayerPos[i].setEnabled(false);
             this.PanelPlayerPos[i].setVisible(false);
         }
+
+        this.Image_WaitForAddChip = this.PanelPlayerPos[0].getChildByName("Image_WaitForAddChip");
+        this.Image_WaitForAddChip.setVisible(false);
 
         //显示公共牌区域
         this.PanelPublicCards = this.PanelPlayerPos[0].getChildByName("PanelPublicCards");
@@ -208,12 +217,17 @@ var NnFpDlgPlayer = DlgBase.extend({
             this.openCards[i].clearAllCard();
             this.LabImage[i].setVisible(false);
             this.PanelAddChip[i].setPosition(cc.p(this.addChipArr[i]));
+            var multiple = this.PanelAddChip[i].getChildByName("AtlasLabel_Multiple");
+            var multipleImg =  this.PanelAddChip[i].getChildByName("Image_26");
+            multipleImg.setColor(cc.color(255, 255, 255));
+            multiple.setColor(cc.color(255, 255, 0));
             this.PanelAddChip[i].setVisible(false);
         }
         this.PanelWin.setVisible(false);
         this.imgLose.setVisible(false);
         this.publicCards.clearAllCard();
         this.openSurplusCards.clearAllCard();
+        this.Image_WaitForAddChip.setVisible(false);
 
     },
 
@@ -348,29 +362,35 @@ var NnFpDlgPlayer = DlgBase.extend({
     //显示抢庄倍数
     showCallScoreMultiple: function (pos, scoreMultiple, bankerPos) {
         this.PanelBanker[pos].removeAllChildren();
-        var noAddImg = this.PanelAddChip[pos].getChildByName("Image_NoAdd");
+        var noAddImg = this.PanelAddScore[pos].getChildByName("Image_NoAdd");
+        noAddImg.setVisible(false);
         if (scoreMultiple > 0) {
             var scoreMultipleValue = "." + scoreMultiple;
-            var multiple = this.PanelAddChip[pos].getChildByName("AtlasLabel_Multiple");
-            var multipleImg =  this.PanelAddChip[pos].getChildByName("Image_26");
-            noAddImg.setVisible(false);
+            var multiple = this.PanelAddScore[pos].getChildByName("AtlasLabel_Multiple");
+            var multipleImg =  this.PanelAddScore[pos].getChildByName("Image_26");
             multipleImg.setColor(cc.color(255, 255, 255));
             multiple.setColor(cc.color(255, 255, 0));
+            multiple.setString(scoreMultipleValue);
+            this.PanelAddScore[pos].setVisible(true);
             if (pos === bankerPos) {
                 multipleImg.setColor(cc.color(255, 255, 0));
                 multiple.setColor(cc.color(255, 0, 255));
 
-                this.PanelAddChip[bankerPos].setPosition(cc.p(this.addChipArr[bankerPos]));
                 var pEnd;
-                var faceSize = this.ImgBg[pos].getPosition();
+                var faceSize = this.ImgBg[bankerPos].getPosition();
                 pEnd = cc.pSub(faceSize, cc.p(0, 90));
                 if (bankerPos === 0) pEnd = cc.pAdd(faceSize, cc.p(100, -30));
                 if (bankerPos === 3) pEnd = cc.pSub(faceSize, cc.p(100, 0));
 
-                this.PanelAddChip[bankerPos].runAction(cc.sequence(cc.moveTo(0.5, cc.p(pEnd))));
+                var callFunc = cc.CallFunc(function () {
+                    for (var i = 0; i < CMD_NIUNIU_TB.GAME_PLAYER; i++) {
+                        if (pos !== bankerPos) this.PanelAddScore[i].setVisible(false);
+                    }
+                    cc.log("其他玩家的抢庄倍数消失");
+                }, this);
+
+                this.PanelAddScore[bankerPos].runAction(cc.sequence(cc.moveTo(0.5, cc.p(pEnd))));
             }
-            multiple.setString(scoreMultipleValue);
-            this.PanelAddChip[pos].setVisible(true);
         }
     },
 
@@ -382,9 +402,7 @@ var NnFpDlgPlayer = DlgBase.extend({
         var bankerChairId = game.getBankerChairId();
         if (bankerChairId === g_objHero.getChairID()) {
             //如果庄家是自己 显示等待玩家加注  x:667;y:285
-            var imgStr = "gameNnFpPlist/nnui0046.png";
-            var img = new ccui.ImageView(imgStr, ccui.Widget.PLIST_TEXTURE);
-            this.PanelBanker[0].addChild(img);
+            this.Image_WaitForAddChip.setVisible(true);
         } else {
             UIMgr.getInstance().openDlg(ID_DlgNnFpAddChip);
         }

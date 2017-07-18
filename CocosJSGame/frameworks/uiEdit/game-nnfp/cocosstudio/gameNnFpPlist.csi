@@ -65,7 +65,8 @@
       <FilePathData Path="gameNnFpPlist/nnui0046.png" />
       <FilePathData Path="gameNnFpPlist/nnui0033a.png" />
       <FilePathData Path="gameNnFpPlist/nnui0043b.png" />
+      <FilePathData Path="gameNnFpPlist/nnui0047.png" />
     </ImageFiles>
-    <MaxSize Width="2200" Height="2100" />
+    <MaxSize Width="2300" Height="2100" />
   </Content>
 </PlistInfoProjectFile>

@@ -64,6 +64,51 @@
             "Tag": 159,
             "Children": [
               {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameNnFpPlist/nnui0046.png",
+                  "Plist": "gameNnFpPlist.plist"
+                },
+                "Scale9OriginX": 116,
+                "Scale9OriginY": 24,
+                "Scale9Width": 121,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 695.0,
+                  "Y": 290.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.521,
+                  "Y": 0.7733
+                },
+                "PreSize": {
+                  "X": 0.2646,
+                  "Y": 0.2
+                },
+                "LeftMargin": 518.5,
+                "RightMargin": 462.5,
+                "TopMargin": 47.5,
+                "BottomMargin": 252.5,
+                "Tag": 142,
+                "ActionTag": -938823727,
+                "Size": {
+                  "X": 353.0,
+                  "Y": 75.0
+                },
+                "Name": "Image_WaitForAddChip",
+                "ctype": "ImageViewObjectData"
+              },
+              {
                 "ClipAble": false,
                 "BackColorAlpha": 102,
                 "SingleColor": {
@@ -86,7 +131,7 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 600.0,
+                  "X": 610.0,
                   "Y": 400.0
                 },
                 "Scale": {
@@ -96,15 +141,15 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.4498,
+                  "X": 0.4573,
                   "Y": 1.0667
                 },
                 "PreSize": {
                   "X": 0.1124,
                   "Y": 0.1867
                 },
-                "LeftMargin": 525.0,
-                "RightMargin": 659.0,
+                "LeftMargin": 535.0,
+                "RightMargin": 649.0,
                 "TopMargin": -60.0,
                 "BottomMargin": 365.0,
                 "Tag": 145,
@@ -397,7 +442,7 @@
                 },
                 "Position": {
                   "X": 68.701,
-                  "Y": 103.1273
+                  "Y": 103.13
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -417,8 +462,8 @@
                 "VerticalEdge": "BottomEdge",
                 "LeftMargin": 20.201,
                 "RightMargin": 1216.799,
-                "TopMargin": 208.3727,
-                "BottomMargin": 39.6273,
+                "TopMargin": 208.37,
+                "BottomMargin": 39.63,
                 "Tag": 164,
                 "Children": [
                   {
@@ -628,6 +673,198 @@
                 },
                 "Name": "ImgBg",
                 "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 695.0,
+                  "Y": 290.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.521,
+                  "Y": 0.7733
+                },
+                "PreSize": {
+                  "X": 0.0375,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 670.0,
+                "RightMargin": 614.0,
+                "TopMargin": 75.0,
+                "BottomMargin": 280.0,
+                "Tag": 835,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0041.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 14,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 37.7692,
+                      "Y": 12.1039
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7554,
+                      "Y": 0.6052
+                    },
+                    "PreSize": {
+                      "X": 0.8,
+                      "Y": 2.1
+                    },
+                    "LeftMargin": 17.7692,
+                    "RightMargin": -7.7692,
+                    "TopMargin": -13.1039,
+                    "BottomMargin": -8.8961,
+                    "Tag": 836,
+                    "ActionTag": 1678812665,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Image_26",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 60,
+                    "LabelText": ".4",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz1.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -2.4191,
+                      "Y": 11.1367
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.0484,
+                      "Y": 0.5568
+                    },
+                    "PreSize": {
+                      "X": 1.56,
+                      "Y": 3.0
+                    },
+                    "LeftMargin": -41.4191,
+                    "RightMargin": 13.4191,
+                    "TopMargin": -21.1367,
+                    "BottomMargin": -18.8633,
+                    "Tag": 837,
+                    "ActionTag": 767808361,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 60.0
+                    },
+                    "Name": "AtlasLabel_Multiple",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0033e.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 67,
+                    "Scale9OriginY": 28,
+                    "Scale9Width": 70,
+                    "Scale9Height": 31,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 25.0,
+                      "Y": 10.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 4.08,
+                      "Y": 4.35
+                    },
+                    "LeftMargin": -77.0,
+                    "RightMargin": -77.0,
+                    "TopMargin": -33.5,
+                    "BottomMargin": -33.5,
+                    "Tag": 838,
+                    "ActionTag": -1143345745,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Image_NoAdd",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1761480537,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 20.0
+                },
+                "Name": "Panel_AddScore",
+                "ctype": "PanelObjectData"
               },
               {
                 "ClipAble": false,
@@ -1372,6 +1609,198 @@
                   "Y": 70.0
                 },
                 "Name": "PanelCardGroup",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 270.0,
+                  "Y": 270.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4048,
+                  "Y": 0.72
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 245.0,
+                "RightMargin": 372.0,
+                "TopMargin": 95.0,
+                "BottomMargin": 260.0,
+                "Tag": 839,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0041.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 14,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 37.7692,
+                      "Y": 12.1039
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7554,
+                      "Y": 0.6052
+                    },
+                    "PreSize": {
+                      "X": 0.8,
+                      "Y": 2.1
+                    },
+                    "LeftMargin": 17.7692,
+                    "RightMargin": -7.7692,
+                    "TopMargin": -13.1039,
+                    "BottomMargin": -8.8961,
+                    "Tag": 840,
+                    "ActionTag": -59482918,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Image_26",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 60,
+                    "LabelText": ".4",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz1.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -2.4191,
+                      "Y": 11.1367
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.0484,
+                      "Y": 0.5568
+                    },
+                    "PreSize": {
+                      "X": 1.56,
+                      "Y": 3.0
+                    },
+                    "LeftMargin": -41.4191,
+                    "RightMargin": 13.4191,
+                    "TopMargin": -21.1367,
+                    "BottomMargin": -18.8633,
+                    "Tag": 841,
+                    "ActionTag": 299165076,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 60.0
+                    },
+                    "Name": "AtlasLabel_Multiple",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0033e.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 67,
+                    "Scale9OriginY": 28,
+                    "Scale9Width": 70,
+                    "Scale9Height": 31,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 25.0,
+                      "Y": 10.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 4.08,
+                      "Y": 4.35
+                    },
+                    "LeftMargin": -77.0,
+                    "RightMargin": -77.0,
+                    "TopMargin": -33.5,
+                    "BottomMargin": -33.5,
+                    "Tag": 842,
+                    "ActionTag": -1372591988,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Image_NoAdd",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -751982721,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 20.0
+                },
+                "Name": "Panel_AddScore",
                 "ctype": "PanelObjectData"
               },
               {
@@ -2570,6 +2999,198 @@
                 "RightMargin": 372.0,
                 "TopMargin": 95.0,
                 "BottomMargin": 260.0,
+                "Tag": 843,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0041.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 14,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 37.7692,
+                      "Y": 12.1039
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7554,
+                      "Y": 0.6052
+                    },
+                    "PreSize": {
+                      "X": 0.8,
+                      "Y": 2.1
+                    },
+                    "LeftMargin": 17.7692,
+                    "RightMargin": -7.7692,
+                    "TopMargin": -13.1039,
+                    "BottomMargin": -8.8961,
+                    "Tag": 844,
+                    "ActionTag": 1946511739,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Image_26",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 60,
+                    "LabelText": ".4",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz1.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -2.4191,
+                      "Y": 11.1367
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.0484,
+                      "Y": 0.5568
+                    },
+                    "PreSize": {
+                      "X": 1.56,
+                      "Y": 3.0
+                    },
+                    "LeftMargin": -41.4191,
+                    "RightMargin": 13.4191,
+                    "TopMargin": -21.1367,
+                    "BottomMargin": -18.8633,
+                    "Tag": 845,
+                    "ActionTag": 1307552307,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 60.0
+                    },
+                    "Name": "AtlasLabel_Multiple",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0033e.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 67,
+                    "Scale9OriginY": 28,
+                    "Scale9Width": 70,
+                    "Scale9Height": 31,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 25.0,
+                      "Y": 10.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 4.08,
+                      "Y": 4.35
+                    },
+                    "LeftMargin": -77.0,
+                    "RightMargin": -77.0,
+                    "TopMargin": -33.5,
+                    "BottomMargin": -33.5,
+                    "Tag": 846,
+                    "ActionTag": 1845083986,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Image_NoAdd",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -499573539,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 20.0
+                },
+                "Name": "Panel_AddScore",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 270.0,
+                  "Y": 270.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4048,
+                  "Y": 0.72
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 245.0,
+                "RightMargin": 372.0,
+                "TopMargin": 95.0,
+                "BottomMargin": 260.0,
                 "Tag": 143,
                 "ActionTag": -1976338480,
                 "Size": {
@@ -2640,8 +3261,8 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 42.4876,
-                      "Y": 11.19
+                      "X": 57.77,
+                      "Y": 10.0
                     },
                     "Scale": {
                       "ScaleX": 0.8,
@@ -2651,17 +3272,17 @@
                     "IconVisible": false,
                     "PositionPercentYEnabled": true,
                     "PrePosition": {
-                      "X": 0.8498,
-                      "Y": 0.5595
+                      "X": 1.1554,
+                      "Y": 0.5
                     },
                     "PreSize": {
                       "X": 0.8,
                       "Y": 2.1
                     },
-                    "LeftMargin": 22.4876,
-                    "RightMargin": -12.4876,
-                    "TopMargin": -12.19,
-                    "BottomMargin": -9.81,
+                    "LeftMargin": 37.77,
+                    "RightMargin": -27.77,
+                    "TopMargin": -11.0,
+                    "BottomMargin": -11.0,
                     "Tag": 198,
                     "ActionTag": 1969493808,
                     "Size": {
@@ -2687,7 +3308,7 @@
                     },
                     "Position": {
                       "X": 2.2991,
-                      "Y": 11.19
+                      "Y": 10.0
                     },
                     "Scale": {
                       "ScaleX": 0.6,
@@ -2698,7 +3319,7 @@
                     "PositionPercentYEnabled": true,
                     "PrePosition": {
                       "X": 0.046,
-                      "Y": 0.5595
+                      "Y": 0.5
                     },
                     "PreSize": {
                       "X": 1.56,
@@ -2706,8 +3327,8 @@
                     },
                     "LeftMargin": -36.7009,
                     "RightMargin": 8.7009,
-                    "TopMargin": -21.19,
-                    "BottomMargin": -18.81,
+                    "TopMargin": -20.0,
+                    "BottomMargin": -20.0,
                     "Tag": 199,
                     "ActionTag": -994763142,
                     "Size": {
@@ -3676,6 +4297,198 @@
                   "Y": 70.0
                 },
                 "Name": "PanelCardGroup",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 680.0,
+                  "Y": 250.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5097,
+                  "Y": 0.6667
+                },
+                "PreSize": {
+                  "X": 0.0375,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 655.0,
+                "RightMargin": 629.0,
+                "TopMargin": 115.0,
+                "BottomMargin": 240.0,
+                "Tag": 847,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0041.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 14,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 37.7692,
+                      "Y": 12.1039
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7554,
+                      "Y": 0.6052
+                    },
+                    "PreSize": {
+                      "X": 0.8,
+                      "Y": 2.1
+                    },
+                    "LeftMargin": 17.7692,
+                    "RightMargin": -7.7692,
+                    "TopMargin": -13.1039,
+                    "BottomMargin": -8.8961,
+                    "Tag": 848,
+                    "ActionTag": 1735826146,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Image_26",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 60,
+                    "LabelText": ".4",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz1.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -2.4191,
+                      "Y": 11.1367
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.0484,
+                      "Y": 0.5568
+                    },
+                    "PreSize": {
+                      "X": 1.56,
+                      "Y": 3.0
+                    },
+                    "LeftMargin": -41.4191,
+                    "RightMargin": 13.4191,
+                    "TopMargin": -21.1367,
+                    "BottomMargin": -18.8633,
+                    "Tag": 849,
+                    "ActionTag": 1923217082,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 60.0
+                    },
+                    "Name": "AtlasLabel_Multiple",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0033e.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 67,
+                    "Scale9OriginY": 28,
+                    "Scale9Width": 70,
+                    "Scale9Height": 31,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 25.0,
+                      "Y": 10.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 4.08,
+                      "Y": 4.35
+                    },
+                    "LeftMargin": -77.0,
+                    "RightMargin": -77.0,
+                    "TopMargin": -33.5,
+                    "BottomMargin": -33.5,
+                    "Tag": 850,
+                    "ActionTag": -783333548,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Image_NoAdd",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -486192215,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 20.0
+                },
+                "Name": "Panel_AddScore",
                 "ctype": "PanelObjectData"
               },
               {
@@ -5433,6 +6246,198 @@
                 "RightMargin": 172.0,
                 "TopMargin": 95.0,
                 "BottomMargin": 260.0,
+                "Tag": 851,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0041.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 14,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 37.7692,
+                      "Y": 12.1039
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7554,
+                      "Y": 0.6052
+                    },
+                    "PreSize": {
+                      "X": 0.8,
+                      "Y": 2.1
+                    },
+                    "LeftMargin": 17.7692,
+                    "RightMargin": -7.7692,
+                    "TopMargin": -13.1039,
+                    "BottomMargin": -8.8961,
+                    "Tag": 852,
+                    "ActionTag": -1174214961,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Image_26",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 60,
+                    "LabelText": ".4",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz1.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -2.4191,
+                      "Y": 11.1367
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.0484,
+                      "Y": 0.5568
+                    },
+                    "PreSize": {
+                      "X": 1.56,
+                      "Y": 3.0
+                    },
+                    "LeftMargin": -41.4191,
+                    "RightMargin": 13.4191,
+                    "TopMargin": -21.1367,
+                    "BottomMargin": -18.8633,
+                    "Tag": 853,
+                    "ActionTag": 1795279462,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 60.0
+                    },
+                    "Name": "AtlasLabel_Multiple",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0033e.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 67,
+                    "Scale9OriginY": 28,
+                    "Scale9Width": 70,
+                    "Scale9Height": 31,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 25.0,
+                      "Y": 10.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 4.08,
+                      "Y": 4.35
+                    },
+                    "LeftMargin": -77.0,
+                    "RightMargin": -77.0,
+                    "TopMargin": -33.5,
+                    "BottomMargin": -33.5,
+                    "Tag": 854,
+                    "ActionTag": 977446005,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Image_NoAdd",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 139387818,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 20.0
+                },
+                "Name": "Panel_AddScore",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 470.0,
+                  "Y": 270.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7046,
+                  "Y": 0.72
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 445.0,
+                "RightMargin": 172.0,
+                "TopMargin": 95.0,
+                "BottomMargin": 260.0,
                 "Tag": 162,
                 "Children": [
                   {
@@ -6549,6 +7554,198 @@
                   "Y": 20.0
                 },
                 "Name": "Panel_Banker",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 470.0,
+                  "Y": 270.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7046,
+                  "Y": 0.72
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 445.0,
+                "RightMargin": 172.0,
+                "TopMargin": 95.0,
+                "BottomMargin": 260.0,
+                "Tag": 855,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0041.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 14,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 37.7692,
+                      "Y": 12.1039
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7554,
+                      "Y": 0.6052
+                    },
+                    "PreSize": {
+                      "X": 0.8,
+                      "Y": 2.1
+                    },
+                    "LeftMargin": 17.7692,
+                    "RightMargin": -7.7692,
+                    "TopMargin": -13.1039,
+                    "BottomMargin": -8.8961,
+                    "Tag": 856,
+                    "ActionTag": 815448530,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Image_26",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 60,
+                    "LabelText": ".4",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "font/shuz1.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -2.4191,
+                      "Y": 11.1367
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6,
+                      "ScaleY": 0.6
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.0484,
+                      "Y": 0.5568
+                    },
+                    "PreSize": {
+                      "X": 1.56,
+                      "Y": 3.0
+                    },
+                    "LeftMargin": -41.4191,
+                    "RightMargin": 13.4191,
+                    "TopMargin": -21.1367,
+                    "BottomMargin": -18.8633,
+                    "Tag": 857,
+                    "ActionTag": 1174772608,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 60.0
+                    },
+                    "Name": "AtlasLabel_Multiple",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "gameNnFpPlist/nnui0033e.png",
+                      "Plist": "gameNnFpPlist.plist"
+                    },
+                    "Scale9OriginX": 67,
+                    "Scale9OriginY": 28,
+                    "Scale9Width": 70,
+                    "Scale9Height": 31,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 25.0,
+                      "Y": 10.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 4.08,
+                      "Y": 4.35
+                    },
+                    "LeftMargin": -77.0,
+                    "RightMargin": -77.0,
+                    "TopMargin": -33.5,
+                    "BottomMargin": -33.5,
+                    "Tag": 858,
+                    "ActionTag": -677426618,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Image_NoAdd",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 327945271,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 20.0
+                },
+                "Name": "Panel_AddScore",
                 "ctype": "PanelObjectData"
               },
               {

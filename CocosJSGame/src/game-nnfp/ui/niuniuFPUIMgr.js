@@ -67,7 +67,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
 
     onButtonTouchEvent: function (send, type) {
         var game = ClientData.getInstance().getGame();
-        var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
+        // var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
         var data = {
             PublicCardData: game.niuniu.GetArr(2),
             CardData: [game.niuniu.GetArr(5), game.niuniu.GetArr(5),
@@ -84,7 +84,8 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         if (ccui.Widget.TOUCH_ENDED === type) {
             switch (this.btn.state) {
                 case 0:
-                    dlg.resetDlg();
+                    this.againGame();
+                    this.openTimer("sendPublicCards");
                     break;
                 case 1:
                     NiuniuFPGameMsg.getInstance().onGameMsgSendPublicCard(data);
@@ -213,15 +214,23 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
                     GameKindMgr.getInstance().backPlazaScene();
                 };
                 break;
+            case "sendPublicCards":
+                cc.log("准备发牌");
+                time = 3;
+                callBack = function () {
+                    cc.log("开始发牌");
+
+                };
+                break;
             case "robBanker":   //抢庄
                 time = 10;
                 callBack = function () {
                     //抢庄时间到默认不抢
                     cc.log("抢庄时间到！");
-                    if (g_gameSocket.status === SOCKET_STATUS._SS_CONNECTED) {
+/*                    if (g_gameSocket.status === SOCKET_STATUS._SS_CONNECTED) {
                         // NiuniuFPGameMsg.getInstance().callScore(0);
                         UIMgr.getInstance().closeDlg(ID_DlgNnFpRobBanker);
-                    }
+                    }*/
                 };
                 break;
             case "addChip":     //加注
@@ -891,25 +900,23 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
     },
 
     againGame: function () {
-        if (!this._bInit) {
-            return;
-        }
+        if (!this._bInit) return;
 
         var bForceExitGame = this.checkForceExit();
-        if (bForceExitGame) {
-            return;
-        }
+        if (bForceExitGame) return;
 
         this._endPhase = false;
         this.onUpdateAllPlayerInfo();
-
-        UIMgr.getInstance().closeDlg(ID_NnFpDlgOpen);
-        UIMgr.getInstance().closeDlg(ID_NnTbDlgResult);
 
         var dlgPlayer = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
         if (dlgPlayer) {
             dlgPlayer.resetDlg();
         }
+
+        this.bankerWorld.setVisible(false);
+
+        /*        UIMgr.getInstance().closeDlg(ID_NnFpDlgOpen);
+        UIMgr.getInstance().closeDlg(ID_NnTbDlgResult);
 
         var game = ClientData.getInstance().getGame();
         if (game && game.getPlayMode() === 0x10) {
@@ -927,7 +934,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
                 else dlg.setInviteFriend(true);
                 this.openTimer("ready", 5);
             }
-        }
+        }*/
     },
 
     onGameScene: function () {

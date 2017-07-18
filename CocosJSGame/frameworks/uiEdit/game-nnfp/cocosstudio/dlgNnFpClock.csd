@@ -17,7 +17,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5000" Y="0.4648" />
                 <PreSize X="0.5571" Y="0.4225" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="" Plist="" />
+                <LabelAtlasFileImage_CNB Type="Normal" Path="font/shuz1.png" Plist="" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
