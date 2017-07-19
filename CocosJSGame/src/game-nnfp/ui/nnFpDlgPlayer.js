@@ -318,7 +318,14 @@ var NnFpDlgPlayer = DlgBase.extend({
     //显示两张公共牌
     showPublicCards: function(cardsValue) {
         this.publicCards.addCardList(cardsValue, true);
+        var callFunc = cc.CallFunc(function () {
+            this.publicCards.runAction(cc.sequence(cc.moveBy(1, cc.p(50, 50))))
+        }, this)
+
+        this.publicCards.runAction(cc.sequence(cc.moveTo(0.5, cc.p(20,20))))
     },
+
+
 
     //手牌
     addCard: function (pos, value, bFace, cb) {

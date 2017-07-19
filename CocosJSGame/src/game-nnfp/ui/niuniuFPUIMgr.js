@@ -467,7 +467,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
 
     //随机选择庄家黄色边框
     blinkHeadPortrait: function () {
-        var arr = [0,1,2,3,4,5];
+        var arr = this.getBankerPosArr([0,1,2,3,4,5]);
         var faceArr = [];
         var actions = [];
         var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
@@ -484,14 +484,24 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
 
         img.setPosition(faceArr[0]);
         this._uiLayer.addChild(img);
-        var callFunc = cc.CallFunc(function () {
-            img.setVisible(false);
-            this.bankerWordAnimation();
-        }.bind(this));
+        var callFunc = cc.callFunc(function () {
+            // img.runAction(cc.sequence(cc.moveBy(1, cc.p(50, 50))));
+            cc.log("这里要在停止的时候执行");
+            this.testBankerWordAnimation(Math.floor(Math.random()*6));
+        }, this);
         // actions.push(callFunc);
 
         var seq = cc.sequence(actions);
-        img.runAction(seq.repeat(4));
+        img.runAction(cc.sequence(seq.repeat(2), callFunc));
+    },
+
+    getBankerPosArr: function (chairIdArr) {
+        var posArr = [];
+        chairIdArr.reverse();
+        for (var i = 0; i < chairIdArr.length; i++) {
+            posArr[i] = chairIdArr[i];
+        }
+        return posArr;
     },
 
     //得到广播庄家用户显示庄字动画
