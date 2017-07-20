@@ -16,8 +16,6 @@
 
         "src/libs/MyUtil.js",
 
-        "src/public/config/platform.js",
-
         "src/public/consts/define.js",
 
         "src/public/manager/UIMgr.js",

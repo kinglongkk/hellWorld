@@ -6,8 +6,8 @@ var CMD_NIUNIU_TB = {
 		GAME_NAME:						"通比牛牛",								//游戏名字
 		MAXCOUNT:						5,										//扑克最大数目
 	
-		VERSION_SERVER:					PROCESS_VERSION(1,0,0),					//程序版本
-		VERSION_CLIENT:					PROCESS_VERSION(1,0,0),					//程序版本
+		VERSION_SERVER:					0,					//程序版本
+		VERSION_CLIENT:					0,					//程序版本
 
 		GAME_GENRE:						(GAME_GENRE_GOLD|GAME_GENRE_MATCH),		//游戏类型
 		
