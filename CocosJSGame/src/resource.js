@@ -63,7 +63,20 @@ var res = {
     cyan_png        : "res/event/cyan_square.png",
     magenta_png     : "res/event/magenta_square.png",
     yellow_png      : "res/event/yellow_square.png",
-    bg_scale9_png   : "res/event/buttonBackground.png"
+    bg_scale9_png   : "res/event/buttonBackground.png",
+    base_png        : "res/event/control_base.png",
+    knob_png        : "res/event/control_knob.png",
+    bone_plist      : "res/event/bone.plist",
+    bone_png        : "res/event/bone.png",
+    knob_bg_png     : "res/event/bg.png",
+
+    // sound -->Lesson0601
+    bg_mp3          : "res/Sound/background.mp3",
+    effect_mp3      : "res/Sound/effect2.mp3",
+
+    // particle --> Lesson0701
+    particle_star_plist : "res/particle/star.plist",
+    particle_star_png   : "res/particle/star.png"
 };
 
 var g_resources = [];

@@ -12,7 +12,7 @@ var EventScene = cc.Scene.extend({
         this._super();
 
         // ------ 触摸相关 ------
-        var layer = new TouchOneByOne();
+//        var layer = new TouchOneByOne();
 //        var layer = new TouchAllAtOnce();
 //        var layer = new TouchPriority();
 //        var layer = new EnabledTouch();
@@ -28,7 +28,7 @@ var EventScene = cc.Scene.extend({
 //        var layer = new Mouse();
 
         // ------ 自定义 ------
-//        var layer = new Custom();
+        var layer = new Custom();
 
         this.addChild(layer);
     }
@@ -86,12 +86,13 @@ var TouchOneByOne = TouchBaseLayer.extend({
         sprite3.setPosition(sprite3.getContentSize().width , 0);
         sprite2.addChild(sprite3);
 
+        //
         var listener = cc.EventListener.create({
-            event: cc.EventListener.TOUCH_ONE_BY_ONE,
-            swallowTouches: true,    // TODO【事件吞噬】，阻止事件传递给下一层(层根据事件优先级而定，而非对象(节点)的zIndex值)
+            event : cc.EventListener.TOUCH_ONE_BY_ONE,
+            swallowTouches : false,    // TODO【事件吞噬】，阻止事件传递给下一层(层根据事件优先级而定，而非对象(节点)的zOrder值)
             onTouchBegan: function (touch, event) {
                 // 获取当前触发事件的对象 TODO【备注】：有比getCurrentTarget更好的选择。
-                //  但这里主要是3个精灵引用了同一套的事件处理方案. 见下面的.clone
+                //  但这里主要是3个精灵引用了同一套的事件处理方案，所以采用此方式。见下面的.clone
                 var target = event.getCurrentTarget();
                 // 获取点击坐标[基于本地坐标]
                 var locationInNode = target.convertToNodeSpace(touch.getLocation());
@@ -103,6 +104,7 @@ var TouchOneByOne = TouchBaseLayer.extend({
                 if (!(cc.rectContainsPoint(rect, locationInNode))) {
                     return false;
                 }
+
 
                 // 开始逻辑处理
                 cc.log("sprite began... x = " + locationInNode.x + ", y = " + locationInNode.y);
@@ -272,7 +274,7 @@ var TouchPauseResume = TouchBaseLayer.extend({
         this.addChild(sprite2);
 
         // 右下角的精灵. 触摸优先级为：10
-        var sprite3 = new TouchOneByOneSprite(res.yellow_png, -10);  // sprite3 采用了触控优先级
+        var sprite3 = new TouchOneByOneSprite(res.yellow_png, -10);  // TODO sprite3 采用了触控优先级方式
         sprite3.setPosition(sprite3.getContentSize().width , 0);
         sprite2.addChild(sprite3, -1);
 
@@ -280,7 +282,7 @@ var TouchPauseResume = TouchBaseLayer.extend({
 
         var popup = new cc.MenuItemFont("Popup", function(sender){
 
-            // TODO【事件暂停】
+            // TODO【事件暂停】 sprite3 采用触摸优先级方式，所以，特殊处理
             sprite3.getListener().setEnabled(false); // getListener 自定义的方法
             cc.eventManager.pauseTarget(self, true);  // TODO true 表示是否联级-->关联所有子节点
 
@@ -368,7 +370,8 @@ var Acceleration =  TouchBaseLayer.extend({
         }
     },
     onListenerAccelerometer : function(acc, event){
-        // 备注：acc.x 和 acc.y 取值范围 (-1 到 1). 不含-1和1
+        cc.log( "acc.x : " + acc.x + "   acc.y : " +acc.y);
+        // 备注：acc.x 和 acc.y 取值范围 [-1 到 1].
         var target = event.getCurrentTarget();
         var ballSize  = target.getContentSize();
         var currPos  = target.getPosition();
@@ -577,7 +580,7 @@ var Custom = TouchBaseLayer.extend({
         // 自定义事件回调函数
         cc.eventManager.addListener({
             event       : cc.EventListener.CUSTOM,
-            target      : this,
+            target      : this.label,
             eventName   : "custom_event1",
             callback    : this.customCallBack
         }, this.label);

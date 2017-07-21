@@ -73,7 +73,15 @@
 
         "src/chapter01/Lesson0501/MainMenu.js",
         "src/chapter01/Lesson0502/UTouchSprite.js",
-        "src/chapter01/Lesson0502/Lesson0502.js"
+        "src/chapter01/Lesson0502/Lesson0502.js",
+        "src/chapter01/Lesson0502/demo/RockerSprite.js",
+        "src/chapter01/Lesson0502/demo/RockerDemo.js",
+
+        "src/chapter01/Lesson0601/Lesson0601.js",
+
+        "src/chapter01/Lesson0701/Lesson0701.js"
+
+
 
     ]
 }

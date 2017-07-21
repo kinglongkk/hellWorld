@@ -11,7 +11,7 @@ var TouchAllAtOnceSprite = cc.Sprite.extend({
         // 判断当前平台是否支持多点触控
         if( 'touches' in cc.sys.capabilities ) {
             var listener = cc.EventListener.create({
-                //  TODO 所有的touch处理都会被触发，不支持吞噬。
+                //  TODO 不支持事件吞噬。
                 event           : cc.EventListener.TOUCH_ALL_AT_ONCE,
                 target          : this,  // 推荐此种用法
                 onTouchesBegan  : this.onTouchesBegan,
@@ -25,15 +25,14 @@ var TouchAllAtOnceSprite = cc.Sprite.extend({
 
         // 第二种写法
 //        if( 'touches' in cc.sys.capabilities ) {
-//            cc.eventManager.addListener({
-//                event           : cc.EventListener.TOUCH_ALL_AT_ONCE,
-//                target          : this,
-//                swallowTouches  : true,
-//                onTouchesBegan  : this.onTouchesBegan,
-//                onTouchesMoved  : this.onTouchesMoved,
-//                onTouchesEnded  : this.onTouchesEnded,
-//                onTouchesCancelled : this.onTouchesCancelled
-//            }, this);
+            cc.eventManager.addListener({
+                event           : cc.EventListener.TOUCH_ALL_AT_ONCE,
+                target          : this,
+                swallowTouches  : true,
+                onTouchesBegan  : this.onTouchesBegan,
+                onTouchesMoved  : this.onTouchesMoved,
+                onTouchesEnded  : this.onTouchesEnded
+            }, this);
 //        }else{
 //            cc.log("当前平台不支持多点触控");
 //        }
@@ -41,7 +40,7 @@ var TouchAllAtOnceSprite = cc.Sprite.extend({
     },
     onTouchesBegan: function (touches, event) {
 
-        var self = this.target;
+        var self = this.target;   // TODO this，实际上是listener对象
 
         // TODO 点击区域判断
 
@@ -111,12 +110,9 @@ var TouchOneByOneSprite = cc.Sprite.extend({
     },
 
     onTouchBegan: function (touch, event) {
-
-        // TODO onTouchBegan中的this，实际上是listener对象
         var locationInNode = this.target.convertToNodeSpace(touch.getLocation());
         var size = this.target.getContentSize();
         var rect = cc.rect(0, 0, size.width, size.height);
-
         if (!cc.rectContainsPoint(rect, locationInNode)) {
             return false;
         }
@@ -193,7 +189,6 @@ var TouchEnabledSprite = cc.Sprite.extend({
                 // 事件添加
                 cc.eventManager.addListener(this._listener, this);
             }else{
-
                 cc.eventManager.removeListener(this._listener);
             }
         }else{

@@ -136,7 +136,7 @@ var Lesson0401SceneLayer = cc.Layer.extend({
 
     callBack2 : function(sender, data){
         cc.log("callBack 2 ... ", data);
-        this.node.runAction(cc.callFunc(data.doSomething))
+        this.node.runAction(cc.sequence(data.doSomething))
     },
 
 
