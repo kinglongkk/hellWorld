@@ -559,7 +559,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
 
             var callFun = cc.CallFunc(function () {
                 //显示等待或者加注按钮
-                if (dlgPlayer) dlgPlayer.showBtnOrAddChip();
+                dlg.showBtnOrAddChip();
             }, this);
             // var seq = cc.sequence(spawn1, spawn2, spawn3, delay, moveBy1, moveBy2, moveBy3, moveBy4, moveBy5, moveBy6);
             var seq = cc.sequence(spawn1, spawn2, spawn3, delay, moveTo1);
@@ -683,6 +683,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         var dlg = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
         if (!dlg) return;
 
+        this.sprite.opacity = 255;
         this.sprite.setPosition(dlg.getLastCardPos());
         this.sprite.setVisible(true);
 
@@ -704,11 +705,15 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
                 target.x += delta.x;
                 target.y += delta.y;
 
+                if (target.x > 1000 || target.x < 780 || target.y < 15 || target.y > 340) {
+                    target.runAction(cc.sequence(cc.fadeTo(0.6, 0)));
+                }
+
             },
             onTouchEnded: function (touch, event) {
                 cc.log("onTouchMoved");
                 var target = event.getCurrentTarget();
-                target.opacity = 255;
+                // target.opacity = 255;
             },
             onTouchCancelled : function(touch, event){
                 cc.log("onTouchCancelled");

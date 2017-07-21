@@ -211,9 +211,8 @@ var NnFpDlgPlayer = DlgBase.extend({
     resetDlg: function () {
         for (var i = 0; i < CMD_NIUNIU_TB.GAME_PLAYER; i++) {
             this.handCards[i].clearAllCard();
-            // this.handCards[i].setCardSpace(new cc.p(3, 0));
+            this.handCards[i].setCardSpace(new cc.p(3, 0));
             this.PanelType[i].setVisible(false);
-            this.LabBet[i].setVisible(false);
             this.openCards[i].clearAllCard();
             this.LabImage[i].setVisible(false);
             this.PanelAddChip[i].setPosition(cc.p(this.addChipArr[i]));
@@ -222,12 +221,22 @@ var NnFpDlgPlayer = DlgBase.extend({
             multipleImg.setColor(cc.color(255, 255, 255));
             multiple.setColor(cc.color(255, 255, 0));
             this.PanelAddChip[i].setVisible(false);
+
+            this.PanelAddScore[i].setPosition(cc.p(this.addChipArr[i]));
+            var multiple2 = this.PanelAddScore[i].getChildByName("AtlasLabel_Multiple");
+            var multipleImg2 =  this.PanelAddScore[i].getChildByName("Image_26");
+            multipleImg2.setColor(cc.color(255, 255, 255));
+            multiple2.setColor(cc.color(255, 255, 0));
+            this.PanelAddScore[i].setVisible(false);
+
         }
         this.PanelWin.setVisible(false);
         this.imgLose.setVisible(false);
         this.publicCards.clearAllCard();
         this.openSurplusCards.clearAllCard();
+        this.updateResultIcon(false);
         this.Image_WaitForAddChip.setVisible(false);
+        this.openSurplusCards.setColor(new cc.color(255, 255, 255));
 
     },
 
