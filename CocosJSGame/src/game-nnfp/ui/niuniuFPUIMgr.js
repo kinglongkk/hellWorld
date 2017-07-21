@@ -919,9 +919,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
         this.onUpdateAllPlayerInfo();
 
         var dlgPlayer = UIMgr.getInstance().getDlg(ID_NnFpDlgPlayer);
-        if (dlgPlayer) {
-            dlgPlayer.resetDlg();
-        }
+        if (dlgPlayer) dlgPlayer.resetDlg();
 
         this.bankerWorld.setVisible(false);
 

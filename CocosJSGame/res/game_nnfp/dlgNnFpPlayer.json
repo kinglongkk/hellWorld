@@ -1112,10 +1112,10 @@
                 "ctype": "PanelObjectData"
               },
               {
-                "LabelText": "",
+                "LabelText": "9",
                 "LabelBMFontFile_CNB": {
                   "Type": "Normal",
-                  "Path": "",
+                  "Path": "font/betValue_0.fnt",
                   "Plist": ""
                 },
                 "AnchorPoint": {
@@ -1123,8 +1123,8 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 667.1334,
-                  "Y": 240.0879
+                  "X": 682.6078,
+                  "Y": 295.2962
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -1133,24 +1133,24 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.5001,
-                  "Y": 0.6402
+                  "X": 0.5117,
+                  "Y": 0.7875
                 },
                 "PreSize": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 0.0165,
+                  "Y": 0.0747
                 },
                 "HorizontalEdge": "BothEdge",
                 "VerticalEdge": "BottomEdge",
-                "LeftMargin": 667.1334,
-                "RightMargin": 666.8666,
-                "TopMargin": 134.9121,
-                "BottomMargin": 240.0879,
+                "LeftMargin": 671.6078,
+                "RightMargin": 640.3922,
+                "TopMargin": 65.7038,
+                "BottomMargin": 281.2962,
                 "Tag": 195,
                 "ActionTag": -802634962,
                 "Size": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 22.0,
+                  "Y": 28.0
                 },
                 "Name": "LabBet",
                 "ctype": "TextBMFontObjectData"
@@ -1171,7 +1171,7 @@
                 },
                 "Position": {
                   "X": 670.0,
-                  "Y": 280.0
+                  "Y": 300.0
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -1181,7 +1181,7 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.5022,
-                  "Y": 0.7467
+                  "Y": 0.8
                 },
                 "PreSize": {
                   "X": 0.3418,
@@ -1189,8 +1189,8 @@
                 },
                 "LeftMargin": 442.0,
                 "RightMargin": 436.0,
-                "TopMargin": 62.0,
-                "BottomMargin": 247.0,
+                "TopMargin": 42.0,
+                "BottomMargin": 267.0,
                 "Tag": 128,
                 "Children": [
                   {
@@ -2130,7 +2130,7 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 259.9966,
+                  "X": 260.0,
                   "Y": 270.0
                 },
                 "Scale": {
@@ -2149,8 +2149,8 @@
                 },
                 "HorizontalEdge": "BothEdge",
                 "VerticalEdge": "TopEdge",
-                "LeftMargin": 184.9966,
-                "RightMargin": 332.0034,
+                "LeftMargin": 185.0,
+                "RightMargin": 332.0,
                 "TopMargin": 70.0,
                 "BottomMargin": 235.0,
                 "Tag": 368,
@@ -2557,10 +2557,10 @@
                 "ctype": "ImageViewObjectData"
               },
               {
-                "LabelText": "",
+                "LabelText": "9",
                 "LabelBMFontFile_CNB": {
                   "Type": "Normal",
-                  "Path": "",
+                  "Path": "font/betValue_0.fnt",
                   "Plist": ""
                 },
                 "AnchorPoint": {
@@ -2569,7 +2569,7 @@
                 },
                 "Position": {
                   "X": 361.2472,
-                  "Y": 273.9871
+                  "Y": 266.4871
                 },
                 "Scale": {
                   "ScaleX": 0.9,
@@ -2579,23 +2579,23 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.5416,
-                  "Y": 0.7306
+                  "Y": 0.7106
                 },
                 "PreSize": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 0.033,
+                  "Y": 0.0747
                 },
                 "HorizontalEdge": "BothEdge",
                 "VerticalEdge": "TopEdge",
-                "LeftMargin": 361.2472,
-                "RightMargin": 305.7528,
-                "TopMargin": 101.0129,
-                "BottomMargin": 273.9871,
+                "LeftMargin": 350.2472,
+                "RightMargin": 294.7528,
+                "TopMargin": 94.5129,
+                "BottomMargin": 252.4871,
                 "Tag": 377,
                 "ActionTag": -1143486334,
                 "Size": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 22.0,
+                  "Y": 28.0
                 },
                 "Name": "LabBet",
                 "ctype": "TextBMFontObjectData"
@@ -2616,7 +2616,7 @@
                 },
                 "Position": {
                   "X": 250.0,
-                  "Y": 300.0
+                  "Y": 330.0
                 },
                 "Scale": {
                   "ScaleX": 0.6,
@@ -2626,7 +2626,7 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.3748,
-                  "Y": 0.8
+                  "Y": 0.88
                 },
                 "PreSize": {
                   "X": 0.6837,
@@ -2634,8 +2634,8 @@
                 },
                 "LeftMargin": 22.0,
                 "RightMargin": 189.0,
-                "TopMargin": 42.0,
-                "BottomMargin": 267.0,
+                "TopMargin": 12.0,
+                "BottomMargin": 297.0,
                 "Tag": 130,
                 "Children": [
                   {
@@ -3474,7 +3474,7 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 259.9966,
+                  "X": 260.0,
                   "Y": 270.0
                 },
                 "Scale": {
@@ -3493,8 +3493,8 @@
                 },
                 "HorizontalEdge": "BothEdge",
                 "VerticalEdge": "TopEdge",
-                "LeftMargin": 184.9966,
-                "RightMargin": 332.0034,
+                "LeftMargin": 185.0,
+                "RightMargin": 332.0,
                 "TopMargin": 70.0,
                 "BottomMargin": 235.0,
                 "Tag": 134,
@@ -3901,10 +3901,10 @@
                 "ctype": "ImageViewObjectData"
               },
               {
-                "LabelText": "",
+                "LabelText": "9",
                 "LabelBMFontFile_CNB": {
                   "Type": "Normal",
-                  "Path": "",
+                  "Path": "font/betValue_0.fnt",
                   "Plist": ""
                 },
                 "AnchorPoint": {
@@ -3913,7 +3913,7 @@
                 },
                 "Position": {
                   "X": 361.2472,
-                  "Y": 273.9871
+                  "Y": 266.4871
                 },
                 "Scale": {
                   "ScaleX": 0.9,
@@ -3923,23 +3923,23 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.5416,
-                  "Y": 0.7306
+                  "Y": 0.7106
                 },
                 "PreSize": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 0.033,
+                  "Y": 0.0747
                 },
                 "HorizontalEdge": "BothEdge",
                 "VerticalEdge": "TopEdge",
-                "LeftMargin": 361.2472,
-                "RightMargin": 305.7528,
-                "TopMargin": 101.0129,
-                "BottomMargin": 273.9871,
+                "LeftMargin": 350.2472,
+                "RightMargin": 294.7528,
+                "TopMargin": 94.5129,
+                "BottomMargin": 252.4871,
                 "Tag": 144,
                 "ActionTag": 992813947,
                 "Size": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 22.0,
+                  "Y": 28.0
                 },
                 "Name": "LabBet",
                 "ctype": "TextBMFontObjectData"
@@ -3960,7 +3960,7 @@
                 },
                 "Position": {
                   "X": 250.0,
-                  "Y": 300.0
+                  "Y": 330.0
                 },
                 "Scale": {
                   "ScaleX": 0.6,
@@ -3970,7 +3970,7 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.3748,
-                  "Y": 0.8
+                  "Y": 0.88
                 },
                 "PreSize": {
                   "X": 0.6837,
@@ -3978,8 +3978,8 @@
                 },
                 "LeftMargin": 22.0,
                 "RightMargin": 189.0,
-                "TopMargin": 42.0,
-                "BottomMargin": 267.0,
+                "TopMargin": 12.0,
+                "BottomMargin": 297.0,
                 "Tag": 133,
                 "Children": [
                   {
@@ -4818,7 +4818,7 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 650.0582,
+                  "X": 650.0,
                   "Y": 280.0
                 },
                 "Scale": {
@@ -4837,8 +4837,8 @@
                 },
                 "HorizontalEdge": "BothEdge",
                 "VerticalEdge": "TopEdge",
-                "LeftMargin": 575.0582,
-                "RightMargin": 608.9418,
+                "LeftMargin": 575.0,
+                "RightMargin": 609.0,
                 "TopMargin": 60.0,
                 "BottomMargin": 245.0,
                 "Tag": 177,
@@ -4898,10 +4898,10 @@
                 "ctype": "ImageViewObjectData"
               },
               {
-                "LabelText": "",
+                "LabelText": "9",
                 "LabelBMFontFile_CNB": {
                   "Type": "Normal",
-                  "Path": "",
+                  "Path": "font/betValue_0.fnt",
                   "Plist": ""
                 },
                 "AnchorPoint": {
@@ -4909,7 +4909,7 @@
                 },
                 "Position": {
                   "X": 850.2916,
-                  "Y": 244.236
+                  "Y": 236.736
                 },
                 "Scale": {
                   "ScaleX": 0.9,
@@ -4919,23 +4919,23 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.6374,
-                  "Y": 0.6513
+                  "Y": 0.6313
                 },
                 "PreSize": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 0.0165,
+                  "Y": 0.0747
                 },
                 "HorizontalEdge": "BothEdge",
                 "VerticalEdge": "TopEdge",
                 "LeftMargin": 850.2916,
-                "RightMargin": 483.7084,
-                "TopMargin": 130.764,
-                "BottomMargin": 244.236,
+                "RightMargin": 461.7084,
+                "TopMargin": 124.264,
+                "BottomMargin": 222.736,
                 "Tag": 196,
                 "ActionTag": 1201746770,
                 "Size": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 22.0,
+                  "Y": 28.0
                 },
                 "Name": "LabBet",
                 "ctype": "TextBMFontObjectData"
@@ -4956,7 +4956,7 @@
                 },
                 "Position": {
                   "X": 670.0,
-                  "Y": 300.0
+                  "Y": 330.0
                 },
                 "Scale": {
                   "ScaleX": 0.6,
@@ -4966,7 +4966,7 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.5022,
-                  "Y": 0.8
+                  "Y": 0.88
                 },
                 "PreSize": {
                   "X": 0.3418,
@@ -4974,8 +4974,8 @@
                 },
                 "LeftMargin": 442.0,
                 "RightMargin": 436.0,
-                "TopMargin": 42.0,
-                "BottomMargin": 267.0,
+                "TopMargin": 12.0,
+                "BottomMargin": 297.0,
                 "Tag": 136,
                 "Children": [
                   {
@@ -6589,10 +6589,10 @@
                 "ctype": "PanelObjectData"
               },
               {
-                "LabelText": "",
+                "LabelText": "9",
                 "LabelBMFontFile_CNB": {
                   "Type": "Normal",
-                  "Path": "",
+                  "Path": "font/betValue_0.fnt",
                   "Plist": ""
                 },
                 "AnchorPoint": {
@@ -6601,7 +6601,7 @@
                 },
                 "Position": {
                   "X": 281.8742,
-                  "Y": 285.9803
+                  "Y": 278.4803
                 },
                 "Scale": {
                   "ScaleX": 0.9,
@@ -6611,23 +6611,23 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.4226,
-                  "Y": 0.7626
+                  "Y": 0.7426
                 },
                 "PreSize": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 0.033,
+                  "Y": 0.0747
                 },
                 "HorizontalEdge": "BothEdge",
                 "VerticalEdge": "TopEdge",
-                "LeftMargin": 281.8742,
-                "RightMargin": 385.1258,
-                "TopMargin": 89.0197,
-                "BottomMargin": 285.9803,
+                "LeftMargin": 270.8742,
+                "RightMargin": 374.1258,
+                "TopMargin": 82.5197,
+                "BottomMargin": 264.4803,
                 "Tag": 163,
                 "ActionTag": -803731194,
                 "Size": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 22.0,
+                  "Y": 28.0
                 },
                 "Name": "LabBet",
                 "ctype": "TextBMFontObjectData"
@@ -6753,7 +6753,7 @@
                 },
                 "Position": {
                   "X": 400.0,
-                  "Y": 300.0
+                  "Y": 330.0
                 },
                 "Scale": {
                   "ScaleX": 0.6,
@@ -6763,7 +6763,7 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.5997,
-                  "Y": 0.8
+                  "Y": 0.88
                 },
                 "PreSize": {
                   "X": 0.6837,
@@ -6771,8 +6771,8 @@
                 },
                 "LeftMargin": 172.0,
                 "RightMargin": 39.0,
-                "TopMargin": 42.0,
-                "BottomMargin": 267.0,
+                "TopMargin": 12.0,
+                "BottomMargin": 297.0,
                 "Tag": 139,
                 "Children": [
                   {
@@ -7945,10 +7945,10 @@
                 "ctype": "PanelObjectData"
               },
               {
-                "LabelText": "",
+                "LabelText": "9",
                 "LabelBMFontFile_CNB": {
                   "Type": "Normal",
-                  "Path": "",
+                  "Path": "font/betValue_0.fnt",
                   "Plist": ""
                 },
                 "AnchorPoint": {
@@ -7957,7 +7957,7 @@
                 },
                 "Position": {
                   "X": 281.8742,
-                  "Y": 285.9803
+                  "Y": 278.4803
                 },
                 "Scale": {
                   "ScaleX": 0.9,
@@ -7967,23 +7967,23 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.4226,
-                  "Y": 0.7626
+                  "Y": 0.7426
                 },
                 "PreSize": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 0.033,
+                  "Y": 0.0747
                 },
                 "HorizontalEdge": "BothEdge",
                 "VerticalEdge": "TopEdge",
-                "LeftMargin": 281.8742,
-                "RightMargin": 385.1258,
-                "TopMargin": 89.0197,
-                "BottomMargin": 285.9803,
+                "LeftMargin": 270.8742,
+                "RightMargin": 374.1258,
+                "TopMargin": 82.5197,
+                "BottomMargin": 264.4803,
                 "Tag": 390,
                 "ActionTag": 1636841792,
                 "Size": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 22.0,
+                  "Y": 28.0
                 },
                 "Name": "LabBet",
                 "ctype": "TextBMFontObjectData"
@@ -8109,7 +8109,7 @@
                 },
                 "Position": {
                   "X": 400.0,
-                  "Y": 300.0
+                  "Y": 330.0
                 },
                 "Scale": {
                   "ScaleX": 0.6,
@@ -8119,7 +8119,7 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.5997,
-                  "Y": 0.8
+                  "Y": 0.88
                 },
                 "PreSize": {
                   "X": 0.6837,
@@ -8127,8 +8127,8 @@
                 },
                 "LeftMargin": 172.0,
                 "RightMargin": 39.0,
-                "TopMargin": 42.0,
-                "BottomMargin": 267.0,
+                "TopMargin": 12.0,
+                "BottomMargin": 297.0,
                 "Tag": 142,
                 "Children": [
                   {
@@ -8253,6 +8253,8 @@
       },
       "UsedResources": [
         "Default/ImageFile.png",
+        "font/betValue_0.fnt",
+        "font/betValue_0.png",
         "font/shuz1.png",
         "font/shuz2.png",
         "font/shuz3.png",
