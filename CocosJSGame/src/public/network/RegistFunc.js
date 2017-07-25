@@ -11,16 +11,30 @@ function RegistChatFunc(event, fn) {
 }
 
 //////////////////////// logon ///////////////////////////////////////////////
-RegistLoginFunc("ShowErrCode", GameUserMsg.getInstance().onSubRequestFailure)
+
 RegistLoginFunc("L2C_LogonSuccess",  LoginRegisterMsg.getInstance().onSubLogonSuccess)
 RegistLoginFunc("L2C_LogonFailure", LoginRegisterMsg.getInstance().onSubLogonFailure)
+
 RegistLoginFunc("L2C_ServerList", ServerListMsg.getInstance().onListServer)
 RegistLoginFunc("L2C_ServerListFinish", ServerListMsg.getInstance().onListFinish)
-RegistLoginFunc("L2C_SearchResult",EnterRoomMsg.getInstance().onSubSearchResult)
-RegistLoginFunc("L2C_UserIndividual",GameFrameMsg.getInstance().onSubUserIndividual)
+
+RegistLoginFunc("ShowErrCode", GameUserMsg.getInstance().onSubRequestFailure)
+
+RegistLoginFunc("L2C_UserIndividual",UserServerMsg.getInstance().onSubUserIndividual)
+RegistLoginFunc("L2C_RenewalFeesRsp",UserServerMsg.getInstance().onRestartResult)
+RegistLoginFunc("C2L_DianZhanRsp",UserServerMsg.getInstance().onClickZanResult)
+RegistLoginFunc("L2C_SetElectResult",UserServerMsg.getInstance().onSetElectResult)
+RegistLoginFunc("L2C_SetPhoneNumberRsp",UserServerMsg.getInstance().onBindMbResult)
+RegistLoginFunc("L2C_ChangeUserNameRsp",UserServerMsg.getInstance().onModifyNickResult)
+RegistLoginFunc("L2C_ChangeSignRsp",UserServerMsg.getInstance().onModifyUnderWriteResult)
+RegistLoginFunc("L2C_ReqBindMaskCodeRsp",UserServerMsg.getInstance().onGetMbValidateResult)
+
+RegistLoginFunc("L2C_CreatorRoomRecord",OpenRoomMsg.getInstance().onGetMyRoomListResult)
 RegistLoginFunc("L2C_CreateTableFailure",OpenRoomMsg.getInstance().onSubCreateFailed)
 RegistLoginFunc("L2C_CreateTableSucess",OpenRoomMsg.getInstance().onSubCreateOK)
 
+RegistLoginFunc("L2C_SearchResult",EnterRoomMsg.getInstance().onSubSearchResult)
+RegistLoginFunc("L2C_GetRoomList",EnterRoomMsg.getInstance().onGetPublicRoomListResult)
 
 //////////////////////////////// game  //////////////////////////////////////
 RegistGameFunc("ShowErrCode", GameUserMsg.getInstance().onSubRequestFailure)
@@ -41,7 +55,7 @@ RegistGameFunc("G2C_HZMJ_Trustee",function(data){cc.log("read G2C_HZMJ_Trustee",
 RegistGameFunc("SysMsg",GameFrameMsg.getInstance().onSubGFSystemMessage)
 RegistGameFunc("G2C_CancelTable",OpenRoomMsg.getInstance().OnCancelTable)
 RegistGameFunc("G2C_PersonalTableEnd",OpenRoomMsg.getInstance().OnPersonalTableEnd)
-RegistGameFunc("G2C_LoadRoomOk",OpenRoomMsg.getInstance().OnGameServerCreateOK)
+RegistGameFunc("G2C_LoadRoomOk",OpenRoomMsg.getInstance().OnLoadRoomOk)
 //hzmj
 RegistGameFunc("G2C_HZMG_GameStart", HzmjGameMsg.getInstance().OnSubGameStart)
 RegistGameFunc("G2C_HZMJ_GameConclude", HzmjGameMsg.getInstance().OnSubGameEnd)
@@ -61,10 +75,9 @@ RegistGameFunc("G2C_TBNN_CallScoreEnd",   NiuniuFPGameMsg.getInstance().onGameMs
 RegistGameFunc("G2C_TBNN_AddScore",   NiuniuFPGameMsg.getInstance().onGameMsgAddScore);
 RegistGameFunc("G2C_TBNN_LastCard",   NiuniuFPGameMsg.getInstance().onGameMsgSendLastCard);
 RegistGameFunc("G2C_TBNN_Open_Card",   NiuniuFPGameMsg.getInstance().onGameMsgOpenCard);
+RegistGameFunc("G2C_TBNN_CalScore",   NiuniuFPGameMsg.getInstance().onGameMsgGameEnd);
 
-
-
-
+RegistGameFunc("G2C_TBNN_StatusPlay",  NiuniuFPGameMsg.getInstance().onGameSceneMsg.bind(NiuniuFPGameMsg.getInstance()));
 
 /////////////////////////////////// chat ////////////////////////////////////////
 RegistChatFunc("ShowErrCode", GameUserMsg.getInstance().onSubRequestFailure)

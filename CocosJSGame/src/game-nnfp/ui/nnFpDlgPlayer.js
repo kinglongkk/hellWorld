@@ -468,6 +468,7 @@ var NnFpDlgPlayer = DlgBase.extend({
 
         if (surplusCards) {
             this.publicCards.clearAllCard();
+            this.openSurplusCards.setColor(new cc.color(127, 127, 127));
             this.openSurplusCards.addCardList(surplusCards, true);
         }
         /*        var size = this.PanelOpen[0].getSize();

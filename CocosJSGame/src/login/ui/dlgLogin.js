@@ -46,14 +46,27 @@ var DlgLogin = DlgBase.extend({
         this.Text_tip.setScale(1);
         this.Text_company.setScale(1);
         this.Text_approval.setScale(1);
-        var password = LocalStorageMgr.getInstance()._locarStorage.getItem("_passwd_")
-        var account = LocalStorageMgr.getInstance()._locarStorage.getItem("_account_")
+        var password = LocalStorageMgr.getInstance()._locarStorage.getItem("_passwd_");
+        var account = LocalStorageMgr.getInstance()._locarStorage.getItem("_account_");
 
         this.EditAccount = this.login_mainLayer.getChildByName('TextField_account');
         this.EditPassword = this.login_mainLayer.getChildByName('TextField_password');
-        cc.log("_locarStorage  accoutn ", account, password)
-        this.EditAccount.setString(account)
-        this.EditPassword.setString(password)
+        cc.log("_locarStorage  accoutn ", account, password);
+        this.EditAccount.setString(account);
+        this.EditPassword.setString(password);
+
+
+
+        //构建输入框
+        this.EditAccount = new ccui.TextField("input words here", "Thonburi", 24);
+        this.EditPassword = new ccui.TextField("input words here", "Thonburi", 24);
+        this.EditAccount.setColor(new cc.color(127,127,127));
+        this.EditPassword.setColor(new cc.color(127,127,127));
+        this.EditAccount.setPosition(cc.p(50, 500));
+        this.EditPassword.setPosition(cc.p(250, 500));
+
+        this.login_mainLayer.addChild(this.EditAccount);
+        this.login_mainLayer.addChild(this.EditPassword);
 
 //		var rootWidget = this._rootWidget;
 //		var spineBoy = new sp.SkeletonAnimation('res/dxclian1.json', 'res/dxclian1_tex.atlas');
@@ -119,6 +132,19 @@ var DlgLogin = DlgBase.extend({
                     //LoginSceneUIMgr.getInstance().sendLogon("huaifeng1", "j12345678");//.1.37
                     // LoginSceneUIMgr.getInstance().sendLogon("tang002", "a123456");//.1.37
                     //LoginRegisterMsg.getInstance().sendMBRegister("tang002", "a123456");
+
+                    // LoginSceneUIMgr.getInstance().sendLogon("sd1", "123456");//.1.37
+                    // LoginSceneUIMgr.getInstance().sendLogon("sd2", "123456");//.1.37
+                    // LoginSceneUIMgr.getInstance().sendLogon("sd3", "123456");//.1.37
+                    // LoginSceneUIMgr.getInstance().sendLogon("sd4", "123456");//.1.37
+                    // LoginSceneUIMgr.getInstance().sendLogon("sd5", "123456");//.1.37
+
+                    // LoginSceneUIMgr.getInstance().sendLogon("xm1", "123456");//.1.37
+                    // LoginSceneUIMgr.getInstance().sendLogon("xm2", "123456");//.1.37
+                    // LoginSceneUIMgr.getInstance().sendLogon("xm3", "123456");//.1.37
+                    // LoginSceneUIMgr.getInstance().sendLogon("xm4", "123456");//.1.37
+                    // LoginSceneUIMgr.getInstance().sendLogon("xm5", "123456");//.1.37
+
 
                     //return;
 //				var account = this.EditAccount.string;
