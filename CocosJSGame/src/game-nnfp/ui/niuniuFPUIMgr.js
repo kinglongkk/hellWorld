@@ -216,7 +216,7 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
                 break;
             case "sendPublicCards":
                 cc.log("准备发牌");
-                time = 3;
+                time = 300;
                 callBack = function () {
                     cc.log("开始发牌");
 
@@ -484,15 +484,16 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
 
         img.setPosition(faceArr[0]);
         this._uiLayer.addChild(img);
+        var _t = this;
         var callFunc = cc.callFunc(function () {
             // img.runAction(cc.sequence(cc.moveBy(1, cc.p(50, 50))));
             cc.log("这里要在停止的时候执行");
-            this.testBankerWordAnimation(Math.floor(Math.random()*6));
-        }, this);
+            _t.testBankerWordAnimation(Math.floor(Math.random()*6));
+        }, _t);
         // actions.push(callFunc);
 
         var seq = cc.sequence(actions);
-        img.runAction(cc.sequence(seq.repeat(2), callFunc));
+        img.runAction(cc.sequence(seq.repeat(3), callFunc));
     },
 
     getBankerPosArr: function (chairIdArr) {

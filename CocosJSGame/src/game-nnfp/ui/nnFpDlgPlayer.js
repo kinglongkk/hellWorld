@@ -94,7 +94,7 @@ var NnFpDlgPlayer = DlgBase.extend({
 
             //显示庄家和加注倍数位置
             this.PanelBanker[i] = this.PanelPlayerPos[i].getChildByName("Panel_Banker");
-            // this.PanelBanker[i].setVisible(false);
+            this.PanelBanker[i].setVisible(false);
 
             //显示抢或者不抢   最终抢庄倍数显示
             this.PanelAddChip[i] = this.PanelPlayerPos[i].getChildByName("Panel_AddChip");
@@ -228,6 +228,7 @@ var NnFpDlgPlayer = DlgBase.extend({
             multipleImg2.setColor(cc.color(255, 255, 255));
             multiple2.setColor(cc.color(255, 255, 0));
             this.PanelAddScore[i].setVisible(false);
+            this.PanelBanker[i].setVisible(false);
 
         }
         this.PanelWin.setVisible(false);
@@ -361,23 +362,29 @@ var NnFpDlgPlayer = DlgBase.extend({
             if (cb) {
                 cb();
             }
-            this.PanelBanker[0].removeAllChildren();
+            this.PanelBanker[0].setVisible(false);
         }
     },
 
     //显示抢庄或不抢
     showCallScore: function (pos, scoreMultiple) {
+        this.PanelBanker[pos].setVisible(true);
+        var bankerArr = this.PanelBanker[pos].getChildren();
         cc.log("显示抢庄位置 = " + pos);
         cc.log("显示抢庄分数 = " + scoreMultiple);
-        var imgStr = "gameNnFpPlist/nnui0043.png";//不抢
-        if (scoreMultiple > 0) imgStr = "gameNnFpPlist/nnui0044.png";
-        var img = new ccui.ImageView(imgStr, ccui.Widget.PLIST_TEXTURE);
-        this.PanelBanker[pos].addChild(img);
+
+        if (scoreMultiple > 0) {
+            bankerArr[0].setVisible(true);
+            bankerArr[1].setVisible(false);
+        } else {
+            bankerArr[0].setVisible(false);
+            bankerArr[1].setVisible(true);
+        }
     },
 
     //显示抢庄倍数
     showCallScoreMultiple: function (pos, scoreMultiple, bankerPos) {
-        this.PanelBanker[pos].removeAllChildren();
+        this.PanelBanker[pos].setVisible(false);
         var noAddImg = this.PanelAddScore[pos].getChildByName("Image_NoAdd");
         noAddImg.setVisible(false);
         if (scoreMultiple > 0) {
