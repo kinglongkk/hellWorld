@@ -61,7 +61,12 @@ cc.game.onStart = function(){
     cc.view.resizeWithBrowserSize(true);
     //load resources
     cc.LoaderScene.preload(g_resources, function () {
-        cc.director.runScene(new NiuniuFPScene());
+        cc.director.runScene(new Lesson0303Scene());
+        // cc.director.runScene(new NiuniuFPScene());
+        // cc.director.runScene(new ParticleScene());
+        // cc.director.runScene(new AudioScene());
+        // cc.director.runScene(new RockerDemoScene());
+        // cc.director.runScene(new EventScene());
     }, this);
 };
 cc.game.run();
