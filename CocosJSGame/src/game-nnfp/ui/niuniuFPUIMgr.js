@@ -705,16 +705,18 @@ var NiuniuFPUIMgr = GameUIMgr.extend({
                 var delta = touch.getDelta();
                 target.x += delta.x;
                 target.y += delta.y;
-
-                if (target.x > 1000 || target.x < 780 || target.y < 15 || target.y > 340) {
-                    target.runAction(cc.sequence(cc.fadeTo(0.6, 0)));
-                }
+                return true;
 
             },
             onTouchEnded: function (touch, event) {
-                cc.log("onTouchMoved");
                 var target = event.getCurrentTarget();
-                // target.opacity = 255;
+                if (target.x > 1000 || target.x < 780 || target.y < 15 || target.y > 340) {
+                    target.runAction(cc.sequence(cc.fadeTo(0.6, 0)));
+                } else {
+                    target.runAction(cc.sequence(cc.moveTo(0, cc.p(dlg.getLastCardPos()))));
+                }
+                cc.log("onTouchMoved");
+                return true;
             },
             onTouchCancelled : function(touch, event){
                 cc.log("onTouchCancelled");
