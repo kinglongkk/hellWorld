@@ -56,6 +56,36 @@ var NiuniuFPMainLayer = cc.Layer.extend({
         this.Text_Num.string = this.curentNum + "/" + this.allNum;
     },
 
+    onClickSet: function(sender, type) {
+        switch (type) {
+            case ccui.Widget.TOUCH_BEGAN:
+                var scaleTo = cc.ScaleTo(0.05, 1.05);
+                sender.runAction(scaleTo);
+                break;
+            case ccui.Widget.TOUCH_MOVED:
+                var scaleTo = cc.ScaleTo(0.05, 1);
+                sender.runAction(scaleTo);
+                break;
+            case ccui.Widget.TOUCH_ENDED:
+                var scaleTo = cc.ScaleTo(0.05, 1);
+                sender.runAction(scaleTo);
+                // UIMgr.getInstance().openDlg(ID_DlgGameSet);
+                //切换账号
+                LogonMsgHandler.getInstance().close();
+                ClientData.getInstance().setReplaceScene(true);
+
+                if (cc.sys.isNative) {
+                    var scene = new cc.TransitionPageTurn(0.5, new LoginScene(), false);
+                    cc.director.runScene(scene);
+                } else {
+                    cc.director.runScene(new LoginScene());
+                }
+                break;
+            default:
+                break;
+        }
+    },
+
     // 是否局数到了
     isFinished: function () {
         return this.curentNum >= this.allNum;
