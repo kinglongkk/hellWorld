@@ -1154,13 +1154,13 @@
                   {
                     "FileData": {
                       "Type": "MarkedSubImage",
-                      "Path": "gameNnFpPlist/nnui0033e.png",
+                      "Path": "gameNnFpPlist/nnui0043b.png",
                       "Plist": "gameNnFpPlist.plist"
                     },
                     "Scale9OriginX": 67,
                     "Scale9OriginY": 28,
-                    "Scale9Width": 70,
-                    "Scale9Height": 31,
+                    "Scale9Width": 8,
+                    "Scale9Height": 33,
                     "AnchorPoint": {
                       "ScaleX": 0.5,
                       "ScaleY": 0.5
@@ -1182,18 +1182,18 @@
                       "Y": 0.5
                     },
                     "PreSize": {
-                      "X": 4.08,
-                      "Y": 4.35
+                      "X": 2.84,
+                      "Y": 4.45
                     },
-                    "LeftMargin": -77.0,
-                    "RightMargin": -77.0,
-                    "TopMargin": -33.5,
-                    "BottomMargin": -33.5,
+                    "LeftMargin": -46.0,
+                    "RightMargin": -46.0,
+                    "TopMargin": -34.5,
+                    "BottomMargin": -34.5,
                     "Tag": 136,
                     "ActionTag": -849572485,
                     "Size": {
-                      "X": 204.0,
-                      "Y": 87.0
+                      "X": 142.0,
+                      "Y": 89.0
                     },
                     "Name": "Image_NoAdd",
                     "ctype": "ImageViewObjectData"
@@ -1853,8 +1853,8 @@
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 25.0,
-                      "Y": 10.0
+                      "X": 0.0,
+                      "Y": 6.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -1865,17 +1865,17 @@
                     "PositionPercentXEnabled": true,
                     "PositionPercentYEnabled": true,
                     "PrePosition": {
-                      "X": 0.5,
-                      "Y": 0.5
+                      "X": 0.0,
+                      "Y": 0.3
                     },
                     "PreSize": {
                       "X": 4.08,
                       "Y": 4.35
                     },
-                    "LeftMargin": -77.0,
-                    "RightMargin": -77.0,
-                    "TopMargin": -33.5,
-                    "BottomMargin": -33.5,
+                    "LeftMargin": -102.0,
+                    "RightMargin": -52.0,
+                    "TopMargin": -29.5,
+                    "BottomMargin": -37.5,
                     "Tag": 842,
                     "ActionTag": -1372591988,
                     "Size": {
@@ -5131,7 +5131,7 @@
                 },
                 "Position": {
                   "X": 600.0332,
-                  "Y": 180.0
+                  "Y": 200.0
                 },
                 "Scale": {
                   "ScaleX": 0.56,
@@ -5141,7 +5141,7 @@
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.4498,
-                  "Y": 0.48
+                  "Y": 0.5333
                 },
                 "PreSize": {
                   "X": 0.1124,
@@ -5151,8 +5151,8 @@
                 "VerticalEdge": "BothEdge",
                 "LeftMargin": 525.0332,
                 "RightMargin": 658.9668,
-                "TopMargin": 160.0,
-                "BottomMargin": 145.0,
+                "TopMargin": 140.0,
+                "BottomMargin": 165.0,
                 "Tag": 176,
                 "ActionTag": -2092515138,
                 "Size": {
