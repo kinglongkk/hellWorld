@@ -63,6 +63,8 @@ cc.game.onStart = function(){
     cc.LoaderScene.preload(g_resources, function () {
         // cc.director.runScene(new Lesson0303Scene());
         cc.director.runScene(new NiuniuFPScene());
+        // cc.director.runScene(new ZpmjScene());
+        // cc.director.runScene(new DdzDlgSence());
         // cc.director.runScene(new ParticleScene());
         // cc.director.runScene(new AudioScene());
         // cc.director.runScene(new RockerDemoScene());
