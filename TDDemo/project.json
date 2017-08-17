@@ -1,0 +1,61 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/config.js",
+
+        "src/Classes/GameManager.js",
+        "src/Classes/GroupEnemy.js",
+        "src/Classes/LevelLoader.js",
+
+        "src/LoadSource/LoadSource.js",
+        "src/LoadSource/layer/BackgroundLayer.js",
+        "src/LoadSource/layer/MainLayer.js",
+
+        "src/MainMenu/MainMenu.js",
+        "src/MainMenu/layer/BackgroundLayer.js",
+        "src/MainMenu/layer/MainLayer.js",
+
+        "src/ChooseLevel/ChooseLevel.js",
+        "src/ChooseLevel/layer/BackgroundLayer.js",
+        "src/ChooseLevel/layer/MainLayer.js",
+        "src/ChooseLevel/node/LevelPage.js",
+        "src/ChooseLevel/node/PageMark.js",
+
+
+        "src/LevelInfo/LevelInfo.js",
+        "src/LevelInfo/layer/BackgroundLayer.js",
+        "src/LevelInfo/layer/MainLayer.js",
+
+        "src/GamePlay/GamePlay.js",
+        "src/GamePlay/layer/BackgroundLayer.js",
+        "src/GamePlay/layer/ToolLayer.js",
+        "src/GamePlay/layer/MainLayer.js",
+        "src/GamePlay/layer/PassLayer.js",
+        "src/GamePlay/node/Bullet.js",
+        "src/GamePlay/node/enemy/EnemyBase.js",
+        "src/GamePlay/node/enemy/BanditSprite.js",
+        "src/GamePlay/node/enemy/PirateSprite.js",
+        "src/GamePlay/node/enemy/ThiefSprite.js",
+        "src/GamePlay/node/tower/TowerBase.js",
+        "src/GamePlay/node/tower/ArrowTower.js",
+        "src/GamePlay/node/tower/AttackTower.js",
+        "src/GamePlay/node/tower/MultiDirTower.js",
+        "src/GamePlay/node/TowerPanel.js",
+
+        "src/GameOver/GameOver.js",
+        "src/GameOver/layer/BackgroundLayer.js",
+        "src/GameOver/layer/MainLayer.js"
+
+    ]
+}

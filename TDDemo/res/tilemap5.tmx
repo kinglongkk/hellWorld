@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="16" height="9" tilewidth="96" tileheight="96" nextobjectid="7">
+ <tileset firstgid="1" name="tiles" tilewidth="96" tileheight="96">
+  <image source="tiles.png" width="768" height="576"/>
+  <tile id="23">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEAJiWSCWIUCDsDIQqwCxKhBLALEkEEsRoRdGawOxDhDrQvUzAzELlE0sFkFicwMxDxZ5QphY89GxAhpNjn5kvYxAzIRHvzABNicQc+HwnzADdjeAxAUZIPGOTZ6YeITFOwDRUQ2I
+  </data>
+ </layer>
+ <objectgroup name="obj">
+  <object id="1" name="0" x="1292.81" y="154.23"/>
+  <object id="3" name="1" x="1279.2" y="337.945"/>
+  <object id="4" name="2" x="514.856" y="328.873"/>
+  <object id="5" name="3" x="546.609" y="728.056"/>
+  <object id="6" name="4" x="231.345" y="723.52"/>
+ </objectgroup>
+</map>
