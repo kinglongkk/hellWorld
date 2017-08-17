@@ -15,16 +15,16 @@ var ClientData = cc.Class.extend({
         	password: ""
         };
 
-        this.plaza = new Plaza();
+        /*this.plaza = new Plaza();
         this.insure = new Insure();
-        this.signIn = new SignIn();
+        this.signIn = new SignIn();*/
         this.player = new Player();
-        this.mail = new Mail();
+        /*this.mail = new Mail();
         this.exAward = new ExAward();
         this.task = new Task();
         this.timingGiftInfo = new TimingGiftInfo();
         this.room = new Room();
-        this.match = new Match();
+        this.match = new Match();*/
         this.table = new Table();
         this.game = null;
 
