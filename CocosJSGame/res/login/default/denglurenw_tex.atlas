@@ -1,0 +1,223 @@
+
+denglurenw_tex.png
+size: 0,0
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nvtouf2
+  rotate: false
+  xy: 1 ,1
+  size: 278 ,282
+  orig: 278 ,282
+  offset: 0,0
+  index: -1
+nvshou1
+  rotate: false
+  xy: 903 ,379
+  size: 94 ,82
+  orig: 94 ,82
+  offset: 0,0
+  index: -1
+nvqunz
+  rotate: false
+  xy: 554 ,437
+  size: 99 ,63
+  orig: 99 ,63
+  offset: 0,0
+  index: -1
+nvjiao2
+  rotate: false
+  xy: 903 ,1
+  size: 79 ,197
+  orig: 79 ,198
+  offset: 0 ,0
+  index: -1
+nvjiao1
+  rotate: false
+  xy: 704 ,285
+  size: 197 ,105
+  orig: 197 ,105
+  offset: 0,0
+  index: -1
+nvshent
+  rotate: false
+  xy: 415 ,285
+  size: 137 ,188
+  orig: 137 ,188
+  offset: 0,0
+  index: -1
+nverd2
+  rotate: false
+  xy: 406 ,137
+  size: 131 ,89
+  orig: 131 ,89
+  offset: 0,0
+  index: -1
+nverd1
+  rotate: false
+  xy: 903 ,299
+  size: 106 ,78
+  orig: 106 ,78
+  offset: 0,0
+  index: -1
+nvyanp2
+  rotate: false
+  xy: 417 ,76
+  size: 58 ,55
+  orig: 58 ,56
+  offset: 0 ,-1
+  index: -1
+nvyanp1
+  rotate: false
+  xy: 539 ,101
+  size: 63 ,63
+  orig: 63 ,64
+  offset: 0 ,-1
+  index: -1
+nvlian
+  rotate: false
+  xy: 219 ,285
+  size: 194 ,176
+  orig: 194 ,176
+  offset: 0,0
+  index: -1
+nvyanj1
+  rotate: false
+  xy: 417 ,1
+  size: 71 ,73
+  orig: 73 ,75
+  offset: -1 ,-2
+  index: -1
+nvyanj2
+  rotate: false
+  xy: 544 ,1
+  size: 58 ,67
+  orig: 59 ,69
+  offset: -1 ,-1
+  index: -1
+nvzuib
+  rotate: false
+  xy: 99 ,462
+  size: 62 ,46
+  orig: 62 ,46
+  offset: 0,0
+  index: -1
+nvshou2
+  rotate: false
+  xy: 704 ,392
+  size: 197 ,103
+  orig: 197 ,103
+  offset: 0,0
+  index: -1
+nvmeim2
+  rotate: false
+  xy: 1 ,494
+  size: 47 ,14
+  orig: 48 ,14
+  offset: 0 ,0
+  index: -1
+nvmeim1
+  rotate: false
+  xy: 50 ,494
+  size: 47 ,14
+  orig: 48 ,14
+  offset: 0 ,0
+  index: -1
+nvtouf1
+  rotate: false
+  xy: 1 ,285
+  size: 216 ,175
+  orig: 216 ,175
+  offset: 0,0
+  index: -1
+nvfagu
+  rotate: false
+  xy: 999 ,379
+  size: 22 ,80
+  orig: 22 ,80
+  offset: 0,0
+  index: -1
+nvbz1
+  rotate: false
+  xy: 195 ,462
+  size: 19 ,21
+  orig: 19 ,21
+  offset: 0,0
+  index: -1
+majiang2
+  rotate: false
+  xy: 281 ,1
+  size: 134 ,134
+  orig: 134 ,134
+  offset: 0,0
+  index: -1
+niaojiao1
+  rotate: false
+  xy: 655 ,437
+  size: 27 ,28
+  orig: 27 ,28
+  offset: 0,0
+  index: -1
+niaoguan
+  rotate: false
+  xy: 163 ,462
+  size: 30 ,27
+  orig: 30 ,27
+  offset: 0,0
+  index: -1
+niaocb
+  rotate: false
+  xy: 477 ,101
+  size: 46 ,23
+  orig: 50 ,29
+  offset: -2 ,-2
+  index: -1
+niaost
+  rotate: false
+  xy: 554 ,285
+  size: 148 ,150
+  orig: 148 ,150
+  offset: 0,0
+  index: -1
+shuye1
+  rotate: false
+  xy: 903 ,463
+  size: 74 ,47
+  orig: 74 ,47
+  offset: 0,0
+  index: -1
+shuye2
+  rotate: false
+  xy: 1 ,462
+  size: 96 ,30
+  orig: 96 ,30
+  offset: 0,0
+  index: -1
+shuye3
+  rotate: false
+  xy: 490 ,1
+  size: 52 ,98
+  orig: 52 ,98
+  offset: 0,0
+  index: -1
+niaoyanj
+  rotate: false
+  xy: 903 ,200
+  size: 101 ,97
+  orig: 102 ,97
+  offset: -1 ,0
+  index: -1
+niaozuib
+  rotate: false
+  xy: 979 ,463
+  size: 33 ,26
+  orig: 33 ,26
+  offset: 0,0
+  index: -1
+majiang1
+  rotate: false
+  xy: 281 ,137
+  size: 123 ,108
+  orig: 127 ,113
+  offset: 0 ,-1
+  index: -1

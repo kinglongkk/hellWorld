@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>sss/Image_AllWater.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{1040,65}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1040,65}</string>
+			</dict>
+			<key>sss/Image_card1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1397,0},{182,199}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{182,199}</string>
+			</dict>
+			<key>sss/Image_card2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1040,0},{357,160}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{357,160}</string>
+			</dict>
+			<key>sss/Image_card3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1596,0},{182,199}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{182,199}</string>
+			</dict>
+			<key>sss/Image_Water.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1916,239},{185,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{185,55}</string>
+			</dict>
+			<key>sss/position.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2028,0},{13,21}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{13,21}</string>
+			</dict>
+			<key>sss/ready.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1916,0},{142,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{142,88}</string>
+			</dict>
+			<key>sss/thumb_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1916,142},{97,127}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{97,127}</string>
+			</dict>
+			<key>sss/Image_Dialog.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1795,0},{266,121}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{266,121}</string>
+			</dict>
+			<key>sss/zhzjiaBg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2004,0},{98,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{98,24}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>sssPlayerScene.png</string>
+			<key>realTextureFileName</key>
+			<string>sssPlayerScene.png</string>
+			<key>size</key>
+			<string>{2048,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

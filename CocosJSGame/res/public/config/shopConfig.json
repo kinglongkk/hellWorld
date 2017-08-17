@@ -1,0 +1,28 @@
+{
+    "diamond":{
+        "enable": true,
+        "typeIconNomal":"default/dating0036.png",
+        "typeIconPress":"default/dating0036b.png",
+        "typeIconDisable":"default/dating0036b.png",
+        "item":[
+            {
+                "itemIcon":"default/dating0038.png",
+                "counts":1,
+                "money":100,
+                "productId": "com_hfwl_zpmqjx_6"
+            },
+            {
+                "itemIcon":"default/dating0038.png",
+                "counts":10,
+                "money":1000,
+                "productId": "com_hfwl_zpmqjx_12"
+            },
+            {
+                "itemIcon":"default/dating0038.png",
+                "counts":100,
+                "money":10000,
+                "productId": "com_hfwl_zpmqjx_30"
+            }
+        ]
+    }
+}

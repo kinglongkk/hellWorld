@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>animationRes/openRoom/tx2kaishe0001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{84,309},{60,59}}</string>
+				<key>offset</key>
+				<string>{-18,42}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{274,123},{73,115}}</string>
+				<key>offset</key>
+				<string>{-23,14}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{399,2},{75,121}}</string>
+				<key>offset</key>
+				<string>{-22,11}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{274,2},{121,117}}</string>
+				<key>offset</key>
+				<string>{-1,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{131,115}}</string>
+				<key>offset</key>
+				<string>{-3,-4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{137,2},{133,110}}</string>
+				<key>offset</key>
+				<string>{1,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{137,116},{133,99}}</string>
+				<key>offset</key>
+				<string>{3,-12}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,121},{132,96}}</string>
+				<key>offset</key>
+				<string>{5,-13}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0009.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,257},{129,78}}</string>
+				<key>offset</key>
+				<string>{5,-6}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0010.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{393,127},{123,60}}</string>
+				<key>offset</key>
+				<string>{6,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0011.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{274,200},{120,56}}</string>
+				<key>offset</key>
+				<string>{7,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0012.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{457,127},{114,41}}</string>
+				<key>offset</key>
+				<string>{8,6}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0013.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{102,121},{92,25}}</string>
+				<key>offset</key>
+				<string>{18,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0014.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{102,217},{88,23}}</string>
+				<key>offset</key>
+				<string>{18,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+			<key>animationRes/openRoom/tx2kaishe0015.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{478,2},{85,22}}</string>
+				<key>offset</key>
+				<string>{18,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{141,159}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>createNodePlist.png</string>
+			<key>realTextureFileName</key>
+			<string>createNodePlist.png</string>
+			<key>size</key>
+			<string>{502,388}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>502</integer>
+			<key>height</key>
+			<integer>388</integer>
+		</dict>
+	</dict>
+</plist>

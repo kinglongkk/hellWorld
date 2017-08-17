@@ -1,0 +1,1697 @@
+{
+  "ID": "31bcfeed-3a5f-4f2f-b561-e8bbabed4084",
+  "Version": "2.3.4",
+  "Name": "Node_roomCfg_389",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 78,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -1282.0,
+            "TopMargin": -380.0,
+            "Tag": 79,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 641.0,
+                  "Y": 260.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6842
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1842
+                },
+                "TopMargin": 85.0,
+                "BottomMargin": 225.0,
+                "Tag": 80,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 36,
+                    "LabelText": "局数：",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.078,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0842,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 100.0,
+                    "RightMargin": 1074.0,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 81,
+                    "ActionTag": -1469712044,
+                    "Size": {
+                      "X": 108.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Text_titleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 200.0,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.156,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0343,
+                      "Y": 0.6286
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 1038.0,
+                    "TopMargin": 13.0,
+                    "BottomMargin": 13.0,
+                    "Tag": 82,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 32,
+                        "LabelText": "6局",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 44.682,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.0155,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.8182,
+                          "Y": 0.7955
+                        },
+                        "LeftMargin": 44.682,
+                        "RightMargin": -80.682,
+                        "TopMargin": 4.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 83,
+                        "ActionTag": -1632896624,
+                        "Size": {
+                          "X": 80.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Text_rounds",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0029c.png",
+                          "Plist": "dlgAddCreateRecordPlist.plist"
+                        },
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 14,
+                        "Scale9Width": 17,
+                        "Scale9Height": 15,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 113.938,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 2.5895,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0682,
+                          "Y": 0.9773
+                        },
+                        "LeftMargin": 90.438,
+                        "RightMargin": -93.438,
+                        "TopMargin": 0.5,
+                        "BottomMargin": 0.5,
+                        "Tag": 84,
+                        "ActionTag": -1668944636,
+                        "Size": {
+                          "X": 47.0,
+                          "Y": 43.0
+                        },
+                        "Name": "Image_9",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "x4",
+                        "VerticalAlignmentType": "VT_Bottom",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 136.4264,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 3.1006,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0909,
+                          "Y": 0.7955
+                        },
+                        "LeftMargin": 136.4264,
+                        "RightMargin": -140.4264,
+                        "TopMargin": 4.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 85,
+                        "ActionTag": 2001552642,
+                        "Size": {
+                          "X": 48.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Text_diamonds",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 362333230,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 44.0
+                    },
+                    "Name": "0",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 466.6667,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.364,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0343,
+                      "Y": 0.6286
+                    },
+                    "LeftMargin": 466.6667,
+                    "RightMargin": 771.3333,
+                    "TopMargin": 13.0,
+                    "BottomMargin": 13.0,
+                    "Tag": 86,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 32,
+                        "LabelText": "12局",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 44.682,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.0155,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.8182,
+                          "Y": 0.7955
+                        },
+                        "LeftMargin": 44.682,
+                        "RightMargin": -80.682,
+                        "TopMargin": 4.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 87,
+                        "ActionTag": -1989413218,
+                        "Size": {
+                          "X": 80.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Text_rounds",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0029c.png",
+                          "Plist": "dlgAddCreateRecordPlist.plist"
+                        },
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 14,
+                        "Scale9Width": 17,
+                        "Scale9Height": 15,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 131.5896,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 2.9907,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0682,
+                          "Y": 0.9773
+                        },
+                        "LeftMargin": 108.0896,
+                        "RightMargin": -111.0896,
+                        "TopMargin": 0.5,
+                        "BottomMargin": 0.5,
+                        "Tag": 88,
+                        "ActionTag": 1637261128,
+                        "Size": {
+                          "X": 47.0,
+                          "Y": 43.0
+                        },
+                        "Name": "Image_9",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "x8",
+                        "VerticalAlignmentType": "VT_Bottom",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 154.0748,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 3.5017,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0909,
+                          "Y": 0.7955
+                        },
+                        "LeftMargin": 154.0748,
+                        "RightMargin": -158.0748,
+                        "TopMargin": 4.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 89,
+                        "ActionTag": -685792863,
+                        "Size": {
+                          "X": 48.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Text_diamonds",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 2033734985,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 44.0
+                    },
+                    "Name": "1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 733.3334,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.572,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0343,
+                      "Y": 0.6286
+                    },
+                    "LeftMargin": 733.3334,
+                    "RightMargin": 504.6666,
+                    "TopMargin": 13.0,
+                    "BottomMargin": 13.0,
+                    "Tag": 90,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 32,
+                        "LabelText": "18局",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 44.682,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.0155,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.8182,
+                          "Y": 0.7955
+                        },
+                        "LeftMargin": 44.682,
+                        "RightMargin": -80.682,
+                        "TopMargin": 4.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 91,
+                        "ActionTag": -1467925521,
+                        "Size": {
+                          "X": 80.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Text_rounds",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0029c.png",
+                          "Plist": "dlgAddCreateRecordPlist.plist"
+                        },
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 14,
+                        "Scale9Width": 17,
+                        "Scale9Height": 15,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 128.4811,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 2.92,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0682,
+                          "Y": 0.9773
+                        },
+                        "LeftMargin": 104.9811,
+                        "RightMargin": -107.9811,
+                        "TopMargin": 0.5,
+                        "BottomMargin": 0.5,
+                        "Tag": 92,
+                        "ActionTag": -1637468638,
+                        "Size": {
+                          "X": 47.0,
+                          "Y": 43.0
+                        },
+                        "Name": "Image_9",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "x12",
+                        "VerticalAlignmentType": "VT_Bottom",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.9684,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 3.4311,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0909,
+                          "Y": 0.7955
+                        },
+                        "LeftMargin": 150.9684,
+                        "RightMargin": -154.9684,
+                        "TopMargin": 4.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 93,
+                        "ActionTag": 160534812,
+                        "Size": {
+                          "X": 48.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Text_diamonds",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 2027010458,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 44.0
+                    },
+                    "Name": "2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1000.0002,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.78,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0343,
+                      "Y": 0.6286
+                    },
+                    "LeftMargin": 1000.0002,
+                    "RightMargin": 237.9998,
+                    "TopMargin": 13.0,
+                    "BottomMargin": 13.0,
+                    "Tag": 94,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 32,
+                        "LabelText": "24局",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 44.682,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.0155,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.8182,
+                          "Y": 0.7955
+                        },
+                        "LeftMargin": 44.682,
+                        "RightMargin": -80.682,
+                        "TopMargin": 4.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 95,
+                        "ActionTag": 853865113,
+                        "Size": {
+                          "X": 80.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Text_rounds",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0029c.png",
+                          "Plist": "dlgAddCreateRecordPlist.plist"
+                        },
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 14,
+                        "Scale9Width": 17,
+                        "Scale9Height": 15,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 129.2081,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 2.9365,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0682,
+                          "Y": 0.9773
+                        },
+                        "LeftMargin": 105.7081,
+                        "RightMargin": -108.7081,
+                        "TopMargin": 0.5,
+                        "BottomMargin": 0.5,
+                        "Tag": 96,
+                        "ActionTag": -1864847385,
+                        "Size": {
+                          "X": 47.0,
+                          "Y": 43.0
+                        },
+                        "Name": "Image_9",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "x15",
+                        "VerticalAlignmentType": "VT_Bottom",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 151.6944,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 3.4476,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0909,
+                          "Y": 0.7955
+                        },
+                        "LeftMargin": 151.6944,
+                        "RightMargin": -155.6944,
+                        "TopMargin": 4.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 97,
+                        "ActionTag": 1227344692,
+                        "Size": {
+                          "X": 48.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Text_diamonds",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -1618451727,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 44.0
+                    },
+                    "Name": "3",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": -1277152907,
+                "Size": {
+                  "X": 1282.0,
+                  "Y": 70.0
+                },
+                "Name": "Panel_rounds",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 641.0,
+                  "Y": 190.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1842
+                },
+                "TopMargin": 155.0,
+                "BottomMargin": 155.0,
+                "Tag": 98,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 36,
+                    "LabelText": "扎码：",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.078,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0842,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 100.0,
+                    "RightMargin": 1074.0,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 99,
+                    "ActionTag": -1675065536,
+                    "Size": {
+                      "X": 108.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Text_titleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 200.0,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.156,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0343,
+                      "Y": 0.6286
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 1038.0,
+                    "TopMargin": 13.0,
+                    "BottomMargin": 13.0,
+                    "Tag": 100,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 32,
+                        "LabelText": "2个",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 44.682,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.0155,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0909,
+                          "Y": 0.7955
+                        },
+                        "LeftMargin": 44.682,
+                        "RightMargin": -48.682,
+                        "TopMargin": 4.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 101,
+                        "ActionTag": -328184943,
+                        "Size": {
+                          "X": 48.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Text_rounds",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1706966840,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 44.0
+                    },
+                    "Name": "0",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 466.6667,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.364,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0343,
+                      "Y": 0.6286
+                    },
+                    "LeftMargin": 466.6667,
+                    "RightMargin": 771.3333,
+                    "TopMargin": 13.0,
+                    "BottomMargin": 13.0,
+                    "Tag": 102,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 32,
+                        "LabelText": "4个",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 44.682,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.0155,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.8182,
+                          "Y": 0.7955
+                        },
+                        "LeftMargin": 44.682,
+                        "RightMargin": -80.682,
+                        "TopMargin": 4.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 103,
+                        "ActionTag": -830611510,
+                        "Size": {
+                          "X": 80.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Text_rounds",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -2016335112,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 44.0
+                    },
+                    "Name": "1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0029b.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 733.3335,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.572,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0343,
+                      "Y": 0.6286
+                    },
+                    "LeftMargin": 733.3335,
+                    "RightMargin": 504.6665,
+                    "TopMargin": 13.0,
+                    "BottomMargin": 13.0,
+                    "Tag": 104,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 32,
+                        "LabelText": "6个",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 44.682,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.0155,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0909,
+                          "Y": 0.7955
+                        },
+                        "LeftMargin": 44.682,
+                        "RightMargin": -48.682,
+                        "TopMargin": 4.5,
+                        "BottomMargin": 4.5,
+                        "Tag": 105,
+                        "ActionTag": 438667502,
+                        "Size": {
+                          "X": 48.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Text_rounds",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -2129705394,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 44.0
+                    },
+                    "Name": "2",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": 385535675,
+                "Size": {
+                  "X": 1282.0,
+                  "Y": 70.0
+                },
+                "Name": "Panel_zhaMa",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 641.0,
+                  "Y": 120.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3158
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1842
+                },
+                "TopMargin": 225.0,
+                "BottomMargin": 85.0,
+                "Tag": 106,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 36,
+                    "LabelText": "玩法：",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.078,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0842,
+                      "Y": 0.5714
+                    },
+                    "LeftMargin": 100.0,
+                    "RightMargin": 1074.0,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 107,
+                    "ActionTag": 1304038852,
+                    "Size": {
+                      "X": 108.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Text_titleText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0024.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "PressedBackFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0024a.png",
+                      "Plist": "dlgAddCreateRecordPlist.plist"
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 200.0,
+                      "Y": 35.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.156,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0382,
+                      "Y": 0.7
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 1033.0,
+                    "TopMargin": 10.5,
+                    "BottomMargin": 10.5,
+                    "Tag": 108,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 32,
+                        "LabelText": "带大字",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 50.0,
+                          "Y": 24.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.0204,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 3.0612,
+                          "Y": 0.7143
+                        },
+                        "LeftMargin": 50.0,
+                        "RightMargin": -151.0,
+                        "TopMargin": 7.0,
+                        "BottomMargin": 7.0,
+                        "Tag": 109,
+                        "ActionTag": 1564945467,
+                        "Size": {
+                          "X": 150.0,
+                          "Y": 35.0
+                        },
+                        "Name": "Text_text",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1088165408,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 49.0
+                    },
+                    "Name": "0",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": -1360918207,
+                "Size": {
+                  "X": 1282.0,
+                  "Y": 70.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Panel_wanFa",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 28,
+                "LabelText": "(本游戏2-4人都可以玩)",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 641.0,
+                  "Y": 45.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1184
+                },
+                "PreSize": {
+                  "X": 0.468,
+                  "Y": 0.1053
+                },
+                "LeftMargin": 341.0,
+                "RightMargin": 341.0,
+                "TopMargin": 315.0,
+                "BottomMargin": 25.0,
+                "Tag": 110,
+                "ActionTag": -111563508,
+                "Size": {
+                  "X": 600.0,
+                  "Y": 40.0
+                },
+                "Name": "Text_cfgTip",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -155965050,
+            "Size": {
+              "X": 1282.0,
+              "Y": 380.0
+            },
+            "Name": "Panel_root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "dlgAddCreateRecordPlist.plist",
+        "dlgAddCreateRecordPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

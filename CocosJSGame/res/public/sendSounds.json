@@ -1,0 +1,116 @@
+{
+  "ID": "5b2dc643-b27a-4777-bebc-97a45b4b46e7",
+  "Version": "2.3.4",
+  "Name": "sendSounds",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 48,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": 826818188,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "default/icon_sound01_small.png",
+                  "Plist": "sendSoundsPlist.plist"
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "default/icon_sound02_medium .png",
+                  "Plist": "sendSoundsPlist.plist"
+                },
+                "FrameIndex": 24,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "default/icon_sound03_loud.png",
+                  "Plist": "sendSoundsPlist.plist"
+                },
+                "FrameIndex": 48,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 16,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "default/icon_sound01_small.png",
+              "Plist": "sendSoundsPlist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.4,
+              "ScaleY": 0.4
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -175.0,
+            "RightMargin": -175.0,
+            "TopMargin": -175.0,
+            "BottomMargin": -175.0,
+            "Tag": 18,
+            "ActionTag": 826818188,
+            "Size": {
+              "X": 350.0,
+              "Y": 350.0
+            },
+            "Name": "sendSounds",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "sendSoundsPlist.plist",
+        "sendSoundsPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

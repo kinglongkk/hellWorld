@@ -1,0 +1,434 @@
+{
+  "ID": "a9b6e5ae-1b6a-4b0b-9eca-734a89d5d938",
+  "Version": "2.3.4",
+  "Name": "waitNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 72,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": -1372037550,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0001.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0002.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 3,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0003.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 6,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0004.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 9,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0005.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 12,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0006.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 15,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0007.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 18,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0008.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 21,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0009.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 24,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0010.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 27,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0011.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 30,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0012.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 33,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0013.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 36,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0014.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 39,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0015.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 42,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0016.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 45,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0017.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 48,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0018.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 51,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0019.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 54,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0020.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 57,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0021.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 60,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0022.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 63,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0023.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 66,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0024.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 69,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animationRes/waiting/maquefei0001.png",
+                  "Plist": "waitNodePlist.plist"
+                },
+                "FrameIndex": 72,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 145,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "animationRes/waiting/diyiny.png",
+              "Plist": "waitNodePlist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -150.0,
+            "RightMargin": -150.0,
+            "TopMargin": -120.0,
+            "BottomMargin": -120.0,
+            "Tag": 14,
+            "ActionTag": 276027182,
+            "Size": {
+              "X": 300.0,
+              "Y": 240.0
+            },
+            "Name": "Sprite_bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "animationRes/waiting/maquefei0001.png",
+              "Plist": "waitNodePlist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -150.0,
+            "RightMargin": -150.0,
+            "TopMargin": -120.0,
+            "BottomMargin": -120.0,
+            "Tag": 15,
+            "ActionTag": -1372037550,
+            "Size": {
+              "X": 300.0,
+              "Y": 240.0
+            },
+            "Name": "Sprite_bird",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 22,
+            "LabelText": "网络不稳定，正在重连中...",
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1.8319,
+              "Y": -95.3963
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -148.1681,
+            "RightMargin": -151.8319,
+            "TopMargin": 77.8963,
+            "BottomMargin": -112.8963,
+            "Tag": 16,
+            "ActionTag": -14732099,
+            "Size": {
+              "X": 300.0,
+              "Y": 35.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Text_tip",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "waitNodePlist.plist",
+        "waitNodePlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

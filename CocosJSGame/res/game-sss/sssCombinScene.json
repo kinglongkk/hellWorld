@@ -1,0 +1,3932 @@
+{
+  "ID": "58477367-4d91-4475-8a1a-7e13448ed751",
+  "Version": "2.3.4",
+  "Name": "sssCombinScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 252,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sss/ontwothreebg.png",
+              "Plist": "sssCombinScene.plist"
+            },
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 220,
+            "Scale9OriginY": 270,
+            "Scale9Width": 894,
+            "Scale9Height": 210,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 253,
+            "ActionTag": -1712607604,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_me",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 668.334,
+              "Y": 750.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.501,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.5997,
+              "Y": 0.6533
+            },
+            "LeftMargin": 268.334,
+            "RightMargin": 265.666,
+            "BottomMargin": 260.0,
+            "Tag": 288,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/Image_Close_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/Image_Close_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 54,
+                "Scale9Height": 62,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 720.0,
+                  "Y": 370.84
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9,
+                  "Y": 0.7568
+                },
+                "PreSize": {
+                  "X": 0.105,
+                  "Y": 0.1714
+                },
+                "LeftMargin": 678.0,
+                "RightMargin": 38.0,
+                "TopMargin": 77.16,
+                "BottomMargin": 328.84,
+                "Tag": 309,
+                "ActionTag": 1538585999,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 84.0
+                },
+                "Name": "Btn_closeone",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/Image_Close_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/Image_Close_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 54,
+                "Scale9Height": 62,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 720.0,
+                  "Y": 271.38
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9,
+                  "Y": 0.5538
+                },
+                "PreSize": {
+                  "X": 0.105,
+                  "Y": 0.1714
+                },
+                "LeftMargin": 678.0,
+                "RightMargin": 38.0,
+                "TopMargin": 176.62,
+                "BottomMargin": 229.38,
+                "Tag": 310,
+                "ActionTag": -2022714954,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 84.0
+                },
+                "Name": "Btn_closetwo",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/Image_Close_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/Image_Close_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 54,
+                "Scale9Height": 62,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 720.0,
+                  "Y": 175.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9,
+                  "Y": 0.3571
+                },
+                "PreSize": {
+                  "X": 0.105,
+                  "Y": 0.1714
+                },
+                "LeftMargin": 678.0,
+                "RightMargin": 38.0,
+                "TopMargin": 273.0,
+                "BottomMargin": 133.0,
+                "Tag": 311,
+                "ActionTag": -1951372263,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 84.0
+                },
+                "Name": "Btn_closethree",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/clock.png",
+                  "Plist": "sssMainScene.plist"
+                },
+                "Scale9OriginX": 38,
+                "Scale9OriginY": 39,
+                "Scale9Width": 64,
+                "Scale9Height": 64,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -150.6643,
+                  "Y": 141.2551
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.1883,
+                  "Y": 0.2883
+                },
+                "PreSize": {
+                  "X": 0.175,
+                  "Y": 0.2898
+                },
+                "LeftMargin": -220.6643,
+                "RightMargin": 880.6643,
+                "TopMargin": 277.7449,
+                "BottomMargin": 70.2551,
+                "Tag": 1284,
+                "Children": [
+                  {
+                    "CharWidth": 39,
+                    "CharHeight": 60,
+                    "LabelText": "24",
+                    "StartChar": ".",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "sss/outcome/Lab_Time.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.2673,
+                      "Y": 66.6781
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4948,
+                      "Y": 0.4696
+                    },
+                    "PreSize": {
+                      "X": 0.5571,
+                      "Y": 0.4225
+                    },
+                    "LeftMargin": 30.2673,
+                    "RightMargin": 31.7327,
+                    "TopMargin": 45.3219,
+                    "BottomMargin": 36.6781,
+                    "Tag": 254,
+                    "ActionTag": 416029315,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 60.0
+                    },
+                    "Name": "LabTime",
+                    "ctype": "TextAtlasObjectData"
+                  }
+                ],
+                "ActionTag": 513281636,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 142.0
+                },
+                "Name": "Image_Clock",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1681456786,
+            "Size": {
+              "X": 800.0,
+              "Y": 490.0
+            },
+            "Name": "panel_cardset",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 664.999,
+              "Y": 28.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.4985,
+              "Y": 0.0373
+            },
+            "PreSize": {
+              "X": 0.8096,
+              "Y": 0.248
+            },
+            "LeftMargin": 124.999,
+            "RightMargin": 129.001,
+            "TopMargin": 536.0,
+            "BottomMargin": 28.0,
+            "Tag": 274,
+            "ActionTag": 1719549237,
+            "Size": {
+              "X": 1080.0,
+              "Y": 186.0
+            },
+            "Name": "panel_cardbox",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 25.8789,
+              "Y": 243.1322
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0194,
+              "Y": 0.3242
+            },
+            "PreSize": {
+              "X": 0.9745,
+              "Y": 0.0867
+            },
+            "LeftMargin": 25.8789,
+            "RightMargin": 8.1211,
+            "TopMargin": 441.8678,
+            "BottomMargin": 243.1322,
+            "Tag": 278,
+            "Children": [
+              {
+                "FontSize": 30,
+                "ButtonText": "",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_duizi02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_duizi01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 111,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 29.25
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0615,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1085,
+                  "Y": 1.2308
+                },
+                "LeftMargin": 9.5,
+                "RightMargin": 1149.5,
+                "TopMargin": -4.25,
+                "BottomMargin": -10.75,
+                "Tag": 279,
+                "ActionTag": -1477786883,
+                "Size": {
+                  "X": 141.0,
+                  "Y": 80.0
+                },
+                "Name": "Btn_pair",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_lianngdui02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_liangdui01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 111,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 220.0,
+                  "Y": 29.25
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1692,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1085,
+                  "Y": 1.2308
+                },
+                "LeftMargin": 149.5,
+                "RightMargin": 1009.5,
+                "TopMargin": -4.25,
+                "BottomMargin": -10.75,
+                "Tag": 280,
+                "ActionTag": -633638069,
+                "Size": {
+                  "X": 141.0,
+                  "Y": 80.0
+                },
+                "Name": "Btn_pair_double",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_santiao02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_santiao01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 111,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 360.0,
+                  "Y": 29.25
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2769,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1085,
+                  "Y": 1.2308
+                },
+                "LeftMargin": 289.5,
+                "RightMargin": 869.5,
+                "TopMargin": -4.25,
+                "BottomMargin": -10.75,
+                "Tag": 281,
+                "ActionTag": 2068774430,
+                "Size": {
+                  "X": 141.0,
+                  "Y": 80.0
+                },
+                "Name": "Btn_three",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_shunzi02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_shunzi01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 111,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 500.0,
+                  "Y": 29.25
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3846,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1085,
+                  "Y": 1.2308
+                },
+                "LeftMargin": 429.5,
+                "RightMargin": 729.5,
+                "TopMargin": -4.25,
+                "BottomMargin": -10.75,
+                "Tag": 282,
+                "ActionTag": 405488565,
+                "Size": {
+                  "X": 141.0,
+                  "Y": 80.0
+                },
+                "Name": "Btn_shunzi",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_tonghua02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_tonghua01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 111,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 29.25
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4923,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1085,
+                  "Y": 1.2308
+                },
+                "LeftMargin": 569.5,
+                "RightMargin": 589.5,
+                "TopMargin": -4.25,
+                "BottomMargin": -10.75,
+                "Tag": 283,
+                "ActionTag": 1650663217,
+                "Size": {
+                  "X": 141.0,
+                  "Y": 80.0
+                },
+                "Name": "Btn_tonghua",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_hulu02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_hulu01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 111,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 780.0,
+                  "Y": 29.25
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1085,
+                  "Y": 1.2308
+                },
+                "LeftMargin": 709.5,
+                "RightMargin": 449.5,
+                "TopMargin": -4.25,
+                "BottomMargin": -10.75,
+                "Tag": 284,
+                "ActionTag": -1997568034,
+                "Size": {
+                  "X": 141.0,
+                  "Y": 80.0
+                },
+                "Name": "Btn_gourd",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_tiezhi02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_tiezhi01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 111,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 920.0,
+                  "Y": 29.25
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7077,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1085,
+                  "Y": 1.2308
+                },
+                "LeftMargin": 849.5,
+                "RightMargin": 309.5,
+                "TopMargin": -4.25,
+                "BottomMargin": -10.75,
+                "Tag": 285,
+                "ActionTag": 2031703853,
+                "Size": {
+                  "X": 141.0,
+                  "Y": 80.0
+                },
+                "Name": "Btn_iron",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "",
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_tonghuashun02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_tonghuashun01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 46,
+                "Scale9OriginY": 26,
+                "Scale9Width": 49,
+                "Scale9Height": 28,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1060.0,
+                  "Y": 29.25
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.8154,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1085,
+                  "Y": 1.2308
+                },
+                "LeftMargin": 989.5,
+                "RightMargin": 169.5,
+                "TopMargin": -4.25,
+                "BottomMargin": -10.75,
+                "Tag": 286,
+                "ActionTag": 485884206,
+                "Size": {
+                  "X": 141.0,
+                  "Y": 80.0
+                },
+                "Name": "Btn_tonghuashun",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_wutong02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/pattems_wutong01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 111,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1200.0,
+                  "Y": 29.9998
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9231,
+                  "Y": 0.4615
+                },
+                "PreSize": {
+                  "X": 0.1085,
+                  "Y": 1.2308
+                },
+                "LeftMargin": 1129.5,
+                "RightMargin": 29.5,
+                "TopMargin": -4.9998,
+                "BottomMargin": -10.0002,
+                "Tag": 419,
+                "ActionTag": -1488163586,
+                "Size": {
+                  "X": 141.0,
+                  "Y": 80.0
+                },
+                "Name": "Btn_wutong",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "",
+                "TextColor": {},
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/btn_TeshuBg.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 46,
+                "Scale9OriginY": 26,
+                "Scale9Width": 48,
+                "Scale9Height": 90,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1183.2877,
+                  "Y": 148.798
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9102,
+                  "Y": 2.2892
+                },
+                "PreSize": {
+                  "X": 0.1077,
+                  "Y": 2.1846
+                },
+                "LeftMargin": 1113.2877,
+                "RightMargin": 46.7123,
+                "TopMargin": -154.798,
+                "BottomMargin": 77.798,
+                "Tag": 287,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts0.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 227,
+                    "ActionTag": 1229661093,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts1.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 228,
+                    "ActionTag": 1510244191,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts2.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 229,
+                    "ActionTag": -201922659,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_3",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts3.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 230,
+                    "ActionTag": 471008289,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts4.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 231,
+                    "ActionTag": -252949928,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_5",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts5.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 232,
+                    "ActionTag": 2068731974,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_6",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts6.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 233,
+                    "ActionTag": -322765434,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_7",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts7.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 234,
+                    "ActionTag": -1003838247,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_8",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts8.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 235,
+                    "ActionTag": 1539386035,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_9",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts9.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 236,
+                    "ActionTag": 637155199,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_10",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts10.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 237,
+                    "ActionTag": -921338358,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_11",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts11.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 238,
+                    "ActionTag": 1146467390,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_12",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts12.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 239,
+                    "ActionTag": 943849312,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_13",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts13.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 240,
+                    "ActionTag": 458076607,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_14",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Ts14.png",
+                      "Plist": "sssCombinScene.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 70.0,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.493
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "TopMargin": 1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 241,
+                    "ActionTag": 1923487750,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 142.0
+                    },
+                    "Name": "Sprite_15",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1299639510,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 142.0
+                },
+                "Name": "Btn_fourthree",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 70541145,
+            "Size": {
+              "X": 1300.0,
+              "Y": 65.0
+            },
+            "Name": "Panel_cardkind",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 110.1771
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.1469
+            },
+            "PreSize": {
+              "X": 0.8471,
+              "Y": 0.0867
+            },
+            "LeftMargin": 102.0,
+            "RightMargin": 102.0,
+            "TopMargin": 574.8229,
+            "BottomMargin": 110.1771,
+            "Tag": 358,
+            "Children": [
+              {
+                "FontSize": 40,
+                "ButtonText": "",
+                "TextColor": {},
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/btn_red.png",
+                  "Plist": "sssMainScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 67,
+                "Scale9OriginY": 28,
+                "Scale9Width": 70,
+                "Scale9Height": 31,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 316.4,
+                  "Y": 29.25
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 239,
+                  "G": 220,
+                  "B": 188
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.28,
+                  "Y": 0.45
+                },
+                "PercentHeightEnable": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.1805,
+                  "Y": 1.3385
+                },
+                "LeftMargin": 214.4,
+                "RightMargin": 711.6,
+                "TopMargin": -7.7513,
+                "BottomMargin": -14.2513,
+                "Tag": 367,
+                "ActionTag": 2136862052,
+                "Size": {
+                  "X": 204.0,
+                  "Y": 87.0025
+                },
+                "Name": "Btn_cancel",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/Text_canncelBg.png",
+                  "Plist": "sssMainScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 316.4,
+                  "Y": 29.0961
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.28,
+                  "Y": 0.4476
+                },
+                "PreSize": {
+                  "X": 0.1805,
+                  "Y": 1.3385
+                },
+                "LeftMargin": 214.4,
+                "RightMargin": 711.6,
+                "TopMargin": -7.5961,
+                "BottomMargin": -14.4039,
+                "Tag": 192,
+                "ActionTag": 1298862148,
+                "Size": {
+                  "X": 204.0,
+                  "Y": 87.0
+                },
+                "Name": "Image_canncel",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 40,
+                "ButtonText": "",
+                "TextColor": {},
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/btn_green.png",
+                  "Plist": "sssMainScene.plist"
+                },
+                "Scale9OriginX": 67,
+                "Scale9OriginY": 38,
+                "Scale9Width": 70,
+                "Scale9Height": 11,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 813.6,
+                  "Y": 32.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 239,
+                  "G": 220,
+                  "B": 188
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.72,
+                  "Y": 0.5
+                },
+                "PercentHeightEnable": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.1805,
+                  "Y": 1.3385
+                },
+                "LeftMargin": 711.6,
+                "RightMargin": 214.4,
+                "TopMargin": -11.0013,
+                "BottomMargin": -11.0013,
+                "Tag": 368,
+                "ActionTag": -1953654717,
+                "Size": {
+                  "X": 204.0,
+                  "Y": 87.0025
+                },
+                "Name": "Btn_sure",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/Text_RightBg.png",
+                  "Plist": "sssMainScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 813.6,
+                  "Y": 32.5162
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.72,
+                  "Y": 0.5002
+                },
+                "PreSize": {
+                  "X": 0.1805,
+                  "Y": 1.3385
+                },
+                "LeftMargin": 711.6,
+                "RightMargin": 214.4,
+                "TopMargin": -11.0162,
+                "BottomMargin": -10.9838,
+                "Tag": 193,
+                "ActionTag": -2098000918,
+                "Size": {
+                  "X": 204.0,
+                  "Y": 87.0
+                },
+                "Name": "Image_sure",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 470803559,
+            "Size": {
+              "X": 1130.0,
+              "Y": 65.0
+            },
+            "Name": "Panel_sure",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": -44,
+            "Scale9OriginY": -63,
+            "Scale9Width": 88,
+            "Scale9Height": 126,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 600.0,
+              "Y": 615.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4498,
+              "Y": 0.82
+            },
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 533.0,
+            "RightMargin": 667.0,
+            "TopMargin": 42.0,
+            "BottomMargin": 522.0,
+            "Tag": 289,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 377,
+                "ActionTag": 2141423750,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 378,
+                "ActionTag": -845420697,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1155011144,
+            "Size": {
+              "X": 134.0,
+              "Y": 186.0
+            },
+            "Name": "box0",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": -44,
+            "Scale9OriginY": -63,
+            "Scale9Width": 88,
+            "Scale9Height": 126,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 678.11,
+              "Y": 615.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5083,
+              "Y": 0.82
+            },
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 611.11,
+            "RightMargin": 588.89,
+            "TopMargin": 42.0,
+            "BottomMargin": 522.0,
+            "Tag": 290,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 387,
+                "ActionTag": 1515639921,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0016,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "LeftMargin": 0.0016,
+                "RightMargin": -0.0016,
+                "Tag": 388,
+                "ActionTag": -408159891,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -868121985,
+            "Size": {
+              "X": 134.0,
+              "Y": 186.0
+            },
+            "Name": "box1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": -44,
+            "Scale9OriginY": -63,
+            "Scale9Width": 88,
+            "Scale9Height": 126,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 756.86,
+              "Y": 615.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5674,
+              "Y": 0.82
+            },
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 689.86,
+            "RightMargin": 510.14,
+            "TopMargin": 42.0,
+            "BottomMargin": 522.0,
+            "Tag": 293,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 389,
+                "ActionTag": -1984815079,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 390,
+                "ActionTag": -1428288290,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -2139595257,
+            "Size": {
+              "X": 134.0,
+              "Y": 186.0
+            },
+            "Name": "box2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 525.0,
+              "Y": 525.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3936,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 458.0,
+            "RightMargin": 742.0,
+            "TopMargin": 132.0,
+            "BottomMargin": 432.0,
+            "Tag": 296,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 391,
+                "ActionTag": 300500061,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 392,
+                "ActionTag": 180448053,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 2026291990,
+            "Size": {
+              "X": 134.0,
+              "Y": 186.0
+            },
+            "Name": "box3",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 599.0,
+              "Y": 525.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.449,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 532.0,
+            "RightMargin": 668.0,
+            "TopMargin": 132.0,
+            "BottomMargin": 432.0,
+            "Tag": 297,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 393,
+                "ActionTag": -1815478350,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 394,
+                "ActionTag": -990800211,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 79948506,
+            "Size": {
+              "X": 134.0,
+              "Y": 186.0
+            },
+            "Name": "box4",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 675.0,
+              "Y": 525.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.506,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 608.0,
+            "RightMargin": 592.0,
+            "TopMargin": 132.0,
+            "BottomMargin": 432.0,
+            "Tag": 298,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 395,
+                "ActionTag": 1034729761,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 396,
+                "ActionTag": -285407979,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1092418880,
+            "Size": {
+              "X": 134.0,
+              "Y": 186.0
+            },
+            "Name": "box5",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 753.22,
+              "Y": 525.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5646,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 686.22,
+            "RightMargin": 513.78,
+            "TopMargin": 132.0,
+            "BottomMargin": 432.0,
+            "Tag": 299,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 397,
+                "ActionTag": 307439312,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 398,
+                "ActionTag": 365748301,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -631609462,
+            "Size": {
+              "X": 134.0,
+              "Y": 186.0
+            },
+            "Name": "box6",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 832.0,
+              "Y": 525.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6237,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 765.0,
+            "RightMargin": 435.0,
+            "TopMargin": 132.0,
+            "BottomMargin": 432.0,
+            "Tag": 300,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 399,
+                "ActionTag": -1974424604,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 400,
+                "ActionTag": -92186697,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1988675436,
+            "Size": {
+              "X": 134.0,
+              "Y": 186.0
+            },
+            "Name": "box7",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 524.0,
+              "Y": 435.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3928,
+              "Y": 0.58
+            },
+            "PercentWidthEnable": true,
+            "PercentWidthEnabled": true,
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 457.0332,
+            "RightMargin": 743.0332,
+            "TopMargin": 222.0,
+            "BottomMargin": 342.0,
+            "Tag": 301,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0005,
+                  "Y": 1.0
+                },
+                "RightMargin": -0.0664,
+                "Tag": 401,
+                "ActionTag": 1448267546,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0005,
+                  "Y": 1.0
+                },
+                "RightMargin": -0.0664,
+                "Tag": 402,
+                "ActionTag": 863225432,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1649311574,
+            "Size": {
+              "X": 133.9336,
+              "Y": 186.0
+            },
+            "Name": "box8",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 598.0,
+              "Y": 435.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4483,
+              "Y": 0.58
+            },
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 531.0,
+            "RightMargin": 669.0,
+            "TopMargin": 222.0,
+            "BottomMargin": 342.0,
+            "Tag": 302,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 403,
+                "ActionTag": -1892409943,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 404,
+                "ActionTag": 1680189425,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -2014153327,
+            "Size": {
+              "X": 134.0,
+              "Y": 186.0
+            },
+            "Name": "box9",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 677.0,
+              "Y": 435.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5075,
+              "Y": 0.58
+            },
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 610.0,
+            "RightMargin": 590.0,
+            "TopMargin": 222.0,
+            "BottomMargin": 342.0,
+            "Tag": 303,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 405,
+                "ActionTag": 136387193,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -1.5746,
+                  "Y": 1.575
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0118,
+                  "Y": 0.0085
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "LeftMargin": -1.5746,
+                "RightMargin": 1.5746,
+                "TopMargin": -1.575,
+                "BottomMargin": 1.575,
+                "Tag": 406,
+                "ActionTag": -687942667,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -2138411041,
+            "Size": {
+              "X": 134.0,
+              "Y": 186.0
+            },
+            "Name": "box10",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 753.419,
+              "Y": 435.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5648,
+              "Y": 0.58
+            },
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 686.419,
+            "RightMargin": 513.581,
+            "TopMargin": 222.0,
+            "BottomMargin": 342.0,
+            "Tag": 304,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 407,
+                "ActionTag": -643623600,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 408,
+                "ActionTag": 185968973,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -704350323,
+            "Size": {
+              "X": 134.0,
+              "Y": 186.0
+            },
+            "Name": "box11",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 832.0,
+              "Y": 435.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6237,
+              "Y": 0.58
+            },
+            "PreSize": {
+              "X": 0.1004,
+              "Y": 0.248
+            },
+            "LeftMargin": 765.0,
+            "RightMargin": 435.0,
+            "TopMargin": 222.0,
+            "BottomMargin": 342.0,
+            "Tag": 305,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_01.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 409,
+                "ActionTag": -503449543,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_01",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "sss/toumingbg_02.png",
+                  "Plist": "sssCombinScene.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 410,
+                "ActionTag": 136652892,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 186.0
+                },
+                "Name": "toumingbg_02",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -866336392,
+            "Size": {
+              "X": 134.0,
+              "Y": 186.0
+            },
+            "Name": "box12",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sss/Image_errRule.png",
+              "Plist": "sssCombinScene.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 678.9,
+              "Y": 354.2
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5089,
+              "Y": 0.4723
+            },
+            "PreSize": {
+              "X": 0.4715,
+              "Y": 0.1133
+            },
+            "LeftMargin": 364.4,
+            "RightMargin": 340.6,
+            "TopMargin": 353.3,
+            "BottomMargin": 311.7,
+            "Tag": 273,
+            "ActionTag": 1346798027,
+            "Size": {
+              "X": 629.0,
+              "Y": 85.0
+            },
+            "Name": "Image_errRule",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "sss/outcome/Lab_Time.png",
+        "sssCombinScene.plist",
+        "sssCombinScene.png",
+        "sssMainScene.plist",
+        "sssMainScene.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

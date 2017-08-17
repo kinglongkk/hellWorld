@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Scene_hzmj_rank/MJui0003d.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,135},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>Scene_hzmj_rank/MJui0033.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,339},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>Scene_hzmj_rank/MJui0033b.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{87,135},{204,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>Scene_hzmj_rank/MJui0034.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{489,135}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{489,135}</string>
+			</dict>
+			<key>Scene_hzmj_rank/MJui0037.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,426},{120,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{120,56}</string>
+			</dict>
+			<key>Scene_hzmj_rank/MJui0038.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{120,426},{120,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{120,56}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>rank.png</string>
+			<key>realTextureFileName</key>
+			<string>rank.png</string>
+			<key>size</key>
+			<string>{512,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

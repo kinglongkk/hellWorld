@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>default/dating0053.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{961,806},{168,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{168,43}</string>
+			</dict>
+			<key>default/dating0054.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{706,58},{250,81}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{250,81}</string>
+			</dict>
+			<key>default/dating0054b.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{316,339}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{316,339}</string>
+			</dict>
+			<key>default/dating0055.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{903,2},{510,52}}</string>
+				<key>offset</key>
+				<string>{9,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{527,52}</string>
+			</dict>
+			<key>default/dating0056.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{322,2},{521,52}}</string>
+				<key>offset</key>
+				<string>{3,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{527,52}</string>
+			</dict>
+			<key>default/dating0057.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{847,2},{520,52}}</string>
+				<key>offset</key>
+				<string>{4,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{527,52}</string>
+			</dict>
+			<key>default/dating0058.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,345},{700,138}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{700,138}</string>
+			</dict>
+			<key>default/dating0061.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{961,396},{201,36}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{208,47}</string>
+			</dict>
+			<key>default/dating0062.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{150,978},{122,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{122,27}</string>
+			</dict>
+			<key>default/dating0063.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{903,516},{430,54}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{430,54}</string>
+			</dict>
+			<key>default/dating0064.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{959,2},{193,57}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{197,57}</string>
+			</dict>
+			<key>default/dating0065.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{959,199},{193,57}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{197,57}</string>
+			</dict>
+			<key>default/dating0067.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{961,601},{201,36}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{208,47}</string>
+			</dict>
+			<key>default/dating0068.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,978},{144,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{144,27}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>dlgUserInfoPlist.png</string>
+			<key>realTextureFileName</key>
+			<string>dlgUserInfoPlist.png</string>
+			<key>size</key>
+			<string>{1018,1007}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1018</integer>
+			<key>height</key>
+			<integer>1007</integer>
+		</dict>
+	</dict>
+</plist>

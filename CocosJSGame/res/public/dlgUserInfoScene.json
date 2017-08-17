@@ -1,0 +1,2974 @@
+{
+  "ID": "fb5d7c87-71bc-438f-a476-7fc71a8792e2",
+  "Version": "2.3.4",
+  "Name": "dlgUserInfoScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 151,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -1.9594,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0015,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -1.9594,
+            "RightMargin": 1.9594,
+            "Tag": 93,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 75,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0020.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 440,
+                    "Scale9OriginY": 223,
+                    "Scale9Width": 454,
+                    "Scale9Height": 232,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 375.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.85,
+                      "ScaleY": 0.85
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.904
+                    },
+                    "TopMargin": 36.0,
+                    "BottomMargin": 36.0,
+                    "Tag": 94,
+                    "ActionTag": 991148626,
+                    "Size": {
+                      "X": 1334.0,
+                      "Y": 678.0
+                    },
+                    "Name": "Image_bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0020d.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 423,
+                    "Scale9OriginY": 155,
+                    "Scale9Width": 436,
+                    "Scale9Height": 162,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 390.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.85,
+                      "ScaleY": 0.85
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.52
+                    },
+                    "PreSize": {
+                      "X": 0.961,
+                      "Y": 0.6293
+                    },
+                    "LeftMargin": 26.0,
+                    "RightMargin": 26.0,
+                    "TopMargin": 124.0,
+                    "BottomMargin": 154.0,
+                    "Tag": 95,
+                    "ActionTag": -2120971846,
+                    "Size": {
+                      "X": 1282.0,
+                      "Y": 472.0
+                    },
+                    "Name": "Image_up",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0053.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 55,
+                    "Scale9OriginY": 14,
+                    "Scale9Width": 58,
+                    "Scale9Height": 15,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 380.0,
+                      "Y": 620.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2849,
+                      "Y": 0.8267
+                    },
+                    "PreSize": {
+                      "X": 0.1259,
+                      "Y": 0.0573
+                    },
+                    "LeftMargin": 296.0,
+                    "RightMargin": 870.0,
+                    "TopMargin": 108.5,
+                    "BottomMargin": 598.5,
+                    "Tag": 96,
+                    "ActionTag": 1189361824,
+                    "Size": {
+                      "X": 168.0,
+                      "Y": 43.0
+                    },
+                    "Name": "Image_title",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "ClipAble": true,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 154.2535,
+                      "Y": 390.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1156,
+                      "Y": 0.52
+                    },
+                    "PreSize": {
+                      "X": 0.1304,
+                      "Y": 0.232
+                    },
+                    "LeftMargin": 154.2535,
+                    "RightMargin": 1005.7465,
+                    "TopMargin": 186.0,
+                    "BottomMargin": 390.0,
+                    "Tag": 112,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0004b.png",
+                          "Plist": "defaultPlist.plist"
+                        },
+                        "Scale9OriginX": 28,
+                        "Scale9OriginY": 28,
+                        "Scale9Width": 30,
+                        "Scale9Height": 31,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 87.0,
+                          "Y": 87.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.8276,
+                          "Y": 0.8276
+                        },
+                        "LeftMargin": 15.0,
+                        "RightMargin": 15.0,
+                        "TopMargin": 15.0,
+                        "BottomMargin": 15.0,
+                        "Tag": 121,
+                        "ActionTag": -1999068379,
+                        "Size": {
+                          "X": 144.0,
+                          "Y": 144.0
+                        },
+                        "Name": "Image_head",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0008.png",
+                          "Plist": "defaultPlist.plist"
+                        },
+                        "Scale9OriginX": 28,
+                        "Scale9OriginY": 28,
+                        "Scale9Width": 122,
+                        "Scale9Height": 122,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 87.0,
+                          "Y": 87.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "Tag": 122,
+                        "ActionTag": 2057837319,
+                        "Size": {
+                          "X": 174.0,
+                          "Y": 174.0
+                        },
+                        "Name": "Image_headFrame",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1710025722,
+                    "Size": {
+                      "X": 174.0,
+                      "Y": 174.0
+                    },
+                    "Name": "Panel_head",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0058.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 231,
+                    "Scale9OriginY": 45,
+                    "Scale9Width": 238,
+                    "Scale9Height": 48,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 504.2535,
+                      "Y": 282.8345
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.378,
+                      "Y": 0.3771
+                    },
+                    "PreSize": {
+                      "X": 0.5247,
+                      "Y": 0.184
+                    },
+                    "LeftMargin": 154.2535,
+                    "RightMargin": 479.7465,
+                    "TopMargin": 398.1655,
+                    "BottomMargin": 213.8345,
+                    "Tag": 101,
+                    "Children": [
+                      {
+                        "FontSize": 26,
+                        "IsCustomSize": true,
+                        "LabelText": "",
+                        "PlaceHolderText": "点我输入个性签名",
+                        "MaxLengthText": 10,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 329.0,
+                          "Y": 69.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.47,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.9,
+                          "Y": 0.8696
+                        },
+                        "LeftMargin": 14.0,
+                        "RightMargin": 56.0,
+                        "TopMargin": 9.0,
+                        "BottomMargin": 9.0,
+                        "Tag": 103,
+                        "ActionTag": -1317806040,
+                        "Size": {
+                          "X": 630.0,
+                          "Y": 120.0
+                        },
+                        "Name": "TextField_qianMing",
+                        "ctype": "TextFieldObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0056b.png",
+                          "Plist": "defaultPlist.plist"
+                        },
+                        "Scale9OriginX": 22,
+                        "Scale9OriginY": 25,
+                        "Scale9Width": 25,
+                        "Scale9Height": 28,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 676.9996,
+                          "Y": 26.9999
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.9671,
+                          "Y": 0.1957
+                        },
+                        "PreSize": {
+                          "X": 0.0986,
+                          "Y": 0.5652
+                        },
+                        "LeftMargin": 642.4996,
+                        "RightMargin": -11.4996,
+                        "TopMargin": 72.0001,
+                        "BottomMargin": -12.0001,
+                        "Tag": 104,
+                        "ActionTag": -1584597406,
+                        "Size": {
+                          "X": 69.0,
+                          "Y": 78.0
+                        },
+                        "Name": "Image_writeIcon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 811359108,
+                    "Size": {
+                      "X": 700.0,
+                      "Y": 138.0
+                    },
+                    "Name": "Image_qianMingBg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0055.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 231,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 65,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 590.7535,
+                      "Y": 535.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4428,
+                      "Y": 0.7133
+                    },
+                    "PreSize": {
+                      "X": 0.3951,
+                      "Y": 0.0693
+                    },
+                    "LeftMargin": 327.2535,
+                    "RightMargin": 479.7465,
+                    "TopMargin": 189.0,
+                    "BottomMargin": 509.0,
+                    "Tag": 118,
+                    "Children": [
+                      {
+                        "CharWidth": 29,
+                        "CharHeight": 45,
+                        "LabelText": "0",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "default/shuz3.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 120.0,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2277,
+                          "Y": 0.5769
+                        },
+                        "PreSize": {
+                          "X": 0.055,
+                          "Y": 0.8654
+                        },
+                        "LeftMargin": 120.0,
+                        "RightMargin": 378.0,
+                        "TopMargin": -0.5,
+                        "BottomMargin": 7.5,
+                        "Tag": 60,
+                        "ActionTag": -1859131597,
+                        "Size": {
+                          "X": 29.0,
+                          "Y": 45.0
+                        },
+                        "Name": "AtlasLabel_zanCounts",
+                        "ctype": "TextAtlasObjectData"
+                      }
+                    ],
+                    "ActionTag": -1363937000,
+                    "Size": {
+                      "X": 527.0,
+                      "Y": 52.0
+                    },
+                    "Name": "Image_zan",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0057.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 231,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 65,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 590.7534,
+                      "Y": 470.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4428,
+                      "Y": 0.6267
+                    },
+                    "PreSize": {
+                      "X": 0.3951,
+                      "Y": 0.0693
+                    },
+                    "LeftMargin": 327.2534,
+                    "RightMargin": 479.7466,
+                    "TopMargin": 254.0,
+                    "BottomMargin": 444.0,
+                    "Tag": 108,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "123456789",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 290.0081,
+                          "Y": 26.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5503,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.6641,
+                          "Y": 0.6923
+                        },
+                        "LeftMargin": 115.0081,
+                        "RightMargin": 61.9919,
+                        "TopMargin": 8.0,
+                        "BottomMargin": 8.0,
+                        "Tag": 111,
+                        "ActionTag": -1359378790,
+                        "Size": {
+                          "X": 350.0,
+                          "Y": 36.0
+                        },
+                        "Name": "Text_playerID",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -530966396,
+                    "Size": {
+                      "X": 527.0,
+                      "Y": 52.0
+                    },
+                    "Name": "Image_playerID",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0056.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 231,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 65,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 590.7534,
+                      "Y": 405.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4428,
+                      "Y": 0.54
+                    },
+                    "PreSize": {
+                      "X": 0.3951,
+                      "Y": 0.0693
+                    },
+                    "LeftMargin": 327.2534,
+                    "RightMargin": 479.7466,
+                    "TopMargin": 319.0,
+                    "BottomMargin": 379.0,
+                    "Tag": 105,
+                    "Children": [
+                      {
+                        "FontSize": 26,
+                        "IsCustomSize": true,
+                        "LabelText": "",
+                        "PlaceHolderText": "点我输入昵称",
+                        "MaxLengthText": 10,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 123.4866,
+                          "Y": 22.5121
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2343,
+                          "Y": 0.4329
+                        },
+                        "PreSize": {
+                          "X": 0.6641,
+                          "Y": 0.6923
+                        },
+                        "LeftMargin": 123.4866,
+                        "RightMargin": 53.5134,
+                        "TopMargin": 11.4879,
+                        "BottomMargin": 4.5121,
+                        "Tag": 106,
+                        "ActionTag": 830958575,
+                        "Size": {
+                          "X": 350.0,
+                          "Y": 36.0
+                        },
+                        "Alpha": 253,
+                        "Name": "TextField_qianMing",
+                        "ctype": "TextFieldObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0056b.png",
+                          "Plist": "defaultPlist.plist"
+                        },
+                        "Scale9OriginX": 22,
+                        "Scale9OriginY": 25,
+                        "Scale9Width": 25,
+                        "Scale9Height": 28,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 538.4886,
+                          "Y": 26.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.0218,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.1309,
+                          "Y": 1.5
+                        },
+                        "LeftMargin": 469.4886,
+                        "RightMargin": -11.4886,
+                        "TopMargin": -13.0,
+                        "BottomMargin": -13.0,
+                        "Tag": 107,
+                        "ActionTag": -1421041328,
+                        "Size": {
+                          "X": 69.0,
+                          "Y": 78.0
+                        },
+                        "Name": "Image_writeIcon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1117574389,
+                    "Size": {
+                      "X": 527.0,
+                      "Y": 52.0
+                    },
+                    "Name": "Image_nickName",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0004b.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 56,
+                    "Scale9Height": 65,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1214.4034,
+                      "Y": 636.7848
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9103,
+                      "Y": 0.849
+                    },
+                    "PreSize": {
+                      "X": 0.0645,
+                      "Y": 0.116
+                    },
+                    "LeftMargin": 1171.4034,
+                    "RightMargin": 76.5966,
+                    "TopMargin": 69.7152,
+                    "BottomMargin": 593.2848,
+                    "Tag": 113,
+                    "ActionTag": -877843397,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Button_close",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0060.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 174,
+                    "Scale9Height": 65,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 234.0,
+                      "Y": 137.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1754,
+                      "Y": 0.1827
+                    },
+                    "PreSize": {
+                      "X": 0.1529,
+                      "Y": 0.116
+                    },
+                    "LeftMargin": 132.0,
+                    "RightMargin": 998.0,
+                    "TopMargin": 569.5,
+                    "BottomMargin": 93.5,
+                    "Tag": 114,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0060d.png",
+                          "Plist": "defaultPlist.plist"
+                        },
+                        "Scale9OriginX": 67,
+                        "Scale9OriginY": 28,
+                        "Scale9Width": 70,
+                        "Scale9Height": 31,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 102.0,
+                          "Y": 41.76
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.48
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "TopMargin": 1.74,
+                        "BottomMargin": -1.74,
+                        "Tag": 115,
+                        "ActionTag": -1060849384,
+                        "Size": {
+                          "X": 204.0,
+                          "Y": 87.0
+                        },
+                        "Name": "Image_text",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -2141012643,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Button_bindPhone",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0005.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 174,
+                    "Scale9Height": 65,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1100.0,
+                      "Y": 137.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8246,
+                      "Y": 0.1827
+                    },
+                    "PreSize": {
+                      "X": 0.1529,
+                      "Y": 0.116
+                    },
+                    "LeftMargin": 998.0,
+                    "RightMargin": 132.0,
+                    "TopMargin": 569.5,
+                    "BottomMargin": 93.5,
+                    "Tag": 116,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0005k.png",
+                          "Plist": "defaultPlist.plist"
+                        },
+                        "Scale9OriginX": 67,
+                        "Scale9OriginY": 28,
+                        "Scale9Width": 70,
+                        "Scale9Height": 31,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 102.0,
+                          "Y": 43.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "Tag": 117,
+                        "ActionTag": 47790802,
+                        "Size": {
+                          "X": 204.0,
+                          "Y": 87.0
+                        },
+                        "Name": "Image_text",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 79852793,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Button_recommender",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0054b.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9OriginX": 104,
+                    "Scale9OriginY": 111,
+                    "Scale9Width": 108,
+                    "Scale9Height": 117,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1029.1248,
+                      "Y": 388.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7715,
+                      "Y": 0.5173
+                    },
+                    "PreSize": {
+                      "X": 0.2369,
+                      "Y": 0.452
+                    },
+                    "LeftMargin": 871.1248,
+                    "RightMargin": 146.8752,
+                    "TopMargin": 192.5,
+                    "BottomMargin": 218.5,
+                    "Tag": 123,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0054.png",
+                          "Plist": "dlgUserInfoPlist.plist"
+                        },
+                        "Scale9OriginX": 82,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 86,
+                        "Scale9Height": 29,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 1.0
+                        },
+                        "Position": {
+                          "X": 158.0,
+                          "Y": 322.05
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.95
+                        },
+                        "PreSize": {
+                          "X": 0.7911,
+                          "Y": 0.2389
+                        },
+                        "LeftMargin": 33.0,
+                        "RightMargin": 33.0,
+                        "TopMargin": 16.95,
+                        "BottomMargin": 241.05,
+                        "Tag": 124,
+                        "ActionTag": 1507107481,
+                        "Size": {
+                          "X": 250.0,
+                          "Y": 81.0
+                        },
+                        "Name": "Image_vip",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "CharWidth": 46,
+                        "CharHeight": 60,
+                        "LabelText": "9",
+                        "StartChar": ".",
+                        "LabelAtlasFileImage_CNB": {
+                          "Type": "Normal",
+                          "Path": "default/shuz2.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 208.7458,
+                          "Y": 276.2823
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.6606,
+                          "Y": 0.815
+                        },
+                        "PreSize": {
+                          "X": 0.1456,
+                          "Y": 0.177
+                        },
+                        "LeftMargin": 185.7458,
+                        "RightMargin": 84.2542,
+                        "TopMargin": 32.7177,
+                        "BottomMargin": 246.2823,
+                        "Tag": 125,
+                        "ActionTag": 1946409771,
+                        "Size": {
+                          "X": 46.0,
+                          "Y": 60.0
+                        },
+                        "Name": "AtlasLabel_vipLevel",
+                        "ctype": "TextAtlasObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "胜局数：",
+                        "HorizontalAlignmentType": "HT_Right",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 99.8799,
+                          "Y": 208.2382
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3161,
+                          "Y": 0.6143
+                        },
+                        "PreSize": {
+                          "X": 0.3291,
+                          "Y": 0.0944
+                        },
+                        "LeftMargin": 47.8799,
+                        "RightMargin": 164.1201,
+                        "TopMargin": 114.7618,
+                        "BottomMargin": 192.2382,
+                        "Tag": 126,
+                        "ActionTag": -1481331681,
+                        "Size": {
+                          "X": 104.0,
+                          "Y": 32.0
+                        },
+                        "Name": "Text_textWin",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "总局数：",
+                        "HorizontalAlignmentType": "HT_Right",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 99.8799,
+                          "Y": 156.3108
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3161,
+                          "Y": 0.4611
+                        },
+                        "PreSize": {
+                          "X": 0.3291,
+                          "Y": 0.0944
+                        },
+                        "LeftMargin": 47.8799,
+                        "RightMargin": 164.1201,
+                        "TopMargin": 166.6892,
+                        "BottomMargin": 140.3108,
+                        "Tag": 127,
+                        "ActionTag": -2079210168,
+                        "Size": {
+                          "X": 104.0,
+                          "Y": 32.0
+                        },
+                        "Name": "Text_textTotal",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "胜    率：",
+                        "HorizontalAlignmentType": "HT_Right",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 77.0,
+                          "Y": 104.3834
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2437,
+                          "Y": 0.3079
+                        },
+                        "PreSize": {
+                          "X": 0.4747,
+                          "Y": 0.0944
+                        },
+                        "LeftMargin": 2.0,
+                        "RightMargin": 164.0,
+                        "TopMargin": 218.6166,
+                        "BottomMargin": 88.3834,
+                        "Tag": 128,
+                        "ActionTag": 2026784824,
+                        "Size": {
+                          "X": 150.0,
+                          "Y": 32.0
+                        },
+                        "Name": "Text_textWinRate",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "1000",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 223.0809,
+                          "Y": 208.2382
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.706,
+                          "Y": 0.6143
+                        },
+                        "PreSize": {
+                          "X": 0.4747,
+                          "Y": 0.0944
+                        },
+                        "LeftMargin": 148.0809,
+                        "RightMargin": 17.9191,
+                        "TopMargin": 114.7618,
+                        "BottomMargin": 192.2382,
+                        "Tag": 133,
+                        "ActionTag": 1463629281,
+                        "Size": {
+                          "X": 150.0,
+                          "Y": 32.0
+                        },
+                        "Name": "Text_textWinNum",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "1000",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 223.0809,
+                          "Y": 156.3108
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.706,
+                          "Y": 0.4611
+                        },
+                        "PreSize": {
+                          "X": 0.4747,
+                          "Y": 0.0944
+                        },
+                        "LeftMargin": 148.0809,
+                        "RightMargin": 17.9191,
+                        "TopMargin": 166.6892,
+                        "BottomMargin": 140.3108,
+                        "Tag": 134,
+                        "ActionTag": -1353785771,
+                        "Size": {
+                          "X": 150.0,
+                          "Y": 32.0
+                        },
+                        "Name": "Text_textTotalNum",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "56%",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 223.0809,
+                          "Y": 104.3834
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.706,
+                          "Y": 0.3079
+                        },
+                        "PreSize": {
+                          "X": 0.4747,
+                          "Y": 0.0944
+                        },
+                        "LeftMargin": 148.0809,
+                        "RightMargin": 17.9191,
+                        "TopMargin": 218.6166,
+                        "BottomMargin": 88.3834,
+                        "Tag": 132,
+                        "ActionTag": -663190570,
+                        "Size": {
+                          "X": 150.0,
+                          "Y": 32.0
+                        },
+                        "Name": "Text_textWinRateNum",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 26,
+                        "LabelText": "IP：123456789",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 47.8796,
+                          "Y": 52.456
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1515,
+                          "Y": 0.1547
+                        },
+                        "PreSize": {
+                          "X": 0.7911,
+                          "Y": 0.1475
+                        },
+                        "LeftMargin": 47.8796,
+                        "RightMargin": 18.1204,
+                        "TopMargin": 261.544,
+                        "BottomMargin": 27.456,
+                        "Tag": 129,
+                        "ActionTag": -2132228010,
+                        "Size": {
+                          "X": 250.0,
+                          "Y": 50.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "Text_textIP",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -340233765,
+                    "Size": {
+                      "X": 316.0,
+                      "Y": 339.0
+                    },
+                    "Name": "Panel_playInfo",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -574879809,
+                "Size": {
+                  "X": 1334.0,
+                  "Y": 750.0
+                },
+                "Name": "Panel_main",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 44,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0040.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 277,
+                    "Scale9OriginY": 166,
+                    "Scale9Width": 288,
+                    "Scale9Height": 174,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 375.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.85,
+                      "ScaleY": 0.85
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6312,
+                      "Y": 0.6747
+                    },
+                    "LeftMargin": 246.0,
+                    "RightMargin": 246.0,
+                    "TopMargin": 122.0,
+                    "BottomMargin": 122.0,
+                    "Tag": 45,
+                    "ActionTag": -1732007195,
+                    "Size": {
+                      "X": 842.0,
+                      "Y": 506.0
+                    },
+                    "Name": "Image_bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0041.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 296,
+                    "Scale9OriginY": 135,
+                    "Scale9Width": 306,
+                    "Scale9Height": 140,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 360.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.74,
+                      "ScaleY": 0.74
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.48
+                    },
+                    "PreSize": {
+                      "X": 0.6732,
+                      "Y": 0.5467
+                    },
+                    "LeftMargin": 218.0,
+                    "RightMargin": 218.0,
+                    "TopMargin": 185.0,
+                    "BottomMargin": 155.0,
+                    "Tag": 46,
+                    "ActionTag": 329197101,
+                    "Size": {
+                      "X": 898.0,
+                      "Y": 410.0
+                    },
+                    "Name": "Image_bgUp",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0061.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 68,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 72,
+                    "Scale9Height": 17,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 535.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.7133
+                    },
+                    "PreSize": {
+                      "X": 0.1559,
+                      "Y": 0.0627
+                    },
+                    "LeftMargin": 563.0,
+                    "RightMargin": 563.0,
+                    "TopMargin": 191.5,
+                    "BottomMargin": 511.5,
+                    "Tag": 47,
+                    "ActionTag": 2082022530,
+                    "Size": {
+                      "X": 208.0,
+                      "Y": 47.0
+                    },
+                    "Name": "Image_title",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0062.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 40,
+                    "Scale9OriginY": 8,
+                    "Scale9Width": 42,
+                    "Scale9Height": 11,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 440.7015
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5876
+                    },
+                    "PreSize": {
+                      "X": 0.0915,
+                      "Y": 0.036
+                    },
+                    "LeftMargin": 606.0,
+                    "RightMargin": 606.0,
+                    "TopMargin": 295.7985,
+                    "BottomMargin": 427.2015,
+                    "Tag": 48,
+                    "ActionTag": 1924841840,
+                    "Size": {
+                      "X": 122.0,
+                      "Y": 27.0
+                    },
+                    "Name": "Image_dqsjh",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0063.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 84,
+                    "Scale9OriginY": 22,
+                    "Scale9Width": 262,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 385.9923
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5147
+                    },
+                    "PreSize": {
+                      "X": 0.3223,
+                      "Y": 0.072
+                    },
+                    "LeftMargin": 452.0,
+                    "RightMargin": 452.0,
+                    "TopMargin": 337.0077,
+                    "BottomMargin": 358.9923,
+                    "Tag": 49,
+                    "ActionTag": -738125401,
+                    "Size": {
+                      "X": 430.0,
+                      "Y": 54.0
+                    },
+                    "Name": "Image_phoneBg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0063.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 84,
+                    "Scale9OriginY": 22,
+                    "Scale9Width": 262,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 300.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4
+                    },
+                    "PreSize": {
+                      "X": 0.3223,
+                      "Y": 0.072
+                    },
+                    "LeftMargin": 452.0,
+                    "RightMargin": 452.0,
+                    "TopMargin": 423.0,
+                    "BottomMargin": 273.0,
+                    "Tag": 50,
+                    "ActionTag": -1193208937,
+                    "Size": {
+                      "X": 430.0,
+                      "Y": 54.0
+                    },
+                    "Name": "Image_checkBg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0056b.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 22,
+                    "Scale9OriginY": 25,
+                    "Scale9Width": 25,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 858.607,
+                      "Y": 384.4338
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6436,
+                      "Y": 0.5126
+                    },
+                    "PreSize": {
+                      "X": 0.0517,
+                      "Y": 0.104
+                    },
+                    "LeftMargin": 824.107,
+                    "RightMargin": 440.893,
+                    "TopMargin": 326.5662,
+                    "BottomMargin": 345.4338,
+                    "Tag": 51,
+                    "ActionTag": 1976820743,
+                    "Size": {
+                      "X": 69.0,
+                      "Y": 78.0
+                    },
+                    "Name": "Image_writeTip",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "ButtonText": "获取验证码(59)",
+                    "TextColor": {},
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0064.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 167,
+                    "Scale9Height": 35,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 791.153,
+                      "Y": 299.6528
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5931,
+                      "Y": 0.3995
+                    },
+                    "PreSize": {
+                      "X": 0.1477,
+                      "Y": 0.076
+                    },
+                    "LeftMargin": 692.653,
+                    "RightMargin": 444.347,
+                    "TopMargin": 421.8472,
+                    "BottomMargin": 271.1528,
+                    "Tag": 53,
+                    "ActionTag": 2098980698,
+                    "Size": {
+                      "X": 197.0,
+                      "Y": 57.0
+                    },
+                    "Name": "Button_getCheckCode",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "点击输入",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 480.8773,
+                      "Y": 385.9106
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3605,
+                      "Y": 0.5145
+                    },
+                    "PreSize": {
+                      "X": 0.2624,
+                      "Y": 0.0467
+                    },
+                    "LeftMargin": 480.8773,
+                    "RightMargin": 503.1227,
+                    "TopMargin": 346.5894,
+                    "BottomMargin": 368.4106,
+                    "Tag": 55,
+                    "ActionTag": -1567071690,
+                    "Size": {
+                      "X": 350.0,
+                      "Y": 35.0
+                    },
+                    "Name": "TextField_phoneNum",
+                    "ctype": "TextFieldObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "点击输入",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 479.7248,
+                      "Y": 299.1843
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3596,
+                      "Y": 0.3989
+                    },
+                    "PreSize": {
+                      "X": 0.1499,
+                      "Y": 0.0467
+                    },
+                    "LeftMargin": 479.7248,
+                    "RightMargin": 654.2751,
+                    "TopMargin": 433.3157,
+                    "BottomMargin": 281.6843,
+                    "Tag": 56,
+                    "ActionTag": -238515844,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 35.0
+                    },
+                    "Name": "TextField_checkCode",
+                    "ctype": "TextFieldObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0005.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 174,
+                    "Scale9Height": 65,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 165.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.22
+                    },
+                    "PreSize": {
+                      "X": 0.1529,
+                      "Y": 0.116
+                    },
+                    "LeftMargin": 565.0,
+                    "RightMargin": 565.0,
+                    "TopMargin": 541.5,
+                    "BottomMargin": 121.5,
+                    "Tag": 57,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0005d.png",
+                          "Plist": "defaultPlist.plist"
+                        },
+                        "Scale9OriginX": 67,
+                        "Scale9OriginY": 28,
+                        "Scale9Width": 70,
+                        "Scale9Height": 31,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 102.0,
+                          "Y": 43.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "Tag": 58,
+                        "ActionTag": 510172242,
+                        "Size": {
+                          "X": 204.0,
+                          "Y": 87.0
+                        },
+                        "Name": "Image_text",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -923976868,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Button_bindPhoneOk",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0004b.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 56,
+                    "Scale9Height": 65,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1004.8953,
+                      "Y": 556.9296
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7533,
+                      "Y": 0.7426
+                    },
+                    "PreSize": {
+                      "X": 0.0645,
+                      "Y": 0.116
+                    },
+                    "LeftMargin": 961.8953,
+                    "RightMargin": 286.1047,
+                    "TopMargin": 149.5704,
+                    "BottomMargin": 513.4296,
+                    "Tag": 59,
+                    "ActionTag": 1340009872,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Button_close",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -895605223,
+                "Size": {
+                  "X": 1334.0,
+                  "Y": 750.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Panel_bindPhone",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 60,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0040.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 277,
+                    "Scale9OriginY": 166,
+                    "Scale9Width": 288,
+                    "Scale9Height": 174,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 375.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.85,
+                      "ScaleY": 0.85
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6312,
+                      "Y": 0.6747
+                    },
+                    "LeftMargin": 246.0,
+                    "RightMargin": 246.0,
+                    "TopMargin": 122.0,
+                    "BottomMargin": 122.0,
+                    "Tag": 61,
+                    "ActionTag": -1209913390,
+                    "Size": {
+                      "X": 842.0,
+                      "Y": 506.0
+                    },
+                    "Name": "Image_bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0041.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 296,
+                    "Scale9OriginY": 135,
+                    "Scale9Width": 306,
+                    "Scale9Height": 140,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 360.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.74,
+                      "ScaleY": 0.74
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.48
+                    },
+                    "PreSize": {
+                      "X": 0.6732,
+                      "Y": 0.5467
+                    },
+                    "LeftMargin": 218.0,
+                    "RightMargin": 218.0,
+                    "TopMargin": 185.0,
+                    "BottomMargin": 155.0,
+                    "Tag": 62,
+                    "ActionTag": -151152889,
+                    "Size": {
+                      "X": 898.0,
+                      "Y": 410.0
+                    },
+                    "Name": "Image_bgUp",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0067.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 68,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 72,
+                    "Scale9Height": 17,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 534.9998
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.7133
+                    },
+                    "PreSize": {
+                      "X": 0.1559,
+                      "Y": 0.0627
+                    },
+                    "LeftMargin": 563.0,
+                    "RightMargin": 563.0,
+                    "TopMargin": 191.5002,
+                    "BottomMargin": 511.4998,
+                    "Tag": 63,
+                    "ActionTag": 1023951674,
+                    "Size": {
+                      "X": 208.0,
+                      "Y": 47.0
+                    },
+                    "Name": "Image_title",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0068.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 40,
+                    "Scale9OriginY": 8,
+                    "Scale9Width": 64,
+                    "Scale9Height": 11,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 440.7015
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5876
+                    },
+                    "PreSize": {
+                      "X": 0.1079,
+                      "Y": 0.036
+                    },
+                    "LeftMargin": 595.0,
+                    "RightMargin": 595.0,
+                    "TopMargin": 295.7985,
+                    "BottomMargin": 427.2015,
+                    "Tag": 64,
+                    "ActionTag": -1387183621,
+                    "Size": {
+                      "X": 144.0,
+                      "Y": 27.0
+                    },
+                    "Name": "Image_dqsjh",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0063.png",
+                      "Plist": "dlgUserInfoPlist.plist"
+                    },
+                    "Scale9OriginX": 84,
+                    "Scale9OriginY": 22,
+                    "Scale9Width": 262,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 385.99
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5147
+                    },
+                    "PreSize": {
+                      "X": 0.3223,
+                      "Y": 0.072
+                    },
+                    "LeftMargin": 452.0,
+                    "RightMargin": 452.0,
+                    "TopMargin": 337.01,
+                    "BottomMargin": 358.99,
+                    "Tag": 65,
+                    "ActionTag": -838964241,
+                    "Size": {
+                      "X": 430.0,
+                      "Y": 54.0
+                    },
+                    "Name": "Image_phoneBg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0056b.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 22,
+                    "Scale9OriginY": 25,
+                    "Scale9Width": 25,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 858.607,
+                      "Y": 384.4338
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6436,
+                      "Y": 0.5126
+                    },
+                    "PreSize": {
+                      "X": 0.0517,
+                      "Y": 0.104
+                    },
+                    "LeftMargin": 824.107,
+                    "RightMargin": 440.893,
+                    "TopMargin": 326.5662,
+                    "BottomMargin": 345.4338,
+                    "Tag": 67,
+                    "ActionTag": -1466445828,
+                    "Size": {
+                      "X": 69.0,
+                      "Y": 78.0
+                    },
+                    "Name": "Image_writeTip",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "点击输入",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 478.7033,
+                      "Y": 384.5823
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3588,
+                      "Y": 0.5128
+                    },
+                    "PreSize": {
+                      "X": 0.2624,
+                      "Y": 0.0467
+                    },
+                    "LeftMargin": 478.7033,
+                    "RightMargin": 505.2968,
+                    "TopMargin": 347.9177,
+                    "BottomMargin": 367.0823,
+                    "Tag": 69,
+                    "ActionTag": -396637596,
+                    "Size": {
+                      "X": 350.0,
+                      "Y": 35.0
+                    },
+                    "Name": "TextField_recommenderID",
+                    "ctype": "TextFieldObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0005.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 174,
+                    "Scale9Height": 65,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 165.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.22
+                    },
+                    "PreSize": {
+                      "X": 0.1529,
+                      "Y": 0.116
+                    },
+                    "LeftMargin": 565.0,
+                    "RightMargin": 565.0,
+                    "TopMargin": 541.5,
+                    "BottomMargin": 121.5,
+                    "Tag": 71,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "default/dating0005d.png",
+                          "Plist": "defaultPlist.plist"
+                        },
+                        "Scale9OriginX": 67,
+                        "Scale9OriginY": 28,
+                        "Scale9Width": 70,
+                        "Scale9Height": 31,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 102.0,
+                          "Y": 43.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "Tag": 72,
+                        "ActionTag": 1793028720,
+                        "Size": {
+                          "X": 204.0,
+                          "Y": 87.0
+                        },
+                        "Name": "Image_text",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -130691684,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Button_setRecommenderOk",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0004b.png",
+                      "Plist": "defaultPlist.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 56,
+                    "Scale9Height": 65,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1009.507,
+                      "Y": 565.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7568,
+                      "Y": 0.7533
+                    },
+                    "PreSize": {
+                      "X": 0.0645,
+                      "Y": 0.116
+                    },
+                    "LeftMargin": 966.507,
+                    "RightMargin": 281.4929,
+                    "TopMargin": 141.5,
+                    "BottomMargin": 521.5,
+                    "Tag": 73,
+                    "ActionTag": 1916919732,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Button_close",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 26,
+                    "LabelText": "推荐人ID提交后不可修改",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 340.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 135,
+                      "G": 42,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4533
+                    },
+                    "PreSize": {
+                      "X": 0.2999,
+                      "Y": 0.0467
+                    },
+                    "LeftMargin": 467.0,
+                    "RightMargin": 467.0,
+                    "TopMargin": 392.5,
+                    "BottomMargin": 322.5,
+                    "Tag": 74,
+                    "ActionTag": 137296632,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 35.0
+                    },
+                    "Name": "Text_tip",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1101756242,
+                "Size": {
+                  "X": 1334.0,
+                  "Y": 750.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Panel_setRecommender",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 849344898,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "default/shuz2.png",
+        "default/shuz3.png",
+        "defaultPlist.plist",
+        "defaultPlist.png",
+        "dlgUserInfoPlist.plist",
+        "dlgUserInfoPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

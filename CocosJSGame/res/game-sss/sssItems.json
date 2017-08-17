@@ -1,0 +1,365 @@
+{
+  "ID": "de9d79f4-2dff-4744-a8f5-a8f0f477256f",
+  "Version": "2.3.4",
+  "Name": "sssItems",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 189,
+        "Children": [
+          {
+            "ClipAble": false,
+            "SingleColor": {},
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": -5,
+            "Scale9OriginY": -5,
+            "Scale9Width": 10,
+            "Scale9Height": 10,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 1334.0,
+            "TopMargin": 750.0,
+            "Tag": 190,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {},
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 46.57,
+                  "Y": 688.7
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 46.57,
+                "RightMargin": -181.57,
+                "TopMargin": -698.7,
+                "BottomMargin": 688.7,
+                "Tag": 466,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_YiFu.png",
+                      "Plist": "sssMainScene.plist"
+                    },
+                    "Scale9OriginX": 18,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 21,
+                    "Scale9Height": 12,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 76.0,
+                      "Y": -15.0007
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.563,
+                      "Y": -1.5001
+                    },
+                    "PreSize": {
+                      "X": 0.4222,
+                      "Y": 3.4
+                    },
+                    "LeftMargin": 47.5,
+                    "RightMargin": 30.5,
+                    "TopMargin": 8.0007,
+                    "BottomMargin": -32.0007,
+                    "Tag": 262,
+                    "ActionTag": -456118316,
+                    "Size": {
+                      "X": 57.0,
+                      "Y": 34.0
+                    },
+                    "Name": "Image_PayType",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 0,
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_RoomInfoBg.png",
+                      "Plist": "sssMainScene.plist"
+                    },
+                    "ComboBoxIndex": 1,
+                    "SingleColor": {},
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 34,
+                    "Scale9OriginY": 34,
+                    "Scale9Width": 36,
+                    "Scale9Height": 36,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": -11.43,
+                      "Y": -36.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": -0.0847,
+                      "Y": -3.6
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": -11.43,
+                    "RightMargin": 11.43,
+                    "TopMargin": 46.0,
+                    "BottomMargin": -46.0,
+                    "Tag": 180,
+                    "ActionTag": -923700473,
+                    "Size": {
+                      "X": 135.0,
+                      "Y": 10.0
+                    },
+                    "Name": "Panel_roomInfoBg",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 0,
+                    "ComboBoxIndex": 1,
+                    "SingleColor": {},
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 0.5,
+                      "Y": -45.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0037,
+                      "Y": -4.5
+                    },
+                    "PreSize": {
+                      "X": 0.8148,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 0.5,
+                    "RightMargin": 24.5,
+                    "TopMargin": 55.0,
+                    "BottomMargin": -55.0,
+                    "Tag": 179,
+                    "ActionTag": -805186150,
+                    "Size": {
+                      "X": 110.0,
+                      "Y": 10.0
+                    },
+                    "Name": "Panel_content",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "sss/Image_Up.png",
+                      "Plist": "sssMainScene.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 30,
+                    "Scale9Height": 38,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 16.87,
+                      "Y": -15.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.125,
+                      "Y": -1.5
+                    },
+                    "PreSize": {
+                      "X": 0.4444,
+                      "Y": 6.0
+                    },
+                    "LeftMargin": -13.13,
+                    "RightMargin": 88.13,
+                    "TopMargin": -5.0,
+                    "BottomMargin": -45.0,
+                    "Tag": 470,
+                    "ActionTag": -602126497,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 60.0
+                    },
+                    "Name": "Button_roomInfo",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 76353190,
+                "Size": {
+                  "X": 135.0,
+                  "Y": 10.0
+                },
+                "Name": "Panel_roomInfo",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -22098635,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "Panel_main",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "sssMainScene.plist",
+        "sssMainScene.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>default/dating0001b.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{577,30}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{578,30}</string>
+			</dict>
+			<key>default/dating0001c.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,36},{569,24}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{578,30}</string>
+			</dict>
+			<key>default/dating0001d.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,64},{569,24}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{578,30}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>dlgLoaderPlist.png</string>
+			<key>realTextureFileName</key>
+			<string>dlgLoaderPlist.png</string>
+			<key>size</key>
+			<string>{581,90}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>581</integer>
+			<key>height</key>
+			<integer>90</integer>
+		</dict>
+	</dict>
+</plist>

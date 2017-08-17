@@ -1,0 +1,21 @@
+{
+	"intervalMove_describe": "鱼移动帧间隔",
+	"intervalCatch_describe": "鱼被抓帧间隔",
+	"speed_describe": "鱼速度，(像素/秒)",
+	"key_describe": "fish_id",
+	"value_describe": {
+		"name": "鱼名",
+		"speed": "[number] //鱼速度",
+		"move":{"file":"fileValue_001.png ~ fileValue_024.png", "len":24},
+		"catch":{"file":"fileValue_001.png ~ fileValue_024.png", "len":24}
+	},
+	"describe": "--------------------------------------------------------",
+	"intervalMove": 0.1,
+	"intervalCatch": 0.1,
+	"speed": 100,
+	"fish_14": {
+		"speed": 80,
+		"move": {"file":"fish/fish_bianfuyu_walking_", "len":24},
+		"catch": {"file":"fish/fish_bianfuyu_dying_", "len":6}
+	}
+}

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>default/dating0035.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,318},{137,140}}</string>
+				<key>offset</key>
+				<string>{1,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{154,146}</string>
+			</dict>
+			<key>default/dating0036.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{271,2},{194,73}}</string>
+				<key>offset</key>
+				<string>{0,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{194,76}</string>
+			</dict>
+			<key>default/dating0036b.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{143,318},{194,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{194,76}</string>
+			</dict>
+			<key>default/dating0037.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{271,79},{194,72}}</string>
+				<key>offset</key>
+				<string>{0,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{194,76}</string>
+			</dict>
+			<key>default/dating0037b.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{143,398},{194,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{194,76}</string>
+			</dict>
+			<key>default/dating0038.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{265,312}}</string>
+				<key>offset</key>
+				<string>{2,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{279,316}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>dlgShopPlist.png</string>
+			<key>realTextureFileName</key>
+			<string>dlgShopPlist.png</string>
+			<key>size</key>
+			<string>{467,476}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>467</integer>
+			<key>height</key>
+			<integer>476</integer>
+		</dict>
+	</dict>
+</plist>

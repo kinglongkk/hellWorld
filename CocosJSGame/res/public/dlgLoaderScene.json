@@ -1,0 +1,331 @@
+{
+  "ID": "e5dbcf0d-f788-4078-a560-aa3aa7177687",
+  "Version": "2.3.4",
+  "Name": "dlgLoaderScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 31,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 33,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "default/dating0001b.png",
+                  "Plist": "dlgLoaderPlist.plist"
+                },
+                "Scale9OriginX": 190,
+                "Scale9OriginY": 9,
+                "Scale9Width": 198,
+                "Scale9Height": 12,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 94.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1253
+                },
+                "PreSize": {
+                  "X": 0.4333,
+                  "Y": 0.04
+                },
+                "LeftMargin": 378.0,
+                "RightMargin": 378.0,
+                "TopMargin": 641.0,
+                "BottomMargin": 79.0,
+                "Tag": 34,
+                "ActionTag": -1572862893,
+                "Size": {
+                  "X": 578.0,
+                  "Y": 30.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ImgBarBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ProgressInfo": 0,
+                "ImageFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "default/dating0001d.png",
+                  "Plist": "dlgLoaderPlist.plist"
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 94.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1253
+                },
+                "PreSize": {
+                  "X": 0.4333,
+                  "Y": 0.04
+                },
+                "LeftMargin": 378.0,
+                "RightMargin": 378.0,
+                "TopMargin": 641.0,
+                "BottomMargin": 79.0,
+                "Tag": 35,
+                "ActionTag": -1495622034,
+                "Size": {
+                  "X": 578.0,
+                  "Y": 30.0
+                },
+                "VisibleForFrame": false,
+                "Name": "ProgressBar",
+                "ctype": "LoadingBarObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 36,
+                "LabelText": "0%",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineSize": 0,
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 97.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 230,
+                  "G": 253,
+                  "B": 165
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1293
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.0533
+                },
+                "LeftMargin": 617.0,
+                "RightMargin": 617.0,
+                "TopMargin": 633.0,
+                "BottomMargin": 77.0,
+                "Tag": 36,
+                "ActionTag": -1263222930,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 40.0
+                },
+                "Name": "LabPercent",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 36,
+                "LabelText": "努力加载中，请耐心等待。。。",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineSize": 0,
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 132.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 230,
+                  "G": 253,
+                  "B": 165
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.176
+                },
+                "PreSize": {
+                  "X": 0.6372,
+                  "Y": 0.0667
+                },
+                "LeftMargin": 242.0,
+                "RightMargin": 242.0,
+                "TopMargin": 593.0,
+                "BottomMargin": 107.0,
+                "Tag": 42,
+                "ActionTag": -341640691,
+                "Size": {
+                  "X": 850.0,
+                  "Y": 50.0
+                },
+                "Name": "LabTip",
+                "ctype": "TextObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 667.0,
+                  "Y": 226.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3013
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 667.0,
+                "RightMargin": 667.0,
+                "TopMargin": 524.0,
+                "BottomMargin": 226.0,
+                "Tag": 151,
+                "ActionTag": -361844314,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "WaitNode",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -720759185,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "PanelBg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "dlgLoaderPlist.plist",
+        "dlgLoaderPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

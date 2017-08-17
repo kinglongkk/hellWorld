@@ -1,0 +1,298 @@
+{
+  "ID": "a7835cff-5faa-4bdf-b76e-8ed896c0c41d",
+  "Version": "2.3.4",
+  "Name": "card",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 74,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "cardPlist/img_card_front.png",
+              "Plist": "cardPlist.plist"
+            },
+            "Scale9Width": 126,
+            "Scale9Height": 170,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -63.0,
+            "RightMargin": -63.0,
+            "TopMargin": -85.0,
+            "BottomMargin": -85.0,
+            "Tag": 75,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "cardPlist/img_card_black_01.png",
+                  "Plist": "cardPlist.plist"
+                },
+                "Scale9Width": 39,
+                "Scale9Height": 46,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 30.0,
+                  "Y": 140.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2381,
+                  "Y": 0.8235
+                },
+                "PreSize": {
+                  "X": 0.3095,
+                  "Y": 0.2706
+                },
+                "LeftMargin": 10.5,
+                "RightMargin": 76.5,
+                "TopMargin": 7.0,
+                "BottomMargin": 117.0,
+                "Tag": 76,
+                "ActionTag": 823903790,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 46.0
+                },
+                "Name": "ImgValue",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "cardPlist/img_card_small_10.png",
+                  "Plist": "cardPlist.plist"
+                },
+                "Scale9Width": 23,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 30.0,
+                  "Y": 105.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2381,
+                  "Y": 0.6176
+                },
+                "PreSize": {
+                  "X": 0.1825,
+                  "Y": 0.1529
+                },
+                "LeftMargin": 18.5,
+                "RightMargin": 84.5,
+                "TopMargin": 52.0,
+                "BottomMargin": 92.0,
+                "Tag": 77,
+                "ActionTag": -765323176,
+                "Size": {
+                  "X": 23.0,
+                  "Y": 26.0
+                },
+                "Name": "ImgSuitSmall",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "cardPlist/img_card_big_10.png",
+                  "Plist": "cardPlist.plist"
+                },
+                "Scale9Width": 77,
+                "Scale9Height": 99,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 65.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6349,
+                  "Y": 0.3824
+                },
+                "PreSize": {
+                  "X": 0.6111,
+                  "Y": 0.5824
+                },
+                "LeftMargin": 41.5,
+                "RightMargin": 7.5,
+                "TopMargin": 55.5,
+                "BottomMargin": 15.5,
+                "Tag": 78,
+                "ActionTag": -1804184856,
+                "Size": {
+                  "X": 77.0,
+                  "Y": 99.0
+                },
+                "Name": "ImgSuitBig",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 956381326,
+            "Size": {
+              "X": 126.0,
+              "Y": 170.0
+            },
+            "Name": "ImgFront",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "cardPlist/img_card_front.png",
+              "Plist": "cardPlist.plist"
+            },
+            "Scale9Width": 126,
+            "Scale9Height": 170,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 108,
+              "G": 125,
+              "B": 184
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -63.0,
+            "RightMargin": -63.0,
+            "TopMargin": -85.0,
+            "BottomMargin": -85.0,
+            "Tag": 79,
+            "ActionTag": 310213263,
+            "Size": {
+              "X": 126.0,
+              "Y": 170.0
+            },
+            "Alpha": 102,
+            "Name": "ImgMask",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "cardPlist/img_card_back.png",
+              "Plist": "cardPlist.plist"
+            },
+            "Scale9Width": 126,
+            "Scale9Height": 170,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -63.0,
+            "RightMargin": -63.0,
+            "TopMargin": -85.0,
+            "BottomMargin": -85.0,
+            "Tag": 80,
+            "ActionTag": 307909300,
+            "Size": {
+              "X": 126.0,
+              "Y": 170.0
+            },
+            "Name": "ImgBack",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "cardPlist.plist",
+        "cardPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,20 @@
+
+shuyedong_tex.png
+size: 0,0
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zulinbeij1
+  rotate: false
+  xy: 1 ,412
+  size: 740 ,429
+  orig: 740 ,429
+  offset: 0,0
+  index: -1
+zulinbeij3
+  rotate: false
+  xy: 1 ,1
+  size: 821 ,409
+  orig: 821 ,409
+  offset: 0,0
+  index: -1

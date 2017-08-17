@@ -1,0 +1,534 @@
+{
+  "ID": "e8ea82da-2709-48c1-83aa-2640fcd78077",
+  "Version": "2.3.4",
+  "Name": "Layer_chat",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 77,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 85,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 126,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1200.0,
+                  "Y": 96.744
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8996,
+                  "Y": 0.129
+                },
+                "PreSize": {
+                  "X": 0.09,
+                  "Y": 0.3333
+                },
+                "LeftMargin": 1200.0,
+                "RightMargin": 14.0,
+                "TopMargin": 403.256,
+                "BottomMargin": 96.744,
+                "Tag": 81,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "default/btn_voice_normal.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 64,
+                    "Scale9Height": 72,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60.0,
+                      "Y": 187.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.75
+                    },
+                    "PreSize": {
+                      "X": 0.7833,
+                      "Y": 0.376
+                    },
+                    "LeftMargin": 13.0,
+                    "RightMargin": 13.0,
+                    "TopMargin": 15.5,
+                    "BottomMargin": 140.5,
+                    "Tag": 82,
+                    "ActionTag": 1180533612,
+                    "Size": {
+                      "X": 94.0,
+                      "Y": 94.0
+                    },
+                    "Name": "Button_Sounds",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "default/btn_word_normal.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 64,
+                    "Scale9Height": 72,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60.0,
+                      "Y": 62.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.7833,
+                      "Y": 0.376
+                    },
+                    "LeftMargin": 13.0,
+                    "RightMargin": 13.0,
+                    "TopMargin": 140.5,
+                    "BottomMargin": 15.5,
+                    "Tag": 83,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 126,
+                        "SingleColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 5.5851,
+                          "Y": 4.1915
+                        },
+                        "LeftMargin": -525.0,
+                        "RightMargin": 94.0,
+                        "TopMargin": -300.0,
+                        "Tag": 78,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "default/img_nntb_chat_bg.png",
+                              "Plist": "defaultPlist.plist"
+                            },
+                            "Scale9Enable": true,
+                            "Scale9OriginX": 25,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 475,
+                            "Scale9Height": 344,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 262.5,
+                              "Y": 197.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 1.0
+                            },
+                            "Tag": 79,
+                            "ActionTag": 160997721,
+                            "Size": {
+                              "X": 525.0,
+                              "Y": 394.0
+                            },
+                            "Name": "Image_bg",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "ItemMargin": 5,
+                            "DirectionType": "Vertical",
+                            "HorizontalType": "Align_HorizontalCenter",
+                            "ScrollDirectionType": 0,
+                            "ClipAble": true,
+                            "BackColorAlpha": 102,
+                            "SingleColor": {
+                              "R": 150,
+                              "G": 150
+                            },
+                            "FirstColor": {
+                              "R": 150,
+                              "G": 150
+                            },
+                            "EndColor": {},
+                            "ColorVector": {
+                              "ScaleY": 1.0
+                            },
+                            "Scale9Width": 1,
+                            "Scale9Height": 1,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 262.5,
+                              "Y": 197.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.96,
+                              "Y": 0.8883
+                            },
+                            "LeftMargin": 10.5,
+                            "RightMargin": 10.5,
+                            "TopMargin": 22.0,
+                            "BottomMargin": 22.0,
+                            "Tag": 80,
+                            "ActionTag": -1586252180,
+                            "Size": {
+                              "X": 504.0,
+                              "Y": 350.0
+                            },
+                            "Name": "ListView_Msg",
+                            "ctype": "ListViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "default/img_nntb_chat_select_bg.png",
+                              "Plist": "defaultPlist.plist"
+                            },
+                            "Scale9Enable": true,
+                            "Scale9OriginX": 153,
+                            "Scale9OriginY": 16,
+                            "Scale9Width": 160,
+                            "Scale9Height": 18,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 263.16,
+                              "Y": 347.6481
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5013,
+                              "Y": 0.8824
+                            },
+                            "PreSize": {
+                              "X": 0.8876,
+                              "Y": 0.1269
+                            },
+                            "LeftMargin": 30.16,
+                            "RightMargin": 28.84,
+                            "TopMargin": 21.3519,
+                            "BottomMargin": 322.6481,
+                            "Tag": 69,
+                            "Children": [
+                              {
+                                "IsCustomSize": true,
+                                "FontSize": 30,
+                                "LabelText": "一走一停真有型，一秒一卡好潇洒",
+                                "HorizontalAlignmentType": "HT_Center",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 233.0,
+                                  "Y": 25.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 0.5,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 0.9013,
+                                  "Y": 0.6
+                                },
+                                "LeftMargin": 23.0,
+                                "RightMargin": 23.0,
+                                "TopMargin": 10.0,
+                                "BottomMargin": 10.0,
+                                "Tag": 70,
+                                "ActionTag": 1320419008,
+                                "Size": {
+                                  "X": 420.0,
+                                  "Y": 30.0
+                                },
+                                "Name": "Text_msg",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 530213878,
+                            "Size": {
+                              "X": 466.0,
+                              "Y": 50.0
+                            },
+                            "VisibleForFrame": false,
+                            "Name": "Image_msgTemp",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 330048178,
+                        "Size": {
+                          "X": 525.0,
+                          "Y": 394.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "Panel_textChat",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": -456162799,
+                    "Size": {
+                      "X": 94.0,
+                      "Y": 94.0
+                    },
+                    "Name": "Button_SendMsg",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 1889969195,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 250.0
+                },
+                "Name": "Panel_btn",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 2023307229,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_root",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "default/btn_voice_normal.png",
+        "default/btn_word_normal.png",
+        "defaultPlist.plist",
+        "defaultPlist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
