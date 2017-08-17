@@ -16,6 +16,8 @@
 
         "src/libs/MyUtil.js",
 
+        "src/public/config/platform.js",
+
         "src/public/consts/define.js",
 
         "src/public/manager/UIMgr.js",
@@ -59,6 +61,17 @@
 
 
         "src/game-nnfp/ui/ddzDlgCardOp.js",
+
+        "src/game_zpmj/ui/indexDlgId.js",
+        "src/game_zpmj/model/zpmjGame.js",
+        "src/game_zpmj/network/cmdGame.js",
+        "src/game_zpmj/network/zpmjGameMsg.js",
+        "src/game_zpmj/ui/zpmjDlgCardsInfo.js",
+        "src/game_zpmj/ui/zpmjDlgMain.js",
+        "src/game_zpmj/ui/zpmjDlgResult.js",
+        "src/game_zpmj/ui/zpmjDlgRankCenter.js",
+        "src/game_zpmj/ui/zpmjScene.js",
+        "src/game_zpmj/ui/zpmjUIMgr.js",
 
 
 
