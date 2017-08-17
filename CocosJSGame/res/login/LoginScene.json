@@ -6,7 +6,7 @@
     "Content": {
       "Animation": {
         "Duration": 0,
-        "Speed": 1.0,
+        "Speed": 0.4,
         "Timelines": [],
         "ctype": "TimelineActionData"
       },
@@ -60,7 +60,7 @@
               {
                 "FileData": {
                   "Type": "Normal",
-                  "Path": "public/login_bg.jpg",
+                  "Path": "default/beij001.jpg",
                   "Plist": ""
                 },
                 "Scale9OriginX": 440,
@@ -94,6 +94,50 @@
                 "TopMargin": -1.425,
                 "BottomMargin": 1.425,
                 "Tag": 24,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "default/tx7shuyepiao.plist",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 1473.7688,
+                      "Y": 23.5921
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 1.1048,
+                      "Y": 0.0315
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 1473.7688,
+                    "RightMargin": -139.7688,
+                    "TopMargin": 726.4079,
+                    "BottomMargin": 23.5921,
+                    "Tag": 22,
+                    "ActionTag": -1000289332,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "Particle_1",
+                    "ctype": "ParticleObjectData"
+                  }
+                ],
                 "ActionTag": 524845770,
                 "Size": {
                   "X": 1334.0,
@@ -105,126 +149,48 @@
               {
                 "FileData": {
                   "Type": "MarkedSubImage",
-                  "Path": "login/login_logo.png",
+                  "Path": "default/dating0000.png",
                   "Plist": "LoginPlist.plist"
                 },
                 "Scale9OriginX": 165,
-                "Scale9OriginY": 127,
-                "Scale9Width": 171,
-                "Scale9Height": 132,
+                "Scale9OriginY": 60,
+                "Scale9Width": 23,
+                "Scale9Height": 64,
                 "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
+                  "ScaleY": 1.0
                 },
                 "Position": {
-                  "X": 667.0,
-                  "Y": 525.0
+                  "X": 20.01,
+                  "Y": 723.975
                 },
                 "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PositionPercentXEnabled": true,
                 "PositionPercentYEnabled": true,
                 "PrePosition": {
-                  "X": 0.5,
-                  "Y": 0.7
+                  "X": 0.015,
+                  "Y": 0.9653
                 },
                 "PreSize": {
-                  "X": 0.3756,
-                  "Y": 0.5147
+                  "X": 0.2646,
+                  "Y": 0.2453
                 },
-                "LeftMargin": 416.5,
-                "RightMargin": 416.5,
-                "TopMargin": 32.0,
-                "BottomMargin": 332.0,
+                "LeftMargin": 20.01,
+                "RightMargin": 960.99,
+                "TopMargin": 26.025,
+                "BottomMargin": 539.975,
                 "Tag": 27,
                 "ActionTag": -125348907,
                 "Size": {
-                  "X": 501.0,
-                  "Y": 386.0
+                  "X": 353.0,
+                  "Y": 184.0
                 },
                 "Name": "login_logo",
                 "ctype": "ImageViewObjectData"
-              },
-              {
-                "FontSize": 14,
-                "ButtonText": "",
-                "TextColor": {
-                  "R": 65,
-                  "G": 65,
-                  "B": 70
-                },
-                "DisabledFileData": {
-                  "Type": "MarkedSubImage",
-                  "Path": "login/login_btnWxPress.png",
-                  "Plist": "LoginPlist.plist"
-                },
-                "PressedFileData": {
-                  "Type": "MarkedSubImage",
-                  "Path": "login/login_btnWxPress.png",
-                  "Plist": "LoginPlist.plist"
-                },
-                "NormalFileData": {
-                  "Type": "MarkedSubImage",
-                  "Path": "login/login_btnWxNomal.png",
-                  "Plist": "LoginPlist.plist"
-                },
-                "Scale9Enable": true,
-                "Scale9OriginX": 15,
-                "Scale9OriginY": 11,
-                "Scale9Width": 356,
-                "Scale9Height": 86,
-                "OutlineColor": {
-                  "G": 0,
-                  "B": 0
-                },
-                "ShadowColor": {
-                  "R": 110,
-                  "G": 110,
-                  "B": 110
-                },
-                "ShadowOffsetX": 2.0,
-                "ShadowOffsetY": -2.0,
-                "TouchEnable": true,
-                "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
-                },
-                "Position": {
-                  "X": 667.0,
-                  "Y": 210.975
-                },
-                "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
-                },
-                "CColor": {},
-                "IconVisible": false,
-                "PositionPercentXEnabled": true,
-                "PositionPercentYEnabled": true,
-                "PrePosition": {
-                  "X": 0.5,
-                  "Y": 0.2813
-                },
-                "PreSize": {
-                  "X": 0.2894,
-                  "Y": 0.144
-                },
-                "LeftMargin": 474.0,
-                "RightMargin": 474.0,
-                "TopMargin": 485.025,
-                "BottomMargin": 156.975,
-                "Tag": 28,
-                "ActionTag": 815261857,
-                "Size": {
-                  "X": 386.0,
-                  "Y": 108.0
-                },
-                "Name": "login_btnWx",
-                "ctype": "ButtonObjectData"
               },
               {
                 "ClipAble": false,
@@ -267,57 +233,9 @@
                 "Tag": 29,
                 "Children": [
                   {
-                    "FileData": {
-                      "Type": "Normal",
-                      "Path": "public/login_bgButom.png",
-                      "Plist": ""
-                    },
-                    "Scale9OriginX": 440,
-                    "Scale9OriginY": 28,
-                    "Scale9Width": 454,
-                    "Scale9Height": 29,
-                    "AnchorPoint": {
-                      "ScaleX": 0.5,
-                      "ScaleY": 0.5
-                    },
-                    "Position": {
-                      "X": 667.0,
-                      "Y": 42.5
-                    },
-                    "Scale": {
-                      "ScaleX": 1.0,
-                      "ScaleY": 1.0
-                    },
-                    "CColor": {},
-                    "IconVisible": false,
-                    "PrePosition": {
-                      "X": 0.5,
-                      "Y": 0.2833
-                    },
-                    "PreSize": {
-                      "X": 1.0,
-                      "Y": 0.5667
-                    },
-                    "VerticalEdge": "BottomEdge",
-                    "TopMargin": 65.0,
-                    "Tag": 26,
-                    "ActionTag": -13852621,
-                    "Size": {
-                      "X": 1334.0,
-                      "Y": 85.0
-                    },
-                    "Name": "login_bgButtom",
-                    "ctype": "ImageViewObjectData"
-                  },
-                  {
                     "IsCustomSize": true,
-                    "FontSize": 28,
-                    "LabelText": "著作权人：厦门怀沣网络科技有限公司",
-                    "FontResource": {
-                      "Type": "Default",
-                      "Path": "",
-                      "Plist": ""
-                    },
+                    "FontSize": 14,
+                    "LabelText": "著作权人：厦门家乡麻雀网络科技有限公司",
                     "VerticalAlignmentType": "VT_Center",
                     "OutlineColor": {
                       "G": 0,
@@ -331,11 +249,12 @@
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "AnchorPoint": {
+                      "ScaleX": 0.5,
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 18.4092,
-                      "Y": 32.595
+                      "X": 638.0,
+                      "Y": 32.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -344,27 +263,21 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.0138,
-                      "Y": 0.2173
+                      "X": 0.4783,
+                      "Y": 0.2133
                     },
-                    "PercentWidthEnable": true,
-                    "PercentHeightEnable": true,
-                    "PercentWidthEnabled": true,
-                    "PercentHeightEnabled": true,
                     "PreSize": {
-                      "X": 0.5997,
+                      "X": 0.2999,
                       "Y": 0.28
                     },
-                    "HorizontalEdge": "BothEdge",
-                    "VerticalEdge": "BothEdge",
-                    "LeftMargin": 18.4092,
-                    "RightMargin": 515.5911,
-                    "TopMargin": 96.405,
-                    "BottomMargin": 11.595,
-                    "Tag": 30,
-                    "ActionTag": -621667210,
+                    "LeftMargin": 438.0,
+                    "RightMargin": 496.0,
+                    "TopMargin": 97.0,
+                    "BottomMargin": 11.0,
+                    "Tag": 23,
+                    "ActionTag": 2043766758,
                     "Size": {
-                      "X": 799.9998,
+                      "X": 400.0,
                       "Y": 42.0
                     },
                     "Name": "Text_company",
@@ -372,14 +285,8 @@
                   },
                   {
                     "IsCustomSize": true,
-                    "FontSize": 28,
-                    "LabelText": "批准文号：981681000010086",
-                    "FontResource": {
-                      "Type": "Default",
-                      "Path": "",
-                      "Plist": ""
-                    },
-                    "HorizontalAlignmentType": "HT_Right",
+                    "FontSize": 14,
+                    "LabelText": "证书号：软著登字第1952744号",
                     "VerticalAlignmentType": "VT_Center",
                     "OutlineColor": {
                       "G": 0,
@@ -393,12 +300,12 @@
                     "ShadowOffsetX": 2.0,
                     "ShadowOffsetY": -2.0,
                     "AnchorPoint": {
-                      "ScaleX": 1.0,
+                      "ScaleX": 0.5,
                       "ScaleY": 0.5
                     },
                     "Position": {
-                      "X": 1304.3853,
-                      "Y": 36.09
+                      "X": 908.0,
+                      "Y": 32.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -407,57 +314,50 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.9778,
-                      "Y": 0.2406
+                      "X": 0.6807,
+                      "Y": 0.2133
                     },
-                    "PercentWidthEnable": true,
-                    "PercentHeightEnable": true,
-                    "PercentWidthEnabled": true,
-                    "PercentHeightEnabled": true,
                     "PreSize": {
-                      "X": 0.4498,
+                      "X": 0.1994,
                       "Y": 0.2333
                     },
-                    "HorizontalEdge": "BothEdge",
-                    "VerticalEdge": "BothEdge",
-                    "LeftMargin": 704.3521,
-                    "RightMargin": 29.6147,
-                    "TopMargin": 96.4125,
-                    "BottomMargin": 18.5925,
-                    "Tag": 31,
-                    "ActionTag": 1024461972,
+                    "LeftMargin": 775.0,
+                    "RightMargin": 293.0,
+                    "TopMargin": 100.5,
+                    "BottomMargin": 14.5,
+                    "Tag": 24,
+                    "ActionTag": -1632737217,
                     "Size": {
-                      "X": 600.0332,
-                      "Y": 34.995
+                      "X": 266.0,
+                      "Y": 35.0
                     },
                     "Name": "Text_approval",
                     "ctype": "TextObjectData"
                   },
                   {
                     "IsCustomSize": true,
-                    "FontSize": 36,
+                    "FontSize": 14,
                     "LabelText": "抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当\n适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活",
-                    "FontResource": {
-                      "Type": "Default",
-                      "Path": "",
-                      "Plist": ""
-                    },
                     "HorizontalAlignmentType": "HT_Center",
                     "VerticalAlignmentType": "VT_Center",
                     "OutlineColor": {
                       "G": 0,
                       "B": 0
                     },
-                    "ShadowColor": {},
-                    "ShadowOffsetX": 0.0,
-                    "ShadowOffsetY": 0.0,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
                     "AnchorPoint": {
                       "ScaleX": 0.5,
                       "ScaleY": 0.5
                     },
                     "Position": {
                       "X": 667.0,
-                      "Y": 116.145
+                      "Y": 68.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -465,31 +365,26 @@
                     },
                     "CColor": {},
                     "IconVisible": false,
+                    "PositionPercentXEnabled": true,
                     "PrePosition": {
                       "X": 0.5,
-                      "Y": 0.7743
+                      "Y": 0.4533
                     },
-                    "PercentWidthEnable": true,
-                    "PercentHeightEnable": true,
-                    "PercentWidthEnabled": true,
-                    "PercentHeightEnabled": true,
                     "PreSize": {
-                      "X": 0.9745,
-                      "Y": 0.6667
+                      "X": 0.2999,
+                      "Y": 0.4
                     },
-                    "HorizontalEdge": "BothEdge",
-                    "VerticalEdge": "BothEdge",
-                    "LeftMargin": 17.0085,
-                    "RightMargin": 17.0085,
-                    "TopMargin": -16.1475,
-                    "BottomMargin": 66.1425,
-                    "Tag": 32,
-                    "ActionTag": -1586628771,
+                    "LeftMargin": 467.0,
+                    "RightMargin": 467.0,
+                    "TopMargin": 52.0,
+                    "BottomMargin": 38.0,
+                    "Tag": 25,
+                    "ActionTag": -723056548,
                     "Size": {
-                      "X": 1299.983,
-                      "Y": 100.005
+                      "X": 400.0,
+                      "Y": 60.0
                     },
-                    "Name": "Text_tip",
+                    "Name": "Text_remind",
                     "ctype": "TextObjectData"
                   }
                 ],
@@ -502,19 +397,22 @@
                 "ctype": "PanelObjectData"
               },
               {
-                "FontSize": 48,
-                "IsCustomSize": true,
-                "LabelText": "",
-                "PlaceHolderText": "请输入账号",
-                "MaxLengthText": 10,
-                "TouchEnable": true,
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "default/dating0002.png",
+                  "Plist": "LoginPlist.plist"
+                },
+                "Scale9OriginX": 179,
+                "Scale9OriginY": 13,
+                "Scale9Width": 186,
+                "Scale9Height": 14,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 450.508,
-                  "Y": 287.4297
+                  "X": 667.0,
+                  "Y": 114.51
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -522,41 +420,163 @@
                 },
                 "CColor": {},
                 "IconVisible": false,
+                "PositionPercentXEnabled": true,
                 "PrePosition": {
-                  "X": 0.3377,
-                  "Y": 0.3832
+                  "X": 0.5,
+                  "Y": 0.1527
                 },
                 "PreSize": {
-                  "X": 0.2999,
-                  "Y": 0.08
+                  "X": 0.4078,
+                  "Y": 0.0533
                 },
-                "LeftMargin": 250.508,
-                "RightMargin": 683.492,
-                "TopMargin": 432.5703,
-                "BottomMargin": 257.4297,
-                "Tag": 12,
-                "ActionTag": -974173184,
+                "LeftMargin": 395.0,
+                "RightMargin": 395.0,
+                "TopMargin": 615.49,
+                "BottomMargin": 94.51,
+                "Tag": 15,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 28,
+                    "LabelText": "我已详细阅读并同意",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 252.3616,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4639,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4779,
+                      "Y": 0.875
+                    },
+                    "LeftMargin": 122.3616,
+                    "RightMargin": 161.6384,
+                    "TopMargin": 2.5,
+                    "BottomMargin": 2.5,
+                    "Tag": 16,
+                    "ActionTag": -1105063577,
+                    "Size": {
+                      "X": 260.0,
+                      "Y": 35.0
+                    },
+                    "Name": "Text_text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 28,
+                    "ButtonText": "《用户协议》",
+                    "TextColor": {
+                      "B": 0
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 138,
+                    "Scale9Height": 6,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 462.4,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.85,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.3088,
+                      "Y": 0.875
+                    },
+                    "LeftMargin": 378.4,
+                    "RightMargin": -2.4,
+                    "TopMargin": 2.5,
+                    "BottomMargin": 2.5,
+                    "Tag": 1852,
+                    "ActionTag": -420186706,
+                    "Size": {
+                      "X": 168.0,
+                      "Y": 35.0
+                    },
+                    "Name": "Button_toXieYi",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -558861197,
                 "Size": {
-                  "X": 400.0,
-                  "Y": 60.0
+                  "X": 544.0,
+                  "Y": 40.0
                 },
-                "Name": "TextField_account",
-                "ctype": "TextFieldObjectData"
+                "Name": "Image_xieYiBg",
+                "ctype": "ImageViewObjectData"
               },
               {
-                "FontSize": 48,
-                "IsCustomSize": true,
-                "LabelText": "",
-                "PlaceHolderText": "请输入密码",
-                "MaxLengthText": 10,
+                "NormalBackFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "default/dating0024.png",
+                  "Plist": "LoginPlist.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "default/dating0024a.png",
+                  "Plist": "LoginPlist.plist"
+                },
                 "TouchEnable": true,
                 "AnchorPoint": {
                   "ScaleX": 0.5,
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 896.7465,
-                  "Y": 293.7343
+                  "X": 490.825,
+                  "Y": 117.975
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -564,26 +584,199 @@
                 },
                 "CColor": {},
                 "IconVisible": false,
+                "PositionPercentYEnabled": true,
                 "PrePosition": {
-                  "X": 0.6722,
-                  "Y": 0.3916
+                  "X": 0.3679,
+                  "Y": 0.1573
                 },
                 "PreSize": {
-                  "X": 0.2999,
-                  "Y": 0.08
+                  "X": 0.0367,
+                  "Y": 0.0653
                 },
-                "LeftMargin": 696.7465,
-                "RightMargin": 237.2534,
-                "TopMargin": 426.2657,
-                "BottomMargin": 263.7343,
-                "Tag": 13,
-                "ActionTag": -1703638523,
+                "LeftMargin": 466.325,
+                "RightMargin": 818.675,
+                "TopMargin": 607.525,
+                "BottomMargin": 93.475,
+                "Tag": 14,
+                "ActionTag": 1141585275,
                 "Size": {
-                  "X": 400.0,
-                  "Y": 60.0
+                  "X": 49.0,
+                  "Y": 49.0
                 },
-                "Name": "TextField_password",
-                "ctype": "TextFieldObjectData"
+                "Name": "CheckBox_xieyi",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "default/dating0003.png",
+                  "Plist": "LoginPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 271,
+                "Scale9Height": 107,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 202.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.27
+                },
+                "PreSize": {
+                  "X": 0.2256,
+                  "Y": 0.172
+                },
+                "LeftMargin": 516.5,
+                "RightMargin": 516.5,
+                "TopMargin": 483.0,
+                "BottomMargin": 138.0,
+                "Tag": 28,
+                "ActionTag": 815261857,
+                "Size": {
+                  "X": 301.0,
+                  "Y": 129.0
+                },
+                "Name": "login_btnWx",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "default/dating0002b.png",
+                  "Plist": "LoginPlist.plist"
+                },
+                "Scale9OriginX": 180,
+                "Scale9OriginY": 26,
+                "Scale9Width": 188,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 322.22
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4296
+                },
+                "PreSize": {
+                  "X": 0.4108,
+                  "Y": 0.1053
+                },
+                "LeftMargin": 393.0,
+                "RightMargin": 393.0,
+                "TopMargin": 388.28,
+                "BottomMargin": 282.72,
+                "Tag": 82,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 24,
+                    "LabelText": "请勾选下方的用户协议，即可进入游戏",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 274.0,
+                      "Y": 39.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.7445,
+                      "Y": 0.3797
+                    },
+                    "LeftMargin": 70.0,
+                    "RightMargin": 70.0,
+                    "TopMargin": 24.5,
+                    "BottomMargin": 24.5,
+                    "Tag": 83,
+                    "ActionTag": 2024845676,
+                    "Size": {
+                      "X": 408.0,
+                      "Y": 30.0
+                    },
+                    "Name": "Text_tipText",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1597080928,
+                "Size": {
+                  "X": 548.0,
+                  "Y": 79.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Image_tip",
+                "ctype": "ImageViewObjectData"
               }
             ],
             "ActionTag": -1345265567,
@@ -592,6 +785,332 @@
               "Y": 750.0
             },
             "Name": "login_mainLayer",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 18,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "default/dating0004.png",
+                  "Plist": "LoginPlist.plist"
+                },
+                "Scale9OriginX": 322,
+                "Scale9OriginY": 219,
+                "Scale9Width": 334,
+                "Scale9Height": 226,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 398.475
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5313
+                },
+                "PreSize": {
+                  "X": 0.7331,
+                  "Y": 0.8853
+                },
+                "LeftMargin": 178.0,
+                "RightMargin": 178.0,
+                "TopMargin": 19.525,
+                "BottomMargin": 66.475,
+                "Tag": 19,
+                "ActionTag": 709761150,
+                "Size": {
+                  "X": 978.0,
+                  "Y": 664.0
+                },
+                "Name": "Image_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "default/dating0005.png",
+                  "Plist": "LoginPlist.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 174,
+                "Scale9Height": 65,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 60.975
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0813
+                },
+                "PreSize": {
+                  "X": 0.1529,
+                  "Y": 0.116
+                },
+                "LeftMargin": 565.0,
+                "RightMargin": 565.0,
+                "TopMargin": 645.525,
+                "BottomMargin": 17.475,
+                "Tag": 20,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "default/dating0005j.png",
+                      "Plist": "LoginPlist.plist"
+                    },
+                    "Scale9OriginX": 67,
+                    "Scale9OriginY": 28,
+                    "Scale9Width": 70,
+                    "Scale9Height": 31,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 104.1216,
+                      "Y": 45.0573
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5104,
+                      "Y": 0.5179
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 2.1216,
+                    "RightMargin": -2.1216,
+                    "TopMargin": -1.5573,
+                    "BottomMargin": 1.5573,
+                    "Tag": 24,
+                    "ActionTag": -1981357581,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 87.0
+                    },
+                    "Name": "Image_text",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 446646813,
+                "Size": {
+                  "X": 204.0,
+                  "Y": 87.0
+                },
+                "Name": "Button_ok",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 655.7217,
+                  "Y": 629.3073
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4915,
+                  "Y": 0.8391
+                },
+                "PreSize": {
+                  "X": 0.6934,
+                  "Y": 0.028
+                },
+                "LeftMargin": 193.2217,
+                "RightMargin": 215.7783,
+                "TopMargin": 120.6927,
+                "BottomMargin": 608.3073,
+                "Tag": 22,
+                "ActionTag": 1115129463,
+                "Size": {
+                  "X": 925.0,
+                  "Y": 21.0
+                },
+                "VisibleForFrame": false,
+                "Name": "Text_contentTemp",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ItemMargin": -5,
+                "DirectionType": "Vertical",
+                "HorizontalType": "Align_HorizontalCenter",
+                "IsBounceEnabled": true,
+                "ScrollDirectionType": 0,
+                "ClipAble": true,
+                "BackColorAlpha": 25,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 382.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.51
+                },
+                "PreSize": {
+                  "X": 0.7121,
+                  "Y": 0.6667
+                },
+                "LeftMargin": 192.0,
+                "RightMargin": 192.0,
+                "TopMargin": 117.5,
+                "BottomMargin": 132.5,
+                "Tag": 23,
+                "ActionTag": -336275604,
+                "Size": {
+                  "X": 950.0,
+                  "Y": 500.0
+                },
+                "Name": "ListView_text",
+                "ctype": "ListViewObjectData"
+              }
+            ],
+            "ActionTag": 1733846871,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Panel_xieyi",
             "ctype": "PanelObjectData"
           }
         ],
@@ -603,10 +1122,11 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
+        "default/beij001.jpg",
+        "default/tx7shuyepiao.plist",
+        "default/tx7shuyepiao.png",
         "LoginPlist.plist",
-        "LoginPlist.png",
-        "public/login_bg.jpg",
-        "public/login_bgButom.png"
+        "LoginPlist.png"
       ],
       "ctype": "GameFileData"
     }

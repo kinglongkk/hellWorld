@@ -22,6 +22,18 @@ var ServerListMsg = cc.Class.extend({
 	//手机房间列表
 	onMsgMainMBServerList: function(subCmd, data){
 		//列表信息
+        var cmd_describes = {
+            100 : "种类列表 100",
+            101 : "房间列表 101",
+            200 : "列表完成 200",
+        }
+
+        var describe = cmd_describes[subCmd]
+        if (!describe)
+        {
+            describe = "未说明"
+        }
+        cc.log("-------logon服务器（列表命令）命令号： subCmd = " +subCmd + " :" + describe + " -------------")
 		switch (subCmd) {
 		//种类列表
 		case SUB_MB_LIST_KIND:
@@ -149,7 +161,7 @@ var ServerListMsg = cc.Class.extend({
 			});
 		}
 
-		cc.log("parseData = " + JSON.stringify(parseData));
+		cc.log("设置所有的房间列表集 " + JSON.stringify(parseData));
 		plaza.setServerInfo(parseData);
 		
 		LoginSceneUIMgr.getInstance().onListServer();
@@ -158,9 +170,6 @@ var ServerListMsg = cc.Class.extend({
 	//列表完成
 	onListFinish: function(data){
 		cc.log("### 登录服务器， 列表命令，列表完成");
-		//断开链接
-		//LogonMsgHandler.getInstance().close();
-		
 		LoginSceneUIMgr.getInstance().onListFinish();
 	},
 	

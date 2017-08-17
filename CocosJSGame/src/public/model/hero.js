@@ -22,7 +22,7 @@ var Hero = Player.extend({
     },
 
     setLockInfo: function(lockInfo){
-    	cc.log("lockInfo = " + JSON.stringify(lockInfo));
+    	cc.log("设置了锁定信息 = " + JSON.stringify(lockInfo));
     	this.lockInfo = lockInfo;
     },
     getLockInfo: function(){

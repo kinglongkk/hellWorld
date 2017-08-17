@@ -11,8 +11,15 @@ var Room = cc.Class.extend({
     	this.chairCount = 0;
     	this.listTable = [];
     	this.players = [];
+    	this.isRenew = false;
+	},
+    setRenew: function (data) {
+		if(data)	this.isRenew = true;
+		else		this.isRenew = false;
     },
-    
+	getRenew: function () {
+		return this.isRenew;
+    },
     setCurServer: function(server){
     	this.curServer = server;
     },

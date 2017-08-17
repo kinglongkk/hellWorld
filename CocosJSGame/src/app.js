@@ -17,6 +17,7 @@ var HelloWorldLayer = cc.Layer.extend({
             res.CloseNormal_png,
             res.CloseSelected_png,
             function () {
+            	MsgMgr.getInstance().connectLogonServer("192.168.1.240", 8310);
                 cc.log("Menu is clicked!");
             }, this);
         closeItem.attr({
@@ -64,6 +65,19 @@ var HelloWorldLayer = cc.Layer.extend({
                 cc.tintTo(2.5,255,125,0)
             )
         );
+        
+//        this.webView = new ccui.SCWebView();
+//        this.webView.setContentSize(cc.size(600, size.height-20));
+//        this.webView.attr({
+//        	x: size.width / 2,
+//        	y: size.height / 2,
+//        	anchorX: 0.5,
+//        	anchorY: 0.5
+//        });
+//        this.webView.visitURL("http://www.baidu.com")
+//        this.webView.setScalesPageToFit(true);
+//        this.addChild(this.webView, 10);
+        
         return true;
     }
 });

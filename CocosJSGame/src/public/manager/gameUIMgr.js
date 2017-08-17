@@ -23,20 +23,25 @@ var GameUIMgr = SceneUIMgr.extend({
 		this._playerCount = count;
 	},
 
+    getPlayerCount: function(){
+        return this._playerCount;
+    },
+
 	isEndPhase: function(){
 		return this._endPhase;
 	},
-	
+	// C - P
 	getPlayerPosByChairId: function(chairID){
+        if (chairID == INVALID_CHAIR) return chairID;
 		var playerPos = (chairID + this._playerCount - g_objHero.getChairID()) % this._playerCount;
 		return playerPos;
 	},
-
+	//P - C
 	getChairIdByPlayerPos: function(playerPos){
 		var chairID = (g_objHero.getChairID() + playerPos) % this._playerCount;
 		return chairID;
 	},
-	
+
 	//判断是否正在换桌	
 	isChangeTable: function(){
 		return this._bChangeTable;

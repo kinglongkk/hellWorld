@@ -134,6 +134,37 @@ var HttpRequest = cc.Class.extend({
 		xhr.send(data);
 
 	},
+
+    sendPostFormDatas: function(url, args, cb) {
+        var self = this;
+        var xhr = cc.loader.getXMLHttpRequest();
+        xhr.open("POST", url);
+        //set Content-Type "application/x-www-form-urlencoded" to post form data
+        //mulipart/form-data for upload
+        xhr.setRequestHeader("Content-Type","mulipart/form-data");
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status <= 207)) {
+                var httpStatus = xhr.statusText;
+                var response = xhr.responseText;
+                //var json = JSON.parse(xhr.responseText);
+
+                if(cb){
+                    cb(response);
+                }
+            }
+        };
+
+        var formData = new FormData();
+
+        for (k in args){
+            formData.append(k, args[k]);
+        }
+
+        this.streamXHREvents(xhr);
+
+        xhr.send(formData);
+
+    },
 	
 	sendDelete: function(url, cb){
 		var self = this;

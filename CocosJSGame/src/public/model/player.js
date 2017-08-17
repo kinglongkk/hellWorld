@@ -28,7 +28,9 @@ var Player = cc.Class.extend({
     	this.drawCount = 0;
     	this.fleeCount = 0;
     	this.registerDate = {};
-    	
+    	this.Sign = "" ;   //个性签名
+		this.data ={};
+
     	this.mDiamond = 0;
     	this.mbTicket = 0;
     	this.mbPayTotal = 0;
@@ -47,35 +49,45 @@ var Player = cc.Class.extend({
         // 用户位置信息
         this.nearUserInfo = null;
     },
-    
-    setPlayerInfo:function(info){
-    	var dlgInfo = UIMgr.getInstance().getDlg(ID_DlgPlazaUserInfo);
-    	if(dlgInfo==null){
-    		dlgInfo = UIMgr.getInstance().openDlg(ID_DlgPlazaUserInfo);
-    	}
-//  	dlgInfo.faceId = g_objHero.getFaceId(); //头像
-    	dlgInfo.nickName = info.NickName;
-    	dlgInfo.userId = info.dwUserID;
-    	dlgInfo.money = info.lScore;
-    	dlgInfo.level = info.MemberOrder;
-    	dlgInfo.wingame = info.dwWinCount;
-    	dlgInfo.gameTotal = info.dwWinCount+info.dwLostCount+info.dwDrawCount;
-    	dlgInfo.diamond = info.dwMedal;
-    	dlgInfo.roomcard = info.dwRoomCard;
-    	if(info.HeadImgUrl){
-    		this.setHeaderUrl(info.HeadImgUrl);
-    	}
-    	cc.log("setPlayerInfo---"+this.getSpreaderID());
-    	//var self = this;
-//        if (info.dwUserID == g_objHero.getUserId()) {
-//        	self = null;
-//		} else {
-//            self = this;
-//		}
-    	dlgInfo.updateDlg(this);
-    	console.log("playerInfo = " + JSON.stringify(info));
 
-    },
+	setPlayerInfo:function(info){
+		this.data =info;
+	},
+
+	getPlayerInfo:function(){
+		return this.data;
+	},
+//    setPlayerInfo:function(info){
+//    	var dlgUserInfo = UIMgr.getInstance().getDlg(ID_DlgUserInfo);
+//    	if(dlgUserInfo==null){
+//            dlgUserInfo = UIMgr.getInstance().openDlg(ID_DlgUserInfo);
+//    	}
+//
+//        dlgUserInfo.doReFresh();
+//
+////  	dlgInfo.faceId = g_objHero.getFaceId(); //头像
+//        dlgUserInfo.nickName = info.NickName;
+//        dlgUserInfo.userId = info.dwUserID;
+//        dlgUserInfo.money = info.lScore;
+//        dlgUserInfo.level = info.MemberOrder;
+//        dlgUserInfo.wingame = info.dwWinCount;
+//        dlgUserInfo.gameTotal = info.dwWinCount+info.dwLostCount+info.dwDrawCount;
+//        dlgUserInfo.diamond = info.dwMedal;
+//        dlgUserInfo.roomcard = info.dwRoomCard;
+//    	if(info.HeadImgUrl){
+//    		this.setHeaderUrl(info.HeadImgUrl);
+//    	}
+//    	cc.log("setPlayerInfo---"+this.getSpreaderID());
+//    	//var self = this;
+////        if (info.dwUserID == g_objHero.getUserId()) {
+////        	self = null;
+////		} else {
+////            self = this;
+////		}
+//        dlgUserInfo.updateDlg(this);
+//    	console.log("playerInfo = " + JSON.stringify(info));
+//
+//    },
 
     // 位置信息
     setNearUserInfo: function (nearUserInfo) {
@@ -139,9 +151,9 @@ var Player = cc.Class.extend({
         return this.tableID;
     },
     setTableId: function(tableID){
-    	cc.log("getTableId-----"+tableID);
+    	cc.log("setTableId-----++++"+tableID);
         this.tableID = tableID;
-        cc.log("getTableId-----++++"+this.tableID);
+        cc.log("setTableId-----++++"+this.tableID);
     },
 
     //chairID
@@ -174,6 +186,7 @@ var Player = cc.Class.extend({
     },
     setNickName: function(nickName){
     	this.nickName = nickName;
+        this.emitChangeMoney();
     },
 
     //玩家性别，男1女0
@@ -339,7 +352,15 @@ var Player = cc.Class.extend({
     	var total = this.winCount + this.lostCount + this.drawCount + this.fleeCount;
     	return total;
     },
-    
+
+	//个性签名
+	setSign:function(Sign){
+		this.Sign =Sign;
+	},
+
+	getSign:function(){
+		return this.Sign;
+	},
     //registerDate
     getRegisterDate: function(){
     	return this.registerDate;
@@ -421,7 +442,6 @@ var Player = cc.Class.extend({
     	if(this.userId == INVALID_USERID){
     		return;
     	}
-
     	var eventName = "_CHANGE_SCORE_" + this.userId;
     	var listener = cc.EventListener.create({
     		event: cc.EventListener.CUSTOM,
@@ -459,7 +479,7 @@ var Player = cc.Class.extend({
     	
     	return listener;
     },
-    
+
     //文字消息
     emitWordMsg: function(data){
     	var eventName = "_RECV_WORDMSG_";
@@ -493,7 +513,7 @@ var Player = cc.Class.extend({
                     cc.log("loadUrlImage---"+err);
                 }
                 else{
-                    // cc.log("loadUrlImage-++++++++++++++++++++--");
+                    cc.log("loadUrlImage-++++++++++++++++++++--");
                     cb(url);
                 }
             });

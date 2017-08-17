@@ -142,7 +142,6 @@ var ClipPic = ccui.Widget.extend({
 		var size = this.getSize();
 		node.x = size.width / 2;
 		node.y = size.height / 2;
-
 		this.clip.addChild(node);
 	},
 });

@@ -26,9 +26,6 @@ var GameMsgHandler = cc.Class.extend({
 		var subCmd = msg.subCmd;
 		var data = msg.data;
 		
-		//取消网络等待
-		showWaiting(false);
-		
 		switch (mainCmd) {
 			//登录命令 1
 			case MDM_GR_LOGON:

@@ -13,9 +13,6 @@ var GameLogonMsg = cc.Class.extend({
 			break;
 			//登录失败
 		case SUB_GR_LOGON_FAILURE:
-			//取消网络等待
-			showWaiting(false);
-			
 			this.onSubLogonFailure(data);
 			break;
 			//登录完成
@@ -43,20 +40,32 @@ var GameLogonMsg = cc.Class.extend({
 		cc.log("parseData = " + JSON.stringify(data));
 		
 		//提示界面
-		DlgTip.openSysTip(data.DescribeString);
-		
-		//关闭游戏服务器
-		if(g_gameSocket.status != SOCKET_STATUS._SS_INVALID){
-			g_gameSocket.close();
-			cc.log("--------g_gameSocket.close()---------");
+		if(data && data.ResultCode && (9 == data.ResultCode || 5 == data.ResultCode))
+		{
+            var bRet =  GameFrameMsg.getInstance().onUserGameMsg({key: "G2C_LogonFailure", value: data})
+			if (!bRet) {
+                var strTip = "房间已不存在，确定返回大厅！"
+                DlgTip.openSysTip(strTip, function(target){
+                    target.closeTip();
+                    GameKindMgr.getInstance().backPlazaScene();
+                });
+			}
 		}
+		else {
+            DlgTip.openSysTip(data.DescribeString);
+            //关闭游戏服务器
+            // if (g_gameSocket.status != SOCKET_STATUS._SS_INVALID) {
+            //     g_gameSocket.close();
+            // }
+			MsgMgr.getInstance().closeGameSocket()
+        }
 		
 		PlazaUIMgr.getInstance().onLogonGameFailure();
 	},
 
 	//登录完成
 	onSubLogonFinish: function(data){
-		cc.log("### 游戏服务器，  （登录命令 ）登录完成");
+		cc.log("----------------------游戏服务器，  （登录命令 ）登录完成----------------------");
 		
 		var status = g_objHero.getStatus();
 		var serverType = null;
@@ -86,12 +95,12 @@ var GameLogonMsg = cc.Class.extend({
 					break;
 				}
 				
-				//重入
-				var tableID = g_objHero.getTableId();
-				if(tableID != INVALID_TABLE){
-					cc.log("重入------sendGameOption--");
-					GameFrameMsg.getInstance().sendGameOption();
-				}
+				// //重入
+				// var tableID = g_objHero.getTableId();
+				// if(tableID != INVALID_TABLE){
+				// 	cc.log("重入------sendGameOption--");
+				// 	GameFrameMsg.getInstance().sendGameOption();
+				// }
 			}while(false);
 		}
 		

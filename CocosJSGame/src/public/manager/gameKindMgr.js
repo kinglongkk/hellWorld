@@ -7,6 +7,7 @@ var GameKindMgr = cc.Class.extend({
 	},
 	
 	setNewGameSceneFun: function(fun){
+		cc.log("----------------------设置游戏场景函数-------------------------")
 		this.newGameSceneFun = fun;
 	},
 	getNewGameSceneFun: function(){
@@ -24,7 +25,8 @@ var GameKindMgr = cc.Class.extend({
 				ClientData.getInstance().setReplaceScene(true);
 				_dlg_table_ = {};
                 if(cc.sys.isNative) {
-                    var scene = new cc.TransitionPageTurn(0.5, gameScene, false);
+                    //var scene = new cc.TransitionFade(0.5, gameScene, cc.color(255,255,255,255));
+                    var scene = new cc.TransitionCrossFade(0.5, gameScene);
                     cc.director.runScene(scene);
 				}
 				else{
@@ -43,17 +45,53 @@ var GameKindMgr = cc.Class.extend({
 			cc.log("### error: setNewGameSceneFun is null!");
 		}
 	},
-	
+	backLoginScene: function(){
+        g_outcome.reset();
+        this.newGameSceneFun = null;
+
+        var runScene = cc.director.getRunningScene();
+        if(runScene.isGameScene && runScene.isGameScene()){
+            GameKindMgr.getInstance().getGameUIMgr().reset();
+            ClientData.getInstance().setReplaceScene(true);
+            _dlg_table_ = {};
+
+            LogonMsgHandler.getInstance().close();
+
+            if(cc.sys.isNative) {
+                var scene = new cc.TransitionCrossFade(0.5, new LoginScene());
+                cc.director.runScene(scene);
+            }
+            else{
+                cc.director.runScene(new LoginScene());
+            }
+
+            // iOS恢复锁屏功能
+            if (cc.sys.os == cc.sys.OS_IOS) {
+                jsb.reflection.callStaticMethod(
+                    "AppController",
+                    "setScreenLock:",
+                    false
+                );
+            }
+        }
+	},
 	backPlazaScene: function(){
-		cc.log("#### Go back to plaza scene.");
+		cc.log("#### ---------------------返回大厅场景---------------------------");
 
         g_outcome.reset();
 		this.newGameSceneFun = null;
 		
 		var plaza = ClientData.getInstance().getPlaza();
 		if(plaza){
-			plaza.setCurKindID(CMD_HZMJ.KIND_ID);	//设置初始游戏ID 
-			plaza.setCurGameType(GAME_GENRE_PERSONAL);	
+			
+			var gameList = GameKindMgr.getInstance().getGameList(); //设置初始游戏ID 
+            var defaultKindID = gameList[0].gameKindId;
+            if(plaza.getCurKindID()!=defaultKindID)
+                plaza.setCurKindID(defaultKindID);
+			else 
+				plaza.setCurKindID(CMD_ZPMJ.KIND_ID);
+			
+			plaza.setCurGameType(GAME_GENRE_PERSONAL); // 这边设置也有问题已经不是房卡版了....
 		}
 		
 		var runScene = cc.director.getRunningScene();
@@ -63,7 +101,7 @@ var GameKindMgr = cc.Class.extend({
 			_dlg_table_ = {};
 			
 			if(cc.sys.isNative) {
-				var scene = new cc.TransitionPageTurn(0.5, new PlazaScene(), false);
+				var scene = new cc.TransitionCrossFade(0.5, new PlazaScene());
 				cc.director.runScene(scene);
 			}
 			else{
@@ -87,7 +125,7 @@ var GameKindMgr = cc.Class.extend({
 		
 		ClientData.getInstance().setReplaceScene(true);
 		_dlg_table_ = {};
-		var scene = new cc.TransitionPageTurn(0.5, new PlazaScene(), false);
+		var scene = new cc.TransitionCrossFade(0.5, new PlazaScene());
 		cc.director.runScene(scene);
 	},
 	

@@ -19,6 +19,44 @@ CryptoUtil.base64_decode = function (str) {
 	return words.toString(CryptoJS.enc.Utf8);
 };
 
+
+//DES 加密
+CryptoUtil.encryptByDES =function(message, key) {
+    var keyHex = CryptoJS.enc.Utf8.parse(key);
+    var encrypted = null;
+    if (cc.sys.os == cc.sys.OS_WINDOWS){
+    	encrypted = CryptoJS.DES.encrypt(CryptoJS.enc.Latin1.parse(message), keyHex, {
+    		mode: CryptoJS.mode.ECB,
+    		padding: CryptoJS.pad.Pkcs7, //ZeroPadding
+    	});
+    }
+    else{
+    	encrypted = CryptoJS.DES.encrypt(CryptoJS.enc.Utf8.parse(message), keyHex, {
+    		mode: CryptoJS.mode.ECB,
+    		padding: CryptoJS.pad.Pkcs7, //ZeroPadding
+    	});
+    }
+    return encrypted.toString();
+}
+//DES 解密
+CryptoUtil.decryptByDES = function(ciphertext, key) {
+    var keyHex = CryptoJS.enc.Utf8.parse(key);
+    var decrypted = CryptoJS.DES.decrypt({
+        ciphertext: CryptoJS.enc.Base64.parse(ciphertext)
+    }, keyHex, {
+        mode: CryptoJS.mode.ECB,
+        padding: CryptoJS.pad.Pkcs7,
+    });
+    
+    if (cc.sys.os == cc.sys.OS_WINDOWS) 
+    	return  decrypted.toString(CryptoJS.enc.Latin1);
+    
+    return  decrypted.toString(CryptoJS.enc.Utf8);
+}
+
+
+
+
 /*
 "src/public/libs/CryptoJS/rollups/aes.js",
 var pwd = "我的密码";

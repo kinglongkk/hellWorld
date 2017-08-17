@@ -95,6 +95,10 @@ var SoundMgr = cc.Class.extend({
             cc.log("Not find " + soundID);
             return;
         }
+        else
+        {
+            cc.log("播放:"+soundFile);
+        }
         cc.audioEngine.playEffect(soundFile, loop);
     },
     

@@ -5,7 +5,7 @@ var LoadXieYiCfg = cc.Class.extend({
     },
 
     getXieYiContent: function(kindID){
-        cc.log(this.xieYiCfg["xieYi"]);
+        //cc.log(this.xieYiCfg["xieYi"]);
         return this.xieYiCfg["xieYi"];
     },
 });

@@ -25,6 +25,9 @@ var _HTTP_PLATFORM_CODE_ = cc.loader.getRes(res.httpPlatformCode_cfg);
 //游戏列表
 var _GAME_LIST_CFG_ = cc.loader.getRes(res.gameList_cfg);
 
+// 商店列表
+var _shop_config = cc.loader.getRes("res/public/config/shopConfig.json");
+
 if(!cc.sys.isNative){
     _CONFIG_ = JSON.parse(cc.loader._loadTxtSync(res.config_cfg));
 
@@ -51,4 +54,8 @@ if(!cc.sys.isNative){
 
 //游戏列表
     _GAME_LIST_CFG_ = JSON.parse(cc.loader._loadTxtSync(res.gameList_cfg));
+
+    // 商店列表
+    _shop_config = JSON.parse(cc.loader._loadTxtSync("res/public/config/shopConfig.json"));
 }
+

@@ -46,10 +46,10 @@ var CardSprite = ccui.Widget.extend({
     },
 
     loadJson:function (value, style){
-/*    	if (!_CARD_CFG_){
+    	if (!_CARD_CFG_){
     		return false;
-    	}*/
-
+    	}
+    	
     	this._CardValue = value;
     	this._CardStyle = style;
 

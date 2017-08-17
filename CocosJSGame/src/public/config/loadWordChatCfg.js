@@ -12,6 +12,14 @@ var LoadWordChatCfg = cc.Class.extend({
 				wordChatList = this.wordChatCfg["hzmj_wordChatList"];
 				break;
 			}
+            case CMD_ZPMJ.KIND_ID:{
+                wordChatList = this.wordChatCfg["zpmj_wordChatList"];
+                break;
+            }
+            case CMD_YXMJ.KIND_ID:{
+                wordChatList = this.wordChatCfg["yxmj_wordChatList"];
+                break;
+            }
 			case CMD_NIUNIU_TB.KIND_ID:{
 				wordChatList = this.wordChatCfg["nntb_wordChatList"];
 				break;
@@ -49,6 +57,14 @@ var LoadWordChatCfg = cc.Class.extend({
 				wordChatList = this.wordChatCfg["hzmj_wordChatList"];
 				break;
 			}
+			case CMD_ZPMJ.KIND_ID:{
+				wordChatList = this.wordChatCfg["zpmj_wordChatList"];
+				break;
+			}
+            case CMD_YXMJ.KIND_ID:{
+                wordChatList = this.wordChatCfg["yxmj_wordChatList"];
+                break;
+            }
 			case CMD_NIUNIU_TB.KIND_ID:{
 				wordChatList = this.wordChatCfg["nntb_wordChatList"];
 				break;

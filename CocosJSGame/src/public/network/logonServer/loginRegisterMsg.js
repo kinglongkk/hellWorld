@@ -38,15 +38,15 @@ var LoginRegisterMsg = cc.Class.extend({
 	//登录成功
 	onSubLogonSuccess: function(data){
 		var parseData = data
-		cc.log("onSubLogonSuccess daparseData[ = " + JSON.stringify(parseData)+"]");
+		cc.log("---------------onSubLogonSuccess 登录成功数据：daparseData[ = " + JSON.stringify(parseData)+"]");
 		g_objHero.setSpreaderID(parseData.szSpreader);
 		g_objHero.setFaceId(parseData.wFaceID);
 		g_objHero.setGender(parseData.cbGender);
 		g_objHero.setUserId(parseData.dwUserID);
 		g_objHero.setGameId(parseData.dwGameID);
 		g_objHero.setNickName(parseData.szNickName);
-		g_objHero.setMoney(parseData.lUserScore);
-		g_objHero.setMbDiamond(parseData.dwMedal);
+		//g_objHero.setMoney(parseData.lUserScore);
+		g_objHero.setMbDiamond(parseData.lUserScore);
 		g_objHero.setInsureMoney(parseData.lUserInsure);
 		g_objHero.setExperience(parseData.dwExperience);
 		g_objHero.setUnderWrite(parseData.szUnderWrite);
@@ -61,6 +61,7 @@ var LoginRegisterMsg = cc.Class.extend({
 		g_objHero.setPayMbVipUpgrade(parseData.dwPayMbVipUpgrade);
 		g_objHero.setRoomCard(parseData.lRoomCard);
 		g_objHero.setHallNodeID(parseData.HallNodeID)
+
 		//设置锁定信息
 		g_objHero.setLockInfo({
 			lRoomCard: parseData.lRoomCard,
@@ -68,9 +69,18 @@ var LoginRegisterMsg = cc.Class.extend({
 			dwKindID: parseData.dwKindID,
 			ServerIP : parseData.ServerIP,
 		});
-		
+        yayaSdkMgr.getInstance().loginYaYa(g_objHero.getNickName(), g_objHero.getUserId());
 		LoginSceneUIMgr.getInstance().onLogonResult(true);
 	},
+
+	onUpdateUserAttr:function (msg) {
+		for (k in msg.Data) {
+			switch (k)  {
+				case "Diamond":
+                    g_objHero.setMbDiamond(msg.Data[k]);
+			}
+		}
+    },
 
 	//登录失败
 	onSubLogonFailure: function(data){
@@ -132,7 +142,7 @@ var LoginRegisterMsg = cc.Class.extend({
         // this.sendMBRegister("xm3", "123456")
         // this.sendMBRegister("xm4", "123456")
         // this.sendMBRegister("xm5", "123456")
-		g_logonSocket.sendData("C2L_Login", {
+        LogonMsgHandler.getInstance().send("C2L_Login", {
 			ModuleID : 0,
 			PlazaVersion : VERSION_MOBILE,
 			DeviceType: DEVICE_TYPE,
@@ -140,7 +150,7 @@ var LoginRegisterMsg = cc.Class.extend({
 			Accounts:account,
 			MachineID : machineId,
 			MobilePhone:LEN_MOBILE_PHONE + "",
-		});
+		}, true);
 	},
 	
 	//注册
@@ -152,7 +162,7 @@ var LoginRegisterMsg = cc.Class.extend({
 		g_objHero.setAccount(account);
 		g_objHero.setMd5Pass(md5Pass);
 
-		g_logonSocket.sendData("C2L_Regist", {
+        LogonMsgHandler.getInstance().send("C2L_Regist", {
 			ModuleID : 0,
 			PlazaVersion : VERSION_MOBILE,//广场版本
 			DeviceType  : DEVICE_TYPE,//设备类型

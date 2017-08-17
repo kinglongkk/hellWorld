@@ -95,7 +95,7 @@
 			<key>public/main_msgIconNomal.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{174,274},{94,94}}</string>
+				<string>{{174,87},{94,94}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -106,7 +106,7 @@
 			<key>public/main_ruleIconNomal.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{255,87},{94,94}}</string>
+				<string>{{174,181},{94,94}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -117,7 +117,7 @@
 			<key>public/main_setIconNomal.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{349,87},{94,94}}</string>
+				<string>{{174,275},{94,94}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -128,7 +128,7 @@
 			<key>public/main_TalkIconNomal.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{174,368},{94,94}}</string>
+				<string>{{174,369},{94,94}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -205,24 +205,13 @@
 			<key>public/text_black_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{255,181},{162,40}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{162,40}</string>
-			</dict>
-			<key>public/trustree.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{174,87},{187,81}}</string>
+				<string>{{174,463},{162,40}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
-				<string>{187,81}</string>
+				<string>{162,40}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>

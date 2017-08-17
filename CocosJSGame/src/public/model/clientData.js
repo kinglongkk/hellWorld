@@ -6,6 +6,7 @@ var ClientData = cc.Class.extend({
     },
 
     reset: function(){
+        cc.log("game.rest了-----------------------");
     	//登录标记
     	this.bLogonFirst = true;
         
@@ -14,16 +15,16 @@ var ClientData = cc.Class.extend({
         	password: ""
         };
 
-        // this.plaza = new Plaza();
-        // this.insure = new Insure();
-        // this.signIn = new SignIn();
+        this.plaza = new Plaza();
+        this.insure = new Insure();
+        this.signIn = new SignIn();
         this.player = new Player();
-        // this.mail = new Mail();
-        // this.exAward = new ExAward();
-        // this.task = new Task();
-        // this.timingGiftInfo = new TimingGiftInfo();
-        // this.room = new Room();
-        // this.match = new Match();
+        this.mail = new Mail();
+        this.exAward = new ExAward();
+        this.task = new Task();
+        this.timingGiftInfo = new TimingGiftInfo();
+        this.room = new Room();
+        this.match = new Match();
         this.table = new Table();
         this.game = null;
 
@@ -38,8 +39,21 @@ var ClientData = cc.Class.extend({
         //强制退出游戏
         this.forceExitGame = false;
         this.forceStr = "";
+
+        this.deviationTime = null;
     },
     
+    setDeviationTime: function (serverTime) {
+        var localTime = Date.parse(new Date())/1000;
+        // 计算出 服务器和本地时间的偏差
+        if(!serverTime) this.deviationTime = localTime;
+        else this.deviationTime = serverTime - localTime;
+    },
+    getServerTime: function () {
+        var localTime = Date.parse(new Date())/1000;
+        // 用偏差值计算出服务器的时间, 这样想要拿到服务端时间就不要每次都去请求
+        return localTime + this.deviationTime;
+    },
     setReplaceScene: function(bReplace){
     	this.isReplaceScene = bReplace;
     },
@@ -225,6 +239,70 @@ var ClientData = cc.Class.extend({
     clearForce: function(){
     	this.forceExitGame = false;
     	this.forceStr = "";
+    },
+    //加载网络图片并保存
+    loadUrlImage: function(cb, headImageUrl, playerID){
+        if(!cc.sys.isNative) {
+            //var url = "http://wx.qlogo.cn/mmopen/Q3auHgzwzM7LqYpEaJsibOoThdeh2S41GHJeK6q3e3pUSlObWribnqerx1Ihm4OV9rhW28Bf3freicZvYIbncV4Mw/0"; //测试url 默认图片
+            var url = "http://wx.qlogo.cn/mmopen/vkweL0Rj3715r8W1flsibICNQEJ4pvvuMFd9MuqavTM0UecCgWqA8X5qMRUYqmD99WgRQDPq4kRHc2QAKulUC8Eg8Mx0fKShia/0"; //测试url 默认图片
+            cc.loader.loadImg(url, {isCrossOrigin : true}, function(err,img){
+                if(err) {
+                    cc.log("loadUrlImage---"+err);
+                }
+                else{
+                    cc.log("loadUrlImage-++++++++++++++++++++--");
+                    cb(url);
+                }
+            });
+            return;
+        }
+
+        if(!headImageUrl || headImageUrl.length==0){
+            //无网络头像 启用本地默认头像
+            //url = "http://a-ssl.duitang.com/uploads/item/201607/05/20160705130934_MLJzU.jpeg"; //测试url 默认图片
+            var headFile = "res/public/faceGirl.jpg";
+            headFile = jsb.fileUtils.fullPathForFilename(headFile);
+            cc.log("1"+"headFile--"+headFile);
+            cb(headFile);
+            return;
+        }
+
+        var start = headImageUrl.lastIndexOf("/", headImageUrl.length)+1;
+        var end = headImageUrl.lastIndexOf(".", headImageUrl.length);
+        if(end<start){
+            end = headImageUrl.length;
+        }
+        var fileName = headImageUrl.substring(start, end);
+        cc.log("URL----fileName-------"+fileName);
+        var savePath = jsb.fileUtils.getWritablePath()+"headImage_"+playerID+"_"+fileName+".jpg";
+        cc.log("savePath="+savePath);
+        if(jsb.fileUtils.isFileExist(savePath) && cb){
+            cb(savePath);
+            return;
+        }
+
+        cc.log("****url***"+headImageUrl);
+        var xhr = new XMLHttpRequest();
+        xhr.open("get", headImageUrl, true);
+        xhr.responseType = "arraybuffer";
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status <= 207)) {
+                var httpStatus = xhr.statusText;
+                var arrayBuffer = xhr.response;
+
+                if (arrayBuffer) {
+                    var byteArray = new Uint8Array(arrayBuffer);
+                    if(zutils.saveToFile(savePath,byteArray)){
+                        //保存成功
+                        cc.log("保存成功");
+                        if(cb)
+                            cb(savePath);
+                        delete byteArray;
+                    }
+                }
+            }
+        };
+        xhr.send();
     },
 });
 

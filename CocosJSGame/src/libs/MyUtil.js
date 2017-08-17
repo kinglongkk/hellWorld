@@ -141,7 +141,7 @@ var MyUtil = MyUtil || (function () {
 	        singleChar = str.charAt(i).toString();
 	        if(singleChar.match(chineseRegex) != null)
 	        {
-	            newLength += 2;
+	            newLength += 3;
 	        }
 	        else
 	        {
@@ -191,6 +191,28 @@ var MyUtil = MyUtil || (function () {
 		return strTemp;
 		*/
 	};
+        myUtil.getStrLen = function (str) {
+            var newLength = 0;
+            var newStr = "";
+            var chineseRegex = /[^\x00-\xff]/g;
+            var singleChar = "";
+            var strLength = str.replace(chineseRegex,"**").length;
+            for(var i = 0;i < strLength;i++)
+            {
+                singleChar = str.charAt(i).toString();
+                if(singleChar.match(chineseRegex) != null)
+                {
+                    newLength += 2;
+                }
+                else
+                {
+                    newLength++;
+                }
+            }
+
+            return newLength;
+
+        };
 	
 	return myUtil;
 }());

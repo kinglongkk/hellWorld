@@ -99,7 +99,6 @@ var MsgMgr = cc.Class.extend({
 				var runScene = cc.director.getRunningScene();
 				if(!self.gameReConnectCallBack && runScene && runScene.isGameScene && runScene.isGameScene()){
                     //开启等待动画
-                    showWaiting(true);
 					self.reConnectGameServer();
 					//cc.log("******scheduleCallbackForTarget(self, self.reConnectGameServer()**********");
 					//self.hInteval = setInterval(self.reConnectGameServer, 0.1);

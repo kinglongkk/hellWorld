@@ -71,7 +71,8 @@ var LoginSceneUIMgr = SceneUIMgr.extend({
 				UIMgr.getInstance().closeDlg(ID_DlgLoader);
 				
 				if(cc.sys.isNative) {
-                    var scene = new cc.TransitionPageTurn(0.5, new PlazaScene(), false);
+                    //var scene = new cc.TransitionFade(0.5, new PlazaScene(), cc.color(255,255,255,255));
+                    var scene = new cc.TransitionCrossFade(0.5, new PlazaScene());
                     cc.director.runScene(scene);
 				}
 				else{
@@ -89,9 +90,7 @@ var LoginSceneUIMgr = SceneUIMgr.extend({
 		
 		//发送登录消息
 		cc.log("正在登录。。。。。。。。。。。。");
-		LogonMsgHandler.getInstance().connect(function(){
-			LoginRegisterMsg.getInstance().sendLogon(account, md5Pass);
-		});
+		LoginRegisterMsg.getInstance().sendLogon(account, md5Pass);
 	},
 	
 	onLogonResult: function(bResult){

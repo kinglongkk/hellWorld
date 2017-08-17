@@ -7,7 +7,7 @@
 			<key>zpmj_userInfo/userInfo_flowerIcon.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{443,104},{44,42}}</string>
+				<string>{{268,93},{44,42}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,18 +18,18 @@
 			<key>zpmj_userInfo/userInfo_frame.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{475,0},{65,32}}</string>
+				<string>{{358,81},{65,32}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{65,32}</string>
 			</dict>
 			<key>zpmj_userInfo/userInfo_headFrame.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{403,0},{72,72}}</string>
+				<string>{{358,3},{72,72}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>zpmj_userInfo/userInfo_positionIcon.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{443,72},{13,21}}</string>
+				<string>{{482,3},{13,21}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,7 +51,7 @@
 			<key>zpmj_userInfo/userInfo_nil.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{319,0},{84,84}}</string>
+				<string>{{268,3},{84,84}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -62,18 +62,18 @@
 			<key>zpmj_userInfo/userInfo__banker.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{475,65},{37,39}}</string>
+				<string>{{429,85},{37,39}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{39,41}</string>
 			</dict>
 			<key>zpmj_userInfo/userInfo__roomHost.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{403,72},{40,76}}</string>
+				<string>{{436,3},{40,76}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -84,13 +84,13 @@
 			<key>zpmj_userInfo/userInfo_msgFrame.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{319,137}}</string>
+				<string>{{3,3},{259,118}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{3,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
-				<string>{319,137}</string>
+				<string>{266,121}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -102,14 +102,14 @@
 			<key>realTextureFileName</key>
 			<string>Plist_zpmj_userInfo.png</string>
 			<key>size</key>
-			<string>{512,148}</string>
+			<string>{506,138}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>512</integer>
+			<integer>506</integer>
 			<key>height</key>
-			<integer>148</integer>
+			<integer>138</integer>
 		</dict>
 	</dict>
 </plist>

@@ -9,9 +9,14 @@
 var g_openRoomMsg = null;
 var g_isShowRank = null;
 var OpenRoomMsg = cc.Class.extend({
-	ctor: function(){},
+	ctor: function(){
+
+	    this.tipNames = []
+        this.nNamesIndex = 0
+    },
 	
 	onMsgMainPCMBOpenRoom: function(subCmd, data){
+		cc.log("-------------------收到房间命令 cmd = " + subCmd + "----------------");
 		switch (subCmd) {
 			//创建房间成功
 			case SUB_GR_CREATE_SUCCESS:
@@ -47,20 +52,27 @@ var OpenRoomMsg = cc.Class.extend({
 		}
 	},
 
-	OnCancelTable:function (data) {
-        var dlg = UIMgr.getInstance().openDlg(ID_DlgDialogScene);
-        dlg.setTitle("房间解散提示");
-
-        var dText = new ccui.Text();
-        dText.setContentSize(dlg.detailBg.getContentSize());
-        dText.setFontSize(48);
-
-        dText.string = "您已退出房间";
-
-        dlg.setCloseFunc(function () {
-            GameKindMgr.getInstance().backPlazaScene();
-        });
-        dlg.setDetailView(dText);
+    // 下发 G2C_XXX_GameConclude 后下发G2C_CancelTable
+	  OnCancelTable:function (data) {
+	    cc.log("------------------G2C_CancelTable 的侦听回调 （）")
+        // var dlg = UIMgr.getInstance().openDlg(ID_DlgDialogScene);
+        // dlg.setTitle("房间解散提示");
+        // cc.log("------------------G2C_CancelTable 房间解散提示创建好了")
+        // var dText = new ccui.Text();
+        // dText.setContentSize(dlg.detailBg.getContentSize());
+        // dText.setFontSize(48);
+        //
+        // dText.string = "您已退出房间";
+        //
+        // dlg.setCloseFunc(function () {
+        //     GameKindMgr.getInstance().backPlazaScene();
+        // });
+        // dlg.setDetailView(dText);
+        // var strTip = "房间已解散"
+        // DlgTip.openSysTip(strTip, function(target){
+        //     target.closeTip();
+        //     //GameKindMgr.getInstance().backLoginScene();
+        // });
     },
 
 	OnPersonalTableEnd:function (data) {
@@ -70,52 +82,89 @@ var OpenRoomMsg = cc.Class.extend({
             runScene.showResult();
         }
     },
-	personalTableTip: function(data){
-		cc.log("personalTableTip = " + JSON.stringify(data));
-		var game = ClientData.getInstance().getGame();
-		game.setTableOwnerUserID(data.TableOwnerUserID);//桌主 I D
-		game.setDrawCountLimit(data.DrawCountLimit);//局数限制
-		game.setPlayCount(data.PlayCount);//已玩局数
+    personalTableTip: function(data){
+        cc.log("personalTableTip = " + JSON.stringify(data));
+        var game = ClientData.getInstance().getGame();
+        game.setTableOwnerUserID(data.TableOwnerUserID);//桌主 I D
+        game.setDrawCountLimit(data.DrawCountLimit);//局数限制
+        game.setPlayCount(data.PlayCount);//已玩局数
         game.setCurentCount(data.PlayCount);//记录局数
-		game.setCellScore(data.CellScore);//游戏底分
-		g_objHero.setRoomID(data.ServerID);//房间编号
-		if(g_objHero.getScore()==0){
-			g_objHero.setScore(data.IniScore);
-		}
+        game.setCellScore(data.CellScore);//游戏底分
+        g_objHero.setRoomID(data.ServerID);//房间编号
 
-		var plaza = ClientData.getInstance().getPlaza();
-		if(data.IsGoldOrGameScore==1)
-			plaza.setCurGameType(GAME_GENRE_PERSONAL);//金币场还是积分场 0 标识 金币场 1 标识 积分场
-		else
-			plaza.setCurGameType(GAME_GENRE_GOLD);//金币场还是积分场 0 标识 金币场 1 标识 积分场
-	},
-	
+        var plaza = ClientData.getInstance().getPlaza();
+
+        //if(data.IsGoldOrGameScore==1) {
+            plaza.setCurGameType(GAME_GENRE_PERSONAL);//金币场还是积分场 0 标识 金币场 1 标识 积分场
+            if(g_objHero.getScore()==0){
+                g_objHero.setScore(data.IniScore);
+            }
+        // }
+        // else {
+        //     cc.log("---------------------------");
+        //     plaza.setCurGameType(GAME_GENRE_GOLD);//金币场还是积分场 0 标识 金币场 1 标识 积分场
+        //     if(g_objHero.getMoney()==0){
+        //         cc.log("personalTableTip 设置初始积分"+data.IniScore);
+        //         g_objHero.setMoney(data.IniScore);
+        //     }
+        // }
+
+        if(data.OtherInfo!=undefined && game.setGameRoomOhterInfo!=undefined) {
+            game.setGameRoomOhterInfo(data.OtherInfo); // 各个游戏房间的扩展信息sxh
+        }
+		
+		if( game.setGameRoomPayType!=undefined){
+			game.setGameRoomPayType(data.PayType);// 支付方式
+		}
+		
+        game.LeaveInfo = data.LeaveInfo;
+
+        // //恢复请求解散的等待面板
+        // var game = ClientData.getInstance().getGame();
+        // game.LeaveInfo = data.LeaveInfo;
+        // var  LeaveInfo = game.LeaveInfo;
+        // if(LeaveInfo.length!=0) {
+        //     var leftTimes = LeaveInfo.leftTimes;
+        //     showLeavRoomWaiting(true, leftTimes);
+        //
+        //     var agreeInfo = LeaveInfo.agreeInfo;
+        //     var dlgSet = UIMgr.getInstance().getDlg(ID_DlgGameSet);
+        //     if(dlgSet){
+        //         for(var index=0; index<agreeInfo.length; ++index){
+        //             dlgSet.setWaitingStatus(agreeInfo[index], true);
+        //         }
+        //     }
+        // }
+    },
+
 	//创建房间失败
 	onSubCreateFailed: function(data){
 		//关闭游戏服务器
-			g_gameSocket.close();
-			cc.log("--------g_gameSocket.close()---------");
+		//g_gameSocket.close();
+		//cc.log("--------g_gameSocket.close()---------");
 
 		//提示界面
-        DlgTip.openSysTip(data.DescribeString + "error : " + data.ErrorCode);
-		showWaiting(false);
+        // DlgTip.openSysTip(data.DescribeString + "error : " + data.ErrorCode);
+
+        // 开设房间和加入房间  在砖石不足的情况下服务端都是放回ErrorCode：106
+        // 暂时先这样 等教文服务端添加完在改成可配置的   liquan
+        var strTip = LoadErrorCfg.getInstance().getStrErrTip(data.ErrorCode)
+        DlgTip.openSysTip(strTip, function (target) {
+            target.closeTip();
+        });
 	},
 	
 	//登录服创建成功创建房间成功
 	onSubCreateOK: function(data){
         g_objHero.setRoomID(data.TableID);
 
-        var obj = data.ServerIP.split( ":")
-        MsgMgr.getInstance().connectGameServer(obj[0], obj[1]);
+        PlazaUIMgr.getInstance().onOpenRoomOK(data.TableID);
+        // var obj = data.ServerIP.split( ":")
+        // MsgMgr.getInstance().connectGameServer(obj[0], obj[1]);
 	},
 
-	SendToGameServerCreater: function () {
-		g_gameSocket.sendData("C2G_LoadRoom", {
-            RoomID:g_objHero.getRoomID()
-		})
-    },
 
-	OnGameServerCreateOK :function (data) {
+    OnLoadRoomOk :function (data) {
         g_objHero.setChairID(0);
 
         //g_objHero.setMoney(data.Beans);
@@ -123,9 +172,6 @@ var OpenRoomMsg = cc.Class.extend({
         g_objHero.dwDrawCountLimit = data.DrawCountLimit;
         g_objHero.dwDrawTimeLimit = data.DrawTimeLimit;
 
-        //
-        showWaiting(false);
-        PlazaUIMgr.getInstance().onOpenRoomOK();
     },
 
     //续费房间成功   更新房间消息
@@ -157,24 +203,37 @@ var OpenRoomMsg = cc.Class.extend({
 			}
 		}
     },
-	
+
+
+    // 游戏续费成功 (用这个)
+    onRenewalFeesSuccess: function (data) {
+        var room = ClientData.getInstance().getRoom();
+        if(room) room.setRenew(data);
+
+        var dlgGameRecordCenter = UIMgr.getInstance().getDlg(ID_DlgGameRecordCenter);
+        if(dlgGameRecordCenter){
+            dlgGameRecordCenter.onRenewSuccess(data);
+        }
+    },
+
+    //请求房间列表结果
+    onGetMyRoomListResult: function(data){
+        PlazaUIMgr.getInstance().getMyselfRoomListResult(data);
+    },
+
+    //发送请求指定roomID房间内的玩家信息
+    sendQueryRoomPlayerInfo: function (data) {
+        LogonMsgHandler.getInstance().send("C2L_ReqRoomPlayerBrief", data)
+    },
+    //收到服务端的回包,房间内玩家简要的信息
+    onRoomPlayerInfo:function (data) {
+        var dlgRoomRecord = UIMgr.getInstance().getDlg(ID_DlgRoomRecord);
+        dlgRoomRecord.showPlayerInfo(data);
+    },
+
 	//发送创建房间
 	sendCreateRoom: function(data){
-		//游戏规则 弟 0 位标识 是否设置规则 0 代表未设置 1 代表设置
-        var plaza = ClientData.getInstance().getPlaza();
-        var listServer = plaza.getListServerByKindID(plaza.getCurKindID());
-        var roomServerInfo = listServer[0];
-        g_logonSocket.sendData("C2L_CreateTable", {
-			CellScore: data.dwBaseScore,						    //底分设置
-			DrawCountLimit:data.dwRounds,					//局数限制
-			DrawTimeLimit:0,					//时间限制
-			JoinGamePeopleCount:CMD_HZMJ.GAME_PLAYER,			//参与游戏的人数
-			Password:"",	//密码设置
-            Kind:  plaza.getCurKindID(),
-            ServerId : roomServerInfo.wServerID,
-            PayType:data.settlementType,  //1是自己付钱， 2是AA
-		});
-
+        LogonMsgHandler.getInstance().send("C2L_CreateTable",data);
 	},
 
     //续费
@@ -212,6 +271,116 @@ var OpenRoomMsg = cc.Class.extend({
         }
     },
 
+    // 大厅发送请求解散房间
+    sendDeleteRoom_plaza: function (roomID) {
+        LogonMsgHandler.getInstance().send("C2L_DeleteRoom",{ "RoomId":roomID });
+    },
+
+    //请求退出房间
+    send_C2G_LeaveRoom : function () {
+        g_gameSocket.sendData("C2G_LeaveRoom",{});
+        showLeavRoomWaiting(true);
+    },
+
+    //同意还是拒绝解散房间
+    send_C2G_ReplyLeaveRoom : function (UserID, isAgree) {
+        g_gameSocket.sendData("C2G_ReplyLeaveRoom",{ "Agree":isAgree, "UserID":UserID });
+    },
+
+    //别人同意或拒绝的结果通知
+    onG2C_ReplyRsp: function(data){
+        var dlgSet = UIMgr.getInstance().getDlg(ID_DlgGameSet);
+        if(dlgSet){
+            dlgSet.setWaitingStatus(data.UserID, data.Agree);
+        }
+        // 提示别人的投票结果
+        var table = ClientData.getInstance().getTable();
+        var player = table.getPlayerByUserId(data.UserID);
+        var nickName = player.getNickName();
+        if(!data.Agree){ // 有人不同意了 不用投票了 直接关闭投票界面
+            this.deleTipDlg(data.ReplyUid) //直接关闭投票界面  ReplyUid 发起人id
+            SHOWTIP(nickName + "投票拒绝解散房间")
+        }
+        else
+        {
+            SHOWTIP(nickName + "投票同意解散房间")
+        }
+
+    },
+    //别人退出房间申请的广播
+    onG2C_LeaveRoomBradcast: function(data){
+        var table = ClientData.getInstance().getTable();
+        var player = table.getPlayerByUserId(data.UserID);
+        var nickName = player.getNickName();
+
+        //提示XX请求退出房间  是否同意
+        var self = this;
+        var tipDlg = DlgTip.openLeaveRoomTip("系统提示",nickName+"，\r\n请求解散房间！",function(target){
+            self.send_C2G_ReplyLeaveRoom(data.UserID, false);
+            target.closeTip();
+            self.deleTipDlg(data.UserID)
+        },function (target) {
+            self.send_C2G_ReplyLeaveRoom(data.UserID, true);
+            target.closeTip();
+            self.deleTipDlg(data.UserID)
+        },"default/dating0006.png","default/dating0006c.png","default/dating0005.png","default/dating0005c.png", false, 0.8);
+        this.addTipDlg(tipDlg, data.UserID)
+    },
+    //请求退出房间结果  最终结果，
+    // type  G2C_LeaveRoomRsp  struct  {
+    //     Code      int  //非0为失败
+    //     Status  int  //  房间状态  0是没开始，  其他都是开始了
+    // }
+    onG2C_LeaveRoomRsp: function(data){
+        cc.log("---------------退出房间结果G2C_LeaveRoomRsp回调 -----------")
+        var Status = data.Status
+        var Code = data.Code
+        if(Status && Status != 0) { // 开始退出房间
+            if (Code && 0 != Code) { // 请求退出房间失败
+                cc.log("--------申请退出房间失败 -----------")
+                showLeavRoomWaiting(false);
+            }
+            else { // 申请退出房间成功
+                cc.log("--------申请退出房间结果成功 -----------")
+                showLeavRoomWaiting(false);
+            }
+        }
+        else { // 未开始退出房间
+            cc.log("--------自动退出房间操作 -----------")
+            if (Code && 0 != Code) { // 请求退出房间失败
+                var strTip = "退出房间出错"
+                DlgTip.openSysTip(strTip, function(target){
+                    target.closeTip();
+                    GameKindMgr.getInstance().backPlazaScene();
+                });
+            }
+            else { // 返回大厅
+                GameKindMgr.getInstance().backPlazaScene();
+            }
+        }
+
+        // showLeavRoomWaiting(false);
+        //
+        // if(data.Code==0){
+        //     //成功
+        //     DlgTip.openSysTip("所有玩家已同意，确定退出", function(target){
+        //         GameUserMsg.getInstance().sendStandUp(true);
+        //         GameKindMgr.getInstance().backPlazaScene();
+        //         target.closeTip();
+        //     }, false);
+        // }
+        // else{
+        //     DlgTip.openSysTip("有玩家未同意退出，请稍候在试", function(target){
+        //         target.closeTip();
+        //     }, false);
+        // }
+    },
+
+    // 房间解散消息
+    onRoomDissume:function (data) {
+        this.deleAllTipDlg()
+    },
+
     //四人牛牛游戏结束后房主解散房间返回大厅
     sendReturnPlaza: function () {
         var dataBuilder = new DataBuilder();
@@ -230,25 +399,25 @@ var OpenRoomMsg = cc.Class.extend({
 
 	//房主发送强制解散房间
 	sendDissumeTalbe: function(){
-		g_gameSocket.sendData("C2G_HostlDissumeRoom",{});
+        OpenRoomMsg.getInstance().send_C2G_LeaveRoom();
 	},
 	
-	// 客户端发送请求解散房间
-	sendCancelRoom: function () {
-		
-		var dataBuilder = new DataBuilder();
-		dataBuilder.init(12);
+	// 游戏发送请求解散房间
+    sendCancelRoom: function () {
+    },
 
-		dataBuilder.build([
-			["dwUserID", "DWORD", g_objHero.getUserId()],	// 当前登陆者ID
-			["dwTableID", "DWORD", g_objHero.getTableId()],		// 当前游戏桌子号
-			["dwChairID", "DWORD", g_objHero.getChairID()]	// 当前椅子号
-		]);
+    //大厅解散结果 L2C_DeleteRoomResult L2C_DeleteRoomResult
+    deleteRoomResult_plaza: function(data){
+	    var strTip = (data.Code==0)?"解散房间成功":"解散房间失败";
+        DlgTip.openSysTip(strTip);
 
-		cc.log("发送请求解散房间参数{dwUserID："+g_objHero.getUserId()+",dwTableID:"+g_objHero.getTableId()+",dwChairID:"+g_objHero.getChairID()+"}");
-		if (g_gameSocket.status == SOCKET_STATUS._SS_CONNECTED) {
-			g_gameSocket.sendData(MDM_GR_PERSONAL_TABLE, SUB_GR_CANCEL_REQUEST, dataBuilder.getData());
-		}
+        if(data.Code==0){
+            //删除一条记录
+            var dlgRoomRecord = UIMgr.getInstance().getDlg(ID_DlgRoomRecord);
+            if(dlgRoomRecord){
+                dlgRoomRecord.doDeleteRoom();
+            }
+        }
     },
 
 	// 服务端响应解散房间
@@ -306,7 +475,6 @@ var OpenRoomMsg = cc.Class.extend({
     },
 
     backToPlaza: function () {
-        GameUserMsg.getInstance().sendStandUp(true);
         GameKindMgr.getInstance().backPlazaScene();
     },
     
@@ -350,7 +518,6 @@ var OpenRoomMsg = cc.Class.extend({
                 }
     			if(plaza.getCurKindID()!=CMD_HZMJ.KIND_ID && plaza.getCurKindID() !== CMD_NIUNIU_TB.KIND_ID) {
     				dlg.setCloseFunc(function () {
-  					GameUserMsg.getInstance().sendStandUp(true);
   					GameKindMgr.getInstance().backPlazaScene();
   					});
     			}
@@ -359,7 +526,55 @@ var OpenRoomMsg = cc.Class.extend({
     	}
     	break;
     	}
+    },
+
+    // 同步服务端当前时间
+    syncServerTime:function (data) {
+        ClientData.getInstance().setDeviationTime(data.ServerTime);
+        cc.log("服务端时间:"+data.ServerTime);
+    },
+
+    // 管理弹出提示窗口
+    addTipDlg:function (dlg, dlgId) {
+        if (!dlg || !dlgId) return
+        var rootNode = dlg.getDlgWidget()
+        if (rootNode){
+            var dlgName = dlgId.toString()
+            rootNode.setName(dlgName)
+            this.tipNames.push(dlgName)
+           // cc.log("-------------------弹出提示窗口 添加了:", dlgName)
+        }
+    },
+
+    deleTipDlg:function (dlgId) {
+        if (!dlgId) return
+        var name = dlgId.toString()
+        if (name.length <= 0) return
+        var root = UIMgr.getInstance().getRootLayer()
+        if (root){
+           // cc.log("-------------------删除提示窗口了:", dlgId)
+            root.removeChildByName(name, true)
+        }
+
+        var index = this.tipNames.indexOf(name)
+        if(index > -1){
+            this.tipNames.splice(index, 1)
+            //cc.log("---------提示窗口数量：", this.tipNames.length)
+        }
+    },
+
+    deleAllTipDlg:function () {
+        var root = UIMgr.getInstance().getRootLayer()
+        if (!root) return
+        for (var i = 0; i < this.tipNames.length; i ++)
+        {
+            var name = this.tipNames[i]
+            //cc.log("-------------------删除提示窗口:", name)
+            root.removeChildByName(name, true)
+        }
+        this.tipNames = []
     }
+
 });
 
 OpenRoomMsg.getInstance = function(){

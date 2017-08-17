@@ -6,6 +6,24 @@ var GameFrameMsg = cc.Class.extend({
 
 	//游戏框架命令
 	onMsgMainGameFrame: function(subCmd, data){
+        var cmd_describes = {
+            30010 : "用户聊天 30010",
+            30011 : "用户表情 30011",
+            30100 : "游戏状态 30100",
+            30101 :"游戏场景 30101",
+            30200 : "系统消息 30200",
+            4103: "比赛信息 4103",
+            4104 : "等待提示 4104",
+            4105 : "比赛结果 4105",
+            12 : "语音广播 12",
+		}
+
+        var describe = cmd_describes[subCmd]
+        if (!describe)
+		{
+            describe = "未说明"
+		}
+        cc.log("-------游戏服务器（框架命令）命令号： subCmd = " +subCmd + " :" + describe + " -------------")
 		switch (subCmd) {
 			//用户聊天 10
 			case SUB_GF_USER_CHAT:
@@ -132,19 +150,25 @@ var GameFrameMsg = cc.Class.extend({
         parseData.dwClientID = data.ClientID
         parseData.ChatIndex = data.ChatIndex
         parseData.szChatString = data.ChatString
+        parseData.ChatType = data.ChatType
 
-        g_objHero.emitWordMsg(parseData);
         cc.log("++++++++++++1");
         //播放语音
-        
-        var table = ClientData.getInstance().getTable();
-        var player = table.getPlayerByUserId(parseData.dwSendUserID);
-        var plaza = ClientData.getInstance().getPlaza();
-        cc.log("++++++++++++2");
-        var soundFile = LoadWordChatCfg.getInstance().getSoundFile(parseData.ChatIndex, player.getGender(), plaza.getCurKindID());
-        cc.log("++++++++++++3");
-        SoundMgr.getInstance().playEffect(soundFile, 0, false);
-        cc.log("++++++++++++4soundFile"+soundFile);
+        if(parseData.ChatType && 1 == parseData.ChatType){
+            cc.log("----------------------语音的URL =： " + parseData.szChatString);
+            yayaSdkMgr.getInstance().playRecord(parseData.szChatString, "");
+		}
+		else {
+            g_objHero.emitWordMsg(parseData);
+			var table = ClientData.getInstance().getTable();
+			var player = table.getPlayerByUserId(parseData.dwSendUserID);
+			var plaza = ClientData.getInstance().getPlaza();
+			cc.log("++++++++++++2");
+			var soundFile = LoadWordChatCfg.getInstance().getSoundFile(parseData.ChatIndex, player.getGender(), plaza.getCurKindID());
+			cc.log("++++++++++++3");
+			SoundMgr.getInstance().playEffect(soundFile, 0, false);
+			cc.log("++++++++++++4soundFile"+soundFile);
+        }
 	},
 	
 	//用户表情 11
@@ -155,7 +179,8 @@ var GameFrameMsg = cc.Class.extend({
 	//游戏状态 100
 	onSubGFGameStatus: function(data){
 		cc.log("### 游戏服务器， （游戏框架命令 ）游戏状态 100");
-		cc.log("parseData = " + JSON.stringify(data));
+		//cc.log("parseData = " + JSON.stringify(data));
+		cc.log("（游戏框架命令）游戏状态数据 parseData = " + JSON.stringify(data));
 		
 		var table = ClientData.getInstance().getTable();
 		if(table){
@@ -166,13 +191,18 @@ var GameFrameMsg = cc.Class.extend({
 				bAllow = true;
 			}
 			table.setAllowLookon(bAllow);
-		}
+		}else{
+            cc.log("onSubGFGameStatus-------table==ffff-----");
+        }
+		
+		cc.log("### ======================11111=");
 		
 		var gameMsgMgr = GameMsgMgr.getInstance();
 		if(gameMsgMgr){
+			cc.log("### ===================2222====");
 			gameMsgMgr.onGameStatus();
 		}
-		
+
 		//请求桌子玩家信息
 		//GameUserMsg.getInstance().sendRequestUserInfo(g_objHero.getTableId());		
 	},
@@ -187,9 +217,21 @@ var GameFrameMsg = cc.Class.extend({
 		}
 		
 		PlazaUIMgr.getInstance().onEnterGameScene();
-		
+
+		// 收到场景消息的时候，如果战绩中心有打开,PlayCount==0的情况
+		// 视为在战绩中心断线后其他玩家续费造成的没有收房间续费消息
+        var dlgGameRecordCenter = UIMgr.getInstance().getDlg(ID_DlgGameRecordCenter);
+		if(dlgGameRecordCenter && data.PlayCount == 0) {
+            dlgGameRecordCenter.Button_restart.setVisible(false);
+            dlgGameRecordCenter.Button_close.setVisible(true);
+		}
+
 		//test
 		g_objHero.isEnter = false;
+        var dlgLoader = UIMgr.getInstance().getDlg(ID_DlgLoader);
+        if(dlgLoader){
+            dlgLoader.setProgress(100);
+        }
 	},
 
     //游戏场景 101
@@ -205,6 +247,10 @@ var GameFrameMsg = cc.Class.extend({
 
         //test
         g_objHero.isEnter = false;
+        var dlgLoader = UIMgr.getInstance().getDlg(ID_DlgLoader);
+        if(dlgLoader){
+            dlgLoader.setProgress(100);
+        }
     },
 
 	//系统消息 200
@@ -402,6 +448,28 @@ var GameFrameMsg = cc.Class.extend({
 			});
         }
     },
+
+    // 发送文字消息
+    sendVoiceReqMsg: function (tempAmrPath) {
+        cc.log("---------请求发送语音广播-----------" , tempAmrPath);
+        if(g_gameSocket.status == SOCKET_STATUS._SS_CONNECTED){
+            g_gameSocket.sendData("C2G_GameChart_ToAll", {
+                SendUserID : g_objHero.getUserId(),//发送者id
+                ChatString : tempAmrPath, //消息内容
+                ChatType : 1, //1是语音 0 是普通聊天
+            });
+        }
+    },
+
+	//
+    onUserGameMsg:function (data) {
+        var gameMsgMgr = GameMsgMgr.getInstance();
+        if(gameMsgMgr.onUserGameMsg){
+            return gameMsgMgr.onUserGameMsg(data);
+        }
+        return false
+    }
+
 });
 
 GameFrameMsg.getInstance = function(){

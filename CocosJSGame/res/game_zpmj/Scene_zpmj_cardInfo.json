@@ -368,6 +368,95 @@
                   },
                   {
                     "FileData": {
+                      "Type": "Normal",
+                      "Path": "public/text_black_bg1.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 53,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 38,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 514.2767,
+                      "Y": 431.0841
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3855,
+                      "Y": 0.5748
+                    },
+                    "PreSize": {
+                      "X": 0.1079,
+                      "Y": 0.0533
+                    },
+                    "LeftMargin": 442.2767,
+                    "RightMargin": 747.7233,
+                    "TopMargin": 298.9159,
+                    "BottomMargin": 411.0841,
+                    "Tag": 363,
+                    "ActionTag": -1917908407,
+                    "Size": {
+                      "X": 144.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Image_black_bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "public/text_black_bg2.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 53,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 38,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 745.4547,
+                      "Y": 431.0841
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5588,
+                      "Y": 0.5748
+                    },
+                    "PreSize": {
+                      "X": 0.1079,
+                      "Y": 0.0533
+                    },
+                    "LeftMargin": 745.4547,
+                    "RightMargin": 444.5453,
+                    "TopMargin": 298.9159,
+                    "BottomMargin": 411.0841,
+                    "Tag": 920,
+                    "ActionTag": 543022313,
+                    "Size": {
+                      "X": 144.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Image_black_bg_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
                       "Type": "MarkedSubImage",
                       "Path": "zpmj_main/main_round_timePress.png",
                       "Plist": "Plist_zpmj_main.plist"
@@ -461,7 +550,7 @@
                     "StartChar": ".",
                     "LabelAtlasFileImage_CNB": {
                       "Type": "Normal",
-                      "Path": "public/shuz0001.png",
+                      "Path": "public/shuz1.png",
                       "Plist": ""
                     },
                     "AnchorPoint": {
@@ -504,97 +593,8 @@
                   {
                     "FileData": {
                       "Type": "Normal",
-                      "Path": "public/text_black_bg1.png",
-                      "Plist": ""
-                    },
-                    "Scale9OriginX": 53,
-                    "Scale9OriginY": 13,
-                    "Scale9Width": 38,
-                    "Scale9Height": 14,
-                    "AnchorPoint": {
-                      "ScaleX": 0.5,
-                      "ScaleY": 0.5
-                    },
-                    "Position": {
-                      "X": 514.2767,
-                      "Y": 431.0841
-                    },
-                    "Scale": {
-                      "ScaleX": 1.0,
-                      "ScaleY": 1.0
-                    },
-                    "CColor": {},
-                    "IconVisible": false,
-                    "PrePosition": {
-                      "X": 0.3855,
-                      "Y": 0.5748
-                    },
-                    "PreSize": {
-                      "X": 0.1079,
-                      "Y": 0.0533
-                    },
-                    "LeftMargin": 442.2767,
-                    "RightMargin": 747.7233,
-                    "TopMargin": 298.9159,
-                    "BottomMargin": 411.0841,
-                    "Tag": 363,
-                    "ActionTag": -1917908407,
-                    "Size": {
-                      "X": 144.0,
-                      "Y": 40.0
-                    },
-                    "Name": "Image_black_bg",
-                    "ctype": "ImageViewObjectData"
-                  },
-                  {
-                    "FileData": {
-                      "Type": "Normal",
-                      "Path": "public/text_black_bg2.png",
-                      "Plist": ""
-                    },
-                    "Scale9OriginX": 53,
-                    "Scale9OriginY": 13,
-                    "Scale9Width": 38,
-                    "Scale9Height": 14,
-                    "AnchorPoint": {
-                      "ScaleY": 0.5
-                    },
-                    "Position": {
-                      "X": 745.4547,
-                      "Y": 431.0841
-                    },
-                    "Scale": {
-                      "ScaleX": 1.0,
-                      "ScaleY": 1.0
-                    },
-                    "CColor": {},
-                    "IconVisible": false,
-                    "PrePosition": {
-                      "X": 0.5588,
-                      "Y": 0.5748
-                    },
-                    "PreSize": {
-                      "X": 0.1079,
-                      "Y": 0.0533
-                    },
-                    "LeftMargin": 745.4547,
-                    "RightMargin": 444.5453,
-                    "TopMargin": 298.9159,
-                    "BottomMargin": 411.0841,
-                    "Tag": 920,
-                    "ActionTag": 543022313,
-                    "Size": {
-                      "X": 144.0,
-                      "Y": 40.0
-                    },
-                    "Name": "Image_black_bg_0",
-                    "ctype": "ImageViewObjectData"
-                  },
-                  {
-                    "FileData": {
-                      "Type": "MarkedSubImage",
                       "Path": "zpmj_main/bg_leftCad.png",
-                      "Plist": "Plist_zpmj_main.plist"
+                      "Plist": ""
                     },
                     "Scale9OriginX": 53,
                     "Scale9OriginY": 13,
@@ -642,7 +642,7 @@
                     "StartChar": ".",
                     "LabelAtlasFileImage_CNB": {
                       "Type": "Normal",
-                      "Path": "public/shuz0001.png",
+                      "Path": "public/shuz1.png",
                       "Plist": ""
                     },
                     "AnchorPoint": {
@@ -734,7 +734,7 @@
                     "StartChar": ".",
                     "LabelAtlasFileImage_CNB": {
                       "Type": "Normal",
-                      "Path": "public/shuz0001.png",
+                      "Path": "public/shuz1.png",
                       "Plist": ""
                     },
                     "AnchorPoint": {
@@ -775,57 +775,6 @@
                     "ctype": "TextAtlasObjectData"
                   },
                   {
-                    "FontSize": 24,
-                    "LabelText": "0/2",
-                    "OutlineColor": {
-                      "G": 0,
-                      "B": 0
-                    },
-                    "ShadowColor": {
-                      "R": 110,
-                      "G": 110,
-                      "B": 110
-                    },
-                    "ShadowOffsetX": 2.0,
-                    "ShadowOffsetY": -2.0,
-                    "AnchorPoint": {
-                      "ScaleX": 1.0,
-                      "ScaleY": 0.5
-                    },
-                    "Position": {
-                      "X": 540.6021,
-                      "Y": 469.5951
-                    },
-                    "Scale": {
-                      "ScaleX": 1.0,
-                      "ScaleY": 1.0
-                    },
-                    "CColor": {
-                      "B": 0
-                    },
-                    "IconVisible": false,
-                    "PrePosition": {
-                      "X": 0.4052,
-                      "Y": 0.6261
-                    },
-                    "PreSize": {
-                      "X": 0.027,
-                      "Y": 0.032
-                    },
-                    "LeftMargin": 504.6021,
-                    "RightMargin": 793.3979,
-                    "TopMargin": 268.4049,
-                    "BottomMargin": 457.5951,
-                    "Tag": 919,
-                    "ActionTag": -170748114,
-                    "Size": {
-                      "X": 36.0,
-                      "Y": 24.0
-                    },
-                    "Name": "Text_roundLeft",
-                    "ctype": "TextObjectData"
-                  },
-                  {
                     "FileData": {
                       "Type": "Normal",
                       "Path": "zpmj_main/bg_roomRound.png",
@@ -841,7 +790,7 @@
                     },
                     "Position": {
                       "X": 557.6207,
-                      "Y": 469.5952
+                      "Y": 469.6
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -859,9 +808,66 @@
                     },
                     "LeftMargin": 542.1207,
                     "RightMargin": 760.8793,
-                    "TopMargin": 264.4048,
-                    "BottomMargin": 453.5952,
+                    "TopMargin": 264.4,
+                    "BottomMargin": 453.6,
                     "Tag": 918,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 24,
+                        "LabelText": "100/200",
+                        "HorizontalAlignmentType": "HT_Right",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -6.5,
+                          "Y": 16.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": -0.2097,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 2.7097,
+                          "Y": 0.9375
+                        },
+                        "LeftMargin": -90.5,
+                        "RightMargin": 37.5,
+                        "TopMargin": 1.0,
+                        "BottomMargin": 1.0,
+                        "Tag": 919,
+                        "ActionTag": -170748114,
+                        "Size": {
+                          "X": 84.0,
+                          "Y": 30.0
+                        },
+                        "Name": "Text_roundLeft",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
                     "ActionTag": 1412413650,
                     "Size": {
                       "X": 31.0,
@@ -1346,9 +1352,9 @@
                 "Children": [
                   {
                     "FileData": {
-                      "Type": "Normal",
+                      "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_up_big.png",
-                      "Plist": ""
+                      "Plist": "Plist_zpmj_cardInfo.plist"
                     },
                     "Scale9OriginX": 22,
                     "Scale9OriginY": 45,
@@ -1441,9 +1447,9 @@
                   },
                   {
                     "FileData": {
-                      "Type": "Normal",
+                      "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_up_big.png",
-                      "Plist": ""
+                      "Plist": "Plist_zpmj_cardInfo.plist"
                     },
                     "Scale9OriginX": 22,
                     "Scale9OriginY": 45,
@@ -1772,9 +1778,9 @@
                 "Children": [
                   {
                     "FileData": {
-                      "Type": "Normal",
+                      "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_up_big.png",
-                      "Plist": ""
+                      "Plist": "Plist_zpmj_cardInfo.plist"
                     },
                     "Scale9OriginX": 22,
                     "Scale9OriginY": 45,
@@ -1959,9 +1965,9 @@
                   },
                   {
                     "FileData": {
-                      "Type": "Normal",
+                      "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_up_big.png",
-                      "Plist": ""
+                      "Plist": "Plist_zpmj_cardInfo.plist"
                     },
                     "Scale9OriginX": 22,
                     "Scale9OriginY": 45,
@@ -2198,9 +2204,9 @@
                 "Children": [
                   {
                     "FileData": {
-                      "Type": "Normal",
+                      "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_up_big.png",
-                      "Plist": ""
+                      "Plist": "Plist_zpmj_cardInfo.plist"
                     },
                     "Scale9OriginX": 22,
                     "Scale9OriginY": 45,
@@ -2477,9 +2483,9 @@
                   },
                   {
                     "FileData": {
-                      "Type": "Normal",
+                      "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_up_big.png",
-                      "Plist": ""
+                      "Plist": "Plist_zpmj_cardInfo.plist"
                     },
                     "Scale9OriginX": 22,
                     "Scale9OriginY": 45,
@@ -3996,9 +4002,9 @@
                 "Children": [
                   {
                     "FileData": {
-                      "Type": "Normal",
+                      "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_up_big.png",
-                      "Plist": ""
+                      "Plist": "Plist_zpmj_cardInfo.plist"
                     },
                     "Scale9OriginX": 22,
                     "Scale9OriginY": 45,
@@ -4090,9 +4096,9 @@
                   },
                   {
                     "FileData": {
-                      "Type": "Normal",
+                      "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_up_big.png",
-                      "Plist": ""
+                      "Plist": "Plist_zpmj_cardInfo.plist"
                     },
                     "Scale9OriginX": 22,
                     "Scale9OriginY": 45,
@@ -4518,9 +4524,9 @@
                   },
                   {
                     "FileData": {
-                      "Type": "Normal",
+                      "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_up_big.png",
-                      "Plist": ""
+                      "Plist": "Plist_zpmj_cardInfo.plist"
                     },
                     "Scale9OriginX": 22,
                     "Scale9OriginY": 45,
@@ -4612,9 +4618,9 @@
                   },
                   {
                     "FileData": {
-                      "Type": "Normal",
+                      "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_up_big.png",
-                      "Plist": ""
+                      "Plist": "Plist_zpmj_cardInfo.plist"
                     },
                     "Scale9OriginX": 22,
                     "Scale9OriginY": 45,
@@ -5040,9 +5046,9 @@
                   },
                   {
                     "FileData": {
-                      "Type": "Normal",
+                      "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_up_big.png",
-                      "Plist": ""
+                      "Plist": "Plist_zpmj_cardInfo.plist"
                     },
                     "Scale9OriginX": 22,
                     "Scale9OriginY": 45,
@@ -5134,9 +5140,9 @@
                   },
                   {
                     "FileData": {
-                      "Type": "Normal",
+                      "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_up_big.png",
-                      "Plist": ""
+                      "Plist": "Plist_zpmj_cardInfo.plist"
                     },
                     "Scale9OriginX": 22,
                     "Scale9OriginY": 45,
@@ -5272,12 +5278,12 @@
                 },
                 "PreSize": {
                   "X": 0.0487,
-                  "Y": 0.1333
+                  "Y": 0.1467
                 },
                 "LeftMargin": 1377.2271,
                 "RightMargin": -108.2271,
                 "TopMargin": 310.1666,
-                "BottomMargin": 339.8334,
+                "BottomMargin": 329.8334,
                 "Tag": 180,
                 "Children": [
                   {
@@ -5294,8 +5300,8 @@
                       "ScaleX": 0.5
                     },
                     "Position": {
-                      "X": 33.488,
-                      "Y": 53.9511
+                      "X": 32.877,
+                      "Y": 61.79
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -5305,17 +5311,17 @@
                     "IconVisible": false,
                     "PositionPercentXEnabled": true,
                     "PrePosition": {
-                      "X": 0.5152,
-                      "Y": 0.5395
+                      "X": 0.5058,
+                      "Y": 0.5617
                     },
                     "PreSize": {
                       "X": 0.8615,
-                      "Y": 0.44
+                      "Y": 0.4
                     },
-                    "LeftMargin": 5.488,
-                    "RightMargin": 3.512,
-                    "TopMargin": 2.0489,
-                    "BottomMargin": 53.9511,
+                    "LeftMargin": 4.877,
+                    "RightMargin": 4.123,
+                    "TopMargin": 4.21,
+                    "BottomMargin": 61.79,
                     "Tag": 191,
                     "Children": [
                       {
@@ -5389,8 +5395,8 @@
                       "ScaleX": 0.5
                     },
                     "Position": {
-                      "X": 33.4869,
-                      "Y": 23.1439
+                      "X": 32.88,
+                      "Y": 30.99
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -5399,17 +5405,17 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.5152,
-                      "Y": 0.2314
+                      "X": 0.5058,
+                      "Y": 0.2817
                     },
                     "PreSize": {
                       "X": 0.8615,
-                      "Y": 0.44
+                      "Y": 0.4
                     },
-                    "LeftMargin": 5.4869,
-                    "RightMargin": 3.5131,
-                    "TopMargin": 32.8561,
-                    "BottomMargin": 23.1439,
+                    "LeftMargin": 4.88,
+                    "RightMargin": 4.12,
+                    "TopMargin": 35.01,
+                    "BottomMargin": 30.99,
                     "Tag": 189,
                     "Children": [
                       {
@@ -5483,8 +5489,8 @@
                       "ScaleX": 0.5
                     },
                     "Position": {
-                      "X": 33.488,
-                      "Y": -8.05
+                      "X": 32.877,
+                      "Y": -1.012
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -5495,17 +5501,17 @@
                     "PositionPercentXEnabled": true,
                     "PositionPercentYEnabled": true,
                     "PrePosition": {
-                      "X": 0.5152,
-                      "Y": -0.0805
+                      "X": 0.5058,
+                      "Y": -0.0092
                     },
                     "PreSize": {
                       "X": 0.8615,
-                      "Y": 0.44
+                      "Y": 0.4
                     },
-                    "LeftMargin": 5.488,
-                    "RightMargin": 3.512,
-                    "TopMargin": 64.05,
-                    "BottomMargin": -8.05,
+                    "LeftMargin": 4.877,
+                    "RightMargin": 4.123,
+                    "TopMargin": 67.012,
+                    "BottomMargin": -1.012,
                     "Tag": 178,
                     "Children": [
                       {
@@ -5579,8 +5585,8 @@
                       "ScaleX": 0.5
                     },
                     "Position": {
-                      "X": 33.1465,
-                      "Y": 35.1148
+                      "X": 32.88,
+                      "Y": 41.0
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -5589,17 +5595,17 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.5099,
-                      "Y": 0.3511
+                      "X": 0.5058,
+                      "Y": 0.3727
                     },
                     "PreSize": {
                       "X": 0.8615,
-                      "Y": 0.44
+                      "Y": 0.4
                     },
-                    "LeftMargin": 5.1465,
-                    "RightMargin": 3.8535,
-                    "TopMargin": 20.8852,
-                    "BottomMargin": 35.1148,
+                    "LeftMargin": 4.88,
+                    "RightMargin": 4.12,
+                    "TopMargin": 25.0,
+                    "BottomMargin": 41.0,
                     "Tag": 193,
                     "Children": [
                       {
@@ -5663,7 +5669,7 @@
                 "ActionTag": 989278857,
                 "Size": {
                   "X": 65.0,
-                  "Y": 100.0
+                  "Y": 110.0
                 },
                 "Name": "Panel_mGangRight",
                 "ctype": "PanelObjectData"
@@ -6988,8 +6994,8 @@
                   "ScaleY": 1.0
                 },
                 "Position": {
-                  "X": 1373.6296,
-                  "Y": 611.6866
+                  "X": 1370.8934,
+                  "Y": 600.7409
                 },
                 "Scale": {
                   "ScaleX": 1.0,
@@ -6998,17 +7004,17 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 1.0297,
-                  "Y": 0.8156
+                  "X": 1.0277,
+                  "Y": 0.801
                 },
                 "PreSize": {
                   "X": 0.0487,
-                  "Y": 0.1333
+                  "Y": 0.1467
                 },
-                "LeftMargin": 1373.6296,
-                "RightMargin": -104.6296,
-                "TopMargin": 138.3134,
-                "BottomMargin": 511.6866,
+                "LeftMargin": 1370.8934,
+                "RightMargin": -101.8934,
+                "TopMargin": 149.2591,
+                "BottomMargin": 490.7409,
                 "Tag": 204,
                 "Children": [
                   {
@@ -7025,8 +7031,8 @@
                       "ScaleX": 0.5
                     },
                     "Position": {
-                      "X": 30.5305,
-                      "Y": 53.1481
+                      "X": 33.267,
+                      "Y": 64.0942
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -7036,17 +7042,17 @@
                     "IconVisible": false,
                     "PositionPercentXEnabled": true,
                     "PrePosition": {
-                      "X": 0.4697,
-                      "Y": 0.5315
+                      "X": 0.5118,
+                      "Y": 0.5827
                     },
                     "PreSize": {
                       "X": 0.8615,
-                      "Y": 0.44
+                      "Y": 0.4
                     },
-                    "LeftMargin": 2.5305,
-                    "RightMargin": 6.4695,
-                    "TopMargin": 2.8519,
-                    "BottomMargin": 53.1481,
+                    "LeftMargin": 5.267,
+                    "RightMargin": 3.733,
+                    "TopMargin": 1.9058,
+                    "BottomMargin": 64.0942,
                     "Tag": 205,
                     "ActionTag": 354653385,
                     "Size": {
@@ -7070,8 +7076,8 @@
                       "ScaleX": 0.5
                     },
                     "Position": {
-                      "X": 30.5309,
-                      "Y": 20.7237
+                      "X": 33.2673,
+                      "Y": 31.6699
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -7080,17 +7086,17 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.4697,
-                      "Y": 0.2072
+                      "X": 0.5118,
+                      "Y": 0.2879
                     },
                     "PreSize": {
                       "X": 0.8615,
-                      "Y": 0.44
+                      "Y": 0.4
                     },
-                    "LeftMargin": 2.5309,
-                    "RightMargin": 6.4691,
-                    "TopMargin": 35.2763,
-                    "BottomMargin": 20.7237,
+                    "LeftMargin": 5.2673,
+                    "RightMargin": 3.7327,
+                    "TopMargin": 34.3301,
+                    "BottomMargin": 31.6699,
                     "Tag": 207,
                     "ActionTag": -904596010,
                     "Size": {
@@ -7114,8 +7120,8 @@
                       "ScaleX": 0.5
                     },
                     "Position": {
-                      "X": 30.5305,
-                      "Y": -11.8
+                      "X": 33.267,
+                      "Y": -1.892
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -7126,17 +7132,17 @@
                     "PositionPercentXEnabled": true,
                     "PositionPercentYEnabled": true,
                     "PrePosition": {
-                      "X": 0.4697,
-                      "Y": -0.118
+                      "X": 0.5118,
+                      "Y": -0.0172
                     },
                     "PreSize": {
                       "X": 0.8615,
-                      "Y": 0.44
+                      "Y": 0.4
                     },
-                    "LeftMargin": 2.5305,
-                    "RightMargin": 6.4695,
-                    "TopMargin": 67.8,
-                    "BottomMargin": -11.8,
+                    "LeftMargin": 5.267,
+                    "RightMargin": 3.733,
+                    "TopMargin": 67.892,
+                    "BottomMargin": -1.892,
                     "Tag": 209,
                     "ActionTag": 1069704305,
                     "Size": {
@@ -7160,8 +7166,8 @@
                       "ScaleX": 0.5
                     },
                     "Position": {
-                      "X": 30.9847,
-                      "Y": 28.3157
+                      "X": 33.7215,
+                      "Y": 40.2614
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -7170,17 +7176,17 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.4767,
-                      "Y": 0.2832
+                      "X": 0.5188,
+                      "Y": 0.366
                     },
                     "PreSize": {
                       "X": 0.8615,
-                      "Y": 0.44
+                      "Y": 0.4
                     },
-                    "LeftMargin": 2.9847,
-                    "RightMargin": 6.0153,
-                    "TopMargin": 27.6843,
-                    "BottomMargin": 28.3157,
+                    "LeftMargin": 5.7215,
+                    "RightMargin": 3.2785,
+                    "TopMargin": 25.7386,
+                    "BottomMargin": 40.2614,
                     "Tag": 211,
                     "ActionTag": -1057569814,
                     "Size": {
@@ -7194,7 +7200,7 @@
                 "ActionTag": -955115237,
                 "Size": {
                   "X": 65.0,
-                  "Y": 100.0
+                  "Y": 110.0
                 },
                 "Name": "Panel_anGangRight",
                 "ctype": "PanelObjectData"
@@ -7233,11 +7239,11 @@
                 },
                 "PreSize": {
                   "X": 0.0487,
-                  "Y": 0.1333
+                  "Y": 0.1467
                 },
                 "LeftMargin": -118.8527,
                 "RightMargin": 1387.8527,
-                "TopMargin": 378.0333,
+                "TopMargin": 368.0333,
                 "BottomMargin": 271.9667,
                 "Tag": 195,
                 "Children": [
@@ -7267,15 +7273,15 @@
                     "PositionPercentXEnabled": true,
                     "PrePosition": {
                       "X": 0.513,
-                      "Y": 0.6302
+                      "Y": 0.5729
                     },
                     "PreSize": {
                       "X": 0.8615,
-                      "Y": 0.44
+                      "Y": 0.4
                     },
                     "LeftMargin": 5.345,
                     "RightMargin": 3.655,
-                    "TopMargin": -7.0169,
+                    "TopMargin": 2.9831,
                     "BottomMargin": 63.0169,
                     "Tag": 196,
                     "Children": [
@@ -7361,15 +7367,15 @@
                     "IconVisible": false,
                     "PrePosition": {
                       "X": 0.513,
-                      "Y": 0.3246
+                      "Y": 0.2951
                     },
                     "PreSize": {
                       "X": 0.8615,
-                      "Y": 0.44
+                      "Y": 0.4
                     },
                     "LeftMargin": 5.3446,
                     "RightMargin": 3.6554,
-                    "TopMargin": 23.5407,
+                    "TopMargin": 33.5407,
                     "BottomMargin": 32.4593,
                     "Tag": 198,
                     "Children": [
@@ -7445,7 +7451,7 @@
                     },
                     "Position": {
                       "X": 33.345,
-                      "Y": 1.84
+                      "Y": 2.024
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -7461,12 +7467,12 @@
                     },
                     "PreSize": {
                       "X": 0.8615,
-                      "Y": 0.44
+                      "Y": 0.4
                     },
                     "LeftMargin": 5.345,
                     "RightMargin": 3.655,
-                    "TopMargin": 54.16,
-                    "BottomMargin": 1.84,
+                    "TopMargin": 63.976,
+                    "BottomMargin": 2.024,
                     "Tag": 200,
                     "Children": [
                       {
@@ -7540,8 +7546,8 @@
                       "ScaleX": 0.5
                     },
                     "Position": {
-                      "X": 33.3313,
-                      "Y": 44.7952
+                      "X": 33.345,
+                      "Y": 44.7935
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -7550,17 +7556,17 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.5128,
-                      "Y": 0.448
+                      "X": 0.513,
+                      "Y": 0.4072
                     },
                     "PreSize": {
                       "X": 0.8615,
-                      "Y": 0.44
+                      "Y": 0.4
                     },
-                    "LeftMargin": 5.3313,
-                    "RightMargin": 3.6687,
-                    "TopMargin": 11.2048,
-                    "BottomMargin": 44.7952,
+                    "LeftMargin": 5.345,
+                    "RightMargin": 3.655,
+                    "TopMargin": 21.2065,
+                    "BottomMargin": 44.7935,
                     "Tag": 202,
                     "Children": [
                       {
@@ -7624,7 +7630,7 @@
                 "ActionTag": 818592409,
                 "Size": {
                   "X": 65.0,
-                  "Y": 100.0
+                  "Y": 110.0
                 },
                 "Name": "Panel_mGangLeft",
                 "ctype": "PanelObjectData"
@@ -8967,7 +8973,7 @@
                     },
                     "Position": {
                       "X": 32.6755,
-                      "Y": 73.6135
+                      "Y": 64.5338
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -8978,7 +8984,7 @@
                     "PositionPercentXEnabled": true,
                     "PrePosition": {
                       "X": 0.5027,
-                      "Y": 0.6692
+                      "Y": 0.5867
                     },
                     "PreSize": {
                       "X": 0.8615,
@@ -8986,8 +8992,8 @@
                     },
                     "LeftMargin": 4.6755,
                     "RightMargin": 4.3245,
-                    "TopMargin": -7.6135,
-                    "BottomMargin": 73.6135,
+                    "TopMargin": 1.4662,
+                    "BottomMargin": 64.5338,
                     "Tag": 223,
                     "ActionTag": 920256145,
                     "Size": {
@@ -9012,7 +9018,7 @@
                     },
                     "Position": {
                       "X": 32.6731,
-                      "Y": 38.2501
+                      "Y": 29.1704
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -9022,7 +9028,7 @@
                     "IconVisible": false,
                     "PrePosition": {
                       "X": 0.5027,
-                      "Y": 0.3477
+                      "Y": 0.2652
                     },
                     "PreSize": {
                       "X": 0.8615,
@@ -9030,8 +9036,8 @@
                     },
                     "LeftMargin": 4.6731,
                     "RightMargin": 4.3269,
-                    "TopMargin": 27.7499,
-                    "BottomMargin": 38.2501,
+                    "TopMargin": 36.8296,
+                    "BottomMargin": 29.1704,
                     "Tag": 224,
                     "ActionTag": -1999351523,
                     "Size": {
@@ -9056,7 +9062,7 @@
                     },
                     "Position": {
                       "X": 32.6755,
-                      "Y": 2.717
+                      "Y": -6.358
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -9068,7 +9074,7 @@
                     "PositionPercentYEnabled": true,
                     "PrePosition": {
                       "X": 0.5027,
-                      "Y": 0.0247
+                      "Y": -0.0578
                     },
                     "PreSize": {
                       "X": 0.8615,
@@ -9076,8 +9082,8 @@
                     },
                     "LeftMargin": 4.6755,
                     "RightMargin": 4.3245,
-                    "TopMargin": 63.283,
-                    "BottomMargin": 2.717,
+                    "TopMargin": 72.358,
+                    "BottomMargin": -6.358,
                     "Tag": 225,
                     "ActionTag": -116449062,
                     "Size": {
@@ -9102,7 +9108,7 @@
                     },
                     "Position": {
                       "X": 32.5491,
-                      "Y": 45.3628
+                      "Y": 36.2832
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -9112,7 +9118,7 @@
                     "IconVisible": false,
                     "PrePosition": {
                       "X": 0.5008,
-                      "Y": 0.4124
+                      "Y": 0.3298
                     },
                     "PreSize": {
                       "X": 0.8615,
@@ -9120,8 +9126,8 @@
                     },
                     "LeftMargin": 4.5491,
                     "RightMargin": 4.4509,
-                    "TopMargin": 20.6372,
-                    "BottomMargin": 45.3628,
+                    "TopMargin": 29.7168,
+                    "BottomMargin": 36.2832,
                     "Tag": 226,
                     "ActionTag": 355278919,
                     "Size": {
@@ -9240,8 +9246,8 @@
                           "Y": 0.3823
                         },
                         "Scale": {
-                          "ScaleX": 0.46,
-                          "ScaleY": 0.46
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
                         },
                         "CColor": {},
                         "IconVisible": false,
@@ -9366,7 +9372,7 @@
                         "StartChar": ".",
                         "LabelAtlasFileImage_CNB": {
                           "Type": "Normal",
-                          "Path": "public/shuz0001.png",
+                          "Path": "public/shuz1.png",
                           "Plist": ""
                         },
                         "AnchorPoint": {
@@ -9374,30 +9380,30 @@
                           "ScaleY": 0.5
                         },
                         "Position": {
-                          "X": 97.7988,
-                          "Y": 18.0636
+                          "X": 92.0,
+                          "Y": 16.06
                         },
                         "Scale": {
-                          "ScaleX": 0.7,
-                          "ScaleY": 0.7
+                          "ScaleX": 0.45,
+                          "ScaleY": 0.45
                         },
                         "CColor": {
                           "B": 0
                         },
                         "IconVisible": false,
                         "PrePosition": {
-                          "X": 0.978,
-                          "Y": 0.2258
+                          "X": 0.92,
+                          "Y": 0.2007
                         },
                         "PreSize": {
                           "X": 0.39,
                           "Y": 0.75
                         },
                         "HorizontalEdge": "LeftEdge",
-                        "LeftMargin": 78.2988,
-                        "RightMargin": -17.2988,
-                        "TopMargin": 31.9364,
-                        "BottomMargin": -11.9364,
+                        "LeftMargin": 72.5,
+                        "RightMargin": -11.5,
+                        "TopMargin": 33.94,
+                        "BottomMargin": -13.94,
                         "Tag": 1773,
                         "ActionTag": 1135384019,
                         "Size": {
@@ -9456,8 +9462,11 @@
                     "Tag": 442,
                     "Children": [
                       {
+                        "IsCustomSize": true,
                         "FontSize": 24,
                         "LabelText": "10",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
                         "OutlineColor": {
                           "G": 0,
                           "B": 0
@@ -9491,17 +9500,17 @@
                         },
                         "PreSize": {
                           "X": 0.2791,
-                          "Y": 0.4
+                          "Y": 0.5
                         },
                         "LeftMargin": 40.9902,
                         "RightMargin": 21.0098,
-                        "TopMargin": 31.0842,
-                        "BottomMargin": 4.9158,
+                        "TopMargin": 28.0842,
+                        "BottomMargin": 1.9158,
                         "Tag": 283,
                         "ActionTag": -653312266,
                         "Size": {
                           "X": 24.0,
-                          "Y": 24.0
+                          "Y": 30.0
                         },
                         "Name": "Text_Num",
                         "ctype": "TextObjectData"
@@ -9575,8 +9584,8 @@
                           "Y": 32.24
                         },
                         "Scale": {
-                          "ScaleX": 1.0,
-                          "ScaleY": 1.0
+                          "ScaleX": 0.74,
+                          "ScaleY": 0.74
                         },
                         "CColor": {},
                         "IconVisible": false,
@@ -9611,12 +9620,12 @@
                               "ScaleY": 0.5
                             },
                             "Position": {
-                              "X": 28.0616,
-                              "Y": 28.9514
+                              "X": 27.5016,
+                              "Y": 28.95
                             },
                             "Scale": {
-                              "ScaleX": 0.45,
-                              "ScaleY": 0.45
+                              "ScaleX": 0.36,
+                              "ScaleY": 0.4
                             },
                             "RotationSkewX": -90.0,
                             "RotationSkewY": -90.0,
@@ -9624,17 +9633,17 @@
                             "IconVisible": false,
                             "PositionPercentXEnabled": true,
                             "PrePosition": {
-                              "X": 0.5011,
+                              "X": 0.4911,
                               "Y": 0.658
                             },
                             "PreSize": {
                               "X": 1.7143,
                               "Y": 2.5
                             },
-                            "LeftMargin": -19.9384,
-                            "RightMargin": -20.0616,
-                            "TopMargin": -39.9514,
-                            "BottomMargin": -26.0486,
+                            "LeftMargin": -20.4984,
+                            "RightMargin": -19.5016,
+                            "TopMargin": -39.95,
+                            "BottomMargin": -26.05,
                             "Tag": 633,
                             "ActionTag": 2063593879,
                             "Size": {
@@ -9705,7 +9714,7 @@
                         "StartChar": ".",
                         "LabelAtlasFileImage_CNB": {
                           "Type": "Normal",
-                          "Path": "public/shuz0001.png",
+                          "Path": "public/shuz1.png",
                           "Plist": ""
                         },
                         "AnchorPoint": {
@@ -9795,8 +9804,11 @@
                     "Tag": 443,
                     "Children": [
                       {
+                        "IsCustomSize": true,
                         "FontSize": 24,
                         "LabelText": "10",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
                         "OutlineColor": {
                           "G": 0,
                           "B": 0
@@ -9830,17 +9842,17 @@
                         },
                         "PreSize": {
                           "X": 0.2791,
-                          "Y": 0.4
+                          "Y": 0.5
                         },
                         "LeftMargin": 39.9888,
                         "RightMargin": 22.0112,
-                        "TopMargin": 31.0811,
-                        "BottomMargin": 4.9189,
+                        "TopMargin": 28.0811,
+                        "BottomMargin": 1.9189,
                         "Tag": 281,
                         "ActionTag": 2082456162,
                         "Size": {
                           "X": 24.0,
-                          "Y": 24.0
+                          "Y": 30.0
                         },
                         "Name": "Text_Num",
                         "ctype": "TextObjectData"
@@ -9916,8 +9928,8 @@
                           "Y": 28.0205
                         },
                         "Scale": {
-                          "ScaleX": 1.0,
-                          "ScaleY": 1.0
+                          "ScaleX": 0.74,
+                          "ScaleY": 0.74
                         },
                         "CColor": {},
                         "IconVisible": false,
@@ -9938,7 +9950,7 @@
                           {
                             "FileData": {
                               "Type": "MarkedSubImage",
-                              "Path": "zpmj_cardAndColor/hua/hua_3.png",
+                              "Path": "zpmj_cardAndColor/hua/hua_4.png",
                               "Plist": "Plist_zpmj_cardInfo.plist"
                             },
                             "Scale9OriginX": 29,
@@ -9954,8 +9966,8 @@
                               "Y": 28.2385
                             },
                             "Scale": {
-                              "ScaleX": 0.45,
-                              "ScaleY": 0.45
+                              "ScaleX": 0.36,
+                              "ScaleY": 0.4
                             },
                             "RotationSkewX": 90.0,
                             "RotationSkewY": 90.0,
@@ -10044,7 +10056,7 @@
                         "StartChar": ".",
                         "LabelAtlasFileImage_CNB": {
                           "Type": "Normal",
-                          "Path": "public/shuz0001.png",
+                          "Path": "public/shuz1.png",
                           "Plist": ""
                         },
                         "AnchorPoint": {
@@ -10134,8 +10146,11 @@
                     "Tag": 444,
                     "Children": [
                       {
+                        "IsCustomSize": true,
                         "FontSize": 24,
                         "LabelText": "10",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
                         "OutlineColor": {
                           "G": 0,
                           "B": 0
@@ -10169,17 +10184,17 @@
                         },
                         "PreSize": {
                           "X": 0.2791,
-                          "Y": 0.4
+                          "Y": 0.5
                         },
                         "LeftMargin": 38.3806,
                         "RightMargin": 23.6194,
-                        "TopMargin": 30.9701,
-                        "BottomMargin": 5.0299,
+                        "TopMargin": 27.9701,
+                        "BottomMargin": 2.0299,
                         "Tag": 282,
                         "ActionTag": 1883023638,
                         "Size": {
                           "X": 24.0,
-                          "Y": 24.0
+                          "Y": 30.0
                         },
                         "Name": "Text_Num",
                         "ctype": "TextObjectData"
@@ -10251,31 +10266,30 @@
                           "ScaleX": 0.5
                         },
                         "Position": {
-                          "X": 28.7284,
+                          "X": 35.73,
                           "Y": 4.1044
                         },
                         "Scale": {
-                          "ScaleX": 0.46,
-                          "ScaleY": 0.46
+                          "ScaleX": 0.31,
+                          "ScaleY": 0.31
                         },
                         "CColor": {},
                         "IconVisible": false,
                         "PrePosition": {
-                          "X": 0.2873,
+                          "X": 0.3573,
                           "Y": 0.0513
                         },
                         "PreSize": {
                           "X": 0.96,
                           "Y": 1.7875
                         },
-                        "LeftMargin": -19.2716,
-                        "RightMargin": 23.2716,
+                        "LeftMargin": -12.27,
+                        "RightMargin": 16.27,
                         "TopMargin": -67.1044,
                         "BottomMargin": 4.1044,
                         "Tag": 628,
                         "Children": [
                           {
-                            "FlipX": true,
                             "FileData": {
                               "Type": "MarkedSubImage",
                               "Path": "zpmj_cardAndColor/hua/hua_2.png",
@@ -10384,7 +10398,7 @@
                         "StartChar": ".",
                         "LabelAtlasFileImage_CNB": {
                           "Type": "Normal",
-                          "Path": "public/shuz0001.png",
+                          "Path": "public/shuz1.png",
                           "Plist": ""
                         },
                         "AnchorPoint": {
@@ -10474,8 +10488,11 @@
                     "Tag": 445,
                     "Children": [
                       {
+                        "IsCustomSize": true,
                         "FontSize": 24,
                         "LabelText": "10",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
                         "OutlineColor": {
                           "G": 0,
                           "B": 0
@@ -10509,17 +10526,17 @@
                         },
                         "PreSize": {
                           "X": 0.2791,
-                          "Y": 0.4
+                          "Y": 0.5
                         },
                         "LeftMargin": 39.975,
                         "RightMargin": 22.025,
-                        "TopMargin": 30.4028,
-                        "BottomMargin": 5.5972,
+                        "TopMargin": 27.4028,
+                        "BottomMargin": 2.5972,
                         "Tag": 280,
                         "ActionTag": 264556476,
                         "Size": {
                           "X": 24.0,
-                          "Y": 24.0
+                          "Y": 30.0
                         },
                         "Name": "Text_Num",
                         "ctype": "TextObjectData"
@@ -10827,6 +10844,7 @@
                     "ctype": "ListViewObjectData"
                   },
                   {
+                    "FlipX": true,
                     "FileData": {
                       "Type": "MarkedSubImage",
                       "Path": "zpmj_cardAndColor/card/card_smallNomal.png",
@@ -10864,7 +10882,6 @@
                     "Tag": 195,
                     "Children": [
                       {
-                        "FlipX": true,
                         "FileData": {
                           "Type": "MarkedSubImage",
                           "Path": "zpmj_cardAndColor/wan/wan_6.png",
@@ -10988,25 +11005,25 @@
                     "Scale9Height": 1,
                     "AnchorPoint": {},
                     "Position": {
-                      "X": 457.5094,
+                      "X": 879.51,
                       "Y": 577.53
                     },
                     "Scale": {
-                      "ScaleX": 0.46,
+                      "ScaleX": -0.46,
                       "ScaleY": 0.46
                     },
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.343,
+                      "X": 0.6593,
                       "Y": 0.77
                     },
                     "PreSize": {
                       "X": 0.6859,
                       "Y": 0.1907
                     },
-                    "LeftMargin": 457.5094,
-                    "RightMargin": -38.5094,
+                    "LeftMargin": 879.51,
+                    "RightMargin": -460.51,
                     "TopMargin": 29.47,
                     "BottomMargin": 577.53,
                     "Tag": 197,
@@ -11040,25 +11057,25 @@
                     "Scale9Height": 1,
                     "AnchorPoint": {},
                     "Position": {
-                      "X": 457.5095,
+                      "X": 879.51,
                       "Y": 525.0
                     },
                     "Scale": {
-                      "ScaleX": 0.46,
+                      "ScaleX": -0.46,
                       "ScaleY": 0.46
                     },
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.343,
+                      "X": 0.6593,
                       "Y": 0.7
                     },
                     "PreSize": {
                       "X": 0.6859,
                       "Y": 0.1907
                     },
-                    "LeftMargin": 457.5095,
-                    "RightMargin": -38.5095,
+                    "LeftMargin": 879.51,
+                    "RightMargin": -460.51,
                     "TopMargin": 82.0,
                     "BottomMargin": 525.0,
                     "Tag": 429,
@@ -11329,8 +11346,8 @@
                     "Scale9Height": 2,
                     "AnchorPoint": {},
                     "Position": {
-                      "X": 965.0156,
-                      "Y": 284.55
+                      "X": 898.3156,
+                      "Y": 226.95
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -11341,17 +11358,17 @@
                     "PositionPercentXEnabled": true,
                     "PositionPercentYEnabled": true,
                     "PrePosition": {
-                      "X": 0.7234,
-                      "Y": 0.3794
+                      "X": 0.6734,
+                      "Y": 0.3026
                     },
                     "PreSize": {
                       "X": 0.042,
                       "Y": 0.0587
                     },
-                    "LeftMargin": 965.0156,
-                    "RightMargin": 312.9844,
-                    "TopMargin": 421.45,
-                    "BottomMargin": 284.55,
+                    "LeftMargin": 898.3156,
+                    "RightMargin": 379.6844,
+                    "TopMargin": 479.05,
+                    "BottomMargin": 226.95,
                     "Tag": 202,
                     "Children": [
                       {
@@ -11457,18 +11474,15 @@
                     "ctype": "ImageViewObjectData"
                   },
                   {
-                    "ItemMargin": -13,
-                    "DirectionType": "Vertical",
-                    "ScrollDirectionType": 0,
                     "ClipAble": false,
                     "BackColorAlpha": 102,
                     "SingleColor": {
                       "R": 150,
-                      "G": 150
+                      "G": 200
                     },
                     "FirstColor": {
                       "R": 150,
-                      "G": 150
+                      "G": 200
                     },
                     "EndColor": {},
                     "ColorVector": {
@@ -11476,12 +11490,13 @@
                     },
                     "Scale9Width": 1,
                     "Scale9Height": 1,
+                    "TouchEnable": true,
                     "AnchorPoint": {
-                      "ScaleY": 1.0
+                      "ScaleX": 1.0
                     },
                     "Position": {
-                      "X": 895.354,
-                      "Y": 593.921
+                      "X": 950.23,
+                      "Y": 270.9221
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -11490,39 +11505,36 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.6712,
-                      "Y": 0.7919
+                      "X": 0.7123,
+                      "Y": 0.3612
                     },
                     "PreSize": {
                       "X": 0.042,
                       "Y": 0.4307
                     },
-                    "LeftMargin": 895.354,
-                    "RightMargin": 382.646,
-                    "TopMargin": 156.079,
-                    "BottomMargin": 270.921,
-                    "Tag": 369,
-                    "ActionTag": -1696631019,
+                    "LeftMargin": 894.23,
+                    "RightMargin": 383.77,
+                    "TopMargin": 156.0779,
+                    "BottomMargin": 270.9221,
+                    "Tag": 1553,
+                    "ActionTag": 407271280,
                     "Size": {
                       "X": 56.0,
                       "Y": 323.0
                     },
-                    "Name": "ListView_right_0",
-                    "ctype": "ListViewObjectData"
+                    "Name": "Panel_right_0",
+                    "ctype": "PanelObjectData"
                   },
                   {
-                    "ItemMargin": -13,
-                    "DirectionType": "Vertical",
-                    "ScrollDirectionType": 0,
                     "ClipAble": false,
                     "BackColorAlpha": 102,
                     "SingleColor": {
                       "R": 150,
-                      "G": 150
+                      "G": 200
                     },
                     "FirstColor": {
                       "R": 150,
-                      "G": 150
+                      "G": 200
                     },
                     "EndColor": {},
                     "ColorVector": {
@@ -11530,12 +11542,11 @@
                     },
                     "Scale9Width": 1,
                     "Scale9Height": 1,
-                    "AnchorPoint": {
-                      "ScaleY": 1.0
-                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
                     "Position": {
-                      "X": 949.6022,
-                      "Y": 593.9204
+                      "X": 946.38,
+                      "Y": 270.9221
                     },
                     "Scale": {
                       "ScaleX": 1.0,
@@ -11544,25 +11555,25 @@
                     "CColor": {},
                     "IconVisible": false,
                     "PrePosition": {
-                      "X": 0.7118,
-                      "Y": 0.7919
+                      "X": 0.7094,
+                      "Y": 0.3612
                     },
                     "PreSize": {
                       "X": 0.042,
                       "Y": 0.4307
                     },
-                    "LeftMargin": 949.6022,
-                    "RightMargin": 328.3978,
-                    "TopMargin": 156.0796,
-                    "BottomMargin": 270.9204,
-                    "Tag": 370,
-                    "ActionTag": -1430723999,
+                    "LeftMargin": 946.38,
+                    "RightMargin": 331.62,
+                    "TopMargin": 156.0779,
+                    "BottomMargin": 270.9221,
+                    "Tag": 1554,
+                    "ActionTag": -1413803271,
                     "Size": {
                       "X": 56.0,
                       "Y": 323.0
                     },
-                    "Name": "ListView_right",
-                    "ctype": "ListViewObjectData"
+                    "Name": "Panel_right",
+                    "ctype": "PanelObjectData"
                   }
                 ],
                 "ActionTag": -37240370,
@@ -11839,7 +11850,6 @@
               {
                 "ClipAble": false,
                 "BackColorAlpha": 102,
-                "ComboBoxIndex": 1,
                 "SingleColor": {
                   "R": 150,
                   "G": 200
@@ -11856,28 +11866,28 @@
                 "Scale9Height": 1,
                 "AnchorPoint": {},
                 "Position": {
-                  "X": 130.4652,
-                  "Y": 25.6722
+                  "X": 61.4974,
+                  "Y": 27.6722
                 },
                 "Scale": {
-                  "ScaleX": 0.68,
-                  "ScaleY": 0.68
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PositionPercentXEnabled": true,
                 "PrePosition": {
-                  "X": 0.0978,
-                  "Y": 0.0342
+                  "X": 0.0461,
+                  "Y": 0.0369
                 },
                 "PreSize": {
                   "X": 1.0075,
                   "Y": 0.1907
                 },
-                "LeftMargin": 130.4652,
-                "RightMargin": -140.4652,
-                "TopMargin": 581.3278,
-                "BottomMargin": 25.6722,
+                "LeftMargin": 61.4974,
+                "RightMargin": -71.4974,
+                "TopMargin": 579.3278,
+                "BottomMargin": 27.6722,
                 "Tag": 947,
                 "ActionTag": -641712681,
                 "Size": {
@@ -11890,7 +11900,6 @@
               {
                 "ClipAble": false,
                 "BackColorAlpha": 102,
-                "ComboBoxIndex": 1,
                 "SingleColor": {
                   "R": 150,
                   "G": 200
@@ -11911,32 +11920,32 @@
                 },
                 "Position": {
                   "X": 1181.6584,
-                  "Y": 429.975
+                  "Y": 375.0
                 },
                 "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
+                  "ScaleX": 0.88,
+                  "ScaleY": 0.88
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PositionPercentYEnabled": true,
                 "PrePosition": {
                   "X": 0.8858,
-                  "Y": 0.5733
+                  "Y": 0.5
                 },
                 "PreSize": {
                   "X": 0.018,
-                  "Y": 0.52
+                  "Y": 0.5547
                 },
                 "LeftMargin": 1169.6584,
                 "RightMargin": 140.3416,
-                "TopMargin": 125.025,
-                "BottomMargin": 234.975,
+                "TopMargin": 167.0,
+                "BottomMargin": 167.0,
                 "Tag": 213,
                 "ActionTag": 249192653,
                 "Size": {
                   "X": 24.0,
-                  "Y": 390.0
+                  "Y": 416.0
                 },
                 "Name": "Panel_cardRight",
                 "ctype": "PanelObjectData"
@@ -11944,7 +11953,6 @@
               {
                 "ClipAble": false,
                 "BackColorAlpha": 102,
-                "ComboBoxIndex": 1,
                 "SingleColor": {
                   "R": 150,
                   "G": 200
@@ -11963,31 +11971,32 @@
                   "ScaleX": 0.5
                 },
                 "Position": {
-                  "X": 670.6,
-                  "Y": 671.498
+                  "X": 667.0,
+                  "Y": 671.5
                 },
                 "Scale": {
-                  "ScaleX": 0.46,
-                  "ScaleY": 0.46
+                  "ScaleX": 0.4,
+                  "ScaleY": 0.4
                 },
                 "CColor": {},
                 "IconVisible": false,
+                "PositionPercentXEnabled": true,
                 "PrePosition": {
-                  "X": 0.5027,
+                  "X": 0.5,
                   "Y": 0.8953
                 },
                 "PreSize": {
-                  "X": 0.9355,
+                  "X": 1.1507,
                   "Y": 0.1907
                 },
-                "LeftMargin": 46.6,
-                "RightMargin": 39.4,
-                "TopMargin": -64.498,
-                "BottomMargin": 671.498,
+                "LeftMargin": -100.5,
+                "RightMargin": -100.5,
+                "TopMargin": -64.5,
+                "BottomMargin": 671.5,
                 "Tag": 214,
                 "ActionTag": -1467836009,
                 "Size": {
-                  "X": 1248.0,
+                  "X": 1535.0,
                   "Y": 143.0
                 },
                 "Name": "Panel_cardUp",
@@ -11996,7 +12005,6 @@
               {
                 "ClipAble": false,
                 "BackColorAlpha": 102,
-                "ComboBoxIndex": 1,
                 "SingleColor": {
                   "R": 150,
                   "G": 200
@@ -12016,33 +12024,32 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 153.1501,
-                  "Y": 429.975
+                  "X": 155.0318,
+                  "Y": 496.0
                 },
                 "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
+                  "ScaleX": 0.88,
+                  "ScaleY": 0.9
                 },
                 "CColor": {},
                 "IconVisible": false,
-                "PositionPercentYEnabled": true,
                 "PrePosition": {
-                  "X": 0.1148,
-                  "Y": 0.5733
+                  "X": 0.1162,
+                  "Y": 0.6613
                 },
                 "PreSize": {
                   "X": 0.018,
-                  "Y": 0.52
+                  "Y": 0.5547
                 },
-                "LeftMargin": 141.1501,
-                "RightMargin": 1168.8499,
-                "TopMargin": 125.025,
-                "BottomMargin": 234.975,
+                "LeftMargin": 143.0318,
+                "RightMargin": 1166.9683,
+                "TopMargin": 46.0,
+                "BottomMargin": 288.0,
                 "Tag": 212,
                 "ActionTag": 430196063,
                 "Size": {
                   "X": 24.0,
-                  "Y": 390.0
+                  "Y": 416.0
                 },
                 "Name": "Panel_cardLeft",
                 "ctype": "PanelObjectData"
@@ -12050,7 +12057,6 @@
               {
                 "ClipAble": false,
                 "BackColorAlpha": 102,
-                "ComboBoxIndex": 1,
                 "SingleColor": {
                   "R": 165,
                   "G": 42,
@@ -12072,27 +12078,27 @@
                   "ScaleX": 1.0
                 },
                 "Position": {
-                  "X": 1270.0,
-                  "Y": 27.58
+                  "X": 1296.87,
+                  "Y": 61.13
                 },
                 "Scale": {
-                  "ScaleX": 0.56,
-                  "ScaleY": 0.56
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.952,
-                  "Y": 0.0368
+                  "X": 0.9722,
+                  "Y": 0.0815
                 },
                 "PreSize": {
                   "X": 0.015,
                   "Y": 0.22
                 },
-                "LeftMargin": 1250.0,
-                "RightMargin": 64.0,
-                "TopMargin": 557.42,
-                "BottomMargin": 27.58,
+                "LeftMargin": 1276.87,
+                "RightMargin": 37.13,
+                "TopMargin": 523.87,
+                "BottomMargin": 61.13,
                 "Tag": 173,
                 "ActionTag": -521118261,
                 "Size": {
@@ -12105,7 +12111,6 @@
               {
                 "ClipAble": false,
                 "BackColorAlpha": 102,
-                "ComboBoxIndex": 1,
                 "SingleColor": {
                   "R": 165,
                   "G": 42,
@@ -12126,17 +12131,17 @@
                 },
                 "Position": {
                   "X": 1149.2085,
-                  "Y": 700.0
+                  "Y": 732.0
                 },
                 "Scale": {
-                  "ScaleX": 0.76,
-                  "ScaleY": 0.76
+                  "ScaleX": 0.74,
+                  "ScaleY": 0.74
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.8615,
-                  "Y": 0.9333
+                  "Y": 0.976
                 },
                 "PreSize": {
                   "X": 0.0487,
@@ -12144,8 +12149,8 @@
                 },
                 "LeftMargin": 1149.2085,
                 "RightMargin": 119.7915,
-                "TopMargin": 50.0,
-                "BottomMargin": 680.0,
+                "TopMargin": 18.0,
+                "BottomMargin": 712.0,
                 "Tag": 174,
                 "ActionTag": 916394831,
                 "Size": {
@@ -12158,7 +12163,6 @@
               {
                 "ClipAble": false,
                 "BackColorAlpha": 102,
-                "ComboBoxIndex": 1,
                 "SingleColor": {
                   "R": 165,
                   "G": 42,
@@ -12176,27 +12180,27 @@
                 "Scale9Height": 1,
                 "AnchorPoint": {},
                 "Position": {
-                  "X": 230.6201,
-                  "Y": 673.4153
+                  "X": 202.62,
+                  "Y": 673.42
                 },
                 "Scale": {
-                  "ScaleX": 0.3,
-                  "ScaleY": 0.3
+                  "ScaleX": 0.4,
+                  "ScaleY": 0.4
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.1729,
+                  "X": 0.1519,
                   "Y": 0.8979
                 },
                 "PreSize": {
                   "X": 0.015,
                   "Y": 0.22
                 },
-                "LeftMargin": 230.6201,
-                "RightMargin": 1083.3799,
-                "TopMargin": -88.4153,
-                "BottomMargin": 673.4153,
+                "LeftMargin": 202.62,
+                "RightMargin": 1111.38,
+                "TopMargin": -88.42,
+                "BottomMargin": 673.42,
                 "Tag": 175,
                 "ActionTag": -1897507808,
                 "Size": {
@@ -12209,7 +12213,6 @@
               {
                 "ClipAble": false,
                 "BackColorAlpha": 121,
-                "ComboBoxIndex": 1,
                 "SingleColor": {
                   "R": 165,
                   "G": 42,
@@ -12229,27 +12232,27 @@
                   "ScaleX": 1.0
                 },
                 "Position": {
-                  "X": 186.9334,
-                  "Y": 160.14
+                  "X": 186.93,
+                  "Y": 180.4
                 },
                 "Scale": {
-                  "ScaleX": 0.76,
-                  "ScaleY": 0.76
+                  "ScaleX": 0.74,
+                  "ScaleY": 0.74
                 },
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
                   "X": 0.1401,
-                  "Y": 0.2135
+                  "Y": 0.2405
                 },
                 "PreSize": {
                   "X": 0.0487,
                   "Y": 0.0267
                 },
-                "LeftMargin": 121.9334,
-                "RightMargin": 1147.0667,
-                "TopMargin": 569.86,
-                "BottomMargin": 160.14,
+                "LeftMargin": 121.93,
+                "RightMargin": 1147.0701,
+                "TopMargin": 549.6,
+                "BottomMargin": 180.4,
                 "Tag": 176,
                 "ActionTag": 711748325,
                 "Size": {
@@ -12597,8 +12600,7 @@
               },
               {
                 "ClipAble": false,
-                "BackColorAlpha": 101,
-                "ComboBoxIndex": 1,
+                "BackColorAlpha": 0,
                 "SingleColor": {
                   "R": 0,
                   "G": 0,
@@ -12635,6 +12637,55 @@
                   "Y": 1.0
                 },
                 "Tag": 810,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "zpmj_main/MJui0047.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 220,
+                    "Scale9OriginY": 65,
+                    "Scale9Width": 227,
+                    "Scale9Height": 68,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 667.0,
+                      "Y": 226.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.5,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.302
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.264
+                    },
+                    "LeftMargin": 333.5,
+                    "RightMargin": 333.5,
+                    "TopMargin": 325.5,
+                    "BottomMargin": 226.5,
+                    "Tag": 858,
+                    "ActionTag": 540057400,
+                    "Size": {
+                      "X": 667.0,
+                      "Y": 198.0
+                    },
+                    "Alpha": 204,
+                    "Name": "Image_bg",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
                 "ActionTag": -1965569428,
                 "Size": {
                   "X": 1334.0,
@@ -13563,13 +13614,14 @@
         "Plist_zpmj_cardInfo.png",
         "Plist_zpmj_main.plist",
         "Plist_zpmj_main.png",
-        "public/shuz0001.png",
+        "public/shuz1.png",
         "public/text_black_bg1.png",
         "public/text_black_bg2.png",
-        "zpmj_cardAndColor/card/card_up_big.png",
+        "zpmj_main/bg_leftCad.png",
         "zpmj_main/bg_roomRound.png",
         "zpmj_main/main_bg.jpg",
         "zpmj_main/MJui0042.png",
+        "zpmj_main/MJui0047.png",
         "zpmj_main/MJui0050.png",
         "zpmj_main/multiply.png"
       ],

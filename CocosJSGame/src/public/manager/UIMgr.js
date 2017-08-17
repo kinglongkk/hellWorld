@@ -270,7 +270,7 @@ var UIMgr = cc.Class.extend({
 
 	ctor: function () {
 		this._closeIds = {};
-/*
+		
 		
 		
 		var _self = this;
@@ -285,15 +285,16 @@ var UIMgr = cc.Class.extend({
 				_self._hideTime = Date.now() / 1000;
 				cc.log("退后台");
 
-                var plaza = ClientData.getInstance().getPlaza();
-                if (plaza.getCurKindID() === CMD_NIUNIU_TB.KIND_ID && g_gameSocket.status === SOCKET_STATUS._SS_INVALID) {
-                    SendCardMgr.getInstance().exitSendCard();
-                }
+//                var plaza = ClientData.getInstance().getPlaza();
+//                if (plaza.getCurKindID() === CMD_NIUNIU_TB.KIND_ID && g_gameSocket.status === SOCKET_STATUS._SS_INVALID) {
+//                    SendCardMgr.getInstance().exitSendCard();
+//                }
 				//ios-native，不处理声音
 				if( !(cc.sys.isNative && (cc.sys.os == cc.sys.OS_IOS)) ){
 					//退后台关闭声音
 					SoundMgr.getInstance().setPlayMusic(false);
 				}
+				MsgMgr.getInstance().closeGameSocketForce(true)
 			}
 		});
 		cc.eventManager.addListener(listenerHide, 1);
@@ -323,14 +324,20 @@ var UIMgr = cc.Class.extend({
 				var bMusic = LocalStorageMgr.getInstance().getMusicItem();
 				cc.log("回到前台 bMusic = " + bMusic);
         		SoundMgr.getInstance().setPlayMusic(bMusic);
+                MsgMgr.getInstance()._bForceCloseGameSocket = false
+                MsgMgr.getInstance().reConnectGameServer()
 			}
 		});
-		cc.eventManager.addListener(listenerShow, 1);*/
+		cc.eventManager.addListener(listenerShow, 1);
 	},
 
 	init: function (uiLayer) {
 		this._uiLayer = uiLayer;
 	},
+
+	getRootLayer:function () {
+		return this._uiLayer
+    },
 
 	isPauseSchedule: function(){
 		return this._pauseSchedule;
@@ -344,6 +351,9 @@ var UIMgr = cc.Class.extend({
 	},
 
 	createDlg: function (id) {
+		if ( !DLG_CREATOR[id]){
+			cc.log("----------" + id +" 的窗口创建函数未定义")
+		}
 		var dlg = DLG_CREATOR[id]();
 		if (dlg) {
 			dlg.onCreate();

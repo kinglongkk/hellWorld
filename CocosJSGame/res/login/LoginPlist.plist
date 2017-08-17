@@ -4,38 +4,126 @@
 	<dict>
 		<key>frames</key>
 		<dict>
-			<key>login/login_btnWxNomal.png</key>
+			<key>default/dating0002.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{2,392},{386,108}}</string>
+				<string>{{2,938},{544,40}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
-				<string>{386,108}</string>
+				<string>{544,40}</string>
 			</dict>
-			<key>login/login_btnWxPress.png</key>
+			<key>default/dating0003.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{2,504},{386,108}}</string>
+				<string>{{545,670},{294,129}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-1,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
-				<string>{386,108}</string>
+				<string>{301,129}</string>
 			</dict>
-			<key>login/login_logo.png</key>
+			<key>default/dating0000.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{2,2},{501,386}}</string>
+				<string>{{2,670},{295,184}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
-				<string>{501,386}</string>
+				<string>{353,184}</string>
+			</dict>
+			<key>default/dating0002b.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,858},{539,76}}</string>
+				<key>offset</key>
+				<string>{-2,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{548,79}</string>
+			</dict>
+			<key>default/dating0004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{978,664}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{978,664}</string>
+			</dict>
+			<key>default/dating0004b.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{550,909},{81,83}}</string>
+				<key>offset</key>
+				<string>{-2,-2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{86,87}</string>
+			</dict>
+			<key>default/dating0005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{301,670},{203,84}}</string>
+				<key>offset</key>
+				<string>{-1,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>default/dating0005j.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,982},{104,37}}</string>
+				<key>offset</key>
+				<string>{2,5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>default/dating0006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{301,758},{203,84}}</string>
+				<key>offset</key>
+				<string>{-1,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,87}</string>
+			</dict>
+			<key>default/dating0024.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{508,803},{49,49}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{49,49}</string>
+			</dict>
+			<key>default/dating0024a.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{545,856},{49,49}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{49,49}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -47,14 +135,14 @@
 			<key>realTextureFileName</key>
 			<string>LoginPlist.png</string>
 			<key>size</key>
-			<string>{505,614}</string>
+			<string>{982,1021}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>505</integer>
+			<integer>982</integer>
 			<key>height</key>
-			<integer>614</integer>
+			<integer>1021</integer>
 		</dict>
 	</dict>
 </plist>

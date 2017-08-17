@@ -94,6 +94,9 @@ var WXShare = cc.Class.extend({
 });
 
 //分享目标
+WXShare.SHARE_TYPE_NOMAL = 0;	//正常分享
+WXShare.SHARE_TYPE_CAPTURESCREEN = 1;	//截图分享
+
 WXShare.SHARE_TARGET_CIRCLE = false;	//分享到朋友圈
 WXShare.SHARE_TARGET_FRIEND = true; //分享给好友 true
 

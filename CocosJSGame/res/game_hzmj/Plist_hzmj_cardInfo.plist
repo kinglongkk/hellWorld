@@ -7,387 +7,420 @@
 			<key>hzmj_cardAndColor/card/card_back.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{444,0},{66,96}}</string>
+				<string>{{151,3},{94,143}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
-				<string>{68,98}</string>
+				<string>{96,143}</string>
 			</dict>
 			<key>hzmj_cardAndColor/card/card_bigNomal.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{92,135}}</string>
+				<string>{{300,3},{94,142}}</string>
 				<key>offset</key>
-				<string>{0,1}</string>
+				<string>{0,0}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
-				<string>{92,138}</string>
+				<string>{96,143}</string>
 			</dict>
 			<key>hzmj_cardAndColor/card/card_left.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{206,534},{38,91}}</string>
+				<string>{{209,277},{24,52}}</string>
 				<key>offset</key>
-				<string>{0,1}</string>
+				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
-				<string>{40,94}</string>
+				<string>{24,52}</string>
 			</dict>
 			<key>hzmj_cardAndColor/card/card_right.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{297,534},{38,91}}</string>
+				<string>{{106,311},{24,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{24,52}</string>
+			</dict>
+			<key>hzmj_cardAndColor/card/card_smallNomal.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{151,103},{94,142}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{96,143}</string>
+			</dict>
+			<key>hzmj_cardAndColor/card/card_up.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{3,104},{133,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{134,100}</string>
+			</dict>
+			<key>hzmj_cardAndColor/suo/suo_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{438,199},{68,99}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/suo/suo_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{112,210},{23,95}}</string>
+				<key>offset</key>
+				<string>{-1,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/suo/suo_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{448,3},{60,92}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/suo/suo_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{448,101},{60,92}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/suo/suo_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{396,373},{60,92}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/suo/suo_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{399,304},{63,92}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/suo/suo_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{141,277},{62,102}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/suo/suo_8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{298,346},{62,92}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/suo/suo_9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{3,210},{63,103}}</string>
+				<key>offset</key>
+				<string>{-1,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/tong/tong_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{185,462},{66,69}}</string>
+				<key>offset</key>
+				<string>{0,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/tong/tong_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{260,532},{38,85}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/tong/tong_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{3,348},{63,95}}</string>
+				<key>offset</key>
+				<string>{-1,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/tong/tong_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299,209},{63,94}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/tong/tong_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299,278},{62,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/tong/tong_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{245,203},{48,95}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/tong/tong_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{3,279},{63,97}}</string>
+				<key>offset</key>
+				<string>{-1,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/tong/tong_8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{3,482},{49,95}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,110}</string>
+			</dict>
+			<key>hzmj_cardAndColor/tong/tong_9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{142,203},{68,97}}</string>
 				<key>offset</key>
 				<string>{0,1}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
-				<string>{40,94}</string>
-			</dict>
-			<key>hzmj_cardAndColor/card/card_smallNomal.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{444,96},{64,94}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{68,96}</string>
-			</dict>
-			<key>hzmj_cardAndColor/card/card_up.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0,602},{92,64}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{94,66}</string>
-			</dict>
-			<key>hzmj_cardAndColor/suo/suo_1.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{135,0},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/suo/suo_2.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{238,0},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/suo/suo_3.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{341,0},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/suo/suo_4.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{135,89},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/suo/suo_5.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0,92},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/suo/suo_6.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{238,89},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/suo/suo_7.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{341,89},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/suo/suo_8.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{103,178},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/suo/suo_9.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0,181},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/tong/tong_1.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{206,178},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/tong/tong_2.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{309,178},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/tong/tong_3.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{412,190},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/tong/tong_4.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{103,267},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/tong/tong_5.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0,270},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/tong/tong_6.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{206,267},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/tong/tong_7.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{309,267},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/tong/tong_8.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{412,293},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
-			</dict>
-			<key>hzmj_cardAndColor/tong/tong_9.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{103,356},{89,103}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{89,103}</string>
+				<string>{96,110}</string>
 			</dict>
 			<key>hzmj_cardAndColor/wan/wan_1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,359},{89,103}}</string>
+				<string>{{260,475},{51,80}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{0,-4}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
-				<string>{89,103}</string>
+				<string>{96,110}</string>
 			</dict>
 			<key>hzmj_cardAndColor/wan/wan_2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{206,356},{89,103}}</string>
+				<string>{{293,414},{55,85}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{0,-2}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
-				<string>{89,103}</string>
+				<string>{96,110}</string>
 			</dict>
 			<key>hzmj_cardAndColor/wan/wan_3.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{309,356},{89,103}}</string>
+				<string>{{199,401},{55,88}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{0,-2}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
-				<string>{89,103}</string>
+				<string>{96,110}</string>
 			</dict>
 			<key>hzmj_cardAndColor/wan/wan_4.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{412,396},{89,103}}</string>
+				<string>{{3,417},{59,85}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{0,-3}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
-				<string>{89,103}</string>
+				<string>{96,110}</string>
 			</dict>
 			<key>hzmj_cardAndColor/wan/wan_5.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{103,445},{89,103}}</string>
+				<string>{{104,385},{59,89}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{0,-1}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
-				<string>{89,103}</string>
+				<string>{96,110}</string>
 			</dict>
 			<key>hzmj_cardAndColor/wan/wan_6.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,448},{89,103}}</string>
+				<string>{{239,304},{53,91}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
-				<string>{89,103}</string>
+				<string>{96,110}</string>
 			</dict>
 			<key>hzmj_cardAndColor/wan/wan_7.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{206,445},{89,103}}</string>
+				<string>{{58,513},{50,89}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{1,-1}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
-				<string>{89,103}</string>
+				<string>{96,110}</string>
 			</dict>
 			<key>hzmj_cardAndColor/wan/wan_8.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{309,445},{89,103}}</string>
+				<string>{{94,450},{57,85}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{0,-3}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
-				<string>{89,103}</string>
+				<string>{96,110}</string>
 			</dict>
 			<key>hzmj_cardAndColor/wan/wan_9.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{412,499},{89,103}}</string>
+				<string>{{384,439},{50,89}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{1,-1}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
-				<string>{89,103}</string>
+				<string>{96,110}</string>
 			</dict>
 			<key>hzmj_cardAndColor/hongZhong.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{103,534},{89,103}}</string>
+				<string>{{346,495},{48,78}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
-				<string>{89,103}</string>
+				<string>{96,110}</string>
 			</dict>
 			<key>hzmj_cardAndColor/card/card_backLeft.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,537},{91,65}}</string>
+				<string>{{299,103},{133,100}}</string>
 				<key>offset</key>
-				<string>{-1,1}</string>
+				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
-				<string>{94,66}</string>
+				<string>{134,100}</string>
+			</dict>
+			<key>hzmj_cardAndColor/card/card_back_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{3,3},{95,142}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{96,143}</string>
+			</dict>
+			<key>hzmj_cardAndColor/card/card_backLeft_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{430,495},{56,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{56,44}</string>
+			</dict>
+			<key>hzmj_cardAndColor/card/card_up_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{430,545},{56,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{56,44}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -399,14 +432,14 @@
 			<key>realTextureFileName</key>
 			<string>Plist_hzmj_cardInfo.png</string>
 			<key>size</key>
-			<string>{510,666}</string>
+			<string>{511,620}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>510</integer>
+			<integer>511</integer>
 			<key>height</key>
-			<integer>666</integer>
+			<integer>620</integer>
 		</dict>
 	</dict>
 </plist>

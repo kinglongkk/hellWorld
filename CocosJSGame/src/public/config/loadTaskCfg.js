@@ -1,84 +1,29 @@
 var g_LoadTaskCfg = null;
+//{
+//	//任务ID 作为KEY
+//	"taskID_1000":{
+//		"taskType":0,//任务类型1...9
+//		"taskIcon":"",//任务图标
+//		"taskTitleIcon":"",//标题图标
+//		"taskExplain":"",//任务说明
+//		"taskStatus":0,//0:未完成 1：已完成  2：已领取
+//		"operation":{
+//			"btnTexture":"",//操作按钮纹理
+//			"textTexture":"",//操作按钮文字纹理
+//			"toDlgID":1000//跳转的界面ID
+//		}
+//	},
+//}
 var LoadTaskCfg = cc.Class.extend({
 	ctor:function(){
-		var taskCfg = cc.loader.getRes(res.taskCfg_cfg);
-		this._TasksPlaza = taskCfg['TasksPlaza'];
-		this._Tasks = taskCfg['Tasks'];
+		this.taskCfg = cc.loader.getRes(res.taskCfg_cfg);
 	},
-	
-	//签到、在线礼包、充值
-	getTasksPlaza: function(){
-		return this._TasksPlaza;
-	},
-	
-	////////////////////////////////////////////////////////////////////////////
-	//任务
-	getTasks: function(){
-		return this._Tasks;
-	},
-
-	getTaskCfg: function(typeId){
-		var taskCfg = null;
-
-		for(var i=0; i<this._Tasks.length; i++){
-			var cfg = this._Tasks[i];
-			if(typeId == cfg['TypeId']){
-				taskCfg = cfg;
-			}
-		}
-
-		return taskCfg;
-	},
-	
-	getTaskCfgData1: function(typeId){
-		var timeCfg = 0;
-		var taskCfg = this.getTaskCfg(typeId);
-		if(taskCfg){
-			timeCfg = taskCfg['Condition']['Data1'];
-		}
-		
-		return timeCfg;
-	},
-	
-	getTaskCfgData2: function(typeId){
-		var timeCfg = 0;
-		var taskCfg = this.getTaskCfg(typeId);
-		if(taskCfg){
-			timeCfg = taskCfg['Condition']['Data2'];
-		}
-
-		return timeCfg;
-	},
-	
-	getTaskCfgData3: function(typeId){
-		var timeCfg = 0;
-		var taskCfg = this.getTaskCfg(typeId);
-		if(taskCfg){
-			timeCfg = taskCfg['Condition']['Data3'];
-		}
-
-		return timeCfg;
-	},
-	
-	getTaskAddScore: function(typeId){
-		var Gold = 0;
-		var taskCfg = this.getTaskCfg(typeId);
-		if(taskCfg){
-			Gold = taskCfg['Reward']['Gold'];
-		}
-
-		return Gold;
-	},
-	
-	getTaskAddTicket: function(typeId){
-		var MbTicket = 0;
-		var taskCfg = this.getTaskCfg(typeId);
-		if(taskCfg){
-			MbTicket = taskCfg['Reward']['MbTicket'];
-		}
-
-		return MbTicket;
-	},
+    getTaskCfg: function(){
+        return this.taskCfg;
+    },
+	getTaskByID: function(taskID){
+		return this.taskCfg["taskID_"+taskID];
+	}
 	////////////////////////////////////////////////////////////////////////////
 });
 

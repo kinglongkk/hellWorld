@@ -7,6 +7,7 @@ var LocalStorage_Key = {
     LOGIN_RECORD_KEY: "_login_record_",	//玩家登录记录
     RECORD_PASS_KEY: "_record_pass_",
     AUTO_LOGIN_KEY: "_auto_login_",
+    USER_AGREEMENT_KEY: "0", //_user_agreement_ 用户协议 初始默认值为 0 表示 false
     MUSIC_KEY: "_music_",	//背景音乐
     SOUND_KEY: "_sound_",	//音效
     MUSIC_VOLUME_KEY: "_music_volume_",	//背景音乐音量
@@ -17,6 +18,8 @@ var LocalStorage_Key = {
     GAME_SOUND_KEY: "_game_sound_",	//游戏音效
     MAILS_INFO: "_mails_info_",
     HZMJ_GAMEINFO: "hzmj_gameInfo",	//红中麻将游戏信息
+    ZPMJ_GAMEINFO: "zpmj_gameInfo",	//漳浦麻将游戏信息
+    YXMJ_GAMEINFO: "yxmj_gameInfo",	//云霄麻将麻将游戏信息
 };
 
 var LocalStorageMgr = cc.Class.extend({
@@ -24,6 +27,18 @@ var LocalStorageMgr = cc.Class.extend({
 
     ctor: function () {
         this._locarStorage = cc.sys.localStorage;
+    },
+    //--------------用户协议---------------
+    setUserAgreement: function (bool) {
+        this._locarStorage.setItem(LocalStorage_Key.USER_AGREEMENT_KEY, bool);
+    },
+    getUserAgreement: function () {
+        var userAgreenment = this._locarStorage.getItem(LocalStorage_Key.USER_AGREEMENT_KEY);
+        if(!userAgreenment) return 0;
+        return userAgreenment;
+    },
+    removeUserAgreement: function () {
+        this._locarStorage.removeItem(LocalStorage_Key.USER_AGREEMENT_KEY);
     },
     //------------------------HZMJ_GAMEINFO
     getHzmjGameInfo: function () {
@@ -39,6 +54,37 @@ var LocalStorageMgr = cc.Class.extend({
     },
     removeHzmjGameInfo: function(){
     	this._locarStorage.removeItem(LocalStorage_Key.HZMJ_GAMEINFO);
+    },
+
+    //------------------------ZPMJ_GAMEINFO
+    getZpmjGameInfo: function () {
+        var strZpmjGameInfo = this._locarStorage.getItem(LocalStorage_Key.ZPMJ_GAMEINFO);
+        if(!strZpmjGameInfo){
+            return "";
+        }
+
+        return strZpmjGameInfo;
+    },
+    setZpmjGameInfo: function (strZpmjGameInfo) {
+        this._locarStorage.setItem(LocalStorage_Key.ZPMJ_GAMEINFO, strZpmjGameInfo);
+    },
+    removeZpmjGameInfo: function(){
+        this._locarStorage.removeItem(LocalStorage_Key.ZPMJ_GAMEINFO);
+    },
+    //------------------------YXMJ_GAMEINFO
+    getYxmjGameInfo: function () {
+        var strYxmjGameInfo = this._locarStorage.getItem(LocalStorage_Key.YXMJ_GAMEINFO);
+        if(!strYxmjGameInfo){
+            return "";
+        }
+
+        return strYxmjGameInfo;
+    },
+    setYxmjGameInfo: function (strYxmjGameInfo) {
+        this._locarStorage.setItem(LocalStorage_Key.YXMJ_GAMEINFO, strYxmjGameInfo);
+    },
+    removeYxmjGameInfo: function(){
+        this._locarStorage.removeItem(LocalStorage_Key.YXMJ_GAMEINFO);
     },
     //------------------------UUID
     getUuidItem: function () {
@@ -197,6 +243,62 @@ var LocalStorageMgr = cc.Class.extend({
 
     removeSoundItem: function () {
         this._locarStorage.getItem(LocalStorage_Key.SOUND_KEY);
+    },
+
+    //save isSelected xieyi
+    setXieYiSelected: function(isSelected){
+        this._locarStorage.setItem("XieYiSelected", String(isSelected));
+    },
+    getXieYiSelected: function(){
+        var strIsSelected = this._locarStorage.getItem("XieYiSelected");
+        if(strIsSelected=="")
+            return false;
+        return Boolean(strIsSelected);
+    },
+
+    //每日分享
+    setShareEveryDay: function(){
+        var localTime = Date.parse(new Date());
+        this._locarStorage.setItem("ShareEveryDay", String(localTime));
+    },
+    getShareEveryDay: function(){
+        var lastTime = this._locarStorage.getItem("ShareEveryDay");
+        if(lastTime=="")
+            return null;
+        return Number(lastTime);
+    },
+    //首次分享
+    setShareFirst: function(isShared){
+        var isShared = this._locarStorage.getItem("ShareFirst");
+        if(isShared==null || isShared=="")
+            this._locarStorage.setItem("ShareFirst", String(isShared));
+    },
+    getShareFirst: function(){
+        var isShared = this._locarStorage.getItem("ShareFirst");
+        if(isShared=="")
+            return false;
+        return Boolean(isShared);
+    },
+
+	//save leavTimes
+	setLeaveTimes: function(){
+		var curTimes = Math.floor(new Date().getTime()/1000);
+        this._locarStorage.setItem("LEAVETIMES", String(curTimes));
+	},
+    getLeaveTimes: function(){
+		var strTimes = this._locarStorage.getItem("LEAVETIMES");
+		if(strTimes=="")
+            return null;
+		return Number(strTimes);
+    },
+    setLeaveCounts: function(counts){
+        this._locarStorage.setItem("LEAVECOUNTS", String(counts));
+    },
+    getLeaveCounts: function(){
+        var strCounts = this._locarStorage.getItem("LEAVECOUNTS");
+        if(strCounts=="")
+            return null;
+        return Number(strCounts);
     },
 
     //------------------------music volume

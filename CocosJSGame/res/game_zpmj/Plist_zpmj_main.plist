@@ -7,7 +7,7 @@
 			<key>zpmj_main/hu_specil_type/hu_1y.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{342,956},{112,64}}</string>
+				<string>{{537,916},{112,64}}</string>
 				<key>offset</key>
 				<string>{-2,1}</string>
 				<key>rotated</key>
@@ -18,7 +18,7 @@
 			<key>zpmj_main/hu_specil_type/hu_2y.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{546,850},{114,56}}</string>
+				<string>{{284,679},{114,56}}</string>
 				<key>offset</key>
 				<string>{-1,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>zpmj_main/hu_specil_type/hu_3y.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{570,945},{113,56}}</string>
+				<string>{{174,422},{113,56}}</string>
 				<key>offset</key>
 				<string>{-1,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>zpmj_main/hu_specil_type/hu_4y.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{683,931},{111,56}}</string>
+				<string>{{229,478},{111,56}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,7 +51,7 @@
 			<key>zpmj_main/hu_specil_type/hu_gjqj.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{241,760},{182,50}}</string>
+				<string>{{241,811},{182,50}}</string>
 				<key>offset</key>
 				<string>{1,3}</string>
 				<key>rotated</key>
@@ -62,18 +62,18 @@
 			<key>zpmj_main/hu_specil_type/hu_gsgkh.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{124,682},{121,78}}</string>
+				<string>{{342,861},{121,78}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{200,82}</string>
 			</dict>
 			<key>zpmj_main/hu_specil_type/hu_gskh.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{124,622},{166,60}}</string>
+				<string>{{241,751},{166,60}}</string>
 				<key>offset</key>
 				<string>{0,1}</string>
 				<key>rotated</key>
@@ -84,18 +84,18 @@
 			<key>zpmj_main/hu_specil_type/hu_qj.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{454,945},{116,55}}</string>
+				<string>{{174,306},{116,55}}</string>
 				<key>offset</key>
 				<string>{0,3}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{200,82}</string>
 			</dict>
 			<key>zpmj_main/hu_specil_type/hu_sjd.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{241,810},{160,55}}</string>
+				<string>{{420,861},{160,55}}</string>
 				<key>offset</key>
 				<string>{0,3}</string>
 				<key>rotated</key>
@@ -106,7 +106,7 @@
 			<key>zpmj_main/hu_specil_type/hu_th.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{432,850},{114,57}}</string>
+				<string>{{228,622},{114,57}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -117,24 +117,13 @@
 			<key>zpmj_main/hu_specil_type/hu_zm.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{139,480},{106,58}}</string>
+				<string>{{255,534},{106,58}}</string>
 				<key>offset</key>
 				<string>{0,2}</string>
 				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{200,82}</string>
-			</dict>
-			<key>zpmj_main/bg_leftCad.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{401,810},{162,40}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
-				<string>{162,40}</string>
+				<string>{200,82}</string>
 			</dict>
 			<key>zpmj_main/bg_op.png</key>
 			<dict>
@@ -150,7 +139,7 @@
 			<key>zpmj_main/bg_roomNum.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{594,906},{160,25}}</string>
+				<string>{{124,726},{160,25}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -161,7 +150,7 @@
 			<key>zpmj_main/bg_score.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{432,907},{162,38}}</string>
+				<string>{{342,982},{162,38}}</string>
 				<key>offset</key>
 				<string>{0,-1}</string>
 				<key>rotated</key>
@@ -172,7 +161,7 @@
 			<key>zpmj_main/kingFlag.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{197,473},{48,48}}</string>
+				<string>{{398,696},{48,48}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -205,7 +194,7 @@
 			<key>zpmj_main/main_round_pointer_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{174,421},{114,52}}</string>
+				<string>{{398,644},{114,52}}</string>
 				<key>offset</key>
 				<string>{1,-54}</string>
 				<key>rotated</key>
@@ -216,7 +205,7 @@
 			<key>zpmj_main/main_round_pointer_left.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{226,306},{51,116}}</string>
+				<string>{{139,571},{51,116}}</string>
 				<key>offset</key>
 				<string>{-55,-1}</string>
 				<key>rotated</key>
@@ -227,18 +216,18 @@
 			<key>zpmj_main/main_round_pointer_right.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{174,306},{52,115}}</string>
+				<string>{{342,592},{52,115}}</string>
 				<key>offset</key>
 				<string>{54,2}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{180,180}</string>
 			</dict>
 			<key>zpmj_main/main_round_pointer_up.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{226,357},{107,43}}</string>
+				<string>{{504,981},{107,43}}</string>
 				<key>offset</key>
 				<string>{-2,54}</string>
 				<key>rotated</key>
@@ -260,7 +249,7 @@
 			<key>zpmj_main/main_wait_ready.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{245,682},{117,65}}</string>
+				<string>{{420,916},{117,65}}</string>
 				<key>offset</key>
 				<string>{2,0}</string>
 				<key>rotated</key>
@@ -293,7 +282,7 @@
 			<key>zpmj_main/op_guo.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{342,865},{90,91}}</string>
+				<string>{{139,480},{90,91}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -334,6 +323,17 @@
 				<key>sourceSize</key>
 				<string>{146,146}</string>
 			</dict>
+			<key>zpmj_main/info_externBg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{124,622},{104,104}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{104,104}</string>
+			</dict>
 		</dict>
 		<key>metadata</key>
 		<dict>
@@ -344,14 +344,14 @@
 			<key>realTextureFileName</key>
 			<string>Plist_zpmj_main.png</string>
 			<key>size</key>
-			<string>{794,1020}</string>
+			<string>{649,1024}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>794</integer>
+			<integer>649</integer>
 			<key>height</key>
-			<integer>1020</integer>
+			<integer>1024</integer>
 		</dict>
 	</dict>
 </plist>

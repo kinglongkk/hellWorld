@@ -99,13 +99,13 @@
             "ctype": "SpriteObjectData"
           },
           {
-            "CharWidth": 25,
-            "CharHeight": 40,
-            "LabelText": "0",
+            "CharWidth": 39,
+            "CharHeight": 55,
+            "LabelText": "9999",
             "StartChar": ".",
             "LabelAtlasFileImage_CNB": {
               "Type": "Normal",
-              "Path": "ddzPic/shuz2.png",
+              "Path": "ddzPic/shuz1.png",
               "Plist": ""
             },
             "AnchorPoint": {
@@ -113,44 +113,44 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 560.0,
+              "X": 558.0,
               "Y": 690.0
             },
             "Scale": {
-              "ScaleX": 0.7,
-              "ScaleY": 0.7
+              "ScaleX": 0.8,
+              "ScaleY": 0.8
             },
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.4198,
+              "X": 0.4183,
               "Y": 0.92
             },
             "PreSize": {
-              "X": 0.0187,
-              "Y": 0.0533
+              "X": 0.1169,
+              "Y": 0.0733
             },
-            "LeftMargin": 547.5,
-            "RightMargin": 761.5,
-            "TopMargin": 40.0,
-            "BottomMargin": 670.0,
-            "Tag": 124,
-            "ActionTag": 751543748,
+            "LeftMargin": 480.0,
+            "RightMargin": 698.0,
+            "TopMargin": 32.5,
+            "BottomMargin": 662.5,
+            "Tag": 188,
+            "ActionTag": 359745020,
             "Size": {
-              "X": 25.0,
-              "Y": 40.0
+              "X": 156.0,
+              "Y": 55.0
             },
             "Name": "Text_multiple",
             "ctype": "TextAtlasObjectData"
           },
           {
-            "CharWidth": 25,
-            "CharHeight": 40,
-            "LabelText": "0",
+            "CharWidth": 39,
+            "CharHeight": 55,
+            "LabelText": "9999",
             "StartChar": ".",
             "LabelAtlasFileImage_CNB": {
               "Type": "Normal",
-              "Path": "ddzPic/shuz2.png",
+              "Path": "ddzPic/shuz1.png",
               "Plist": ""
             },
             "AnchorPoint": {
@@ -158,32 +158,32 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 860.0,
-              "Y": 690.0
+              "X": 858.0,
+              "Y": 695.0
             },
             "Scale": {
-              "ScaleX": 0.7,
-              "ScaleY": 0.7
+              "ScaleX": 0.8,
+              "ScaleY": 0.8
             },
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.6447,
-              "Y": 0.92
+              "X": 0.6432,
+              "Y": 0.9267
             },
             "PreSize": {
-              "X": 0.0187,
-              "Y": 0.0533
+              "X": 0.1169,
+              "Y": 0.0733
             },
-            "LeftMargin": 847.5,
-            "RightMargin": 461.5,
-            "TopMargin": 40.0,
-            "BottomMargin": 670.0,
-            "Tag": 125,
-            "ActionTag": -304542776,
+            "LeftMargin": 780.0,
+            "RightMargin": 398.0,
+            "TopMargin": 27.5,
+            "BottomMargin": 667.5,
+            "Tag": 189,
+            "ActionTag": -1393217482,
             "Size": {
-              "X": 25.0,
-              "Y": 40.0
+              "X": 156.0,
+              "Y": 55.0
             },
             "Name": "Text_BaseScore",
             "ctype": "TextAtlasObjectData"
@@ -408,7 +408,7 @@
       "UsedResources": [
         "ddzGamePlist.plist",
         "ddzGamePlist.png",
-        "ddzPic/shuz2.png",
+        "ddzPic/shuz1.png",
         "Default/ImageFile.png"
       ],
       "ctype": "GameFileData"

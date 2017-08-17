@@ -31,14 +31,14 @@ var yayaSdkMgr = cc.Class.extend({
                 {
                     // 发送录音URL
                     cc.log("呀呀录音上传");
-                    GameFrameMsg.getInstance().sendRecordUrlReq(fileurl);
+                    GameFrameMsg.getInstance().sendVoiceReqMsg(fileurl);
                 }
                 else
                 {
                     cc.log("呀呀录音上传失败");
                     SoundMgr.getInstance().setPlayMusic(true);
                 }
-                //yayaSdkMgr.getInstance().playRecord(fileurl, "");
+                yayaSdkMgr.getInstance().playRecord(fileurl, "");
             };
             this._yayaSDk.onPlayVoiceRespond = function(params){
             	cc.log("-----呀呀播放结束回调--------");

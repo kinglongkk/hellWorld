@@ -109,6 +109,7 @@ var Plaza = cc.Class.extend({
     },
     
     setCurKindID: function(kindID){
+    	cc.log("-----------设置默认的游戏ID = " + kindID)
     	this.curKindID = kindID;
 
 //    	var game = GameKindMgr.getInstance().getGame();

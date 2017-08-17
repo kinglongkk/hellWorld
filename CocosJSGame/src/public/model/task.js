@@ -1,10 +1,7 @@
 //任务数据
 var Task = cc.Class.extend({
-	//task flag
-	_TaskFlag_OnlineReward:0,
-	
-	_INVALID: 0,		//无效
-	_UNACTIVE: 1,		//未接
+	//task status
+	_VALID: 0,		//未接
 	_ACTIVE: 2,			//已接
 	_DONE: 3,			//完成未领奖
 	_COMPLETE: 4,		//完成已领奖

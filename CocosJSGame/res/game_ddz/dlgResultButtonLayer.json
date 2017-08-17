@@ -49,8 +49,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 1001.6123,
-              "Y": 219.3163
+              "X": 1000.0,
+              "Y": 227.0
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -59,17 +59,17 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.7508,
-              "Y": 0.2924
+              "X": 0.7496,
+              "Y": 0.3027
             },
             "PreSize": {
               "X": 0.1312,
               "Y": 0.1013
             },
-            "LeftMargin": 914.1123,
-            "RightMargin": 244.8877,
-            "TopMargin": 492.6837,
-            "BottomMargin": 181.3163,
+            "LeftMargin": 912.5,
+            "RightMargin": 246.5,
+            "TopMargin": 485.0,
+            "BottomMargin": 189.0,
             "Tag": 163,
             "Children": [
               {
@@ -154,8 +154,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 1000.8065,
-              "Y": 127.2551
+              "X": 1000.0,
+              "Y": 127.0
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -164,17 +164,17 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.7502,
-              "Y": 0.1697
+              "X": 0.7496,
+              "Y": 0.1693
             },
             "PreSize": {
               "X": 0.1312,
               "Y": 0.1013
             },
-            "LeftMargin": 913.3065,
-            "RightMargin": 245.6935,
-            "TopMargin": 584.7449,
-            "BottomMargin": 89.2551,
+            "LeftMargin": 912.5,
+            "RightMargin": 246.5,
+            "TopMargin": 585.0,
+            "BottomMargin": 89.0,
             "Tag": 164,
             "Children": [
               {

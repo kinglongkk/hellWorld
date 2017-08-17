@@ -245,7 +245,6 @@ var DlgResult = DlgBase.extend({
 			switch (strBtnName) {
 			case "Btn_delRoom":
                 // OpenRoomMsg.getInstance().sendReturnPlaza();//与续费相关
-                GameUserMsg.getInstance().sendStandUp(true);
                 GameKindMgr.getInstance().backPlazaScene();
 				break;
 			case "Btn_share":

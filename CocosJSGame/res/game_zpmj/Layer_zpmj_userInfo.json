@@ -56,59 +56,6 @@
             "Tag": 33,
             "Children": [
               {
-                "IsCustomSize": true,
-                "FontSize": 14,
-                "LabelText": "玩家小丸子 ",
-                "HorizontalAlignmentType": "HT_Center",
-                "VerticalAlignmentType": "VT_Center",
-                "OutlineColor": {
-                  "G": 0,
-                  "B": 0
-                },
-                "ShadowColor": {
-                  "R": 110,
-                  "G": 110,
-                  "B": 110
-                },
-                "ShadowOffsetX": 2.0,
-                "ShadowOffsetY": -2.0,
-                "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
-                },
-                "Position": {
-                  "X": 49.0335,
-                  "Y": 115.4939
-                },
-                "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
-                },
-                "CColor": {},
-                "IconVisible": false,
-                "PositionPercentXEnabled": true,
-                "PrePosition": {
-                  "X": 0.5055,
-                  "Y": 0.9094
-                },
-                "PreSize": {
-                  "X": 0.7938,
-                  "Y": 0.1102
-                },
-                "LeftMargin": 10.5335,
-                "RightMargin": 9.4665,
-                "TopMargin": 4.5061,
-                "BottomMargin": 108.4939,
-                "Tag": 39,
-                "ActionTag": -430559097,
-                "Size": {
-                  "X": 77.0,
-                  "Y": 14.0
-                },
-                "Name": "Text_nickName",
-                "ctype": "TextObjectData"
-              },
-              {
                 "FileData": {
                   "Type": "MarkedSubImage",
                   "Path": "zpmj_userInfo/userInfo_flowerIcon.png",
@@ -145,6 +92,116 @@
                 "TopMargin": 30.2444,
                 "BottomMargin": 28.7556,
                 "Tag": 38,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 14,
+                    "LabelText": "玩家小丸子",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 33.5153,
+                      "Y": 86.91
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4929,
+                      "Y": 1.2781
+                    },
+                    "PreSize": {
+                      "X": 1.4706,
+                      "Y": 0.3529
+                    },
+                    "LeftMargin": -16.4847,
+                    "RightMargin": -15.5153,
+                    "TopMargin": -30.91,
+                    "BottomMargin": 74.91,
+                    "Tag": 39,
+                    "ActionTag": -430559097,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 24.0
+                    },
+                    "Name": "Text_nickName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "936",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 33.5153,
+                      "Y": -16.56
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4929,
+                      "Y": -0.2435
+                    },
+                    "PreSize": {
+                      "X": 1.4706,
+                      "Y": 0.4412
+                    },
+                    "LeftMargin": -16.4847,
+                    "RightMargin": -15.5153,
+                    "TopMargin": 69.56,
+                    "BottomMargin": -31.56,
+                    "Tag": 40,
+                    "ActionTag": -1622109527,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 30.0
+                    },
+                    "Name": "Text_gold",
+                    "ctype": "TextObjectData"
+                  }
+                ],
                 "ActionTag": -1062691227,
                 "Size": {
                   "X": 68.0,
@@ -152,60 +209,6 @@
                 },
                 "Name": "Image_head",
                 "ctype": "ImageViewObjectData"
-              },
-              {
-                "IsCustomSize": true,
-                "FontSize": 20,
-                "LabelText": "936",
-                "HorizontalAlignmentType": "HT_Center",
-                "VerticalAlignmentType": "VT_Center",
-                "OutlineColor": {
-                  "G": 0,
-                  "B": 0
-                },
-                "ShadowColor": {
-                  "R": 110,
-                  "G": 110,
-                  "B": 110
-                },
-                "ShadowOffsetX": 2.0,
-                "ShadowOffsetY": -2.0,
-                "AnchorPoint": {
-                  "ScaleX": 0.5,
-                  "ScaleY": 0.5
-                },
-                "Position": {
-                  "X": 49.0374,
-                  "Y": 11.2648
-                },
-                "Scale": {
-                  "ScaleX": 1.0,
-                  "ScaleY": 1.0
-                },
-                "CColor": {
-                  "B": 0
-                },
-                "IconVisible": false,
-                "PrePosition": {
-                  "X": 0.5055,
-                  "Y": 0.0887
-                },
-                "PreSize": {
-                  "X": 1.0309,
-                  "Y": 0.189
-                },
-                "LeftMargin": -0.9626,
-                "RightMargin": -2.0374,
-                "TopMargin": 103.7352,
-                "BottomMargin": -0.7352,
-                "Tag": 40,
-                "ActionTag": -1622109527,
-                "Size": {
-                  "X": 100.0,
-                  "Y": 24.0
-                },
-                "Name": "Text_gold",
-                "ctype": "TextObjectData"
               },
               {
                 "FileData": {
@@ -287,17 +290,17 @@
                 },
                 "PreSize": {
                   "X": 1.5464,
-                  "Y": 0.189
+                  "Y": 0.2362
                 },
                 "LeftMargin": 22.1779,
                 "RightMargin": -75.1779,
-                "TopMargin": 131.7857,
-                "BottomMargin": -28.7857,
+                "TopMargin": 128.7857,
+                "BottomMargin": -31.7857,
                 "Tag": 42,
                 "ActionTag": -1944581022,
                 "Size": {
                   "X": 150.0,
-                  "Y": 24.0
+                  "Y": 30.0
                 },
                 "Name": "Text_position",
                 "ctype": "TextObjectData"

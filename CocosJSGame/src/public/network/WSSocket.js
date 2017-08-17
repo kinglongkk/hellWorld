@@ -27,6 +27,7 @@ var WSMsgMgr = cc.Class.extend({
 	chatSocke:null,
 
 	ctor:function(){
+	    cc.log("---------通信消息管理器创建：WSMsgMgr.create()--------------")
         this.logondSocket = new socket()
         this.logondSocket._ptype = PTypeToLogon
         this.gameSocke = new socket()
@@ -37,6 +38,14 @@ var WSMsgMgr = cc.Class.extend({
 
 
 	reConnectGameServer: function(dt){
+	    if(this._bForceCloseGameSocket) return;
+        var runScene = cc.director.getRunningScene();
+        if(runScene && runScene.isGameScene ) {
+            if(!runScene.isGameScene())
+            {
+                return
+            }
+        }
 		cc.log("--断开连接--onOffLine---");
 
 		var plaza = ClientData.getInstance().getPlaza();
@@ -53,31 +62,30 @@ var WSMsgMgr = cc.Class.extend({
 
 		var ip = roomServerInfo.szServerAddr;
 		var port = roomServerInfo.wServerPort;
-
-		this.gameSocke.close();
 		cc.log("reConnectGameServer");
 		this.gameSocke.status = SOCKET_STATUS._SS_INVALID;
+        if(!this.gameReConnectCallBack){
+            var self = this;
+            this.gameReConnectCallBack = function(){
+                cc.log("-------------重连登录游戏服务器后发送的请求---------");
+                GameLogonMsg.getInstance().sendLogon(); // 登陆了游戏服务器
+                GameFrameMsg.getInstance().sendGameOption();
+                self.gameReConnectCallBack = null;
+            };
+        }
 		this.connectGameServer(ip, port);
-
-		if(!this.gameReConnectCallBack){
-			var self = this;
-			this.gameReConnectCallBack = function(){
-				cc.log("unscheduleCallbackForTarget");
-				//cc.Director.getInstance().getScheduler().unscheduleCallbackForTarget(self, self.reConnectGameServer);
-				GameLogonMsg.getInstance().sendLogon();
-				self.gameReConnectCallBack = null;
-			};
-		}
 	},
 
 	connectLogonServer:function(ip, port){
-		cc.log("at connectLogonServer ..... ", ip, port)
+		cc.log("------------------------连接登录服务器 loginWSSocket ..... ", ip, port)
 		if (this.logondSocket.status == SOCKET_STATUS._SS_INVALID ){
 			var sock = this.logondSocket;
 			sock._onOpen =  function () {
+                cc.log("--------------调用了  LoginWSSocket._onOpen()-----------")
                 LogonMsgHandler.getInstance().onConnectResult(1);
             };
 			sock._onClose = function () {
+                cc.log("----------调用了  LoginWSSocket._onClose() ----------------")
                 LogonMsgHandler.getInstance().onOffLine();
             };
 
@@ -86,21 +94,26 @@ var WSMsgMgr = cc.Class.extend({
 	},
 	connectGameServer:function(ip, port){
 		var self = this
-        cc.log("at connectGameServer ..... ", ip, port)
+        cc.log("------------------------试图连接Game服务器 GameWSSocket： ..... ", ip, port)
 		if (this.gameSocke.status == SOCKET_STATUS._SS_INVALID ){
 			var sock = this.gameSocke;
 			sock._onOpen = function () {
+                cc.log("------------------------调用了  GameWSSocket._onOpen() ")
                 GameMsgHandler.getInstance().onConnectResult(1);
                 if(self.gameReConnectCallBack){
                     self.gameReConnectCallBack();
                 }
+                else
+                {
+                    this._bForceCloseGameSocket = false
+                }
             };
 			sock._onClose = function () {
+                cc.log("----------调用了  GameWSSocket._onClose()")
                 GameMsgHandler.getInstance().onOffLine();
                 var runScene = cc.director.getRunningScene();
-                if(!self.gameReConnectCallBack && runScene && runScene.isGameScene && runScene.isGameScene()){
+                if(runScene && runScene.isGameScene && runScene.isGameScene()){
                     self.reConnectGameServer();
-                    //cc.director.getScheduler().scheduleCallbackForTarget(self, self.reConnectGameServer(), 3000.0, true, 0, false);
                     return;
                 }
             };
@@ -109,13 +122,15 @@ var WSMsgMgr = cc.Class.extend({
 		}
 	},
 	connectMsgServer:function(ip, port){
-        cc.log("at connectMsgServer ..... ", ip, port)
+        cc.log("------------------------连接消息服务器 MsgWSSocket ..... ", ip, port)
 		if (this.chatSocke.status == SOCKET_STATUS._SS_INVALID ){
 			var sock = this.chatSocke;
 			sock._onOpen = function () {
+                cc.log("------------------------调用了 MsgWSSocket._onOpen()")
                 CmdHandler.getInstance().onConnectResult(1);
             };
 			sock._onClose = function () {
+                cc.log("------------------------调用了 MsgWSSocket _onClose()")
                 CmdHandler.getInstance().onOffLine();
             };
 			sock.connect(ip + ":" + port)
@@ -135,11 +150,19 @@ var WSMsgMgr = cc.Class.extend({
 	//=============
     //关闭游戏服务器socket
 	closeGameSocket: function(){
+	    cc.log("---------------关闭游戏服务器socket--------------")
 		this.gameSocke.close();
 	},
 
+    closeGameSocketForce:function (bForce) {
+        cc.log("---------------强制关闭游戏服务器socket--------------")
+        this._bForceCloseGameSocket = bForce
+        this.closeGameSocket();
+    },
+
     //关闭消息服务器socket
 	closeMsgSocket: function(){
+        cc.log("---------------关闭消息服务器socket--------------")
 		this.chatSocke.close();
 	},
 });
@@ -169,23 +192,32 @@ var socket = cc.Class.extend({
         }
         cc.log(" connect to server ====== " , addr )
         var sock = new WebSocket(addr);
+        sock.binaryType = 'blob';
         var self = this
         self.instance = sock;
-        sock.binaryType = "Blob"
         self.status = SOCKET_STATUS._SS_CONNECTING
         sock.onopen = function() {
+            cc.log("----------socket类 建立了WSSocket 连接成功 地址为：" , addr )
             self.status = SOCKET_STATUS._SS_CONNECTED
             self._onOpen(1)
         }
 
         sock.onmessage = function(msg) {
-        	var str = ab2Str(msg.data)
-        	cc.log("read  server msg : ", str)
+            if (msg.type == "ping") {
+
+            }
+            cc.log(msg.data)
+        	var data = ab2Str(msg.data)
+ 
+            var str = CryptoUtil.decryptByDES(data, "mqjx@mqc")
+        	//cc.log("    S2C::::::", str)
             if (self.status == SOCKET_STATUS._SS_CONNECTED) {
             	var res = JSON.parse(str)
                 for(var key in res){
+            	    cc.log("---------------收到服务器协议号：" + key + "-----------------")
                     fn = self._handlers[key]
                     if (fn) {
+                        cc.log("---------------收到服务器数据：" + str + "-----------------")
                         fn(res[key])
                     }else {
                     	cc.error("not foud handler function msg:",key, str)
@@ -196,17 +228,30 @@ var socket = cc.Class.extend({
 
         sock.onerror = function(msg) {}
         sock.onclose = function(msg) {
+            cc.log("----------WebSocket类 WSSocket关闭" )
             self.status = SOCKET_STATUS._SS_INVALID
             self._onClose()
         }
     },
 
     sendData : function(funcName, data) {
-        cc.log("send data to server === ", funcName,  JSON.stringify(data))
+        cc.log("    C2S :::::: ", funcName,  JSON.stringify(data))
+        cc.log("--------------客户端发送请求 ：", funcName,  JSON.stringify(data))
         var sendMsg = {}
         sendMsg[funcName] = data
         if (this.status == SOCKET_STATUS._SS_CONNECTED) {
-            var err = this.instance.send(JSON.stringify(sendMsg));
+            var str = CryptoUtil.encryptByDES(JSON.stringify(sendMsg), "mqjx@mqc");
+
+            // var strTest = "tiantiantiyu天天体育tiantiantiyu";
+            // cc.log("加密前---"+strTest);
+            // strTest = CryptoUtil.encryptByDES(strTest, "mqjx@mqc");//"CfWGpwX9+oXkAGTTBxN503GQ/g5urJ6oCfWGpwX9+oV1EiMowjxqNQ==";//CryptoUtil.encryptByDES(strTest, "mqjx@mqc");
+            // cc.log("加密后---"+strTest);
+            // strTest = CryptoUtil.decryptByDES(strTest, "mqjx@mqc")
+            // //cc.log(CryptoUtil.decryptByDES(str, "mqjx@mqc"));
+            // cc.log("解密后---"+strTest);
+
+
+            var err = this.instance.send(str);
             if (err) {
                 cc.log("send msg error :", err)
             }
@@ -216,6 +261,7 @@ var socket = cc.Class.extend({
     },
 
     close : function () {
+        cc.log("客户端调用了 socket.close() this._ptype =",this._ptype )
         cc.log("close socket  === ", this._ptype)
         if  (this.status != SOCKET_STATUS._SS_INVALID){
             this.status = SOCKET_STATUS._SS_INVALID
@@ -225,19 +271,18 @@ var socket = cc.Class.extend({
             cc.log(" double close socket  === !!!!!!!!!!!")
         }
     },
+    getStatus:function () {
+        return this.status
+    },
 
 
 });
 
 
 ///////////////////////
-function trace () {
-    var i = 0;
-    var fun = arguments.callee;
-    do {
-        fun = fun.arguments.callee.caller;
-        console.log(++i + ': ' + fun);
-    } while (fun)
+function stackTrace() {
+    var err = new Error();
+    cc.error( "stask : ",err.stack);
 }
 
 function ab2Str(buffer){

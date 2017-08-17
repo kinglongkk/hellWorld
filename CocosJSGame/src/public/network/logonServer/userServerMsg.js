@@ -9,7 +9,7 @@ var UserServerMsg = cc.Class.extend({
 		// 查询玩家信息回调
 		this.cbQueryIndividual = null;
 	},
-	
+
 	setOperate: function(tag, data){
 		this.operateTag = tag;
 		this.operateData = data;
@@ -24,11 +24,11 @@ var UserServerMsg = cc.Class.extend({
 	getOperateData: function(){
 		return this.operateData;
 	},
-	
+
 	// 服务命令
 	onMsgMainGPUserServer: function(subCmd, data){
-		
-		cc.log("服务命令 "+subCmd);
+
+		cc.log("---------收到logon服务器的服务命令： "+subCmd);
 		switch (subCmd) {
 		// 修改头像
 		case SUB_GP_USER_FACE_INFO:
@@ -41,7 +41,7 @@ var UserServerMsg = cc.Class.extend({
 			// //银行成功
 		case SUB_GP_USER_INSURE_SUCCESS:
 			this.onSubUserInsureSuccess(data);
-			
+
 			break;
 			// 银行失败
 		case SUB_GP_USER_INSURE_FAILURE:
@@ -92,31 +92,31 @@ var UserServerMsg = cc.Class.extend({
 			this.onSubUserIndividual(data);
 			break;
 			// 领取低保 sxh add
-		case SUB_GP_BASEENSURE_RESULT:			
+		case SUB_GP_BASEENSURE_RESULT:
 			this.onSubBaseEnsureResult(data);
 			break;
 			// 首冲 sxh add
-		case SUB_GP_FIRST_PAY:				
+		case SUB_GP_FIRST_PAY:
 			this.onSubFirstPay(data);
 			break;
 			// 分享获取金币 sxh add
-		case SUB_GP_SHARE_AWARD:					 
+		case SUB_GP_SHARE_AWARD:
 			this.onSubShareAward(data);
 			break;
-	 
+
 		default:
 			break;
 		}
-		
+
 		if(this.touchSender!=null){
 			this.touchSender.setTouchEnabled(true)
 		}
 	},
-	
+
 	// 修改头像
 	onSubUserFaceInfo: function(data){
 		cc.log("### 游戏服务器，服务命令 ，修改头像");
-		
+
 		var dataParser = new DataParser();
 		dataParser.init(data);
 		var parseData = dataParser.parse([
@@ -128,19 +128,19 @@ var UserServerMsg = cc.Class.extend({
 
 		// /////////////////////////////////先数据处理//////////////////////////////////////////
 		g_objHero.setFaceId(parseData.wFaceID);
-		
+
 		// /////////////////////////////////后UI处理
 		// //////////////////////////////////////////
 		PlazaUIMgr.getInstance().onModifyFace();
-		
+
 		// 关闭连接
 		LogonMsgHandler.getInstance().close();
 	},
-	
+
 	// 银行资料
 	onSubUserInsureInfo: function(data){
 		cc.log("### 游戏服务器，服务命令 ，银行资料");
-		
+
 		var dataParser = new DataParser();
 		dataParser.init(data);
 		var parseData = dataParser.parse([
@@ -157,23 +157,23 @@ var UserServerMsg = cc.Class.extend({
 		// /////////////////////////////////先数据处理//////////////////////////////////////////
 		g_objHero.setMoney(parseData.lUserScore);
 		g_objHero.setInsureMoney(parseData.lUserInsure);
-		
+
 		var insure = ClientData.getInstance().getInsure();
 		if(insure){
 			insure.setRevenueTake(parseData.wRevenueTake);
 			insure.setRevenueTransfer(parseData.wRevenueTransfer);
 			insure.setGiveLimit(parseData.lTransferPrerequisite);
 		}
-		
+
 		//if(g_logonSocket.status != SOCKET_STATUS._SS_INVALID){
 			//g_logonSocket.close();
 		//}
-		
+
 		// /////////////////////////////////后UI处理
 		// //////////////////////////////////////////
 		PlazaUIMgr.getInstance().updateInsureInfo();
 	},
-	
+
 	// 银行成功
 	onSubUserInsureSuccess: function(data){
 		cc.log("### 游戏服务器，服务命令 ，银行成功");
@@ -192,7 +192,7 @@ var UserServerMsg = cc.Class.extend({
 		// /////////////////////////////////先数据处理//////////////////////////////////////////
 		g_objHero.setMoney(parseData.lUserScore);
 		g_objHero.setInsureMoney(parseData.lUserInsure);
-		
+
 		// /////////////////////////////////后UI处理
 		// //////////////////////////////////////////
 		var dlgTip = DlgTip.openSysTip(parseData.szDescribeString);
@@ -202,13 +202,13 @@ var UserServerMsg = cc.Class.extend({
 			dlgTip.setContentColor(cc.color(255, 255, 0));
 			dlgTip.setContentFontSize(30);
 		}
-		
+
 		PlazaUIMgr.getInstance().updateInsureInfo();
-		
+
 		// 关闭连接
 		LogonMsgHandler.getInstance().close();
 	},
-	
+
 	// 银行失败
 	onSubUserInsureFailure: function(data){
 		cc.log("### 游戏服务器，服务命令 ，银行失败");
@@ -227,11 +227,11 @@ var UserServerMsg = cc.Class.extend({
 		// //////////////////////////////////////////
 
 		DlgTip.openSysTip(parseData.szDescribeString);
-		
+
 		// 关闭连接
 		LogonMsgHandler.getInstance().close();
 	},
-	
+
 	// 转账用户信息
 	onQueryUserInfoResult: function(data){
 		cc.log("### 游戏服务器，服务命令 ，转账用户信息");
@@ -249,11 +249,11 @@ var UserServerMsg = cc.Class.extend({
 		// /////////////////////////////////后UI处理
 		// //////////////////////////////////////////
 		PlazaUIMgr.getInstance().onTransferScore(parseData.szNickName, parseData.dwTargetGameID);
-		
+
 		// 关闭连接
 		LogonMsgHandler.getInstance().close();
 	},
-	
+
 	// 用户转账记录 410
 	onSubUserInsureLogResult: function(data){
 		cc.log("### 游戏服务器，服务命令 ，用户转账记录 410");
@@ -292,12 +292,12 @@ var UserServerMsg = cc.Class.extend({
 				insure.addTransferRecord(parseData);
 			}
 		}
-		
+
 		// /////////////////////////////////后UI处理
 		// //////////////////////////////////////////
 		PlazaUIMgr.getInstance().onUpdateRecord();
 	},
-	
+
 	// 用户转账记录查询完成 411
 	onSubUserInsureLogEnd: function(data){
 		cc.log("### 游戏服务器，服务命令 ，用户转账记录查询完成 411");
@@ -306,9 +306,9 @@ var UserServerMsg = cc.Class.extend({
 
 		// /////////////////////////////////后UI处理
 		// //////////////////////////////////////////
-		
+
 	},
-	
+
 	// 任务信息
 	onSubUserTaskInfo: function(data){
 		cc.log("### 游戏服务器，服务命令 ，任务信息");
@@ -340,7 +340,7 @@ var UserServerMsg = cc.Class.extend({
 		// /////////////////////////////////后UI处理
 		// //////////////////////////////////////////
 	},
-	
+
 	// 任务信息结束
 	onSubUserTaskInfoEnd: function(data){
 		cc.log("### 游戏服务器，服务命令 ，任务信息结束");
@@ -354,7 +354,7 @@ var UserServerMsg = cc.Class.extend({
 		// 关闭连接
 		LogonMsgHandler.getInstance().close();
 	},
-	
+
 	// 定时礼包信息
 	onSubTimingGiftInfo: function(data){
 		cc.log("### 游戏服务器，服务命令 ，定时礼包信息");
@@ -377,11 +377,11 @@ var UserServerMsg = cc.Class.extend({
 		timingGiftInfo.setTimingGiftInfo(parseData);
 		timingGiftInfo.setServerTime(parseData.dwCurTime);
 		timingGiftInfo.resetClientStartTime();
-		
+
 		// /////////////////////////////////后UI处理
 		// //////////////////////////////////////////
 	},
-	
+
 	// 定时礼包信息End
 	onSubTimingGiftInfoEnd: function(data){
 		cc.log("### 游戏服务器，服务命令 ，定时礼包信息End");
@@ -395,7 +395,7 @@ var UserServerMsg = cc.Class.extend({
 		// 关闭连接
 		LogonMsgHandler.getInstance().close();
 	},
-	
+
 	// 操作成功 900
 	onSubOperateSuccess: function(data){
 		cc.log("### 游戏服务器，服务命令 ，操作成功 900");
@@ -408,9 +408,9 @@ var UserServerMsg = cc.Class.extend({
 		                                  ]);
 
 		cc.log("parseData = " + JSON.stringify(parseData));
-		
+
 		var bOpenTip = true;
-		
+
 		// 操作
 		var operateTag = this.getOperateTag();
 		var operateData = this.getOperateData();
@@ -432,7 +432,7 @@ var UserServerMsg = cc.Class.extend({
 		// 登陆保险柜成功
 		case SUB_GP_USER_INSURE_LOGON:
 			PlazaUIMgr.getInstance().onInsureLogonSuccess();
-			
+
 			bOpenTip = false;
 			break;
 		// 修改保险柜密码
@@ -480,7 +480,7 @@ var UserServerMsg = cc.Class.extend({
 		default:
 			break;
 		}
-		
+
 		this.clearOperate();
 
 		// /////////////////////////////////先数据处理//////////////////////////////////////////
@@ -490,7 +490,7 @@ var UserServerMsg = cc.Class.extend({
 		if(parseData.szDescribeString != "" && bOpenTip){
 			DlgTip.openSysTip(parseData.szDescribeString);
 		}
-		
+
 		// 关闭连接
 		LogonMsgHandler.getInstance().close();
 	},
@@ -513,9 +513,9 @@ var UserServerMsg = cc.Class.extend({
 		// //////////////////////////////////////////
 
 		this.clearOperate();
-		
+
 		DlgTip.openSysTip(parseData.szDescribeString);
-		
+
 		// 关闭连接
 		LogonMsgHandler.getInstance().close();
 	},
@@ -553,7 +553,7 @@ var UserServerMsg = cc.Class.extend({
 				DlgTip.openSysTip(parseData.szFillResult);
 			}
 		}
-		
+
 		// 关闭连接
 		LogonMsgHandler.getInstance().close();
 
@@ -563,53 +563,12 @@ var UserServerMsg = cc.Class.extend({
 		});
 	},
 
-	// 个人资料（查询玩家信息返回数据）
-	onSubUserIndividual: function(data){
-		cc.log("### 个人资料（查询玩家信息返回数据） 301");
-		console.log("服务器返回数据长度："+data.byteLength);
 
-		var dataParser = new DataParser();
-		dataParser.init(data);
 
-		var parseData = dataParser.parse([
-		                                  ["dwUserID", "DWORD"],// 用户 I D
-		                                  ["NickName", "TCHARS",32],
-		                                  ["Accounts", "TCHARS",32],
-		                                  ["dwWinCount", "DWORD"],
-		                                  ["dwLostCount", "DWORD"],
-		                                  ["dwDrawCount", "DWORD"],
-		                                  ["dwMedal", "DWORD"],
-		                                  ["dwRoomCard", "DWORD"],
-		                                  ["MemberOrder", "DWORD"],
-		                                  ["lScore", "LONGLONG"],
-		                                  ["HeadImgUrl", "TCHARS",1000]
-		                                  ]);
-
-		console.log("个人信息数据 = " + JSON.stringify(parseData));
-		var playerData = null;
-
-		if (parseData.dwUserID == g_objHero.getUserId()) {
-			playerData = g_objHero;
-		} else {
-			var table = ClientData.getInstance().getTable();
-			if (table) {
-				playerData = table.getPlayerByUserId(parseData.dwUserID);
-			}
-		}
-		if(playerData){
-			console.log(" playerData + playerid="+playerData.getUserId());
-			playerData.setPlayerInfo(parseData);
-		}
-
-		// 关闭连接
-		LogonMsgHandler.getInstance().close();
-		
-	},
-	
 	/**
 	 * task 任务相关 sxh
-	 */ 
-	// 
+	 */
+	//
 	onSubBaseEnsureResult: function(data){
 		cc.log("### 领取低保解析");
 		var dataParser = new DataParser();
@@ -621,19 +580,19 @@ var UserServerMsg = cc.Class.extend({
 		                                  ]);
 
 		cc.log("parseData = " + JSON.stringify(parseData));
-		
+
 		if(parseData.bSuccessed == true){ //成功处理
 			g_objHero.setMoney(parseData.lGameScore);
 		}
-		
+
 		// /////////////////////////////////先数据处理//////////////////////////////////////////
 
 		// /////////////////////////////////后UI处理
 		// 回调ui
-		var cb = this.getOperateData();  
+		var cb = this.getOperateData();
 		if(cb){
 			cb(parseData.bSuccessed,parseData);
-		} 
+		}
 		// 关闭连接
 		LogonMsgHandler.getInstance().close();
 	},
@@ -651,7 +610,7 @@ var UserServerMsg = cc.Class.extend({
 		                                  ]);
 
 		cc.log("parseData = " + JSON.stringify(parseData));
-		
+
 		if(parseData.lResultCode  == 0){ //成功处理
 			g_objHero.setMoney(parseData.lGameScore);
 		}
@@ -660,11 +619,11 @@ var UserServerMsg = cc.Class.extend({
 
 		// /////////////////////////////////后UI处理
 		// 回调ui
-		var cb = this.getOperateData();  
+		var cb = this.getOperateData();
 		if(cb){
 			cb(parseData);
 		}
-	 
+
 		// 关闭连接
 		LogonMsgHandler.getInstance().close();
 	},
@@ -675,7 +634,7 @@ var UserServerMsg = cc.Class.extend({
 		var dataParser = new DataParser();
 		dataParser.init(data);
 		var parseData = dataParser.parse([
-		                                  ["userID", "DWORD"], 
+		                                  ["userID", "DWORD"],
 		                                  ["Score", "LONGLONG"],// 最新金币
 		                                  ["Medal", "DWORD"], // 最新钻石
 		                                  ["lResultCode", "LONG"], // 操作代码，0成功
@@ -690,7 +649,7 @@ var UserServerMsg = cc.Class.extend({
 
 		// /////////////////////////////////后UI处理
 		// 回调
-		var cb = this.getOperateData();  
+		var cb = this.getOperateData();
 		if(cb){
 			cb(parseData);
 		}
@@ -698,55 +657,10 @@ var UserServerMsg = cc.Class.extend({
 		// 关闭连接
 		LogonMsgHandler.getInstance().close();
 	},
-	
-	
+
+
 	// ///////////////////////////////////// C - > S
 	// ///////////////////////////////////
-	// 修改个性签名
-	sendModifyUnderWrite: function(szUnderWrite){
-		var userId = g_objHero.getUserId();
-		var pass = g_objHero.getMd5Pass();
-		
-		var dataBuilder = new DataBuilder();
-		
-		var lenUnderWrite = szUnderWrite.length + 1;// 字符串以字符“\0”结束
-		if(cc.sys.os == cc.sys.OS_WINDOWS){
-			var strData = MyUtil.utf8to16(szUnderWrite);
-			lenUnderWrite = strData.length + 1;
-		}
-		
-		dataBuilder.init(70+lenUnderWrite * 2);
-		dataBuilder.build([
-		                   ["dwUserID", "DWORD", userId],// 用户 I D
-		                   ["szPassword", "TCHARS", pass, 33],// 用户密码
-		                   ["szUnderWrite", "TCHARS", szUnderWrite, lenUnderWrite],// 个性签名
-		                   ]);
-
-		if(g_logonSocket.status == SOCKET_STATUS._SS_CONNECTED){
-			UserServerMsg.getInstance().setOperate(SUB_GP_MODIFY_UNDER_WRITE, szUnderWrite);
-			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_MODIFY_UNDER_WRITE, dataBuilder.getData());
-		}
-	},
-	
-	// 修改昵称
-	sendModifyNick: function(szNick){
-		var userId = g_objHero.getUserId();
-		var pass = g_objHero.getMd5Pass();
-
-		var dataBuilder = new DataBuilder();
-		dataBuilder.init(134);
-		dataBuilder.build([
-		                   ["dwUserID", "DWORD", userId],// 用户 I D
-		                   ["szPassword", "TCHARS", pass, 33],// 用户密码
-		                   ["szUnderWrite", "TCHARS", szNick, 32],// 个性昵称
-		                   ]);
-
-		if(g_logonSocket.status == SOCKET_STATUS._SS_CONNECTED){
-			UserServerMsg.getInstance().setOperate(SUB_GP_MODIFY_NICK, szNick);
-			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_MODIFY_NICK, dataBuilder.getData());
-		}
-	},
-	
 	// 修改性别
 	sendModifyGender: function(cbGender){
 		var userId = g_objHero.getUserId();
@@ -765,7 +679,7 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_MODIFY_GENDER, dataBuilder.getData());
 		}
 	},
-	
+
 	// 修改手机号码
 	sendModifyMobilePhone: function(szMobilePhone){
 		var userId = g_objHero.getUserId();
@@ -783,7 +697,7 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_MODIFY_MOBILE_PHONE, dataBuilder.getData());
 		}
 	},
-	
+
 	// 修改身份
 	sendModifyAuth: function(szCompellation, szPassPortId){
 		var userId = g_objHero.getUserId();
@@ -803,7 +717,7 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_MODIFY_AUTH, dataBuilder.getData());
 		}
 	},
-	
+
 	// 修改密码
 	sendModifyPassword: function(szDesPassword, szScrPassword){
 		var userId = g_objHero.getUserId();
@@ -823,13 +737,13 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_MODIFY_LOGON_PASS, dataBuilder.getData());
 		}
 	},
-	
+
 	// 修改头像
 	sendModifyFaceId: function(faceId){
 		var userId = g_objHero.getUserId();
 		var pass = g_objHero.getMd5Pass();
 		var machineId = LocalStorageMgr.getInstance().getUuidItem();
-		
+
 		var dataBuilder = new DataBuilder();
 		dataBuilder.init(138);
 		dataBuilder.build([
@@ -846,7 +760,7 @@ var UserServerMsg = cc.Class.extend({
 	// 登录保险箱
 	sendUserInsureLogon: function(szPassword){
 		var userId = g_objHero.getUserId();
-		
+
 		var dataBuilder = new DataBuilder();
 		dataBuilder.init(70);
 		dataBuilder.build([
@@ -859,13 +773,13 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_USER_INSURE_LOGON, dataBuilder.getData());
 		}
 	},
-	
-	
+
+
 	// 查询银行信息
 	sendQueryInsureInfo: function(){
 		cc.log("-------------查询银行信息");
 		var userId = g_objHero.getUserId();
-		
+
 		var dataBuilder = new DataBuilder();
 		dataBuilder.init(4);
 		dataBuilder.build([
@@ -876,7 +790,7 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_QUERY_INSURE_INFO, dataBuilder.getData());
 		}
 	},
-	
+
 	// 查询用户
 	sendQueryUserInfoReq: function(bByNick, strId){
 		cc.log("bByNick = " + bByNick + "   strId = " + strId);
@@ -891,14 +805,14 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_QUERY_USER_INFO_REQUEST, dataBuilder.getData());
 		}
 	},
-	
+
 	// 转账金币
 	sendUserTransferScore: function(bByNick, strId, gold){
 		var userId = g_objHero.getUserId();
 		var plaza = ClientData.getInstance().getPlaza();
 		var md5Pass = plaza.getInsureMd5Pass();
 		var machineId = LocalStorageMgr.getInstance().getUuidItem();
-		
+
 		var dataBuilder = new DataBuilder();
 		dataBuilder.init(211);
 		dataBuilder.build([
@@ -915,11 +829,11 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_USER_TRANSFER_SCORE, dataBuilder.getData());
 		}
 	},
-	
+
 	// 转账记录
 	sendQueryTransferRecord: function(cbType, cbTime){
 		var userId = g_objHero.getUserId();
-		
+
 		var dataBuilder = new DataBuilder();
 		dataBuilder.init(10);
 		dataBuilder.build([
@@ -938,12 +852,12 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_USER_INSURE_LOG, dataBuilder.getData());
 		}
 	},
-	
+
 	// 存入金币
 	sendUserSaveScore: function(gold){
 		var userId = g_objHero.getUserId();
 		var machineId = LocalStorageMgr.getInstance().getUuidItem();
-		
+
 		var dataBuilder = new DataBuilder();
 		dataBuilder.init(78);
 		dataBuilder.build([
@@ -956,14 +870,14 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_USER_SAVE_SCORE, dataBuilder.getData());
 		}
 	},
-	
+
 	// 取出金币
 	sendUserTakeScore: function(gold){
 		var userId = g_objHero.getUserId();
 		var plaza = ClientData.getInstance().getPlaza();
 		var md5Pass = plaza.getInsureMd5Pass();
 		var machineId = LocalStorageMgr.getInstance().getUuidItem();
-		
+
 		var dataBuilder = new DataBuilder();
 		dataBuilder.init(144);
 		dataBuilder.build([
@@ -981,7 +895,7 @@ var UserServerMsg = cc.Class.extend({
 	// 修改保险柜密码
 	sendModifyInsurePass: function(desPassword, scrPassword){
 		var userId = g_objHero.getUserId();
-		
+
 		var dataBuilder = new DataBuilder();
 		dataBuilder.init(136);
 		dataBuilder.build([
@@ -995,7 +909,7 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_MODIFY_INSURE_PASS, dataBuilder.getData());
 		}
 	},
-	
+
 	// 加载任务
 	sendQueryUserTask: function(){
 		var userId = g_objHero.getUserId();
@@ -1010,7 +924,7 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_C_QUERY_USER_TASK, dataBuilder.getData());
 		}
 	},
-	
+
 	// 领取任务奖励
 	sendGetRewards: function(typeID, gameKindID){
 		var userID = g_objHero.getUserId();
@@ -1034,8 +948,8 @@ var UserServerMsg = cc.Class.extend({
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_C_TASK_GET_REWARDS, dataBuilder.getData());
 		}
 	},
-	
-	
+
+
 	// 请求定时礼包信息
 	sendQueryTimingGiftInfo: function(){
 		var userId = g_objHero.getUserId();
@@ -1045,12 +959,12 @@ var UserServerMsg = cc.Class.extend({
 		dataBuilder.build([
 		                   ["dwUserID", "DWORD", userId],// 用户 I D
 		                   ]);
-		
+
 		if(g_logonSocket.status == SOCKET_STATUS._SS_CONNECTED){
 			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_C_QUERY_TIMING_GIFT_INFO, dataBuilder.getData());
 		}
 	},
-	
+
 	sendGetTimingGift: function(timingID, addScore){
 		var userId = g_objHero.getUserId();
 
@@ -1077,7 +991,7 @@ var UserServerMsg = cc.Class.extend({
 		var dwFillIp = "";
 		var cbResultCode = "";
 		var strFillResult = "";
-		
+
 		var dataBuilder = new DataBuilder();
 		dataBuilder.init(459);
 		dataBuilder.build([
@@ -1095,132 +1009,496 @@ var UserServerMsg = cc.Class.extend({
 		}
 	},
 
-	// 获取验证码(绑定手机)
-	sendGetMbValidate: function(strMb, cb){
-		cc.log("-------------点卡充值");
-		var userId = g_objHero.getUserId();
-		var type = 1;
-		
-		var dataBuilder = new DataBuilder();
-		dataBuilder.init(29);
-		dataBuilder.build([
-		                   ["dwUserID", "DWORD", userId],// 用户 I D
-		                   ["cbType", "BYTE", type],//
-		                   ["szMobilePhone", "TCHARS", strMb, 12]// 手机号码
-		                   ]);
+    /**
+     * sxh add start
+     */
+    // 领取低保 sxh
+    sendBasicEnsureReq: function(cb){
+        cc.log("1-------------领取低保");
 
-		if(g_logonSocket.status == SOCKET_STATUS._SS_CONNECTED){
-			// 操作成功后，可以提交绑定手机号
-			UserServerMsg.getInstance().setOperate(SUB_GP_GETMOBILE_VALIDATE, cb);
-			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_GETMOBILE_VALIDATE, dataBuilder.getData());
-		}
+        var userId = g_objHero.getUserId();
+        var machineId = LocalStorageMgr.getInstance().getUuidItem();
+        var dataBuilder = new DataBuilder();
+        dataBuilder.init(70);
+        dataBuilder.build([
+            ["dwUserID", "DWORD", userId],// 用户 I D
+            ["szMachineID[33]", "TCHARS", machineId, LEN_MACHINE_ID],// 机器标识
+        ]);
+
+        if(g_logonSocket.status == SOCKET_STATUS._SS_CONNECTED){
+            if (cb){
+                UserServerMsg.getInstance().setOperate(SUB_GP_BASEENSURE_RESULT, cb);
+            }
+            cc.log("1-------------send SUB_GP_BASEENSURE_TAKE");
+            g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_BASEENSURE_TAKE, dataBuilder.getData());
+        }
+    },
+
+    // 今日首冲 sxh
+    sendFirstPayReq: function(taskID,kindID,cb){
+        cc.log("2-------------今日首冲");
+        var userID = g_objHero.getUserId();
+        var machineId = LocalStorageMgr.getInstance().getUuidItem();
+        var dataBuilder = new DataBuilder();
+        dataBuilder.init(4*3+33*2);
+        dataBuilder.build([
+            ["userID", "DWORD", userID], // 用户 I D
+            ["taskID", "DWORD", taskID], // 暂时写死 0
+            ["kindID", "DWORD", kindID], // 暂时写死 0
+            ["szMachineID[33]", "TCHARS", machineId, LEN_MACHINE_ID],// 机器标识
+        ]);
+
+        if(g_logonSocket.status == SOCKET_STATUS._SS_CONNECTED){
+
+            if(cb){
+                UserServerMsg.getInstance().setOperate(SUB_GP_FIRST_PAY, cb);
+            }
+            g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_FIRST_PAY, dataBuilder.getData());
+        }
+    },
+
+    // 微信分享获取金币 sxh
+    sendWXShareOKReq: function(taskType,cb){
+        cc.log("3-------------微信分享获取金币");
+        var userId = g_objHero.getUserId();
+        var machineId = LocalStorageMgr.getInstance().getUuidItem();
+        var dataBuilder = new DataBuilder();
+        dataBuilder.init(74);
+        dataBuilder.build([
+            ["userID", "DWORD", userId],// 用户 I D
+            ["taskType", "DWORD", taskType], // 任务类型// 92邀请好友，93分享朋友圈
+            ["szMachineID[33]", "TCHARS", machineId, LEN_MACHINE_ID],// 机器标识
+        ]);
+
+        if(g_logonSocket.status == SOCKET_STATUS._SS_CONNECTED){
+            if (cb){
+                UserServerMsg.getInstance().setOperate(SUB_GP_SHARE_AWARD, cb);
+            }
+            g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_SHARE_AWARD, dataBuilder.getData());
+        }
+    },
+
+    /**
+     * sxh add end
+     */
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// 请求服务器当前时间
+	sendServerTime: function () {
+		LogonMsgHandler.getInstance().send("C2L_TimeSync", {});
+    },
+	// 获取验证码(绑定手机)
+	sendGetMbValidate: function(PhoneNumber){
+        cc.log("-------------获取验证码(绑定手机)");
+        LogonMsgHandler.getInstance().send("C2L_ReqBindMaskCode", {"PhoneNumber":PhoneNumber});
 	},
+    // 获取验证码结果
+    onGetMbValidateResult: function(data){
+        cc.log("### 获取验证码结果");
+        console.log("获取验证码结果 = " + JSON.stringify(data));
+        // //请求获取验证号码返回
+        // type L2C_ReqBindMaskCodeRsp struct {
+        //     Code int //非0位失败
+        // }
+        if(data.Code==0){
+            //验证码时间倒数
+            var dlgUserInfo = UIMgr.getInstance().getDlg(ID_DlgUserInfo);
+            if(dlgUserInfo==null){
+                dlgUserInfo = UIMgr.getInstance().openDlg(ID_DlgUserInfo);
+            }
+
+            dlgUserInfo.doCountDown();
+        }
+        else{
+            DlgTip.openSysTip("获取验证码 失败");
+        }
+    },
+	// 修改个性签名
+    sendModifyUnderWrite: function(strQianMing){
+        cc.log("-------------修改个性签名");
+        LogonMsgHandler.getInstance().send("C2L_ChangeSign", {
+            Sign:strQianMing
+        });
+    },
+    // 修改个性签名结果
+    onModifyUnderWriteResult: function(data){
+        cc.log("### 修改个性签名结果");
+        console.log("修改个性签名结果 = " + JSON.stringify(data));
+        // //修改个性签名结果
+        // type L2C_ChangeSignRsp struct {
+        //     Code int //非0w位失败
+        // }
+        if(data.Code==0){
+            DlgTip.openSysTip("修改个性签名 成功");
+        }
+        else{
+            DlgTip.openSysTip("修改个性签名 失败");
+        }
+    },
+
+    // 修改昵称
+    sendModifyNick: function(szNick){
+        cc.log("-------------修改昵称");
+        LogonMsgHandler.getInstance().send("C2L_ChangeUserName", {
+            NewName:szNick
+        });
+    },
+    // 修改昵称结果
+    onModifyNickResult: function(data){
+        cc.log("### 修改昵称结果--");
+        console.log("修改昵称结果 = " + JSON.stringify(data));
+        // //修改昵称结果
+        // type L2C_ChangeUserNameRsp struct {
+        //     Code int //非0w位失败
+        // }
+        if(data.Code==0){
+            DlgTip.openSysTip("修改昵称 成功");
+            g_objHero.setNickName(data.NewName);
+        }
+        else{
+            DlgTip.openSysTip("修改昵称 失败");
+        }
+    },
+
 
 	// 绑定手机
-	sendBindMb: function(strMb, strValidate, cb){
-		cc.log("-------------点卡充值");
-		var userId = g_objHero.getUserId();
-		
-		var dataBuilder = new DataBuilder();
-		dataBuilder.init(42);
-		dataBuilder.build([
-		                   ["dwUserID", "DWORD", userId],// 用户 I D
-		                   ["szMobilePhone", "TCHARS", strMb, 12],// 手机号码
-		                   ["szValidateCode", "TCHARS", strValidate, 7]// 手机验证码
-		                   ]);
-
-		if(g_logonSocket.status == SOCKET_STATUS._SS_CONNECTED){
-			// 操作成功后，客户端保存绑定手机号
-			UserServerMsg.getInstance().setOperate(SUB_GP_CHECK_MOBILE, [strMb,cb]);
-			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_CHECK_MOBILE, dataBuilder.getData());
-		}
+	sendBindMb: function(strPhone, strMaskCode){
+		cc.log("-------------绑定手机");
+        LogonMsgHandler.getInstance().send("C2L_SetPhoneNumber", {
+            PhoneNumber:strPhone,
+            MaskCode:Number(strMaskCode)
+        });
 	},
+    // 绑定手机结果
+    onBindMbResult: function(data){
+        cc.log("### 绑定手机结果");
+        console.log("绑定手机结果 = " + JSON.stringify(data));
+        // //绑定手机结果
+        // type L2C_SetPhoneNumberRsp struct {
+        //     Code int //非0 位设置失败
+        // }
+
+        if(data.Code==0){
+            DlgTip.openSysTip("绑定手机 成功", function(target){
+                target.closeTip();
+                var dlgUserInfo = UIMgr.getInstance().getDlg(ID_DlgUserInfo);
+                if(dlgUserInfo){
+                    dlgUserInfo.Panel_bindPhone.setVisible(false);
+				}
+			});
+            var dlgUserInfo = UIMgr.getInstance().getDlg(ID_DlgUserInfo);
+            if(dlgUserInfo){
+                var Text_textIP = dlgUserInfo.Panel_playInfo.getChildByName('Text_textIP');
+                Text_textIP.string.setVisible(true);
+                Text_textIP.string = "IP:"+data.PhoneNumber;
+
+            	if(dlgUserInfo.bindPhoneCB)
+                	dlgUserInfo.bindPhoneCB();
+			}
+        }
+        else{
+            var strTip = LoadErrorCfg.getInstance().getStrErrTip(data.Code);
+            DlgTip.openSysTip(strTip+data.Code);
+        }
+    },
+
+    // 玩家被踢出
+    onHallUserKickOut: function(data){
+
+        cc.log("-------------L2C_KickOut游戏中玩家被踢出----------");
+        var strTip = "";
+		var reasonKickOut = data.Reason
+    	if (data.Reason == 3) {
+            strTip = "大厅游戏结束"  //游戏结束，关闭房间踢出房间
+		}else if(data.Reason==1){
+        	//服务器维护，请稍候再试
+            strTip = "大厅服务器维护，请稍候再试";
+		} else if(data.Reason==2) {
+            //您的账号已在别处登录
+            strTip = "您的账号已在别的大厅登录";
+        }else if(data.Reason==4){
+			//您的账号已在别处登录
+			strTip = "非法链接大厅服";
+		}else {
+            strTip = "大厅服务器网络断了";
+		}
+
+        DlgTip.openSysTip(strTip, function(target){
+            target.closeTip();
+            //
+			if( 1 ==reasonKickOut || 2 ==reasonKickOut || 4 == reasonKickOut) {
+                GameKindMgr.getInstance().backLoginScene();
+			}
+          //  GameKindMgr.getInstance().backLoginScene();
+        });
+    },
+
+    // 玩家被踢出
+    onGameUserKickOut: function(data){
+
+        cc.log("-------------G2C_KickOut 游戏中玩家被踢出----", JSON.stringify(data));
+        var strTip = "";
+		var bCloseGameSocket = false;
+        var reasonKickOut = data.Reason
+        if(data.Reason==1){
+            //服务器维护，请稍候再试
+            strTip = "服务器维护，请稍候再试";
+            bCloseGameSocket = true;
+        } else if(data.Reason==2) { // 账号已在别处登录
+            //您的账号已在别处登录
+            strTip = "您的账号已在别处登录";
+            bCloseGameSocket = true;
+        }
+        else if (data.Reason == 3) {// 房间解散
+            // strTip = "房间已解散"  //游戏结束，关闭房间踢出房间
+            bCloseGameSocket = true;
+        }
+		else if(data.Reason==4){ // 非法链接游戏服
+			//strTip = "非法链接游戏服";
+			bCloseGameSocket = true;
+        }else {
+            strTip = "网络断了";
+            return;
+        }
+        if(bCloseGameSocket)
+        {
+            cc.log("----------------断开了gameSocket 链接-----------")
+            MsgMgr.getInstance().closeGameSocketForce(true)
+        }
+        if (0 < strTip.length) {
+            DlgTip.openSysTip(strTip, function (target) {
+                target.closeTip();
+                switch (reasonKickOut) {
+                    case 1:		// 服务器维护
+                        GameKindMgr.getInstance().backLoginScene();
+                        break;
+                    case 2:		// 您的账号已在别处登录
+                        GameKindMgr.getInstance().backLoginScene();
+                        break;
+                    // case 3:		// 房间已解散
+                    // {
+                    //     // GameKindMgr.getInstance().backPlazaScene();
+                    //     // 关闭提示界面及隐藏再来一把的按钮
+                    //     var dlgGameRecordCenter = UIMgr.getInstance().getDlg(ID_DlgGameRecordCenter);
+                    //     if (dlgGameRecordCenter) {
+                    //         dlgGameRecordCenter.reSetStartBtn();
+                    //     }
+                    //     else {
+                    //         GameFrameMsg.getInstance().onUserGameMsg({key: "G2C_KickOut", value: data})
+                    //     }
+                    //     break;
+                    // }
+                    case 4:
+                    default :	// 网络断了
+                        break;
+                }
+
+                //
+                //  GameKindMgr.getInstance().backLoginScene();
+            });
+        }
+    },
+
+	//设置推荐人ID
+	setReferrerID:function(ReferrerID){
+		this.ReferrerID = ReferrerID;
+	},
+
+	getReferrerID:function(){
+		return 	this.ReferrerID;
+	},
+
+	IsSetReferrerID:function(IsSetReferrerID){
+		this.IsReferrerID = IsSetReferrerID;
+	},
+
+	IsGetReferrerID:function(){
+		return 	this.IsReferrerID;
+	},
+
+	// 房间解散了
+    onRoomDissume:function (data) {
+    	cc.log("--------------房间解散消息：" , JSON.stringify(data))
+		// 如果这个同意、拒绝解散房间的界面还存在,就把它关闭
+		var reason = data.Reason
+		var tip = ""
+        switch (reason) {
+			case 0: //常规结束
+                tip = "游戏结束， 房间已解散"
+				break;
+			case 1: //游戏解散 (限制的时间到了)
+                tip = "游戏时间结束， 房间已解散"
+				break;
+            case 2: //玩家请求解散
+				tip = "玩家请求解散房间成功， 房间已解散"
+                break;
+            case 3: //没开始就解散
+                tip = "玩家长时间未开始游戏， 房间已解散"
+                break;
+			default:
+            break;
+    	}
+        var roomMsgObj = OpenRoomMsg.getInstance()
+		if (roomMsgObj) {
+            roomMsgObj.onRoomDissume(data)
+		}
+        DlgTip.openSysTip(tip, function (target) {
+            target.closeTip();
+			var dlgGameRecordCenter = UIMgr.getInstance().getDlg(ID_DlgGameRecordCenter);
+			if (dlgGameRecordCenter) {
+				dlgGameRecordCenter.reSetStartBtn();
+			}
+			else {
+				GameFrameMsg.getInstance().onUserGameMsg({key: "G2C_RoomDissume", value: data})
+			}
+			if (3 == reason)
+			{
+                GameKindMgr.getInstance().backPlazaScene();
+			}
+        });
+    },
+
+    // 设置推荐人
+    sendSetElect: function(ElectUid){
+        cc.log("-------------设置推荐人");
+        LogonMsgHandler.getInstance().send("C2L_SetElect", {
+            ElectUid:ElectUid
+        });
+    },
+    // 设置推荐人结果
+    onSetElectResult: function(data){
+        cc.log("### 设置推荐人结果");
+        console.log("设置推荐人结果 = " + JSON.stringify(data));
+        // //设置推荐人结果
+        // type L2C_SetElectResult struct {
+        //     RetCode int // 0带表成功， 其他则是错误码
+        // }
+		if(data.RetCode==0){
+			var IsGetReferrerID =UserServerMsg.getInstance().IsGetReferrerID();
+			if(!IsGetReferrerID)
+			{
+				cc.log("设置推荐人 成功")
+				UserServerMsg.getInstance().IsSetReferrerID(true);
+				DlgTip.openSysTip("设置推荐人成功");
+				var dlgUserInfo = UIMgr.getInstance().getDlg(ID_DlgUserInfo);
+				if(dlgUserInfo && dlgUserInfo.setRecommenderCB){
+					dlgUserInfo.setRecommenderCB();
+				}
+			}
+		}
+		else{
+            DlgTip.openSysTip("设置推荐人失败");
+			UIMgr.getInstance().closeDlg(ID_DlgUserInfo);
+		}
+    },
 
 	// 查询玩家信息
 	sendQueryIndividual: function(cb){
 		cc.log("-------------查询玩家信息");
 		this.cbQueryIndividual = cb;
-		g_logonSocket.sendData("C2L_User_Individual", {
+        LogonMsgHandler.getInstance().send("C2L_User_Individual", {
             UserId:cb.dwUserID,
 		});
 	},
-	
-	/**
-	 * sxh add start
-	 */
-	// 领取低保 sxh
-	sendBasicEnsureReq: function(cb){
-		cc.log("1-------------领取低保");
+    // 个人资料（查询玩家信息返回数据）
+    onSubUserIndividual: function(data){
+        cc.log("### 个人资料（查询玩家信息返回数据） 301");
+        var parseData = data;
+        console.log("个人信息数据 = " + JSON.stringify(parseData));
+		var MeUserID =g_objHero.getUserId();
+		var UserID = parseData.UserID;
+        var dlgUserInfo = UIMgr.getInstance().getDlg(ID_DlgUserInfo);
+		if(MeUserID!=UserID && data.Sign == "")
+		{
+			cc.log("个人资料玩家签名为空")
+			parseData.Sign ="这个人很懒，什么都没有留下";
+		}
+		dlgUserInfo.doReFresh(parseData);
+        if(dlgUserInfo==null){
+            dlgUserInfo = UIMgr.getInstance().openDlg(ID_DlgUserInfo);
+        }
+    },
+    // 点赞
+    sendClickZan: function(userID){
+        cc.log("-------------点赞");
+        LogonMsgHandler.getInstance().send("C2L_DianZhan", {UserID:userID});
+    },
+	//点赞结果
+    onClickZanResult: function(data){
+        console.log("点赞结果 = " + JSON.stringify(data));
 
-		var userId = g_objHero.getUserId();
-		var machineId = LocalStorageMgr.getInstance().getUuidItem();
-		var dataBuilder = new DataBuilder();
-		dataBuilder.init(70);
-		dataBuilder.build([
-		                   ["dwUserID", "DWORD", userId],// 用户 I D
-		                   ["szMachineID[33]", "TCHARS", machineId, LEN_MACHINE_ID],// 机器标识
-		                   ]);
+        // //点赞结果
+        // type C2L_DianZhanRsp struct {
+        //     Star int //当前赞数
+        // }
+        DlgTip.openSysTip("您已成功点赞");
+    },
+	// 被别人点赞
+    onBaStar: function (data) {
+        console.log("被别人点赞 = " + JSON.stringify(data));
+		// TODO 点赞功能已经完成,剩下表现效果,等待策划确定方案
+    },
+    // 续费 再来一局
+    sendRestart: function(){
+        cc.log("-------------续费 再来一局");
+        LogonMsgHandler.getInstance().send("C2L_RenewalFees", {});
+    },
+    //续费 再来一局结果
+    onRestartFail: function(data){
+        console.log("续费失败 data = " + JSON.stringify(data));
+        var strTip = LoadErrorCfg.getInstance().getStrErrTip(data.Code);
+		DlgTip.openSysTip(strTip, function (target) {
+			target.closeTip();
+		});
+		var dlgGameRecordCenter = UIMgr.getInstance().getDlg(ID_DlgGameRecordCenter);
+		if(dlgGameRecordCenter) dlgGameRecordCenter.onRenew();
+    },
 
-		if(g_logonSocket.status == SOCKET_STATUS._SS_CONNECTED){
-			if (cb){
-				UserServerMsg.getInstance().setOperate(SUB_GP_BASEENSURE_RESULT, cb); 
+	//发送领取奖励
+	sendGetRewards: function(taskID){
+        LogonMsgHandler.getInstance().send("C2L_DrawSahreAward", {
+            DrawId:taskID
+        });
+	},
+
+	onGetRewards: function(data){
+        cc.log("领取奖励结果 = " + JSON.stringify(data));
+        if(data.Code==0){
+            DlgTip.openSysTip("领取奖励成功");
+            var dlgGameWelfare = UIMgr.getInstance().getDlg(ID_DlgGameWelfare);
+            if(dlgGameWelfare && dlgGameWelfare.getRewardCB){
+                dlgGameWelfare.getRewardCB();
 			}
-			cc.log("1-------------send SUB_GP_BASEENSURE_TAKE");
-			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_BASEENSURE_TAKE, dataBuilder.getData());
+		}
+		else{
+            DlgTip.openSysTip("领取奖励失败");
+		}
+        dlgGameWelfare.getRewardCB = null;
+	},
+
+	//获取任务信息
+	sendC2L_ReqTimesInfo:function(){
+        cc.log("获取任务信息----");
+        LogonMsgHandler.getInstance().send("C2L_ReqTimesInfo", {});
+	},
+	onGetTaskInfo: function(data){
+        // DayTimes  map[int]int64 //每日次数信息
+        // Times     map[int]int64 //永久次数信息
+        // WeekTimes map[int]int64 //周次数信息
+        var dlgGameWelfare = UIMgr.getInstance().getDlg(ID_DlgGameWelfare);
+        if(dlgGameWelfare){
+            dlgGameWelfare.doGetTaskInfo(data);
 		}
 	},
 
-	// 今日首冲 sxh
-	sendFirstPayReq: function(taskID,kindID,cb){
-		cc.log("2-------------今日首冲");
-		var userID = g_objHero.getUserId();
-		var machineId = LocalStorageMgr.getInstance().getUuidItem();
-		var dataBuilder = new DataBuilder();
-		dataBuilder.init(4*3+33*2);
-		dataBuilder.build([
-		                   ["userID", "DWORD", userID], // 用户 I D
-		                   ["taskID", "DWORD", taskID], // 暂时写死 0
-		                   ["kindID", "DWORD", kindID], // 暂时写死 0
-		                   ["szMachineID[33]", "TCHARS", machineId, LEN_MACHINE_ID],// 机器标识
-		                   ]);
-
-		if(g_logonSocket.status == SOCKET_STATUS._SS_CONNECTED){
-
-			if(cb){
-				UserServerMsg.getInstance().setOperate(SUB_GP_FIRST_PAY, cb); 
-			}
-			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_FIRST_PAY, dataBuilder.getData());
-		}
+	//接收公告
+	onGeNotice: function(data){
+        //Context string // 公告内容
+        horseRaceLamp.getInstance().pushMsg(data.Context);
 	},
 
-	// 微信分享获取金币 sxh
-	sendWXShareOKReq: function(taskType,cb){
-		cc.log("3-------------微信分享获取金币");
-		var userId = g_objHero.getUserId();
-		var machineId = LocalStorageMgr.getInstance().getUuidItem();
-		var dataBuilder = new DataBuilder();
-		dataBuilder.init(74);
-		dataBuilder.build([
-		                   ["userID", "DWORD", userId],// 用户 I D
-		                   ["taskType", "DWORD", taskType], // 任务类型// 92邀请好友，93分享朋友圈
-		                   ["szMachineID[33]", "TCHARS", machineId, LEN_MACHINE_ID],// 机器标识
-		                   ]);
+	end: function(){}
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		if(g_logonSocket.status == SOCKET_STATUS._SS_CONNECTED){
-			if (cb){
-				UserServerMsg.getInstance().setOperate(SUB_GP_SHARE_AWARD, cb); 
-			}
-			g_logonSocket.sendData(MDM_GP_USER_SERVICE, SUB_GP_SHARE_AWARD, dataBuilder.getData());
-		}
-	},
-          
-                                    
-
-
-                                    
-	/**
-	 * sxh add end
-	 */
 });
 
 

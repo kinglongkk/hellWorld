@@ -5,6 +5,24 @@ var GameUserMsg = cc.Class.extend({
 
 	// 用户命令 3
 	onMsgMainUser: function(subCmd, data){
+        var cmd_describes = {
+            1100 : "用户进入 1100",
+            1101 : "用户分数 1101",
+            1102 : "用户状态 1102",
+            1103 : "请求失败 1103",
+            2101 : "聊天信息 2101",
+            2102 : "表情消息 2102",
+            2103 : "私聊消息 2103",
+            2104 : "私聊表情 2104",
+            210 : "创建房间命令 210",
+        }
+
+        var describe = cmd_describes[subCmd]
+        if (!describe)
+        {
+            describe = "未说明"
+        }
+        cc.log("-------接收游戏服务器（用户命令）命令号： mainCmd = " +subCmd + " :" + describe + " -------------")
 		switch (subCmd) {
 			// ///////////////////////////用户状态////////////////////////////////
 			// 用户进入 100
@@ -78,6 +96,13 @@ var GameUserMsg = cc.Class.extend({
 		}
 	},
 
+	setIsHeroEnter:function(IsHeroEnter){
+		this.isHeroEnter =IsHeroEnter;
+	},
+	getIsHeroEnter:function()
+	{
+		return this.isHeroEnter;
+	},
 	// 用户进入 100
 	onSubUserEnter: function(data){
 		cc.log("### 游戏服务器，（用户命令 /用户状态）用户进入");
@@ -93,8 +118,6 @@ var GameUserMsg = cc.Class.extend({
 
 		cc.log("onSubUserEnter == ", JSON.stringify(data))
 
-
-		
 		// 旁观暂时不处理
 		if(data.UserStatus == US_LOOKON){
 			cc.log("at onSubUserEnter data.UserStatus == US_LOOKON ")
@@ -102,46 +125,54 @@ var GameUserMsg = cc.Class.extend({
 		}
 		
 		// 自己进入消息
-		var isHeroEnter = false;
+		this.isHeroEnter = false;        //后期修改
 		if(data.UserID == g_objHero.getUserId()){
-			isHeroEnter = true;
+			this.isHeroEnter = true;
+			GameUserMsg.getInstance().setIsHeroEnter(true);
+			cc.log("wanjiashifoujinru2"+this.isHeroEnter)
 		}
 
-//		if (!isHeroEnter) {
+//		if (!this.isHeroEnter) {
 //            // 发送请求位置
 //			gg.WxSdkMgr.getInstance().getUserPosInfoTimer(NickName.UserID);
 //		}
 
 		var player = null;
 		// 自己进入
-		if(isHeroEnter){
+		if(this.isHeroEnter){
 			player = g_objHero;
 		}else{
 			player = new Player();
 			player.setHeaderUrl(data.HeaderUrl);
 		}
 		player.setNickName(data.NickName);
-		
-		player.setGameId(data.GameID);
+		player.setGameId(data.KindID);
 		player.setUserId(data.UserID);
 		player.setFaceId(data.FaceID);
 		player.setGender(data.Gender);
 		player.setMemberOrder(data.MemberOrder);
-		if(data.TableID!=INVALID_TABLE){
+		player.setWinCount(data.WinCount);
+		player.setPlayerInfo(data);
+
+        if(data.TableID!=INVALID_TABLE){
             player.setTableId(data.TableID);
-		}
+        }
 		
 		player.setChairID(data.ChairID);
 		player.setStatus(data.UserStatus);
 		
 		var plaza = ClientData.getInstance().getPlaza();
 		var curGameType = plaza.getCurGameType();	//设置游戏类型 1：房卡 其他：金币
-		if(curGameType==GAME_GENRE_PERSONAL){
+		if(curGameType==GAME_GENRE_PERSONAL){ // 断线重连的时候，这边搞错了，因为大厅默认设置了 = GAME_GENRE_PERSONAL
 			//房卡
+            cc.log("player设置Score"+data.Score);
 			player.setScore(data.Score);
+
+            player.setMoney(data.Score); // 临时措施；具体还是得去改动大厅的类型
 		}
 		else{
 			//金币场
+			cc.log("onSubUserEnter player设置money"+data.Score+"data.UserID:"+data.UserID);
 			player.setMoney(data.Score);
 		}
 		// 玩家进入房间
@@ -149,8 +180,8 @@ var GameUserMsg = cc.Class.extend({
 		room.addPlayer(player);
 		
 		// 自己进入
-		if(isHeroEnter){
-			cc.log("table.addPlayer(player)------isHeroEnter");
+		if(this.isHeroEnter){
+			cc.log("table.addPlayer(player)------this.isHeroEnter");
 			table.addPlayer(player);
 			table.removeOtherPlayer();
 			
@@ -189,7 +220,7 @@ var GameUserMsg = cc.Class.extend({
 		var runScene = cc.director.getRunningScene();
 		
 		// 自己进入
-		if(isHeroEnter){
+		if(this.isHeroEnter){
 			// 启动游戏
 			if(runScene && runScene.isPlazaScene && runScene.isPlazaScene()){
 				// GameKindMgr.getInstance().runGameScene();
@@ -397,13 +428,11 @@ var GameUserMsg = cc.Class.extend({
 		
 		// 自己状态消息
 		cc.log("111111111111111111111111111 ",isHeroStatus)
-        cc.log("msgTableId= "+msgTableId+"lastTableId= "+lastTableId+"msgChairId= "+msgChairId+"lastChairId= "+lastChairId);
 		if(isHeroStatus){
-			// 发送游戏规则
-			cc.log("msgTableId= "+msgTableId+"lastTableId= "+lastTableId+"msgChairId= "+msgChairId+"lastChairId= "+lastChairId);
-			if(msgTableId != INVALID_TABLE && (msgTableId != lastTableId || msgChairId != lastChairId)){
-				GameFrameMsg.getInstance().sendGameOption();
-			}
+			// // 发送游戏规则
+			// if(msgTableId != INVALID_TABLE && (msgTableId != lastTableId || msgChairId != lastChairId)){
+			// 	GameFrameMsg.getInstance().sendGameOption();
+			// }
 			
 			// 换桌流程：（坐下状态 -> 换桌 -> 起立状态 -> 坐下状态）
 			// 进入游戏（换桌坐下）
@@ -435,22 +464,33 @@ var GameUserMsg = cc.Class.extend({
 				cc.log("更新玩家信息11");
 			}
 		}else{
-			cc.log("是否同桌"+bSameTable);
-			// 同桌
-			if(bSameTable){
-				// 更新玩家信息
-				if(runScene && runScene.isGameScene && runScene.isGameScene()){
-					GameKindMgr.getInstance().getGameUIMgr().onUpdateAllPlayerInfo();
-				}
+			if(runScene && runScene.isGameScene && runScene.isGameScene()){
+				GameKindMgr.getInstance().getGameUIMgr().onUpdateAllPlayerInfo();
 			}
 		}
 	},
-								
+    // 坐下结果  返会成功失败， 状态在更新状态协议下发
+    onSubSitDownRst: function(data){
+        cc.log("### 坐下结果  返会成功失败， 状态在更新状态协议下发");
+        cc.log("parseData = " + JSON.stringify(data));
+        if(data.Code==0){
+        	//请求游戏规则
+		}
+		else{
+            // 提示界面
+            DlgTip.openSysTip(data.DescribeString + ", error : "+data.Code, function(target){
+                target.closeTip();
+
+                // 关闭游戏服务器
+                g_gameSocket.close();
+            });
+		}
+    },
 	// 请求失败 103
-	onSubRequestFailure: function(data){
+	 onSubRequestFailure: function(data){
 		cc.log("### 游戏服务器，（用户命令 /用户状态）请求失败 103");
 		cc.log("parseData = " + JSON.stringify(data));
-		
+         showWaiting(false);
 		// //////////////////////////////////////////////////////////////////////////////////////////////////
 		// 处理UI
 		
@@ -461,16 +501,13 @@ var GameUserMsg = cc.Class.extend({
 		}
 		
 		// 提示界面
-		DlgTip.openSysTip(data.DescribeString + ", error : "+data.ErrorCode, function(target){
+		var strTip = LoadErrorCfg.getInstance().getStrErrTip(data.ErrorCode)
+		DlgTip.openSysTip(strTip, function(target){
 			target.closeTip();
-			
-			// 关闭游戏服务器
-			g_gameSocket.close();
-			cc.log("--------g_gameSocket.close()---------");
 		});
 		
-		// 请求失败
-		PlazaUIMgr.getInstance().onRequestFailure();
+		// // 请求失败
+		// PlazaUIMgr.getInstance().onRequestFailure();
 	},
 	
 	// //////////////////////////////聊天命令////////////////////////////////
@@ -576,11 +613,16 @@ var GameUserMsg = cc.Class.extend({
 			forceLeave = 1;
 		}
 		cc.log("起立请求");
-		g_gameSocket.sendData("C2G_UserStandup",{
+		// g_gameSocket.sendData("C2G_UserStandup",{
+         //    TableID:tableID,
+         //    ChairID:chairID,
+         //    ForceLeave:forceLeave,
+		// });
+        g_gameSocket.sendData("C2G_LeaveRoom",{
             TableID:tableID,
             ChairID:chairID,
             ForceLeave:forceLeave,
-		});
+        });
 	},
 });
 
