@@ -27,6 +27,12 @@ var res = {
 
     dlgCardOp_ddz_json: "res/game_nnfp/dlgCardOp_ddz.json",
 
+    NiuNiuTable2R: "res/kkNiuNiu/NiuNiu/NiuNiuTable_4R/NiuNiuTable/NiuNiuTable2R.json",
+    NiuNiuTable3R: "res/kkNiuNiu/NiuNiu/NiuNiuTable_4R/NiuNiuTable/NiuNiuTable3R.json",
+    NiuNiuTable4R: "res/kkNiuNiu/NiuNiu/NiuNiuTable_4R/NiuNiuTable/NiuNiuTable4R.json",
+    NiuNiuTable5R: "res/kkNiuNiu/NiuNiu/NiuNiuTable_4R/NiuNiuTable/NiuNiuTable5R.json",
+    NiuNiuTable6R: "res/kkNiuNiu/NiuNiu/NiuNiuTable_4R/NiuNiuTable/NiuNiuTable6R.json",
+
 
 
 
