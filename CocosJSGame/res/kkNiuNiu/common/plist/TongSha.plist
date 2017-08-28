@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>tsha1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{640,0},{640,88}}</string>
+				<key>offset</key>
+				<string>{0,3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{640,150}</string>
+			</dict>
+			<key>tsha10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{924,440},{365,94}}</string>
+				<key>offset</key>
+				<string>{3,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{640,150}</string>
+			</dict>
+			<key>tsha2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{728,0},{564,92}}</string>
+				<key>offset</key>
+				<string>{38,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{640,150}</string>
+			</dict>
+			<key>tsha3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{924,0},{440,88}}</string>
+				<key>offset</key>
+				<string>{2,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{640,150}</string>
+			</dict>
+			<key>tsha4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{640,92}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,150}</string>
+			</dict>
+			<key>tsha5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,930},{484,92}}</string>
+				<key>offset</key>
+				<string>{-20,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,150}</string>
+			</dict>
+			<key>tsha6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{484,930},{440,93}}</string>
+				<key>offset</key>
+				<string>{2,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,150}</string>
+			</dict>
+			<key>tsha7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{728,564},{366,117}}</string>
+				<key>offset</key>
+				<string>{5,9}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{640,150}</string>
+			</dict>
+			<key>tsha8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,640},{365,117}}</string>
+				<key>offset</key>
+				<string>{3,9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,150}</string>
+			</dict>
+			<key>tsha9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,757},{365,117}}</string>
+				<key>offset</key>
+				<string>{3,9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,150}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>TongSha.png</string>
+			<key>realTextureFileName</key>
+			<string>TongSha.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>
