@@ -6384,7 +6384,7 @@ cc._RFpush(module, 'b26deKEmoBAK7r3zwyki638', 'Config_common');
 //所有对战模式通用的配置
 var common = {
     version: '1.0.1', //游戏版本
-    isLocal: false, //是否走本地
+    isLocal: true, //是否走本地
     frameScale: 0.5, //界面缩放标准
     bottomTipPos: cc.p(cc.visibleRect.width * 0.5, cc.visibleRect.height * 0.1),
     time_tipDefault: 3, //没有设置时间，默认存在的时长
