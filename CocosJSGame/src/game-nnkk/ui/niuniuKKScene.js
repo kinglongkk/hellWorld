@@ -6,11 +6,11 @@ var NiuniuKKMainLayer = cc.Layer.extend({
         cc.spriteFrameCache.addSpriteFrames(res.nnFpAnimationPlist_plist);
         cc.spriteFrameCache.addSpriteFrames(res.huaiFengCardPlist_plist);
         // var json = ccs.load(res.dlgNnFpScene_json);
-        var json = ccs.load(res.NiuNiuTable2R);
+        // var json = ccs.load(res.NiuNiuTable2R);
         // var json = ccs.load(res.NiuNiuTable3R);
         // var json = ccs.load(res.NiuNiuTable4R);
         // var json = ccs.load(res.NiuNiuTable5R);
-        // var json = ccs.load(res.NiuNiuTable6R);
+        var json = ccs.load(res.NiuNiuTable6R);
 
         this._rootWidget = json.node;
         this.addChild(this._rootWidget);
