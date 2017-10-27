@@ -1,0 +1,156 @@
+ body.login{
+         background-image: url(../../images/login-bg.jpg);
+         background-position: center center;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+         }
+        .login-logo{margin: 0 auto; 
+             color: #fff; 
+             font-size: 60px; 
+             width: 450px; 
+             text-align: center;
+             padding-bottom: 15px; 
+             padding-top: 10vh;
+             text-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+         }
+         .login-bl{
+             background: #fff;
+             width: 450px; 
+             margin: 0 auto;
+             padding: 20px;
+             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+         }
+       
+         
+         .login-bl .form-control{ height: 40px; border-radius: 3px; padding-left: 30px;}
+         .login-bl .input-group.date .form-control{ height: 40px; border-radius: 3px; padding-left:10px;}
+         .input-group .form-control:last-child{
+             border-top-left-radius: 3px;
+             border-bottom-left-radius: 3px;
+         }
+         .login-bl .form-control:focus
+         {
+             border-color: #8bc4f1;
+             background: #eaf6ff;
+             outline: 0;
+             -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px rgba(177, 177, 177, .5);
+             box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px rgba(177, 177, 177, .5);
+         }
+         .login-footer{ margin-top:3vh; bottom:0; padding: 20px 0; text-align: center; width: 100%; z-index: 999;            bottom:0; color: #fff;}
+					
+					.login-footer a{ color: #fff;}
+					.login-footer > .btn-group > button.btn{
+						  margin: -4px 0 0 10px;
+        background: 0;
+        border: 0;
+        color: #fff;
+        padding: 0;
+					}
+					
+					.login-footer > .btn-group > button.btn img{ width:18px;}
+					.login-footer > .btn-group > ul.dropdown-menu{ 
+						  min-width: 110px;
+        margin-bottom: 10px;
+        color: #676a6c;
+        margin-right: 0;
+					}
+					.login-footer > .btn-group > ul.dropdown-menu img{
+					   width: 18px;
+					}
+					.login-footer > .btn-group > ul.dropdown-menu > li > a{
+						  line-height: 18px;
+					}
+         .login-btn-1{ width: 278px; margin: 0 auto; padding: 10px 0;}
+         .chosen-container-single .chosen-single {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            padding: 0 0 0 8px;
+            height: 40px;
+            border: 1px solid #e5e6e7;
+            border-radius: 3px;
+            color: #444;
+            text-decoration: none;
+            white-space: nowrap;
+            line-height: 38px;
+         }
+         .chosen-container-single .chosen-single div b {
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: url('../../common/themes/default/chosen/images/chosen-sprite.png') no-repeat 0px 5px;
+         }
+         .chosen-container-active.chosen-with-drop .chosen-single div b {
+            background-position: -16px 4px;
+         }
+         .form-group>.ico-left{
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 3px;
+         }
+         .verify-img{
+            display: table-cell; 
+            margin: 0; 
+            padding: 0; 
+            white-space: nowrap;
+            vertical-align: middle;
+            background: #f8f7f5;
+            border-left: 5px solid #fff;
+         }
+        .bg-blur {
+            z-index: -2;
+            opacity: 0;
+            position: absolute;
+            min-height: 100%;
+            height: auto;
+            display: block;
+            top: 0;
+            max-height: none;
+            left: -10%;
+            width: 120%;
+            height: 800px;
+         }
+        .bg-blur-overlay {
+            z-index: -1;
+            position:fixed;
+            width: 100%;
+            height: 30%;
+            bottom:0;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0.15+0,1+100 */
+            /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+            background:                                    url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjE1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+            background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
+        }
+         @media (max-width:680px) {
+          .login-bl{
+             width: 100%; 
+         }
+            #preview-container{ padding: 0 20px;}
+            .login-logo{font-size: 50px; width: 100%}
+            .login-btn-1{width: 100%;}
+        }
+        /* 浏览器提示 */
+.hint-box{    position: absolute;
+    top: 0;
+    color: #fff;
+    width: 100%;}
+.hint-content{margin: 0 auto;
+    display: block;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.30);
+    height: 45px;
+    line-height: 45px;}
+.hint-content>.close{float: none;text-shadow:none;color: #FFF;opacity: 1;    vertical-align: top;
+    line-height: 41px;}
+.hint-content i.fa{font-size: 24px;vertical-align: top;
+    line-height: 45px; margin-right:10px;}  

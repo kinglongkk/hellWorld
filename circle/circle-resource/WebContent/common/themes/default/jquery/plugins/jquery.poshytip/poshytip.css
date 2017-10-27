@@ -1,0 +1,52 @@
+.poshytip {
+    opacity:0.8;
+    z-index:9999;
+    text-align:left;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    padding:8px 8px;
+    color:#fff;
+    background-color:#000;
+}
+.poshytip .tip-inner {
+    font:bold 11px/14px 'Lucida Grande',sans-serif;
+}
+
+/* Configure an arrow image - the script will automatically position it on the correct side of the tip */
+.poshytip .tip-arrow-top {
+    margin-top:-5px;
+    margin-left:-5px; /* approx. half the width to center it */
+    top:0;
+    left:50%;
+    width:9px;
+    height:5px;
+    background:url(poshytip_arrows.gif) no-repeat;
+}
+.poshytip .tip-arrow-right {
+    margin-top:-4px; /* approx. half the height to center it */
+    margin-left:0;
+    top:50%;
+    left:100%;
+    width:5px;
+    height:9px;
+    background:url(poshytip_arrows.gif) no-repeat -9px 0;
+}
+.poshytip .tip-arrow-bottom {
+    margin-top:0;
+    margin-left:-5px; /* approx. half the width to center it */
+    top:100%;
+    left:50%;
+    width:9px;
+    height:5px;
+    background:url(poshytip_arrows.gif) no-repeat -18px 0;
+}
+.poshytip .tip-arrow-left {
+    margin-top:-4px; /* approx. half the height to center it */
+    margin-left:-5px;
+    top:50%;
+    left:0;
+    width:5px;
+    height:9px;
+    background:url(poshytip_arrows.gif) no-repeat -27px 0;
+}

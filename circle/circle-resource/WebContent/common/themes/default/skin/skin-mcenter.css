@@ -1,0 +1,66 @@
+.toast-top-right {
+    top: 100px;
+    right: 15px;
+}
+#toast-container > div {
+    max-width: 300px;
+    padding: 5px 15px 5px 50px;
+    border-radius: 3px;
+    
+}
+#toast-container > div.toast-success,
+.toast-success {
+    background-color: #D7F9DE;
+    border: 1px solid #68BF69;
+    border-radius: 3px;
+    color: #1EAB41;
+    line-height: 20px;
+    
+}
+#toast-container > div.toast-success > .toast-close-button{
+    color: #1EAB41;
+}
+
+#toast-container > div.toast-info,
+.toast-info {
+    background-color: #E1F2FB;
+    border: 1px solid #36a1d7;
+    color: #2D8BBB;
+    line-height: 20px;
+}
+#toast-container > div.toast-info > .toast-close-button{
+    color: #2D8BBB;
+}
+#toast-container > div.toast-error,
+.toast-error {
+    background-color: #F5DDDD;
+    border: 1px solid #f34235;
+    color: #DC4646;
+    line-height: 20px;
+}
+#toast-container > div.toast-error > .toast-close-button{
+    color: #DC4646;
+}
+#toast-container > div.toast-warning,
+.toast-warning {
+    background-color: #F9FBE4;
+    border: 1px solid #f8ac59;
+    color: #f8ac59;
+    line-height: 20px;
+}
+#toast-container > div.toast-warning > .toast-close-button{
+    color: #f8ac59;
+}
+.toast-close-button {
+    top: -0.1em;
+}
+
+
+#toast-container * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow:visible; 
+    white-space: pre;
+    text-overflow: clip;
+}

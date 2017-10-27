@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://code.jquery.com/jquery-1.11.2.js" type="text/javascript"></script>
+	<script src="../../jsrender.js" type="text/javascript"></script>
+	<link href="../resources/demos.css" rel="stylesheet" type="text/css" />
+
+	<link href="../resources/movielist.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<a href="../demos.html">JsRender Demos</a><br />
+
+<h3>To render a <em>non-repeating</em> template against an array, with content above or below the repeating items,<br />
+wrap the array - as <em>render([myArray])</em> - and include <em>{{for #data}}</em> for the repeating section</h3>
+
+<div class="subhead">Top-level layout:</div>
+<pre>
+$( "#movieList" ).html(
+    // Pass second parameter <em>true</em> to choose noIteration even for arrays.
+    $("#movieTemplate").render(movies, true)
+);
+
+Template:
+
+   header
+   {{for}}
+      item
+   {{/for}}
+   footer
+</pre>
+
+<div class="subhead">Nested layout:</div>
+<pre>
+{{include languages}}
+    header
+    {{for}}
+        item
+    {{/for}}
+    footer
+{{/for}}
+</pre>
+
+<!--================ Demo ================-->
+
+<script id="movieTemplate" type="text/x-jsrender">
+	<thead>
+		<tr><th colspan="2">{{:length}} movies available:</th></tr>
+		<tr><th>Title</th><th>Languages</th></tr>
+	</thead>
+	<tbody>
+		{{for}}
+			<tr>
+				<td>{{>title}}</td>
+				<td>
+					{{include languages}}
+						<div>
+							{{if #data}}
+								<strong>{{:length}}</strong> languages available:
+								{{for}}
+									<em>{{>name}}</em>
+								{{/for}}
+							{{else}}
+								Original version only
+							{{/if}}
+						</div>
+						<div>
+							{{if #data}}
+								Additional languages also in stock
+							{{/if}}
+						</div>
+					{{/include}}
+				</td>
+			</tr>
+		{{/for}}
+	</tbody>
+</script>
+
+<table id="movieList"></table>
+
+<script type="text/javascript">
+
+	var movies = [
+		{
+			title: "Meet Joe Black"
+		},
+		{
+			title: "Eyes Wide Shut",
+			languages: [
+				{ name: "French" },
+				{ name: "Mandarin" },
+				{ name: "Spanish" }
+			]
+		},
+		{
+			title: "The Inheritance",
+			languages: [
+				{ name: "English" },
+				{ name: "Russian" }
+			]
+		}
+	];
+	$( "#movieList" ).html(
+		// Wrap movies array in an array
+		$( "#movieTemplate" ).render(movies, true)
+	);
+</script>
+
+</body>
+</html>
+
+
