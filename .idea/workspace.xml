@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="980fc092-cf21-4590-a137-c5c5bc50e81f" name="Default" comment="update">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/niuniuFPScene.js" afterPath="$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/niuniuFPScene.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CocosJSGame/src/resource.js" afterPath="$PROJECT_DIR$/CocosJSGame/src/resource.js" />
-    </list>
+    <list default="true" id="980fc092-cf21-4590-a137-c5c5bc50e81f" name="Default" comment="update" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +9,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -22,7 +17,284 @@
     <favorites_list name="hellWorld" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CocosJSGame/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="66" column="40" lean-forward="false" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+              <folding>
+                <marker date="1509086813915" expanded="true" signature="2413:3593" ph="{...}" />
+                <marker date="1509086813915" expanded="true" signature="3101:3583" ph="{...}" />
+                <marker date="1509086813915" expanded="true" signature="3304:3577" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="niuniuKKScene.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnkk/ui/niuniuKKScene.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <marker date="1509086813917" expanded="true" signature="65:1493" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="622:1486" ph="/*...*/" />
+                <marker date="1509086813917" expanded="true" signature="1538:1847" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="1609:1841" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="1763:1831" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="1899:2121" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="1974:2115" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="2153:2255" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="2297:3348" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="2321:3342" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="2364:2484" ph="..." />
+                <marker date="1509086813917" expanded="true" signature="2526:2643" ph="..." />
+                <marker date="1509086813917" expanded="true" signature="2685:3288" ph="..." />
+                <marker date="1509086813917" expanded="true" signature="2796:2865" ph="//..." />
+                <marker date="1509086813917" expanded="true" signature="3023:3180" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="3186:3265" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="3309:3332" ph="..." />
+                <marker date="1509086813917" expanded="true" signature="3393:3446" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="3513:3898" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="3926:3956" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="4003:4235" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="4268:4306" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="4339:4368" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="4400:4428" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="4455:4553" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="4602:4743" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="4685:4737" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="4786:5146" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="4895:5010" ph="{...}" />
+                <marker date="1509086813917" expanded="true" signature="5016:5140" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="niuniuFPGame.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnkk/model/niuniuFPGame.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12054">
+              <caret line="574" column="3" lean-forward="false" selection-start-line="574" selection-start-column="3" selection-end-line="574" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="niuniuFP.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnkk/model/niuniuFP.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10962">
+              <caret line="522" column="37" lean-forward="false" selection-start-line="522" selection-start-column="37" selection-end-line="522" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cardSprite.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CocosJSGame/src/public/views/cardSprite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1113">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="niuniuFPUIMgr.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/niuniuFPUIMgr.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="116" column="26" lean-forward="false" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="26" />
+              <folding>
+                <marker date="1509086813916" expanded="true" signature="72:38883" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="2106:4111" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="2249:2718" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="2324:2510" ph="[...]" />
+                <marker date="1509086813916" expanded="true" signature="2766:4105" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="2804:4040" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="2829:2949" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="2973:3081" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="3105:3207" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="3231:3334" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="3358:3467" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="3491:3593" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="3617:3723" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="3747:3849" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="3873:3974" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="3999:4026" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="4263:5578" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="4291:4325" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="4355:4388" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="4625:5123" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="4836:4877" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="5041:5113" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="5187:5358" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="5405:5572" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="5508:5562" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="5627:6029" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="5655:5686" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="5837:5883" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="5978:6023" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="6073:9316" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="6101:6132" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="6447:9007" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="6474:6799" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="6531:6587" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="6627:6775" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="6835:7015" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="6935:6991" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="7045:7483" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="7119:7459" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="7191:7441" ph="/*...*/" />
+                <marker date="1509086813916" expanded="true" signature="7511:7907" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="7587:7883" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="7699:7865" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="7932:8576" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="7997:8553" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="8073:8534" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="8328:8512" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="8358:8486" ph="/*...*/" />
+                <marker date="1509086813916" expanded="true" signature="8606:8852" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="8679:8827" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="8883:8906" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="8930:8953" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="8974:8997" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="9209:9310" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="9352:9636" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="9445:9476" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="9560:9630" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="9684:10107" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="9897:10026" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="10153:10893" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="10463:10812" ph="/*...*/" />
+                <marker date="1509086813916" expanded="true" signature="10944:13406" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="11160:11289" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="11398:13400" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="11470:13390" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="11573:11745" ph="/*...*/" />
+                <marker date="1509086813916" expanded="true" signature="12581:12619" ph="//..." />
+                <marker date="1509086813916" expanded="true" signature="12681:13338" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="12726:13315" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="13147:13289" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="13448:14430" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="13485:13516" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="14000:14049" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="14224:14424" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="14250:14347" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="14482:15126" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="14569:14917" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="14923:15120" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="15028:15110" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="15129:15493" ph="/*...*/" />
+                <marker date="1509086813916" expanded="true" signature="15547:16665" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="15791:16055" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="16330:16516" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="16711:16899" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="16820:16870" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="16960:19732" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="17144:19506" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="17436:17713" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="18605:19021" ph="/*...*/" />
+                <marker date="1509086813916" expanded="true" signature="19126:19210" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="19625:19715" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="19800:21337" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="20476:20872" ph="/*...*/" />
+                <marker date="1509086813916" expanded="true" signature="20969:21050" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="21396:22592" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="21667:21809" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="21721:21799" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="22022:22586" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="22108:22576" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="22357:22448" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="22642:23294" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="22729:23081" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="23087:23288" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="23190:23278" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="23342:27071" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="23611:25117" ph="{&quot;event&quot;: cc.EventListener.TOUCH_ONE_BY_ONE...}" />
+                <marker date="1509086813916" expanded="true" signature="23808:24192" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="24244:24504" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="24556:24993" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="24703:24792" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="24798:24910" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="25048:25107" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="25184:25541" ph="/*...*/" />
+                <marker date="1509086813916" expanded="true" signature="25551:27065" ph="/*...*/" />
+                <marker date="1509086813916" expanded="true" signature="27126:28039" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="27360:27729" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="27735:28033" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="27776:28023" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="28098:28492" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="28522:31642" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="28560:31421" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="28834:29205" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="28910:29191" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="29079:29173" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="29355:29910" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="29437:29896" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="29793:29878" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="30101:30537" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="30543:31287" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="30659:31162" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="30681:30809" ph="//..." />
+                <marker date="1509086813916" expanded="true" signature="30979:31073" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="31079:31144" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="31427:31636" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="31537:31626" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="31690:32447" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="32000:32347" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="32014:32097" ph="//..." />
+                <marker date="1509086813916" expanded="true" signature="32477:33664" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="32843:33658" ph="/*...*/" />
+                <marker date="1509086813916" expanded="true" signature="33696:37725" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="33725:33759" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="34171:37643" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="34215:34974" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="34404:34477" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="35017:35040" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="35084:35107" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="35153:37589" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="35263:37566" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="35375:35456" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="35555:37548" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="35757:37526" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="35839:37500" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="36294:36709" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="36438:36675" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="36753:37021" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="37027:37470" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="37080:37436" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="37174:37398" ph="{...}" />
+                <marker date="1509086813916" expanded="true" signature="37610:37633" ph="..." />
+                <marker date="1509086813916" expanded="true" signature="37731:38175" ph="/*...*/" />
+                <marker date="1509086813916" expanded="true" signature="38192:38881" ph="/*...*/" />
+                <marker date="1509086813916" expanded="true" signature="38961:39021" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="huaiFengCardPlist.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CocosJSGame/res/public/huaiFengCard/huaiFengCardPlist.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="huaiFengCardPlist.plist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CocosJSGame/res/public/huaiFengCard/huaiFengCardPlist.plist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1743">
+              <caret line="83" column="55" lean-forward="false" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -84,8 +356,8 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
     <exe-path />
@@ -95,6 +367,7 @@
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="279" />
@@ -118,16 +391,6 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -144,147 +407,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game-nnfp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game-nnfp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CocosJSGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game_nnfp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,8 +448,25 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/hellWorld/CocosJSGame/index.html">
-      <method />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter />
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -346,42 +487,22 @@
       <option name="filePath" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-    </list>
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/hellWorld/CocosJSGame/index.html" />
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -390,6 +511,7 @@
       <changelist id="980fc092-cf21-4590-a137-c5c5bc50e81f" name="Default" comment="" />
       <created>1500253455191</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1500253455191</updated>
       <workItem from="1500253456295" duration="61000" />
       <workItem from="1500253526999" duration="46000" />
@@ -423,138 +545,161 @@
     <task id="LOCAL-00001" summary="记录登录信息">
       <created>1500261423730</created>
       <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1500261423730</updated>
     </task>
     <task id="LOCAL-00002" summary="玩家界面修改">
       <created>1500261442876</created>
       <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1500261442876</updated>
     </task>
     <task id="LOCAL-00003" summary="update">
       <created>1500272075207</created>
       <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1500272075207</updated>
     </task>
     <task id="LOCAL-00004" summary="update">
       <created>1500276733677</created>
       <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1500276733677</updated>
     </task>
     <task id="LOCAL-00005" summary="update">
       <created>1500287694327</created>
       <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1500287694327</updated>
     </task>
     <task id="LOCAL-00006" summary="update">
       <created>1500460540242</created>
       <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1500460540242</updated>
     </task>
     <task id="LOCAL-00007" summary="update">
       <created>1500534131687</created>
       <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
       <updated>1500534131687</updated>
     </task>
     <task id="LOCAL-00008" summary="update">
       <created>1500628607024</created>
       <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
       <updated>1500628607024</updated>
     </task>
     <task id="LOCAL-00009" summary="update">
       <created>1500966661449</created>
       <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
       <updated>1500966661449</updated>
     </task>
     <task id="LOCAL-00010" summary="update">
       <created>1500966849148</created>
       <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
       <updated>1500966849148</updated>
     </task>
     <task id="LOCAL-00011" summary="update">
       <created>1501150729060</created>
       <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
       <updated>1501150729060</updated>
     </task>
     <task id="LOCAL-00012" summary="update">
       <created>1501150738333</created>
       <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
       <updated>1501150738333</updated>
     </task>
     <task id="LOCAL-00013" summary="update">
       <created>1501237229897</created>
       <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
       <updated>1501237229897</updated>
     </task>
     <task id="LOCAL-00014" summary="update">
       <created>1501466270898</created>
       <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
       <updated>1501466270898</updated>
     </task>
     <task id="LOCAL-00015" summary="update">
       <created>1501580712246</created>
       <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
       <updated>1501580712246</updated>
     </task>
     <task id="LOCAL-00016" summary="update">
       <created>1502352883700</created>
       <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1502352883700</updated>
     </task>
     <task id="LOCAL-00017" summary="update">
       <created>1502353424252</created>
       <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
       <updated>1502353424252</updated>
     </task>
     <task id="LOCAL-00018" summary="update">
       <created>1502933688245</created>
       <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
       <updated>1502933688245</updated>
     </task>
     <task id="LOCAL-00019" summary="update">
       <created>1502934178456</created>
       <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
       <updated>1502934178456</updated>
     </task>
     <task id="LOCAL-00020" summary="公共模块相关代码注释">
       <created>1502934784640</created>
       <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1502934784640</updated>
     </task>
     <task id="LOCAL-00021" summary="update">
       <created>1502935494524</created>
       <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1502935494524</updated>
     </task>
     <task id="LOCAL-00022" summary="update">
       <created>1502936464138</created>
       <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
       <updated>1502936464138</updated>
     </task>
     <task id="LOCAL-00023" summary="update">
       <created>1502937562015</created>
       <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
       <updated>1502937562015</updated>
     </task>
@@ -562,36 +707,39 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105948000" />
+    <option name="totallyTimeSpent" value="105956000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="279" y="113" width="1440" height="780" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24929775" sideWeight="0.49473685" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.178125" sideWeight="0.49473685" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36214605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3316583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981523" sideWeight="0.50526315" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36214605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24929775" sideWeight="0.49473685" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981523" sideWeight="0.50526315" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -654,359 +802,690 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/niuniuFPUIMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="116" column="26" lean-forward="false" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="26" />
+          <folding>
+            <marker date="1509086813916" expanded="true" signature="72:38883" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="2106:4111" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="2249:2718" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="2324:2510" ph="[...]" />
+            <marker date="1509086813916" expanded="true" signature="2766:4105" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="2804:4040" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="2829:2949" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="2973:3081" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3105:3207" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3231:3334" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3358:3467" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3491:3593" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3617:3723" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3747:3849" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3873:3974" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3999:4026" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="4263:5578" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="4291:4325" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="4355:4388" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="4625:5123" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="4836:4877" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5041:5113" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5187:5358" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5405:5572" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5508:5562" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5627:6029" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5655:5686" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5837:5883" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5978:6023" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="6073:9316" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="6101:6132" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="6447:9007" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="6474:6799" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="6531:6587" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="6627:6775" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="6835:7015" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="6935:6991" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="7045:7483" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="7119:7459" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="7191:7441" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="7511:7907" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="7587:7883" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="7699:7865" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="7932:8576" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="7997:8553" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="8073:8534" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="8328:8512" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="8358:8486" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="8606:8852" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="8679:8827" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="8883:8906" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="8930:8953" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="8974:8997" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="9209:9310" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="9352:9636" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="9445:9476" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="9560:9630" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="9684:10107" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="9897:10026" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="10153:10893" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="10463:10812" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="10944:13406" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="11160:11289" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="11398:13400" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="11470:13390" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="11573:11745" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="12581:12619" ph="//..." />
+            <marker date="1509086813916" expanded="true" signature="12681:13338" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="12726:13315" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="13147:13289" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="13448:14430" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="13485:13516" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="14000:14049" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="14224:14424" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="14250:14347" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="14482:15126" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="14569:14917" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="14923:15120" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="15028:15110" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="15129:15493" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="15547:16665" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="15791:16055" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="16330:16516" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="16711:16899" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="16820:16870" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="16960:19732" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="17144:19506" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="17436:17713" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="18605:19021" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="19126:19210" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="19625:19715" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="19800:21337" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="20476:20872" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="20969:21050" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="21396:22592" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="21667:21809" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="21721:21799" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="22022:22586" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="22108:22576" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="22357:22448" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="22642:23294" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="22729:23081" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="23087:23288" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="23190:23278" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="23342:27071" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="23611:25117" ph="{&quot;event&quot;: cc.EventListener.TOUCH_ONE_BY_ONE...}" />
+            <marker date="1509086813916" expanded="true" signature="23808:24192" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="24244:24504" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="24556:24993" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="24703:24792" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="24798:24910" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="25048:25107" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="25184:25541" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="25551:27065" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="27126:28039" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="27360:27729" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="27735:28033" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="27776:28023" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="28098:28492" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="28522:31642" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="28560:31421" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="28834:29205" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="28910:29191" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="29079:29173" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="29355:29910" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="29437:29896" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="29793:29878" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="30101:30537" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="30543:31287" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="30659:31162" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="30681:30809" ph="//..." />
+            <marker date="1509086813916" expanded="true" signature="30979:31073" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="31079:31144" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="31427:31636" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="31537:31626" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="31690:32447" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="32000:32347" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="32014:32097" ph="//..." />
+            <marker date="1509086813916" expanded="true" signature="32477:33664" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="32843:33658" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="33696:37725" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="33725:33759" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="34171:37643" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="34215:34974" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="34404:34477" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="35017:35040" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="35084:35107" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="35153:37589" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="35263:37566" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="35375:35456" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="35555:37548" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="35757:37526" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="35839:37500" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="36294:36709" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="36438:36675" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="36753:37021" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="37027:37470" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="37080:37436" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="37174:37398" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="37610:37633" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="37731:38175" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="38192:38881" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="38961:39021" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/nnFpDlgClock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/nnFpDlgReady.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="62" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
+        <state relative-caret-position="0">
+          <caret line="80" column="62" lean-forward="false" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/model/niuniuFP.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="375" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="951" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="375" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="951" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/nnFpDlgPlayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/niuniuFPUIMgr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="459" column="35" selection-start-line="459" selection-start-column="35" selection-end-line="459" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="459" column="35" lean-forward="false" selection-start-line="459" selection-start-column="35" selection-end-line="459" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/model/niuniuFP.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="375" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="951" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="375" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="951" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/nnFpDlgPlayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/public/manager/gameUIMgr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="64" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="64" />
+        <state relative-caret-position="0">
+          <caret line="30" column="64" lean-forward="false" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/public/model/match.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/public/consts/define.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/public/network/gameServer/gameUserMsg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="380" column="63" selection-start-line="380" selection-start-column="63" selection-end-line="380" selection-end-column="63" />
+        <state relative-caret-position="0">
+          <caret line="380" column="63" lean-forward="false" selection-start-line="380" selection-start-column="63" selection-end-line="380" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/BaseLayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="118" column="31" lean-forward="false" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/gameConfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/nnFpDlgReady.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="62" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
+        <state relative-caret-position="0">
+          <caret line="80" column="62" lean-forward="false" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/chapter01/Lesson0304/Lesson0304.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/chapter01/Lesson0306/Lesson0306.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/chapter01/Lesson0401/Lesson0401.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/chapter01/Lesson0501/Lesson0501.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/chapter01/Lesson0501/MainMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/chapter01/Lesson0502/demo/RockerDemo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/login/ui/loginScene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/login/ui/dlgLogin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/nnFpDlgSystem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/public/network/RegistFunc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vagrant.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/dlgNnFpResult.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/model/niuniuFPGame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/model/niuniuFP.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/nnFpDlgClock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/chapter01/Lesson0303/Lesson0303.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/nnFpDlgPlayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="357" column="37" selection-start-line="357" selection-start-column="37" selection-end-line="357" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="357" column="37" lean-forward="false" selection-start-line="357" selection-start-column="37" selection-end-line="357" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/login/ui/newDlgLogin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/public/views/cardSprite.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
+        <state relative-caret-position="1113">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/public/model/clientData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/network/cmdGame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/public/config/platform.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game_zpmj/ui/zpmjScene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game_zpmj/ui/zpmjDlgCardsInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/public/jsList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="231" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="215" column="0" lean-forward="false" selection-start-line="215" selection-start-column="0" selection-end-line="231" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game_ddz/ui/ddzDlgScene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/.cocos-project.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/chapter01/Lesson0701/Lesson0701.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/niuniuFPUIMgr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="750" column="47" selection-start-line="750" selection-start-column="47" selection-end-line="750" selection-end-column="47" />
+        <state relative-caret-position="21">
+          <caret line="116" column="26" lean-forward="false" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="26" />
+          <folding>
+            <marker date="1509086813916" expanded="true" signature="72:38883" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="2106:4111" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="2249:2718" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="2324:2510" ph="[...]" />
+            <marker date="1509086813916" expanded="true" signature="2766:4105" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="2804:4040" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="2829:2949" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="2973:3081" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3105:3207" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3231:3334" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3358:3467" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3491:3593" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3617:3723" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3747:3849" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3873:3974" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="3999:4026" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="4263:5578" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="4291:4325" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="4355:4388" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="4625:5123" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="4836:4877" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5041:5113" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5187:5358" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5405:5572" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5508:5562" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5627:6029" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5655:5686" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5837:5883" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="5978:6023" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="6073:9316" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="6101:6132" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="6447:9007" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="6474:6799" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="6531:6587" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="6627:6775" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="6835:7015" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="6935:6991" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="7045:7483" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="7119:7459" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="7191:7441" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="7511:7907" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="7587:7883" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="7699:7865" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="7932:8576" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="7997:8553" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="8073:8534" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="8328:8512" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="8358:8486" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="8606:8852" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="8679:8827" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="8883:8906" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="8930:8953" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="8974:8997" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="9209:9310" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="9352:9636" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="9445:9476" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="9560:9630" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="9684:10107" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="9897:10026" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="10153:10893" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="10463:10812" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="10944:13406" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="11160:11289" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="11398:13400" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="11470:13390" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="11573:11745" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="12581:12619" ph="//..." />
+            <marker date="1509086813916" expanded="true" signature="12681:13338" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="12726:13315" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="13147:13289" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="13448:14430" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="13485:13516" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="14000:14049" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="14224:14424" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="14250:14347" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="14482:15126" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="14569:14917" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="14923:15120" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="15028:15110" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="15129:15493" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="15547:16665" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="15791:16055" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="16330:16516" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="16711:16899" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="16820:16870" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="16960:19732" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="17144:19506" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="17436:17713" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="18605:19021" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="19126:19210" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="19625:19715" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="19800:21337" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="20476:20872" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="20969:21050" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="21396:22592" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="21667:21809" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="21721:21799" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="22022:22586" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="22108:22576" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="22357:22448" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="22642:23294" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="22729:23081" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="23087:23288" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="23190:23278" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="23342:27071" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="23611:25117" ph="{&quot;event&quot;: cc.EventListener.TOUCH_ONE_BY_ONE...}" />
+            <marker date="1509086813916" expanded="true" signature="23808:24192" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="24244:24504" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="24556:24993" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="24703:24792" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="24798:24910" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="25048:25107" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="25184:25541" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="25551:27065" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="27126:28039" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="27360:27729" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="27735:28033" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="27776:28023" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="28098:28492" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="28522:31642" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="28560:31421" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="28834:29205" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="28910:29191" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="29079:29173" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="29355:29910" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="29437:29896" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="29793:29878" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="30101:30537" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="30543:31287" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="30659:31162" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="30681:30809" ph="//..." />
+            <marker date="1509086813916" expanded="true" signature="30979:31073" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="31079:31144" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="31427:31636" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="31537:31626" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="31690:32447" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="32000:32347" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="32014:32097" ph="//..." />
+            <marker date="1509086813916" expanded="true" signature="32477:33664" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="32843:33658" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="33696:37725" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="33725:33759" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="34171:37643" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="34215:34974" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="34404:34477" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="35017:35040" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="35084:35107" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="35153:37589" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="35263:37566" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="35375:35456" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="35555:37548" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="35757:37526" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="35839:37500" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="36294:36709" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="36438:36675" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="36753:37021" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="37027:37470" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="37080:37436" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="37174:37398" ph="{...}" />
+            <marker date="1509086813916" expanded="true" signature="37610:37633" ph="..." />
+            <marker date="1509086813916" expanded="true" signature="37731:38175" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="38192:38881" ph="/*...*/" />
+            <marker date="1509086813916" expanded="true" signature="38961:39021" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1699346">
-          <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
-          <folding />
+        <state relative-caret-position="321">
+          <caret line="66" column="40" lean-forward="false" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+          <folding>
+            <marker date="1509086813915" expanded="true" signature="2413:3593" ph="{...}" />
+            <marker date="1509086813915" expanded="true" signature="3101:3583" ph="{...}" />
+            <marker date="1509086813915" expanded="true" signature="3304:3577" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/public/manager/UIMgr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5794393">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/project.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.017973857">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CocosJSGame/res/game_nnfp/HelpLayer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2009804">
-          <caret line="107" column="37" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CocosJSGame/res/game_nnfp/HelpLayer.json" />
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/resource.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6214953">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CocosJSGame/src/game-nnfp/ui/niuniuFPScene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26168224">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
