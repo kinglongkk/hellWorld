@@ -1,0 +1,47 @@
+.bootstrap-checkbox {
+    display:block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width:23px;
+    height:13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+     background-image: url(images/blue.png);
+    margin-top: 2px;
+    
+}
+.label-menu-o span{ display:inline-block; }
+
+.bootstrap-checkbox .icon-ok {
+    display:block;
+    float: left;
+    width:23px;
+    height:13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+     background-image: url(images/blue.png);
+    background-position:-48px 0;
+}
+
+.bootstrap-checkbox .icon-stop {
+    display:block;
+    float: left;
+    width:23px;
+    height:13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+     background-image: url(images/blue.png);
+    background-position:-237px 0;
+}
+
+
+
+
+

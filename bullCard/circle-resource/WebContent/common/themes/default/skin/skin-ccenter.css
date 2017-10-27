@@ -1,0 +1,111 @@
+.btn-filter {
+    background-color: #155abb;
+    color: #FFFFFF;
+}
+.btn-filter:hover,
+.btn-filter:focus,
+.btn-filter:active,
+.btn-filter.active,
+.open .dropdown-toggle.btn-filter {
+  background-color: #185fc2;
+  border-color: #185fc2;
+  color: #FFFFFF;
+}
+.btn-outline {
+    color: inherit;
+    background-color: #fff;
+}
+.chosen-container .chosen-results li.highlighted {
+    background-color: #eee;
+    color: #000;
+}
+.icheckbox_square-blue, .iradio_square-blue {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(../iCheck/images/ccenter-check.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.icheckbox_square-green, .iradio_square-green {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(../iCheck/images/ccenter-check.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.iradio_square-green, .iradio_square-blue {
+    background-position: -120px 0;
+}
+.artificial-tab li a.current span.no, .artificial-tab li a:hover span.no {
+    background: #155abb;
+}
+.artificial-tab li a.current, .artificial-tab li a:hover {
+    border-bottom: 2px solid #155abb;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.chosen-container-single .chosen-single {
+    border: 1px solid #d3d3d3;
+}
+.inline .chosen-container-single .chosen-drop {
+    margin-top: 6px;
+    border-radius: 0;
+    background-clip: padding-box;
+}
+.inline .chosen-container-active.chosen-with-drop .chosen-single {
+    border:1px solid transparent;
+    -moz-border-radius-bottomright: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-bottom-left-radius: 0;
+}
+.inline .chosen-container-single .chosen-single span {
+    display: block;
+    overflow: hidden;
+    margin-right: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+.inline .chosen-container-single .chosen-single div {
+    position:relative;
+    float: left;
+    top:0;
+    display: block;
+    width: 18px;
+    height: 100%;
+    padding-top: 3px;
+}
+.inline .chosen-container .chosen-results {
+    margin: 4px 4px 4px 0;
+}
+.inline .chosen-container-single .chosen-single {
+    padding: 0;
+}
+.input-group-addon {
+    border: 1px solid #d3d3d3;
+}
+.abroder-no {
+    border: 0;
+}
+
+.table-responsive th.inline .chosen-container .chosen-drop {
+    max-width: 160px;
+    position:fixed;
+    display: none
+}
+.table-responsive th.inline .chosen-container.chosen-with-drop .chosen-drop {
+    display: block;
+   
+}
