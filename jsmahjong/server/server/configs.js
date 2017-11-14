@@ -1,4 +1,5 @@
-﻿var HALL_IP = "120.24.59.70";
+﻿// var HALL_IP = "120.24.59.70";
+var HALL_IP = "192.168.88.118"
 var HALL_CLIENT_PORT = 9001;
 var HALL_ROOM_PORT = 9002;
 
@@ -12,7 +13,8 @@ exports.mysql = function(){
 		HOST:'localhost',
 		USER:'root',
 		PSWD:'',
-		DB:'nodejs',
+		DB:'db_ddmj',
+		// DB:'nodejs',
 		PORT:3306,
 	}
 };
